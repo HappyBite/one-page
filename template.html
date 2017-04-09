@@ -1,73 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-    <script>
-      var settingsSchema = {
-        navbar: {
-          title: 'Navigation',
-          properties: {
-            logo: {
-              type: 'string',
-              title: 'Logo' 
-            }
-          }
-        },
-        hero: {
-          title: 'Hero',
-          properties: {
-            heading: {
-              type: 'string',
-              title: 'Rubrik' 
-            },
-            text: {
-              type: 'text',
-              title: 'Text' 
-            },
-            link: {
-              type: 'string',
-              title: 'uri' 
-            },
-            link_text: {
-              type: 'string',
-              title: 'Länktext' 
-            }
-          }
-        }
-      };
-      var defaultSettings = {
-        current: 'default',
-        presets: {
-          default: {
-            navbar: {
-              logo: 'http://www.example.com/logo.png'
-            },
-            hero: {
-              heading: 'Rubrik',
-              text: 'This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.',
-              link: 'http://www.example.com',
-              link_text: 'Läs mer',
-            }
-          }
-        }
-      }
-    </script>
-</head>
-<body>
-  <div class="js-block block">
+<div class="js-block block">
     <div class="jumbotron">
       <div class="container">
-        <h1 class="js-editable">{{settings.hero.heading}}</h1>
+        <h1 class="js-editable">Rubrik</h1>
         <div class="js-editable">
-        <p>{{settings.hero.text}}</p>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         </div>
         <p class="js-editable">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a>
         </p>
       </div>
     </div>
-  </div>
-  <div class="js-block block">
+  </div><div class="js-block block">
     <div class="teasers">
       <div class="container">
         <div class="row">
@@ -77,7 +20,7 @@
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             </div>
             <p class="js-editable">
-                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                <a class="btn btn-default" href="#" role="button">View details »</a>
             </p>
           </div>
           <div class="col-md-4">
@@ -86,7 +29,7 @@
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             </div>
             <p class="js-editable">
-                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                <a class="btn btn-default" href="#" role="button">View details »</a>
             </p>
           </div>
           <div class="col-md-4">
@@ -95,12 +38,10 @@
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             </div>
             <p class="js-editable">
-                <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+                <a class="btn btn-default" href="#" role="button">View details »</a>
             </p>
           </div>
         </div>
       </div>
     </div>
   </div>
-</body>
-</html>
