@@ -1,1 +1,0 @@
-{"navbar":{"title":"Navigation","properties":{"logo":{"type":"string","title":"Logo"}}},"hero":{"title":"Hero","properties":{"heading":{"type":"string","title":"Rubrik"},"text":{"type":"text","title":"Text","field":{"height":"155"}},"link":{"type":"string","title":"uri"},"link_text":{"type":"string","title":"Länktext"}}}}
