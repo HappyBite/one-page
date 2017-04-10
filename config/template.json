@@ -21,6 +21,11 @@
       "title": "Footer",
       "id": "footer",
       "icon": "address-card-o"
+    },
+    {
+      "title": "Test",
+      "id": "test",
+      "icon": "file"
     }
   ]
 }
