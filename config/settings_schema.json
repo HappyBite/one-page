@@ -22,6 +22,16 @@
           "height": "155"
         }
       },
+      "image": {
+        "type": "relationship",
+        "title": "Bild",
+        "multiple": false,
+        "data": [
+          {
+            "type": "media"
+          }
+        ]
+      },
       "link": {
         "type": "string",
         "title": "uri" 
