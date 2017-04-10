@@ -1,1 +1,24 @@
-
+{
+  "block_templates": [
+    {
+      "title": "Nav",
+      "id": "navbar",
+      "icon": "navicon"
+    },
+    {
+      "title": "Hero",
+      "id": "hero",
+      "icon": "image"
+    },
+    {
+      "title": "Text",
+      "id": "teasers",
+      "icon": "file"
+    },
+    {
+      "title": "Footer",
+      "id": "footer",
+      "icon": "address-card-o"
+    }
+  ]
+}
