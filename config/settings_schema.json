@@ -23,14 +23,8 @@
         }
       },
       "image": {
-        "type": "relationship",
-        "title": "Bild",
-        "multiple": false,
-        "data": [
-          {
-            "type": "media"
-          }
-        ]
+        "type": "filepicker",
+        "title": "Bild"
       },
       "link": {
         "type": "string",
