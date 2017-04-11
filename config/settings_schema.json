@@ -8,6 +8,31 @@
       }
     }
   },
+  "header": {
+    "title": "Header",
+    "properties": {
+      "lead_in": {
+        "type": "string",
+        "title": "Lead in"
+      },
+      "heading": {
+        "type": "string",
+        "title": "Rubrik" 
+      },
+      "image": {
+        "type": "filepicker",
+        "title": "Bild"
+      },
+      "link": {
+        "type": "string",
+        "title": "uri" 
+      },
+      "link_text": {
+        "type": "string",
+        "title": "Länktext" 
+      }
+    }
+  },
   "hero": {
     "title": "Hero",
     "properties": {
