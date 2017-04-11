@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "block_templates": [
     {
-      "title": "Nav",
-      "id": "navbar",
+      "title": "Navigation",
+      "id": "navigation",
       "icon": "navicon"
     },
     {
-      "title": "Hero",
-      "id": "hero",
+      "title": "Header",
+      "id": "header",
       "icon": "image"
     },
     {
