@@ -13,6 +13,11 @@
       "icon": "image"
     },
     {
+      "title": "Services",
+      "id": "services",
+      "icon": "file-text-o"
+    },
+    {
       "title": "Text",
       "id": "teasers",
       "icon": "file-text-o"
