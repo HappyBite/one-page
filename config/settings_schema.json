@@ -19,8 +19,6 @@
         "type": "string",
         "title": "Underrubrik" 
       },
-        
-        
       "items": {
         "type": "array",
         "title": "Services",
