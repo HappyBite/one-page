@@ -1,1 +1,1 @@
-{"blocks":{"hero-1491906253259":{"template_id":"hero","content":"<div class=\"jumbotron\">\n  <div class=\"container\">\n    <h1 data-field-string=\"heading\">{{settings.hero.heading}}</h1>\n    <div>\n      <p data-field-string=\"text\">{{settings.hero.text}}</p>\n    </div>\n    <p>\n      <a data-field-string=\"link_text\" data-field-uri=\"link\" class=\"btn btn-primary btn-lg\" href=\"{{settings.hero.link}}\" role=\"button\">{{settings.hero.link_text}}</a>\n    </p>\n  </div>\n</div>\n"}}}
+{"blocks":{}}
