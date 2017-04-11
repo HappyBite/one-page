@@ -5,6 +5,12 @@
       "navbar": {
         "logo": "http://www.example.com/logo.png"
       },
+      "header": {
+        "lead_in": "Welcome To Our Studio!",
+        "heading": "IT'S NICE TO MEET YOU",
+        "link": "#services",
+        "link_text": "Tell me more"
+      },
       "hero": {
         "heading": "Rubrik",
         "text": "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.",
