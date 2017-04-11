@@ -8,6 +8,40 @@
       }
     }
   },
+  "services": {
+    "title": "Services",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "title": "Rubrik" 
+      },
+      "sub_heading": {
+        "type": "string",
+        "title": "Underrubrik" 
+      },
+      "items": {
+        "type": "array",
+        "title": "Services",
+        "items": {
+          "type": "object",
+          "title": "Service",
+            "properties": {
+              "icon": {
+                "type": "string",
+                  "title": "Icon" 
+              },
+                "heading": {
+                  "type": "string",
+                    "title": "Rubrik" 
+                },
+                  "text": {
+                    "type": "string",
+                      "title": "Text" 
+                  }
+            }	
+    	}
+    }
+  },
   "header": {
     "title": "Header",
     "properties": {
