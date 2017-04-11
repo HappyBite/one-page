@@ -5,6 +5,27 @@
       "navbar": {
         "logo": "http://www.example.com/logo.png"
       },
+      "services": {
+        "heading": "Services",
+        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+        "items": [
+          {
+       	  	"icon": "circle",
+            "heading": "E-Commerce",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+          },
+          {
+       	  	"icon": "circle",
+            "heading": "E-Commerce",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+          },
+          {
+       	  	"icon": "circle",
+            "heading": "E-Commerce",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+          }
+        ]
+      },
       "header": {
         "lead_in": "Welcome To Our Studio!",
         "heading": "IT'S NICE TO MEET YOU",
