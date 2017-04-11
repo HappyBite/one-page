@@ -27,22 +27,22 @@
         "items": {
           "type": "object",
           "title": "Service",
-            "properties": {
-              "icon": {
-                "type": "string",
-                  "title": "Icon" 
-              },
-              "heading": {
-                "type": "string",
-                "title": "Rubrik" 
-              },
+          "properties": {
+            "icon": {
+              "type": "string",
+              "title": "Icon" 
+            },
+            "heading": {
+              "type": "string",
+              "title": "Rubrik" 
+            },
               "text": {
                 "type": "string",
                 "title": "Text" 
-              }
             }
+          }
         }
-        
+      }  
         
         
         
