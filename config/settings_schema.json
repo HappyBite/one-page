@@ -51,22 +51,22 @@
         "logo_text": {
           "type": "string",
           "title": "Logotext" 
-        }
-      },
-      "navigation": {
-        "type": "array",
-        "title": "Navigation",
-        "items": {
-          "type": "object",
-          "title": "Länk",
-          "properties": {
-            "link_text": {
-              "type": "string",
-              "title": "Länktext" 
-            },
-            "link": {
-              "type": "string",
-              "title": "Länk" 
+        },
+        "navigation": {
+          "type": "array",
+          "title": "Navigation",
+          "items": {
+            "type": "object",
+            "title": "Länk",
+            "properties": {
+              "link_text": {
+                "type": "string",
+                "title": "Länktext" 
+              },
+              "link": {
+                "type": "string",
+                "title": "Länk" 
+              }
             }
           }
         }
