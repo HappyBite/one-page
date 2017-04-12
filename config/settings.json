@@ -18,7 +18,12 @@
         "lead_in": "Welcome To Our Studio!",
         "heading": "IT'S NICE TO MEET YOU",
         "link": "#services",
-        "link_text": "Tell me more"
+        "link_text": "Tell me more",
+        "image": {
+          "name": "header-bg.jpg",
+          "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
+          "content_type": "image/jpg"
+        }
       },
       "services": {
         "heading": "Services",
