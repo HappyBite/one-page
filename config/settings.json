@@ -2,8 +2,15 @@
   "current": "default",
   "presets": {
     "default": {
-      "navbar": {
+      "navigation": {
         "logo": "http://www.example.com/logo.png"
+      },
+      "header": {
+        "lead_in": "Welcome To Our Studio!",
+        "heading": "IT'S NICE TO MEET YOU",
+        "link": "#services",
+        "link_text": "Tell me more",
+        "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg"
       },
       "services": {
         "heading": "Services",
@@ -25,16 +32,6 @@
             "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
           }
         ]
-      },
-      "header": {
-        "image": {
-          "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
-          "content_type": "image/jpg"
-        },
-        "lead_in": "Welcome To Our Studio!",
-        "heading": "IT'S NICE TO MEET YOU",
-        "link": "#services",
-        "link_text": "Tell me more"
       },
       "hero": {
         "heading": "Rubrik",
