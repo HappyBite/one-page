@@ -33,7 +33,7 @@
         },
         "link": {
           "type": "string",
-          "title": "uri" 
+          "title": "Länk" 
         },
         "link_text": {
           "type": "string",
