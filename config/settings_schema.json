@@ -55,6 +55,7 @@
         "navigation": {
           "type": "array",
           "title": "Navigation",
+          "display_field": "link_text",
           "items": {
             "type": "object",
             "title": "Länk",
