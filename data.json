@@ -1,4 +1,0 @@
-<<<<<<< HEAD
-=======
-{"blocks":{"header-1491999868103":{"template_id":"header","content":"<!-- Header -->\n<header style=\"background-image: url({{image.url}})\">\n  <div class=\"container\">\n    <div class=\"intro-text\">\n      <div class=\"intro-lead-in\" data-field-string=\"lead_in\">{{lead_in}}</div>\n      <div class=\"intro-heading\" data-field-string=\"heading\">{{heading}}</div>\n      <a href=\"{{link}}\" class=\"page-scroll btn btn-xl\" data-field-string=\"link_text\" data-field-uri=\"link\">{{link_text}}</a>\n    </div>\n  </div>\n</header>","data":{"lead_in":"gaga To Our Studio!ssss","heading":"IT'S NICE TO MEET YOU","link":"#services","link_text":"Tell me more","image":{"name":"header-bg.jpg","url":"https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg","content_type":"image/jpg"}}}}}
->>>>>>> f8b0771de935ab80090f869342eb80ff68caabff
