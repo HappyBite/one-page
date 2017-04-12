@@ -21,9 +21,7 @@
               href="{{ item.link }}"
               data-field-string="navigation[{{loop.index0}}].title"
               data-field-uri="navigation[{{loop.index0}}].link"
-            >
-              {{ item.title }}
-            </a>
+            >{{ item.title }}</a>
           </li>
         {% endfor %}
       </ul>
