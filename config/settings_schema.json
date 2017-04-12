@@ -37,10 +37,6 @@
       "link_text": {
         "type": "string",
         "title": "Länktext" 
-      },
-      "image": {
-        "type": "filepicker",
-        "title": "Bild"
       }
     }
   },
