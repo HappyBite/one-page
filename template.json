@@ -1,0 +1,280 @@
+{
+  "name": "agency",
+  "version": "0.0.0",
+  "block_templates": [
+    {
+      "title": "Navigation",
+      "id": "navigation",
+      "icon": "navicon"
+    },
+    {
+      "title": "Header",
+      "id": "header",
+      "icon": "image"
+    },
+    {
+      "title": "Services",
+      "id": "services",
+      "icon": "file-text-o"
+    },
+    {
+      "title": "Text",
+      "id": "teasers",
+      "icon": "file-text-o"
+    },
+    {
+      "title": "Footer",
+      "id": "footer",
+      "icon": "address-card-o"
+    },
+    {
+      "title": "Test",
+      "id": "test",
+      "icon": "file"
+    }
+  ],
+  "settings_schema": {
+    "theme": {
+      "typography": {
+        "title": "Typography",
+        "properties": {
+          "type_base_size": {
+            "type": "string",
+            "title": "Basstorlek",
+            "default": "16px"
+          }
+        }
+      },
+      "colors": {
+        "title": "Färger",
+        "properties": {
+          "body_bg_color": {
+            "type": "string",
+            "title": "Sidbakgrund",
+            "description": "Used for text links, and primary buttons"
+          },
+          "text_color": {
+            "type": "string",
+            "title": "Textfärg",
+            "description": "Used for text links, and primary buttons"
+          },
+          "button_color": {
+            "type": "string",
+            "title": "Knappfärg",
+            "description": "Used for action buttons"
+          }
+        }
+      },
+      "page_settings": {
+        "title": "Sidinställningar",
+        "properties": {
+          "page_title": {
+            "type": "string",
+            "title": "Sidtitel"
+          }
+        }
+      }
+    },
+    "blocks": {
+      "navigation": {
+        "title": "Navigation",
+        "properties": {
+          "logo": {
+            "type": "string",
+            "title": "Logo" 
+          },
+          "logo_text": {
+            "type": "string",
+            "title": "Logotext" 
+          },
+          "navigation": {
+            "type": "array",
+            "title": "Navigation",
+            "items": {
+              "type": "object",
+              "title": "Länk",
+              "display_field": "title",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "title": "Title" 
+                },
+                "link": {
+                  "type": "string",
+                  "title": "Länk" 
+                }
+              }
+            }
+          }
+        }
+      },
+      "header": {
+        "title": "Header",
+        "properties": {
+          "lead_in": {
+            "type": "string",
+            "title": "Lead in"
+          },
+          "heading": {
+            "type": "string",
+            "title": "Rubrik" 
+          },
+          "link": {
+            "type": "string",
+            "title": "Länk" 
+          },
+          "link_text": {
+            "type": "string",
+            "title": "Länktext" 
+          },
+          "image": {
+            "type": "filepicker",
+            "title": "Bild"
+          }
+        }
+      },
+      "services": {
+        "title": "Services",
+        "properties": {
+          "heading": {
+            "type": "string",
+            "title": "Rubrik" 
+          },
+          "sub_heading": {
+            "type": "string",
+            "title": "Underrubrik" 
+          },
+          "items": {
+            "type": "array",
+            "title": "Services",
+            "items": {
+              "type": "object",
+              "title": "Service",
+              "properties": {
+                "icon": {
+                  "type": "string",
+                  "title": "Icon" 
+                },
+                "heading": {
+                  "type": "string",
+                  "title": "Rubrik" 
+                },
+                "text": {
+                  "type": "text",
+                  "title": "Text" 
+                }
+              }
+            }
+          }
+        }
+      },
+      "hero": {
+        "title": "Hero",
+        "properties": {
+          "heading": {
+            "type": "string",
+            "title": "Rubrik" 
+          },
+          "text": {
+            "type": "text",
+            "title": "Text",
+            "field": {
+              "height": "155"
+            }
+          },
+          "image": {
+            "type": "filepicker",
+            "title": "Bild"
+          },
+          "link": {
+            "type": "string",
+            "title": "uri" 
+          },
+          "link_text": {
+            "type": "string",
+            "title": "Länktext" 
+          }
+        }
+      }
+    },
+    "sidebars": {
+    }
+  },
+  "settings": {
+    "theme": {
+      "header": {
+        "image": {
+          "name": "header-bg.jpg",
+          "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
+          "content_type": "image/jpg"
+        }
+      }
+    },
+    "blocks": {
+      "navigation": {
+        "logo": "http://www.example.com/logo.png",
+        "logo_text": "Start Bootstrap",
+        "navigation": [
+          {
+       	  	"title": "Services",
+            "link": "#services"
+          },
+          {
+       	  	"title": "Portfolio",
+            "link": "#portfolio"
+          },
+          {
+       	  	"title": "About",
+            "link": "#about"
+          },
+          {
+       	  	"title": "Team",
+            "link": "#team"
+          },
+          {
+       	  	"title": "Contact",
+            "link": "#contact"
+          }
+        ]
+      },
+      "header": {
+        "lead_in": "Welcome To Our Studio!",
+        "heading": "IT'S NICE TO MEET YOU",
+        "link": "#services",
+        "link_text": "Tell me more",
+        "image": {
+          "name": "header-bg.jpg",
+          "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
+          "content_type": "image/jpg"
+        }
+      },
+      "services": {
+        "heading": "Services",
+        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+        "items": [
+          {
+       	  	"icon": "shopping-cart",
+            "heading": "E-Commerce",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+          },
+          {
+       	  	"icon": "laptop",
+            "heading": "Responsive Design",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+          },
+          {
+       	  	"icon": "lock",
+            "heading": "Web Security",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+          }
+        ]
+      },
+      "hero": {
+        "heading": "Rubrik",
+        "text": "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.",
+        "link": "http://www.example.com",
+        "link_text": "Läs mer »"
+      }
+    }
+  }
+}
