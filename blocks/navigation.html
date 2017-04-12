@@ -14,9 +14,9 @@
         <li class="hidden">
           <a href="#page-top"></a>
         </li>
-        <% for item in items %>
+        <% for item in navigation %>
           <li>
-            <a class="page-scroll" href="<$ item.link $>"><$ item.title $></a>
+            <a class="page-scroll" href="{{ item.link }}">{{ item.title }}</a>
           </li>
         <% endfor %>
       </ul>
