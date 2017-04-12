@@ -54,7 +54,7 @@
           "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
           "items": [
             {
-         	  	"icon": "circle",
+         	  	"icon": "shopping-cart",
               "heading": "E-Commerce",
               "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
             },
@@ -64,7 +64,7 @@
               "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
             },
             {
-         	  	"icon": "stack",
+         	  	"icon": "lock",
               "heading": "Web Security",
               "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
             }
