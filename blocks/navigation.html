@@ -14,11 +14,11 @@
         <li class="hidden">
           <a href="#page-top"></a>
         </li>
-        <% for item in navigation %>
+        {% for item in navigation %}
           <li>
             <a class="page-scroll" href="{{ item.link }}">{{ item.title }}</a>
           </li>
-        <% endfor %>
+        {% endfor %}
       </ul>
     </div>
     <!-- /.navbar-collapse -->
