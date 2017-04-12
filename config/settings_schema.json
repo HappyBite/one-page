@@ -1,5 +1,5 @@
 {
-  "global": {
+  "theme": {
     "header": {
       "title": "Header",
       "properties": {
@@ -10,97 +10,102 @@
       }
     }
   },
-  "navigation": {
-    "title": "Navigation",
-    "properties": {
-      "logo": {
-        "type": "string",
-        "title": "Logo" 
+  "blocks": {
+    "navigation": {
+      "title": "Navigation",
+      "properties": {
+        "logo": {
+          "type": "string",
+          "title": "Logo" 
+        }
       }
-    }
-  },
-  "header": {
-    "title": "Header",
-    "properties": {
-      "lead_in": {
-        "type": "string",
-        "title": "Lead in"
-      },
-      "heading": {
-        "type": "string",
-        "title": "Rubrik" 
-      },
-      "link": {
-        "type": "string",
-        "title": "uri" 
-      },
-      "link_text": {
-        "type": "string",
-        "title": "Länktext" 
+    },
+    "header": {
+      "title": "Header",
+      "properties": {
+        "lead_in": {
+          "type": "string",
+          "title": "Lead in"
+        },
+        "heading": {
+          "type": "string",
+          "title": "Rubrik" 
+        },
+        "link": {
+          "type": "string",
+          "title": "uri" 
+        },
+        "link_text": {
+          "type": "string",
+          "title": "Länktext" 
+        }
       }
-    }
-  },
-  "services": {
-    "title": "Services",
-    "properties": {
-      "heading": {
-        "type": "string",
-        "title": "Rubrik" 
-      },
-      "sub_heading": {
-        "type": "string",
-        "title": "Underrubrik" 
-      },
-      "items": {
-        "type": "array",
-        "title": "Services",
+    },
+    "services": {
+      "title": "Services",
+      "properties": {
+        "heading": {
+          "type": "string",
+          "title": "Rubrik" 
+        },
+        "sub_heading": {
+          "type": "string",
+          "title": "Underrubrik" 
+        },
         "items": {
-          "type": "object",
-          "title": "Service",
-          "properties": {
-            "icon": {
-              "type": "string",
-              "title": "Icon" 
-            },
-            "heading": {
-              "type": "string",
-              "title": "Rubrik" 
-            },
-            "text": {
-              "type": "text",
-              "title": "Text" 
+          "type": "array",
+          "title": "Services",
+          "items": {
+            "type": "object",
+            "title": "Service",
+            "properties": {
+              "icon": {
+                "type": "string",
+                "title": "Icon" 
+              },
+              "heading": {
+                "type": "string",
+                "title": "Rubrik" 
+              },
+              "text": {
+                "type": "text",
+                "title": "Text" 
+              }
             }
           }
         }
       }
-    }
-  },
-  "hero": {
-    "title": "Hero",
-    "properties": {
-      "heading": {
-        "type": "string",
-        "title": "Rubrik" 
-      },
-      "text": {
-        "type": "text",
-        "title": "Text",
-        "field": {
-          "height": "155"
+    },
+    "hero": {
+      "title": "Hero",
+      "properties": {
+        "heading": {
+          "type": "string",
+          "title": "Rubrik" 
+        },
+        "text": {
+          "type": "text",
+          "title": "Text",
+          "field": {
+            "height": "155"
+          }
+        },
+        "image": {
+          "type": "filepicker",
+          "title": "Bild"
+        },
+        "link": {
+          "type": "string",
+          "title": "uri" 
+        },
+        "link_text": {
+          "type": "string",
+          "title": "Länktext" 
         }
-      },
-      "image": {
-        "type": "filepicker",
-        "title": "Bild"
-      },
-      "link": {
-        "type": "string",
-        "title": "uri" 
-      },
-      "link_text": {
-        "type": "string",
-        "title": "Länktext" 
       }
     }
+  },
+  "sidebars": {
+    
   }
 }
