@@ -55,10 +55,10 @@
         "navigation": {
           "type": "array",
           "title": "Navigation",
-          "display_field": "link_text",
           "items": {
             "type": "object",
             "title": "Länk",
+            "display_field": "link_text",
             "properties": {
               "link_text": {
                 "type": "string",
