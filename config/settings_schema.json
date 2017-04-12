@@ -1,5 +1,34 @@
 {
   "theme": {
+    "page_settings": {
+      "title": "Sidinställningar",
+      "properties": {
+        "page_title": {
+          "type": "string",
+          "title": "Sidtitel"
+        }
+      }
+    },
+    "colors": {
+      "title": "Färger",
+      "properties": {
+        "body_bg_color": {
+          "type": "string",
+          "title": "Sidbakgrund",
+          "description": "Used for text links, and primary buttons"
+        },
+        "text_color": {
+          "type": "string",
+          "title": "Textfärg",
+          "description": "Used for text links, and primary buttons"
+        },
+        "button_color": {
+          "type": "string",
+          "title": "Knappfärg",
+          "description": "Used for action buttons"
+        }
+      }
+    },
     "header": {
       "title": "Header",
       "properties": {
