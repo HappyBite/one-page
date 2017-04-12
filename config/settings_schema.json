@@ -1,4 +1,15 @@
 {
+  "global": {
+    "header": {
+      "title": "Header",
+      "properties": {
+        "image": {
+          "type": "filepicker",
+          "title": "Bild"
+        }
+      }
+    }
+  },
   "navigation": {
     "title": "Navigation",
     "properties": {
