@@ -28,7 +28,8 @@
       },
       "header": {
         "image": {
-          "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg"
+          "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
+          "content_type": "image/jpg"
         },
         "lead_in": "Welcome To Our Studio!",
         "heading": "IT'S NICE TO MEET YOU",
