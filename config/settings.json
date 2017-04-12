@@ -13,7 +13,8 @@
       },
       "blocks": {
         "navigation": {
-          "logo": "http://www.example.com/logo.png"
+          "logo": "http://www.example.com/logo.png",
+          "logo_text": "Start Bootstrap"
         },
         "header": {
           "lead_in": "Welcome To Our Studio!",

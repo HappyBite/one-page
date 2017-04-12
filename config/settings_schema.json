@@ -47,6 +47,10 @@
         "logo": {
           "type": "string",
           "title": "Logo" 
+        },
+        "logo_text": {
+          "type": "string",
+          "title": "Logotext" 
         }
       }
     },
