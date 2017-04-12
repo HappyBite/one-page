@@ -11,46 +11,48 @@
           }
         }
       },
-      "navigation": {
-        "logo": "http://www.example.com/logo.png"
-      },
-      "header": {
-        "lead_in": "Welcome To Our Studio!",
-        "heading": "IT'S NICE TO MEET YOU",
-        "link": "#services",
-        "link_text": "Tell me more",
-        "image": {
-          "name": "header-bg.jpg",
-          "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
-          "content_type": "image/jpg"
-        }
-      },
-      "services": {
-        "heading": "Services",
-        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
-        "items": [
-          {
-       	  	"icon": "circle",
-            "heading": "E-Commerce",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-          },
-          {
-       	  	"icon": "laptop",
-            "heading": "Responsive Design",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-          },
-          {
-       	  	"icon": "stack",
-            "heading": "Web Security",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      "blocks": {
+        "navigation": {
+          "logo": "http://www.example.com/logo.png"
+        },
+        "header": {
+          "lead_in": "Welcome To Our Studio!",
+          "heading": "IT'S NICE TO MEET YOU",
+          "link": "#services",
+          "link_text": "Tell me more",
+          "image": {
+            "name": "header-bg.jpg",
+            "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
+            "content_type": "image/jpg"
           }
-        ]
-      },
-      "hero": {
-        "heading": "Rubrik",
-        "text": "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.",
-        "link": "http://www.example.com",
-        "link_text": "Läs mer »"
+        },
+        "services": {
+          "heading": "Services",
+          "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+          "items": [
+            {
+         	  	"icon": "circle",
+              "heading": "E-Commerce",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+            },
+            {
+         	  	"icon": "laptop",
+              "heading": "Responsive Design",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+            },
+            {
+         	  	"icon": "stack",
+              "heading": "Web Security",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+            }
+          ]
+        },
+        "hero": {
+          "heading": "Rubrik",
+          "text": "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.",
+          "link": "http://www.example.com",
+          "link_text": "Läs mer »"
+        }
       }
     }
   }
