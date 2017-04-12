@@ -2,7 +2,7 @@
   "current": "default",
   "presets": {
     "default": {
-      "global": {
+      "theme": {
         "header": {
           "image": {
             "name": "header-bg.jpg",
