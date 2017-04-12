@@ -28,15 +28,6 @@
           "description": "Used for action buttons"
         }
       }
-    },
-    "header": {
-      "title": "Header",
-      "properties": {
-        "image": {
-          "type": "filepicker",
-          "title": "Bild"
-        }
-      }
     }
   },
   "blocks": {
