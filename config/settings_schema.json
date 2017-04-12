@@ -59,9 +59,9 @@
               "type": "string",
               "title": "Rubrik" 
             },
-              "text": {
-                "type": "text",
-                "title": "Text" 
+            "text": {
+              "type": "text",
+              "title": "Text" 
             }
           }
         }
