@@ -1,14 +1,15 @@
 {
   "theme": {
-    "page_settings": {
-      "title": "Sidinställningar",
+    "typography": {
+      "title": "Typography",
       "properties": {
-        "page_title": {
+        "type_base_size": {
           "type": "string",
-          "title": "Sidtitel"
+          "title": "Basstorlek",
+          "default": "16px"
         }
       }
-    },
+    }
     "colors": {
       "title": "Färger",
       "properties": {
@@ -26,6 +27,15 @@
           "type": "string",
           "title": "Knappfärg",
           "description": "Used for action buttons"
+        }
+      }
+    },
+    "page_settings": {
+      "title": "Sidinställningar",
+      "properties": {
+        "page_title": {
+          "type": "string",
+          "title": "Sidtitel"
         }
       }
     }
