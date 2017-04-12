@@ -58,11 +58,11 @@
           "items": {
             "type": "object",
             "title": "Länk",
-            "display_field": "link_text",
+            "display_field": "title",
             "properties": {
-              "link_text": {
+              "title": {
                 "type": "string",
-                "title": "Länktext" 
+                "title": "Title" 
               },
               "link": {
                 "type": "string",

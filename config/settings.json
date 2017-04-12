@@ -17,23 +17,23 @@
           "logo_text": "Start Bootstrap",
           "navigation": [
             {
-         	  	"link_text": "Services",
+         	  	"title": "Services",
               "link": "#services"
             },
             {
-         	  	"link_text": "Portfolio",
+         	  	"title": "Portfolio",
               "link": "#portfolio"
             },
             {
-         	  	"link_text": "About",
+         	  	"title": "About",
               "link": "#about"
             },
             {
-         	  	"link_text": "Team",
+         	  	"title": "Team",
               "link": "#team"
             },
             {
-         	  	"link_text": "Contact",
+         	  	"title": "Contact",
               "link": "#contact"
             }
           ]
