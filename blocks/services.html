@@ -17,10 +17,12 @@
           <h4
             class="service-heading"
             data-field-string="items[{{loop.index0}}].heading"
+            data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
           >{{ item.heading }}</h4>
           <p
             class="text-muted"
             data-field-string="items[{{loop.index0}}].text"
+            data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
           >{{ item.text }}</p>
         </div>
       {% endfor %}
