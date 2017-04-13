@@ -150,6 +150,7 @@
             "items": {
               "type": "object",
               "title": "Service",
+              "display_field": "heading",
               "properties": {
                 "icon": {
                   "type": "string",
