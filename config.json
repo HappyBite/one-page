@@ -212,6 +212,9 @@
           "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
           "content_type": "image/jpg"
         }
+      },
+      "colors": {
+        "body_bg_color": "#fff"
       }
     },
     "blocks": {
