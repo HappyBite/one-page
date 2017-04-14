@@ -51,20 +51,17 @@
           "body_bg_color": {
             "type": "string",
             "title": "Sidbakgrund",
-            "format": "color",
-            "description": "Used for text links, and primary buttons"
+            "format": "color"
           },
           "text_color": {
             "type": "string",
             "title": "Textfärg",
-            "format": "color",
-            "description": "Used for text links, and primary buttons"
+            "format": "color"
           },
           "button_color": {
             "type": "string",
             "title": "Knappfärg",
-            "format": "color",
-            "description": "Used for action buttons"
+            "format": "color"
           }
         }
       },
