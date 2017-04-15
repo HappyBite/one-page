@@ -128,19 +128,10 @@
             "title": "Basstorlek"
           }
         }
-      },
-      "page_settings": {
-        "title": "Sidinställningar",
-        "properties": {
-          "page_title": {
-            "type": "string",
-            "title": "Sidtitel"
-          }
-        }
       }
     },
     "page": {
-      "meta": {
+      "data": {
         "title": "Titel och beskrivning",
         "properties": {
           "title": {
@@ -312,8 +303,8 @@
       }
     },
     "page": {
-      "meta": {
-        "title": "My one page website",
+      "data": {
+        "title": "Agency - Start Bootstrap Theme",
         "description": "This is my website and it't beautiful."
       }
     },
