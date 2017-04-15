@@ -120,6 +120,7 @@
       },
       "colors": {
         "title": "Färger",
+        "ui:css_selector": "body",
         "properties": {
           "body_bg_color": {
             "type": "string",
@@ -167,6 +168,7 @@
       },
       "typography": {
         "title": "Typography",
+        "ui:css_selector": "body",
         "properties": {
           "type_base_size": {
             "type": "integer",
