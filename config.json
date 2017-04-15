@@ -40,7 +40,7 @@
         "properties": {
           "text_color": {
             "type": "string",
-            "title": "Logotypfärg",
+            "title": "Textfärg",
             "format": "color",
             "ui:css_selector": ".navbar-brand",
             "ui:css_property": "color"
