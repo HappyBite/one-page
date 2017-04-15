@@ -35,6 +35,28 @@
   ],
   "settings_schema": {
     "theme": {
+      "navbar": {
+        "title": "Topparea",
+        "properties": {
+          "bg_color": {
+            "type": "string",
+            "title": "Bakgrundsfärg",
+            "format": "color"
+          },
+          "padding_top": {
+            "type": "integer",
+            "title": "Padding top",
+            "minimum": 0,
+            "maximum": 30
+          },
+          "padding_bottom": {
+            "type": "integer",
+            "title": "Padding top",
+            "minimum": 0,
+            "maximum": 30
+          }
+        }
+      },
       "logo": {
         "title": "Logotyp",
         "properties": {
@@ -279,6 +301,11 @@
           "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
           "content_type": "image/jpg"
         }
+      },
+      "navbar": {
+        "bg_color": "#222",
+        "padding_top": 10,
+        "padding_bottom": 10
       },
       "logo": {
         "text_color": "#fed136",
