@@ -52,6 +52,25 @@
           }
         }
       },
+      "navigation": {
+        "title": "Navigation",
+        "properties": {
+          "text_color": {
+            "type": "string",
+            "title": "Menyfärg",
+            "format": "color",
+            "ui:css_selector": ".navbar-custom .nav li a",
+            "ui:css_property": "color"
+          },
+          "text_hover_color": {
+            "type": "string",
+            "title": "Menyfärg hover",
+            "format": "color",
+            "ui:css_selector": ".navbar-custom .nav li a:hover",
+            "ui:css_property": "color"
+          }
+        }
+      },
       "colors": {
         "title": "Färger",
         "properties": {
@@ -61,20 +80,6 @@
             "format": "color",
             "ui:css_selector": "body",
             "ui:css_property": "background-color"
-          },
-          "nav_text_color": {
-            "type": "string",
-            "title": "Menyfärg",
-            "format": "color",
-            "ui:css_selector": ".navbar-custom .nav li a",
-            "ui:css_property": "color"
-          },
-          "nav_text_hover_color": {
-            "type": "string",
-            "title": "Menyfärg hover",
-            "format": "color",
-            "ui:css_selector": ".navbar-custom .nav li a:hover",
-            "ui:css_property": "color"
           },
           "heading_text_color": {
             "type": "string",
@@ -271,6 +276,10 @@
       },
       "logo": {
         "text_color": "#fed136",
+        "text_hover_color": "#fed136"
+      },
+      "navigation": {
+        "text_color": "#fff",
         "text_hover_color": "#fed136"
       },
       "colors": {
