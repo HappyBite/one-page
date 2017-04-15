@@ -100,7 +100,7 @@
             "type": "string",
             "title": "Bakgrund på text - active",
             "format": "color"
-          },
+          }
         }
       },
       "colors": {
