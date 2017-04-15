@@ -55,6 +55,27 @@
             "ui:css_selector": "body",
             "ui:css_property": "background-color"
           },
+          "logo_text_color": {
+            "type": "string",
+            "title": "Rubrikfärg",
+            "format": "color",
+            "ui:css_selector": ".navbar-brand",
+            "ui:css_property": "color"
+          },
+          "nav_text_color": {
+            "type": "string",
+            "title": "Menyfärg",
+            "format": "color",
+            "ui:css_selector": ".navbar-custom .nav li a",
+            "ui:css_property": "color"
+          },
+          "nav_text_color_hover": {
+            "type": "string",
+            "title": "Menyfärg hover",
+            "format": "color",
+            "ui:css_selector": ".navbar-custom .nav li a:hover",
+            "ui:css_property": "color"
+          },
           "heading_color": {
             "type": "string",
             "title": "Rubrikfärg",
@@ -80,7 +101,7 @@
             "type": "string",
             "title": "Primary text color",
             "format": "color",
-            "ui:css_selector": ".text-primary, .navbar-brand",
+            "ui:css_selector": ".text-primary",
             "ui:css_property": "color"
           }
         }
