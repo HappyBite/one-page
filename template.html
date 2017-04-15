@@ -17,7 +17,23 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <!-- Theme CSS -->
     <link href="https://blackrockdigital.github.io/startbootstrap-agency/css/agency.min.css" rel="stylesheet">
-    <style id="editor-settings">
+    <style id="editor-style">
+      .navbar-custom {
+        margin: 0;
+        position: static;
+      }
+      @media (min-width: 768px) {
+        body {
+          padding-top: 0;
+        }
+        .navbar-custom {
+          background-color: #222;
+          margin: 0;
+          padding: 10px 0;
+        }
+      }
+    </style>
+    <style id="editor-style-settings">
       /* General */
       body {
         background-color: {{ theme.colors.body_bg_color }};
@@ -63,22 +79,6 @@
       .text-primary,
       .btn-xl {
         color: {{ theme.colors.primary_text_color }};
-      }
-    </style>
-    <style id="editor-style">
-      .navbar-custom {
-        margin: 0;
-        position: static;
-      }
-      @media (min-width: 768px) {
-        body {
-          padding-top: 0;
-        }
-        .navbar-custom {
-          background-color: #222;
-          margin: 0;
-          padding: 10px 0;
-        }
       }
     </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
