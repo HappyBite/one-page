@@ -115,6 +115,11 @@
             "type": "string",
             "title": "Bakgrund på text - active",
             "format": "color"
+          },
+          "bg_text_focus_color": {
+            "type": "string",
+            "title": "Bakgrund på text - focus",
+            "format": "color"
           }
         }
       },
@@ -344,7 +349,8 @@
         "text_hover_color": "#fed136",
         "text_focus_color": "#fed136",
         "bg_text_color": "transparent",
-        "bg_text_hover_color": "#fed136"
+        "bg_text_hover_color": "#fed136",
+        "bg_text_focus_color": "#fed136"
       },
       "colors": {
         "body_bg_color": "#fff",
