@@ -37,6 +37,7 @@
     "theme": {
       "navbar": {
         "title": "Topparea",
+        "ui:css_selector": ".navbar-custom",
         "properties": {
           "bg_color": {
             "type": "string",
