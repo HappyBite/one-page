@@ -125,7 +125,7 @@
       },
       "colors": {
         "title": "Färger",
-        "ui:css_selector": "html",
+        "ui:css_selector": "body",
         "properties": {
           "body_bg_color": {
             "type": "string",
