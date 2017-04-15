@@ -35,6 +35,18 @@
   ],
   "settings_schema": {
     "theme": {
+      "logo": {
+        "title": "Logotyp",
+        "properties": {
+          "text_color": {
+            "type": "string",
+            "title": "Logotypfärg",
+            "format": "color",
+            "ui:css_selector": ".navbar-brand",
+            "ui:css_property": "color"
+          }
+        }
+      },
       "typography": {
         "title": "Typography",
         "properties": {
@@ -54,13 +66,6 @@
             "format": "color",
             "ui:css_selector": "body",
             "ui:css_property": "background-color"
-          },
-          "logo_text_color": {
-            "type": "string",
-            "title": "Logotypfärg",
-            "format": "color",
-            "ui:css_selector": ".navbar-brand",
-            "ui:css_property": "color"
           },
           "nav_text_color": {
             "type": "string",
