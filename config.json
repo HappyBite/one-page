@@ -47,16 +47,6 @@
           }
         }
       },
-      "typography": {
-        "title": "Typography",
-        "properties": {
-          "type_base_size": {
-            "type": "string",
-            "title": "Basstorlek",
-            "default": "16px"
-          }
-        }
-      },
       "colors": {
         "title": "Färger",
         "properties": {
@@ -108,6 +98,16 @@
             "format": "color",
             "ui:css_selector": ".text-primary",
             "ui:css_property": "color"
+          }
+        }
+      },
+      "typography": {
+        "title": "Typography",
+        "properties": {
+          "type_base_size": {
+            "type": "string",
+            "title": "Basstorlek",
+            "default": "16px"
           }
         }
       },
