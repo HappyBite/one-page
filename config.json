@@ -139,7 +139,7 @@
             "title": "Sidtitel"
           },
           "description": {
-            "type": "string",
+            "type": "text",
             "title": "Beskrivning"
           }
         }
