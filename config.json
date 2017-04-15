@@ -55,6 +55,13 @@
             "ui:css_selector": "body",
             "ui:css_property": "background-color"
           },
+          "heading_color": {
+            "type": "string",
+            "title": "Rubrikfärg",
+            "format": "color",
+            "ui:css_selector": "h1, h2, h3, h4, h5, h6",
+            "ui:css_property": "color"
+          },
           "text_color": {
             "type": "string",
             "title": "Textfärg",
