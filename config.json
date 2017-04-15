@@ -139,6 +139,21 @@
         }
       }
     },
+    "page": {
+      "meta": {
+        "title": "Meta data",
+        "properties": {
+          "title": {
+            "type": "string",
+            "title": "Sidtitel"
+          },
+          "description": {
+            "type": "string",
+            "title": "Beskrivning"
+          }
+        }
+      }
+    },
     "blocks": {
       "navigation": {
         "title": "Navigation",
@@ -294,6 +309,12 @@
       },
       "typography": {
         "type_base_size": 14
+      }
+    },
+    "page": {
+      "meta": {
+        "title": "My one page website",
+        "description": "This is my website and it't beautiful."
       }
     },
     "blocks": {
