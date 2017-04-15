@@ -32,18 +32,18 @@
       .text_muted {
         color: {{ theme.colors.text_muted_color }};
       }
+      /* Navbar */
+      .navbar-custom {
+        background-color: {{ theme.navbar.bg_color }};
+        padding-top: {{ theme.navbar.padding_top }}px;
+        padding-bottom: {{ theme.navbar.padding_bottom }}px;
+      }
       /* Logo */
       .navbar-custom .navbar-brand {
         color: {{ theme.logo.text_color }};
       }
       .navbar-custom .navbar-brand:hover {
         color: {{ theme.logo.text_hover_color }};
-      }
-      /* Navbar */
-      .navbar-custom {
-        background-color: {{ theme.navbar.bg_color }};
-        padding-top: {{ theme.navbar.padding_top }};
-        padding-bottom: {{ theme.navbar.padding_bottom }};
       }
       /* Navigation */
       .navbar-custom .nav li a {
