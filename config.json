@@ -51,7 +51,9 @@
           "body_bg_color": {
             "type": "string",
             "title": "Sidbakgrund",
-            "format": "color"
+            "format": "color",
+            "ui:css_selector": "body",
+            "ui:css_property": "background-color"
           },
           "text_color": {
             "type": "string",
