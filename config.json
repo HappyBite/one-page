@@ -69,12 +69,19 @@
             "ui:css_selector": "p",
             "ui:css_property": "color"
           },
-          "button_color": {
+          "primary_bg_color": {
             "type": "string",
-            "title": "Knappfärg",
+            "title": "Primary background color",
             "format": "color",
-            "ui:css_selector": "button",
+            "ui:css_selector": ".btn-primary",
             "ui:css_property": "background-color"
+          },
+          "primary_text_color": {
+            "type": "string",
+            "title": "Primary text color",
+            "format": "color",
+            "ui:css_selector": ".text-primary, .navbar-brand",
+            "ui:css_property": "color"
           }
         }
       },
