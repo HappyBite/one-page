@@ -45,7 +45,7 @@
             "ui:css_selector": ".navbar-brand",
             "ui:css_property": "color"
           },
-          "text_color_hover": {
+          "text_hover_color": {
             "type": "string",
             "title": "Textfärg Hover",
             "format": "color"
@@ -69,14 +69,14 @@
             "ui:css_selector": ".navbar-custom .nav li a",
             "ui:css_property": "color"
           },
-          "nav_text_color_hover": {
+          "nav_text_hover_color": {
             "type": "string",
             "title": "Menyfärg hover",
             "format": "color",
             "ui:css_selector": ".navbar-custom .nav li a:hover",
             "ui:css_property": "color"
           },
-          "heading_color": {
+          "heading_text_color": {
             "type": "string",
             "title": "Rubrikfärg",
             "format": "color",
@@ -88,6 +88,13 @@
             "title": "Textfärg",
             "format": "color",
             "ui:css_selector": "p",
+            "ui:css_property": "color"
+          },
+          "text_muted_color": {
+            "type": "string",
+            "title": "Textfärg muted",
+            "format": "color",
+            "ui:css_selector": ".text_muted",
             "ui:css_property": "color"
           },
           "primary_bg_color": {
@@ -264,13 +271,13 @@
       },
       "logo": {
         "text_color": "#fed136",
-        "text_color_hover": "#fed136"
+        "text_hover_color": "#fed136"
       },
       "colors": {
         "body_bg_color": "#fff",
         "nav_text_color": "#fff",
-        "nav_text_color_hover": "#fed136",
-        "heading_color": "#333",
+        "nav_text_hover_color": "#fed136",
+        "heading_text_color": "#333",
         "text_color": "#333",
         "text_muted_color": "#777",
         "primary_bg_color": "#",
