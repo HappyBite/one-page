@@ -71,6 +71,11 @@
             "type": "string",
             "title": "Textfärg Hover",
             "format": "color"
+          },
+          "text_focus_color": {
+            "type": "string",
+            "title": "Textfärg focus",
+            "format": "color"
           }
         }
       },
@@ -89,6 +94,13 @@
             "title": "Textfärg hover",
             "format": "color",
             "ui:css_selector": ".navbar-custom .nav li a:hover",
+            "ui:css_property": "color"
+          },
+          "text_focus_color": {
+            "type": "string",
+            "title": "Textfärg focus",
+            "format": "color",
+            "ui:css_selector": ".navbar-custom .nav li a:focus",
             "ui:css_property": "color"
           },
           "bg_text_color": {
@@ -319,11 +331,13 @@
       },
       "logo": {
         "text_color": "#fed136",
-        "text_hover_color": "#fed136"
+        "text_hover_color": "#fed136",
+        "text_focus_color": "#fed136"
       },
       "navigation": {
         "text_color": "#fff",
         "text_hover_color": "#fed136",
+        "text_focus_color": "#fed136",
         "bg_text_color": "transparent",
         "bg_text_hover_color": "#fed136"
       },

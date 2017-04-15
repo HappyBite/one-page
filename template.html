@@ -33,7 +33,7 @@
         }
       }
     </style>
-    <style id="editor-style-settings">
+    <style>
       /* General */
       body {
         background-color: {{ theme.colors.body_bg_color }};
@@ -61,12 +61,18 @@
       .navbar-custom .navbar-brand:hover {
         color: {{ theme.logo.text_hover_color }};
       }
+      .navbar-custom .navbar-brand:focus {
+        color: {{ theme.logo.text_focus_color }};
+      }
       /* Navigation */
       .navbar-custom .nav li a {
         color: {{ theme.navigation.text_color }};
       }
       .navbar-custom .nav li a:hover {
         color: {{ theme.navigation.text_hover_color }};
+      }
+      .navbar-custom .nav li a:focus {
+        color: {{ theme.navigation.text_focus_color }};
       }
       .navbar-custom .nav li a {
         background-color: {{ theme.navigation.bg_text_color }};
