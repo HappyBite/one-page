@@ -141,7 +141,7 @@
     },
     "page": {
       "meta": {
-        "title": "Title & beskrivning",
+        "title": "Titel och beskrivning",
         "properties": {
           "title": {
             "type": "string",
