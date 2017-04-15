@@ -60,6 +60,7 @@
       },
       "logo": {
         "title": "Logotyp",
+        "ui:css_selector": ".navbar-custom",
         "properties": {
           "text_color": {
             "type": "string",
@@ -82,6 +83,7 @@
       },
       "navigation": {
         "title": "Navigation",
+        "ui:css_selector": ".navbar-custom",
         "properties": {
           "text_color": {
             "type": "string",
