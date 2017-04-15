@@ -58,12 +58,16 @@
           "text_color": {
             "type": "string",
             "title": "Textfärg",
-            "format": "color"
+            "format": "color",
+            "ui:css_selector": "p",
+            "ui:css_property": "color"
           },
           "button_color": {
             "type": "string",
             "title": "Knappfärg",
-            "format": "color"
+            "format": "color",
+            "ui:css_selector": "button",
+            "ui:css_property": "background-color"
           }
         }
       },
