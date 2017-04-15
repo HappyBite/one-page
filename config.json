@@ -79,18 +79,28 @@
         "properties": {
           "text_color": {
             "type": "string",
-            "title": "Menyfärg",
+            "title": "Textfärg",
             "format": "color",
             "ui:css_selector": ".navbar-custom .nav li a",
             "ui:css_property": "color"
           },
           "text_hover_color": {
             "type": "string",
-            "title": "Menyfärg hover",
+            "title": "Textfärg hover",
             "format": "color",
             "ui:css_selector": ".navbar-custom .nav li a:hover",
             "ui:css_property": "color"
-          }
+          },
+          "bg_text_color": {
+            "type": "string",
+            "title": "Bakgrund på text",
+            "format": "color"
+          },
+          "bg_text_hover_color": {
+            "type": "string",
+            "title": "Bakgrund på text - active",
+            "format": "color"
+          },
         }
       },
       "colors": {
@@ -313,7 +323,9 @@
       },
       "navigation": {
         "text_color": "#fff",
-        "text_hover_color": "#fed136"
+        "text_hover_color": "#fed136",
+        "bg_text_color": "transparent",
+        "bg_text_hover_color": "#fed136"
       },
       "colors": {
         "body_bg_color": "#fff",

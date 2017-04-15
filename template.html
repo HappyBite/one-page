@@ -68,6 +68,13 @@
       .navbar-custom .nav li a:hover {
         color: {{ theme.navigation.text_hover_color }};
       }
+      .navbar-custom .nav li a {
+        background-color: {{ theme.navigation.bg_text_color }};
+      }
+      .navbar-custom .navbar-nav>.active>a {
+        background-color: {{ theme.navigation.bg_text_hover_color }};
+      }
+      
       /* Buttons */
       .btn-primary,
       .btn-xl {
