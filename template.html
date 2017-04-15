@@ -18,6 +18,7 @@
     <!-- Theme CSS -->
     <link href="https://blackrockdigital.github.io/startbootstrap-agency/css/agency.min.css" rel="stylesheet">
     <style>
+      /* General */
       body {
         background-color: {{ theme.colors.body_bg_color }};
       }
@@ -27,15 +28,21 @@
       p {
         color: {{ theme.colors.text_color }} !important;
       }
+      /* Logo */
       .navbar-custom .navbar-brand {
         color: {{ theme.logo.text_color }};
       }
+      .navbar-custom .navbar-brand {
+        color: {{ theme.logo.text_color_hover }};
+      }
+      /* Navigation */
       .navbar-custom .nav li a {
         color: {{ theme.colors.nav_text_color }};
       }
       .navbar-custom .nav li a:hover {
         color: {{ theme.colors.nav_text_color_hover }};
       }
+      /* Buttons */
       .btn-primary,
       .btn-xl {
         background-color: {{ theme.colors.primary_bg_color }};
