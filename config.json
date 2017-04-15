@@ -256,6 +256,9 @@
           "content_type": "image/jpg"
         }
       },
+      "logo": {
+        "text_color": "#fed136"
+      },
       "colors": {
         "body_bg_color": "#fff"
       }
