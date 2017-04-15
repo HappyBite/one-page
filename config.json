@@ -110,7 +110,7 @@
         "title": "Typography",
         "properties": {
           "type_base_size": {
-            "type": "string",
+            "type": "integer",
             "minimum": 10,
             "maximum": 18,
             "title": "Basstorlek"
@@ -270,7 +270,7 @@
       },
       "typography": {
         "type_base_size": 14
-      },
+      }
     },
     "blocks": {
       "navigation": {
