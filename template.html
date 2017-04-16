@@ -77,8 +77,12 @@
       .navbar-custom .nav li a {
         background-color: {{ theme.navigation.bg_text_color }};
       }
-      .navbar-custom .navbar-nav > .active > a {
+      .navbar-custom .nav li a:hover {
         background-color: {{ theme.navigation.bg_text_hover_color }};
+      }
+      .navbar-custom .navbar-nav > .active > a,
+      .navbar-custom .navbar-nav > .active > a:hover {
+        background-color: {{ theme.navigation.bg_text_active_color }};
       }
       .navbar-custom .navbar-nav > .active > a:focus {
         background-color: {{ theme.navigation.bg_text_focus_color }};

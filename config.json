@@ -113,6 +113,11 @@
           },
           "bg_text_hover_color": {
             "type": "string",
+            "title": "Bakgrund på text - hover",
+            "format": "color"
+          },
+          "bg_text_active_color": {
+            "type": "string",
             "title": "Bakgrund på text - active",
             "format": "color"
           },
@@ -350,6 +355,7 @@
         "text_focus_color": "#fed136",
         "bg_text_color": "transparent",
         "bg_text_hover_color": "#fed136",
+        "bg_text_active_color": "#fed136",
         "bg_text_focus_color": "#fed136"
       },
       "colors": {
