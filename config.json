@@ -55,6 +55,17 @@
             "title": "Padding bottom",
             "minimum": 0,
             "maximum": 30
+          },
+          "border_bottom_width": {
+            "type": "integer",
+            "title": "border bottom width",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "border_bottom_color": {
+            "type": "string",
+            "title": "Border bottom color",
+            "format": "color"
           }
         }
       },
@@ -352,7 +363,9 @@
       "navbar": {
         "bg_color": "#222",
         "padding_top": 10,
-        "padding_bottom": 10
+        "padding_bottom": 10,
+        "border_bottom_width": 0,
+        "border_bottom_color": "transparent"
       },
       "logo": {
         "text_color": "#fed136",
