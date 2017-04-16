@@ -15,22 +15,22 @@
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <div class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right">
         <li class="hidden">
           <a href="#page-top"></a>
         </li>
         {% for item in navigation %}
-          <div>
+          <li>
             <a
               class="page-scroll"
               href="{{ item.link }}"
               data-field-string="navigation[{{loop.index0}}].title"
               data-field-uri="navigation[{{loop.index0}}].link"
               data-toolbar-buttons="['anchor']"
-            >gaga</a>
-          </div>
+            >{{ item.title }}</a>
+          </li>
         {% endfor %}
-      </div>
+      </ul>
     </div>
     <!-- /.navbar-collapse -->
   </div>
