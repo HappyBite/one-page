@@ -356,21 +356,23 @@
           },
           "twitter_link": {
             "type": "string",
-            "title": "Twitterkonto",
-            "format": "uri",
-            "placeholder": "youraccount"
+            "title": "Twitter",
+            "format": "uri"
           },
           "facebook_link": {
             "type": "string",
-            "title": "Länk till ditt Facebookkonto",
-            "format": "uri",
-            "placeholder": "youraccount"
+            "title": "Facebook",
+            "format": "uri"
           },
           "instagram_link": {
             "type": "string",
-            "title": "Länk till ditt Instagramkonto",
-            "format": "uri",
-            "placeholder": "youraccount"
+            "title": "Instagram",
+            "format": "uri"
+          },
+          "linkedin_link": {
+            "type": "string",
+            "title": "Linked In",
+            "format": "uri"
           },
           "quick_links": {
             "type": "array",
