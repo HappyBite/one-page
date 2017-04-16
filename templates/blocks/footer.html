@@ -28,11 +28,11 @@
           {% for item in quick_links %}
             <li>
               <a
-                href="quick_links[{{loop.index0}}].link"
+                href="{{ item.link }}"
                 data-field-string="quick_links[{{loop.index0}}].title"
                 data-field-uri="quick_links[{{loop.index0}}].link"
                 data-toolbar-buttons="['anchor']"
-              >quick_links[{{loop.index0}}].title</a>
+              >{{ item.title }}</a>
             </li>
           {% endfor %}
           <li>
