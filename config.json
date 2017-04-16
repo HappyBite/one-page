@@ -52,7 +52,7 @@
           },
           "padding_bottom": {
             "type": "integer",
-            "title": "Padding top",
+            "title": "Padding bottom",
             "minimum": 0,
             "maximum": 30
           }
