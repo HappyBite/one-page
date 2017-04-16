@@ -353,6 +353,41 @@
           "copyright_text": {
             "type": "string",
             "title": "Copyright text" 
+          },
+          "twitter_link": {
+            "type": "string",
+            "title": "Länk till ditt Twitterkonto",
+            "format": "uri"
+          },
+          "facebook_link": {
+            "type": "string",
+            "title": "Länk till ditt Facebookkonto",
+            "format": "uri"
+          },
+          "instagram_link": {
+            "type": "string",
+            "title": "Länk till ditt Instagramkonto",
+            "format": "uri"
+          },
+          "quick_links": {
+            "type": "array",
+            "title": "Snabblänkar",
+            "items": {
+              "type": "object",
+              "title": "Länk",
+              "display_field": "title",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "title": "Titel" 
+                },
+                "link": {
+                  "type": "string",
+                  "title": "Länk",
+                  "format": "uri"
+                }
+              }
+            }
           }
         }
       }
@@ -476,7 +511,20 @@
         "link_text": "Läs mer »"
       },
       "footer": {
-        "copyright_text": "Copyright &copy; Your Website 2016"
+        "copyright_text": "Copyright &copy; Your Website 2016",
+        "twitter_link": "#",
+        "facebook_link": "#",
+        "linkedin_link": "#",
+        "quick_links": [
+          {
+            "title": "Privacy Policy",
+            "link": "#"
+          },
+          {
+            "heading": "Terms of Use",
+            "link": "#"
+          }
+        ]
       }
     }
   }

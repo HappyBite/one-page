@@ -1,30 +1,45 @@
 <footer>
   <div class="container">
-      <div class="row">
-          <div class="col-md-4">
-              <span
-                class="copyright"
-                data-field-string="copyright_text"
-              >{{ copyright_text }}</span>
-          </div>
-          <div class="col-md-4">
-              <ul class="list-inline social-buttons">
-                  <li><a href="#"><i class="fa fa-twitter"></i></a>
-                  </li>
-                  <li><a href="#"><i class="fa fa-facebook"></i></a>
-                  </li>
-                  <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                  </li>
-              </ul>
-          </div>
-          <div class="col-md-4">
-              <ul class="list-inline quicklinks">
-                  <li><a href="#">Privacy Policy</a>
-                  </li>
-                  <li><a href="#">Terms of Use</a>
-                  </li>
-              </ul>
-          </div>
+    <div class="row">
+      <div class="col-md-4">
+        <span
+          class="copyright"
+          data-field-string="copyright_text"
+        >{{ copyright_text }}</span>
       </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li>
+            <a href="{{twitter_link}}"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="{{facebook_link}}"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="{{linkedin_link}}"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          {% for item in quick_links %}
+            <li>
+              <a
+                href="{{quick_links[{{loop.index0}}].link}}"
+                data-field-string="quick_links[{{loop.index0}}].title"
+                data-field-uri="quick_links[{{loop.index0}}].link"
+                data-toolbar-buttons="['anchor']"
+              >{{quick_links[{{loop.index0}}].title}}</a>
+            </li>
+          {% endfor %}
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </footer>
