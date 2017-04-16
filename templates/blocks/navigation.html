@@ -20,12 +20,17 @@
           <a href="#page-top"></a>
         </li>
         {% for item in navigation %}
-          <li><a
-              href="{{ item.link }}"
-              data-field-string="navigation[{{loop.index0}}].title"
-              data-field-uri="navigation[{{loop.index0}}].link"
-              data-toolbar-buttons="['b', 'anchor']"
-            >fooa {{ item.title }}</a></li>
+          <li>
+            <div class="test">
+              <a
+                class="page-scroll"
+                href="{{ item.link }}"
+                data-field-string="navigation[{{loop.index0}}].title"
+                data-field-uri="navigation[{{loop.index0}}].link"
+                data-toolbar-buttons="['anchor']"
+              >{{ item.title }}</a>
+            </div>
+          </li>
         {% endfor %}
       </ul>
     </div>
