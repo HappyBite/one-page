@@ -356,18 +356,21 @@
           },
           "twitter_link": {
             "type": "string",
-            "title": "Länk till ditt Twitterkonto",
-            "format": "uri"
+            "title": "Twitterkonto",
+            "format": "uri",
+            "placeholder": "youraccount"
           },
           "facebook_link": {
             "type": "string",
             "title": "Länk till ditt Facebookkonto",
-            "format": "uri"
+            "format": "uri",
+            "placeholder": "youraccount"
           },
           "instagram_link": {
             "type": "string",
             "title": "Länk till ditt Instagramkonto",
-            "format": "uri"
+            "format": "uri",
+            "placeholder": "youraccount"
           },
           "quick_links": {
             "type": "array",
