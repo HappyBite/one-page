@@ -173,6 +173,11 @@
             "format": "color",
             "ui:css_selector": ".text-primary",
             "ui:css_property": "color"
+          },
+          "text_selection_color": {
+            "type": "string",
+            "title": "Text selection color",
+            "format": "color"
           }
         }
       },
@@ -360,13 +365,12 @@
       },
       "colors": {
         "body_bg_color": "#fff",
-        "nav_text_color": "#fff",
-        "nav_text_hover_color": "#fed136",
         "heading_text_color": "#333",
         "text_color": "#333",
         "text_muted_color": "#777",
-        "primary_bg_color": "#",
-        "primary_text_color": "#fed136"
+        "primary_bg_color": "#fed136",
+        "primary_text_color": "#fed136",
+        "text_selection_color": "#fed136"
       },
       "typography": {
         "type_base_size": 14
