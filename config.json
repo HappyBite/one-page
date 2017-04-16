@@ -174,9 +174,14 @@
             "ui:css_selector": ".text-primary",
             "ui:css_property": "color"
           },
-          "text_selection_color": {
+          "selection_text_color": {
             "type": "string",
             "title": "Text selection color",
+            "format": "color"
+          },
+          "selection_bg_color": {
+            "type": "string",
+            "title": "Text selection bg color",
             "format": "color"
           }
         }
@@ -370,7 +375,8 @@
         "text_muted_color": "#777",
         "primary_bg_color": "#fed136",
         "primary_text_color": "#fed136",
-        "text_selection_color": "#fed136"
+        "selection_text_color": "#ffffff",
+        "selection_bg_color": "#fed136"
       },
       "typography": {
         "type_base_size": 14
