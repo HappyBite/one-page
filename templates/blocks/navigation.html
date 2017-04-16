@@ -21,12 +21,11 @@
         </li>
         {% for item in navigation %}
           <li><a
-              class="page-scroll"
               href="{{ item.link }}"
               data-field-string="navigation[{{loop.index0}}].title"
               data-field-uri="navigation[{{loop.index0}}].link"
-              data-toolbar-buttons="['anchor']"
-            >gaga {{ item.title }}</a></li>
+              data-toolbar-buttons="['b', 'anchor']"
+            >fooa {{ item.title }}</a></li>
         {% endfor %}
       </ul>
     </div>
