@@ -179,6 +179,16 @@
             "ui:css_selector": "p",
             "ui:css_property": "color"
           },
+          "link_color": {
+            "type": "string",
+            "title": "Länk textfärg",
+            "format": "color"
+          },
+          "link_hover_color": {
+            "type": "string",
+            "title": "Länk textfärg hover",
+            "format": "color"
+          },
           "text_muted_color": {
             "type": "string",
             "title": "Textfärg muted",
@@ -477,6 +487,8 @@
         "body_bg_color": "#fff",
         "heading_text_color": "#333",
         "text_color": "#333",
+        "link_color": "#fed136",
+        "link_hover_color": "fec503",
         "text_muted_color": "#777",
         "primary_bg_color": "#fed136",
         "primary_text_color": "#fed136",
