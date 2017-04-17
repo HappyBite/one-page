@@ -136,6 +136,11 @@
             "type": "string",
             "title": "Bakgrund på text - focus",
             "format": "color"
+          }.
+          "mobile_menu_button_bg_color": {
+            "type": "string",
+            "title": "Hamburgermeny-knapp - bakgrund",
+            "format": "color"
           }
         }
       },
@@ -428,7 +433,8 @@
         "bg_text_color": "transparent",
         "bg_text_hover_color": "transparent",
         "bg_text_active_color": "#fed136",
-        "bg_text_focus_color": "#fed136"
+        "bg_text_focus_color": "#fed136",
+        "mobile_menu_button_bg_color": "#fed136"
       },
       "colors": {
         "body_bg_color": "#fff",
