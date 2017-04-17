@@ -100,16 +100,25 @@
         background-color: {{ theme.navigation.mobile_menu_button_focus_bg_color }};
         border-color: {{ theme.navigation.mobile_menu_button_focus_bg_color }};
       }
+      /* Header */
+      header .intro-text .intro-lead-in {
+        color: {{ theme.header.lead_in_text_color }};
+      }
+      header .intro-text .intro-heading {
+        color: {{ theme.header.heading_text_color }};
+      }
+      header .btn-xl,
+      header .btn-xl:hover,
+      header .btn-xl:focus,
+      header .btn-xl:active {
+        background-color: {{ theme.header.button_bg_color }};
+        border-color: {{ theme.header.button_bg_color }};
+      }
       /* Buttons */
-      .btn-primary,
-      .btn-xl {
+      .btn-primary {
         background-color: {{ theme.colors.primary_bg_color }};
       }
-      .btn-xl {
-        border-color: {{ theme.colors.primary_bg_color }};
-      }
-      .text-primary,
-      .btn-xl {
+      .text-primary {
         color: {{ theme.colors.primary_text_color }};
       }
       ::selection {

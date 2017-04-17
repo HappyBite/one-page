@@ -223,7 +223,32 @@
             "title": "Basstorlek"
           }
         }
-      }
+      },
+      "header": {
+        "title": "Header",
+        "ui:css_selector": "header",
+        "properties": {
+          "lead_in_text_color": {
+            "type": "string",
+            "title": "Lead in text color",
+            "format": "color",
+            "ui:css_selector": "header .intro-text .intro-lead-in",
+            "ui:css_property": "color"
+          },
+          "heading_text_color": {
+            "type": "string",
+            "title": "Heading text color",
+            "format": "color",
+            "ui:css_selector": "header .intro-text .intro-heading",
+            "ui:css_property": "color"
+          },
+          "button_bg_color": {
+            "type": "string",
+            "title": "Button bg color",
+            "format": "color"
+          }
+        }
+      },
     },
     "page": {
       "data": {
@@ -460,6 +485,11 @@
       },
       "typography": {
         "type_base_size": 14
+      }
+      "header": {
+        "lead_in_text_color": "#ffffff",
+        "heading_text_color": "#ffffff",
+        "button_bg_color": "#fed136"
       }
     },
     "page": {
