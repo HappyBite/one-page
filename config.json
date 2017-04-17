@@ -136,7 +136,7 @@
             "type": "string",
             "title": "Bakgrund på text - focus",
             "format": "color"
-          }.
+          },
           "mobile_menu_button_bg_color": {
             "type": "string",
             "title": "Hamburgermeny-knapp - bakgrund",
