@@ -461,12 +461,12 @@
             "padding_bottom": 10,
             "border_bottom_width": 0,
             "border_bottom_color": "transparent"
-        },
+          },
           "logo": {
             "text_color": "#fed136",
             "text_hover_color": "#fed136",
             "text_focus_color": "#fed136"
-        },
+          },
           "navigation": {
             "text_color": "#fff",
             "text_hover_color": "#fed136",
@@ -478,7 +478,7 @@
             "mobile_menu_button_bg_color": "#fed136",
             "mobile_menu_button_hover_bg_color": "#fed136",
             "mobile_menu_button_focus_bg_color": "#fed136"
-        },
+          },
           "colors": {
             "body_bg_color": "#fff",
             "heading_text_color": "#333",
@@ -490,15 +490,15 @@
             "primary_text_color": "#fed136",
             "selection_text_color": "#ffffff",
             "selection_bg_color": "#fed136"
-        },
+          },
           "typography": {
             "type_base_size": 14
-        },
+          },
           "header": {
             "lead_in_text_color": "#ffffff",
             "heading_text_color": "#ffffff",
             "button_bg_color": "#fed136"
-        }
+          }
         },
         "page": {
           "data": {
@@ -588,7 +588,7 @@
               }
             ]
           }
-        },
+        }
       },
       "klar": {
         "theme": {
