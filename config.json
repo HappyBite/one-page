@@ -451,188 +451,281 @@
     }
   },
   "settings": {
-    "page": {
-      "data": {
-        "title": "Agency - Start Bootstrap Theme",
-        "description": "This is my one page website and it's beautiful!"
-      }
-    },
-    "blocks": {
-      "navigation": {
-        "logo": "http://www.example.com/logo.png",
-        "logo_text": "Start Bootstrap",
-        "navigation": [
-          {
-       	  	"title": "Services",
-            "link": "#services"
-          },
-          {
-       	  	"title": "Portfolio",
-            "link": "#portfolio"
-          },
-          {
-       	  	"title": "About",
-            "link": "#about"
-          },
-          {
-       	  	"title": "Team",
-            "link": "#team"
-          },
-          {
-       	  	"title": "Contact",
-            "link": "#contact"
-          }
-        ]
-      },
-      "header": {
-        "lead_in": "Welcome To Our Studio!",
-        "heading": "IT'S NICE TO MEET YOU",
-        "link": "#services",
-        "link_text": "Tell me more",
-        "image": {
-          "name": "header-bg.jpg",
-          "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
-          "content_type": "image/jpg"
-        }
-      },
-      "services": {
-        "heading": "Services",
-        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
-        "items": [
-          {
-            "icon": "shopping-cart",
-            "heading": "E-Commerce",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-          },
-          {
-            "icon": "laptop",
-            "heading": "Responsive Design",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-          },
-          {
-            "icon": "lock",
-            "heading": "Web Security",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-          }
-        ]
-      },
-      "hero": {
-        "heading": "Rubrik",
-        "text": "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.",
-        "link": "http://www.example.com",
-        "link_text": "Läs mer »"
-      },
-      "footer": {
-        "copyright_text": "Copyright &copy; Your Website 2016",
-        "twitter_link": "youraccount",
-        "facebook_link": "youraccount",
-        "instagram_link": "youraccount",
-        "linkedin_link": "youraccount",
-        "quick_links": [
-          {
-            "title": "Privacy Policy",
-            "link": "#"
-          },
-          {
-            "title": "Terms of Use",
-            "link": "#"
-          }
-        ]
-      }
-    },
     "theme": {
       "current": "default",
       "presets": {
         "default": {
-          "navbar": {
-            "bg_color": "#222",
-            "padding_top": 10,
-            "padding_bottom": 10,
-            "border_bottom_width": 0,
-            "border_bottom_color": "transparent"
+          "theme": {
+            "navbar": {
+              "bg_color": "#222",
+              "padding_top": 10,
+              "padding_bottom": 10,
+              "border_bottom_width": 0,
+              "border_bottom_color": "transparent"
           },
-          "logo": {
-            "text_color": "#fed136",
-            "text_hover_color": "#fed136",
-            "text_focus_color": "#fed136"
+            "logo": {
+              "text_color": "#fed136",
+              "text_hover_color": "#fed136",
+              "text_focus_color": "#fed136"
           },
-          "navigation": {
-            "text_color": "#fff",
-            "text_hover_color": "#fed136",
-            "text_focus_color": "#fed136",
-            "bg_text_color": "transparent",
-            "bg_text_hover_color": "transparent",
-            "bg_text_active_color": "#fed136",
-            "bg_text_focus_color": "#fed136",
-            "mobile_menu_button_bg_color": "#fed136",
-            "mobile_menu_button_hover_bg_color": "#fed136",
-            "mobile_menu_button_focus_bg_color": "#fed136"
+            "navigation": {
+              "text_color": "#fff",
+              "text_hover_color": "#fed136",
+              "text_focus_color": "#fed136",
+              "bg_text_color": "transparent",
+              "bg_text_hover_color": "transparent",
+              "bg_text_active_color": "#fed136",
+              "bg_text_focus_color": "#fed136",
+              "mobile_menu_button_bg_color": "#fed136",
+              "mobile_menu_button_hover_bg_color": "#fed136",
+              "mobile_menu_button_focus_bg_color": "#fed136"
           },
-          "colors": {
-            "body_bg_color": "#fff",
-            "heading_text_color": "#333",
-            "text_color": "#333",
-            "link_color": "#fed136",
-            "link_hover_color": "fec503",
-            "text_muted_color": "#777",
-            "primary_bg_color": "#fed136",
-            "primary_text_color": "#fed136",
-            "selection_text_color": "#ffffff",
-            "selection_bg_color": "#fed136"
+            "colors": {
+              "body_bg_color": "#fff",
+              "heading_text_color": "#333",
+              "text_color": "#333",
+              "link_color": "#fed136",
+              "link_hover_color": "fec503",
+              "text_muted_color": "#777",
+              "primary_bg_color": "#fed136",
+              "primary_text_color": "#fed136",
+              "selection_text_color": "#ffffff",
+              "selection_bg_color": "#fed136"
           },
-          "typography": {
-            "type_base_size": 14
+            "typography": {
+              "type_base_size": 14
           },
-          "header": {
-            "lead_in_text_color": "#ffffff",
-            "heading_text_color": "#ffffff",
-            "button_bg_color": "#fed136"
+            "header": {
+              "lead_in_text_color": "#ffffff",
+              "heading_text_color": "#ffffff",
+              "button_bg_color": "#fed136"
           }
+          },
+          "page": {
+            "data": {
+              "title": "Agency - Start Bootstrap Theme",
+              "description": "This is my one page website and it's beautiful!"
+            }
+          },
+          "blocks": {
+            "navigation": {
+              "logo": "http://www.example.com/logo.png",
+              "logo_text": "Start Bootstrap",
+              "navigation": [
+                {
+             	  	"title": "Services",
+                  "link": "#services"
+                },
+                {
+             	  	"title": "Portfolio",
+                  "link": "#portfolio"
+                },
+                {
+             	  	"title": "About",
+                  "link": "#about"
+                },
+                {
+             	  	"title": "Team",
+                  "link": "#team"
+                },
+                {
+             	  	"title": "Contact",
+                  "link": "#contact"
+                }
+              ]
+            },
+            "header": {
+              "lead_in": "Welcome To Our Studio!",
+              "heading": "IT'S NICE TO MEET YOU",
+              "link": "#services",
+              "link_text": "Tell me more",
+              "image": {
+                "name": "header-bg.jpg",
+                "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
+                "content_type": "image/jpg"
+              }
+            },
+            "services": {
+              "heading": "Services",
+              "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+              "items": [
+                {
+                  "icon": "shopping-cart",
+                  "heading": "E-Commerce",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                },
+                {
+                  "icon": "laptop",
+                  "heading": "Responsive Design",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                },
+                {
+                  "icon": "lock",
+                  "heading": "Web Security",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                }
+              ]
+            },
+            "hero": {
+              "heading": "Rubrik",
+              "text": "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.",
+              "link": "http://www.example.com",
+              "link_text": "Läs mer »"
+            },
+            "footer": {
+              "copyright_text": "Copyright &copy; Your Website 2016",
+              "twitter_link": "youraccount",
+              "facebook_link": "youraccount",
+              "instagram_link": "youraccount",
+              "linkedin_link": "youraccount",
+              "quick_links": [
+                {
+                  "title": "Privacy Policy",
+                  "link": "#"
+                },
+                {
+                  "title": "Terms of Use",
+                  "link": "#"
+                }
+              ]
+            }
+          },
         },
         "klar": {
-          "navbar": {
-            "bg_color": "#005da0",
-            "padding_top": 10,
-            "padding_bottom": 10,
-            "border_bottom_width": 0,
-            "border_bottom_color": "#f1f1f1"
+          "theme": {
+            "navbar": {
+              "bg_color": "#005da0",
+              "padding_top": 10,
+              "padding_bottom": 10,
+              "border_bottom_width": 0,
+              "border_bottom_color": "#f1f1f1"
+            },
+            "logo": {
+              "text_color": "#ffffff",
+              "text_hover_color": "#ffffff",
+              "text_focus_color": "#ffffff"
+            },
+            "navigation": {
+              "text_color": "#ffffff",
+              "text_hover_color": "#ffffff",
+              "text_focus_color": "#ffffff",
+              "bg_text_color": "transparent",
+              "bg_text_hover_color": "transparent",
+              "bg_text_active_color": "#555555",
+              "bg_text_focus_color": "#555555",
+              "mobile_menu_button_bg_color": "#005da0",
+              "mobile_menu_button_hover_bg_color": "#005da0",
+              "mobile_menu_button_focus_bg_color": "#005da0"
+            },
+            "colors": {
+              "body_bg_color": "#f1f1f1",
+              "heading_text_color": "#555555",
+              "text_color": "#555555",
+              "text_muted_color": "#555555",
+              "primary_bg_color": "#005da0",
+              "primary_text_color": "#005da0",
+              "selection_text_color": "#f1f1f1",
+              "selection_bg_color": "#005da0",
+              "link_color": "#005da0",
+              "link_hover_color": "#005da0"
+            },
+            "typography": {
+              "type_base_size": 14
+            },
+            "header": {
+              "lead_in_text_color": "#ffffff",
+              "heading_text_color": "#ffffff",
+              "button_bg_color": "#005da0"
+}
           },
-          "logo": {
-            "text_color": "#ffffff",
-            "text_hover_color": "#ffffff",
-            "text_focus_color": "#ffffff"
+          "page": {
+            "data": {
+              "title": "Agency - Start Bootstrap Theme",
+              "description": "This is my one page website and it's beautiful!"
+            }
           },
-          "navigation": {
-            "text_color": "#ffffff",
-            "text_hover_color": "#ffffff",
-            "text_focus_color": "#ffffff",
-            "bg_text_color": "transparent",
-            "bg_text_hover_color": "transparent",
-            "bg_text_active_color": "#555555",
-            "bg_text_focus_color": "#555555",
-            "mobile_menu_button_bg_color": "#005da0",
-            "mobile_menu_button_hover_bg_color": "#005da0",
-            "mobile_menu_button_focus_bg_color": "#005da0"
-          },
-          "colors": {
-            "body_bg_color": "#f1f1f1",
-            "heading_text_color": "#555555",
-            "text_color": "#555555",
-            "text_muted_color": "#555555",
-            "primary_bg_color": "#005da0",
-            "primary_text_color": "#005da0",
-            "selection_text_color": "#f1f1f1",
-            "selection_bg_color": "#005da0",
-            "link_color": "#005da0",
-            "link_hover_color": "#005da0"
-          },
-          "typography": {
-            "type_base_size": 14
-          },
-          "header": {
-            "lead_in_text_color": "#ffffff",
-            "heading_text_color": "#ffffff",
-            "button_bg_color": "#005da0"
+          "blocks": {
+            "navigation": {
+              "logo": "http://www.example.com/logo.png",
+              "logo_text": "Start Bootstrap",
+              "navigation": [
+                {
+             	  	"title": "Services",
+                  "link": "#services"
+                },
+                {
+             	  	"title": "Portfolio",
+                  "link": "#portfolio"
+                },
+                {
+             	  	"title": "About",
+                  "link": "#about"
+                },
+                {
+             	  	"title": "Team",
+                  "link": "#team"
+                },
+                {
+             	  	"title": "Contact",
+                  "link": "#contact"
+                }
+              ]
+            },
+            "header": {
+              "lead_in": "Welcome To Our Studio!",
+              "heading": "IT'S NICE TO MEET YOU",
+              "link": "#services",
+              "link_text": "Tell me more",
+              "image": {
+                "name": "header-bg.jpg",
+                "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
+                "content_type": "image/jpg"
+              }
+            },
+            "services": {
+              "heading": "Services",
+              "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+              "items": [
+                {
+                  "icon": "shopping-cart",
+                  "heading": "E-Commerce",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                },
+                {
+                  "icon": "laptop",
+                  "heading": "Responsive Design",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                },
+                {
+                  "icon": "lock",
+                  "heading": "Web Security",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                }
+              ]
+            },
+            "hero": {
+              "heading": "Rubrik",
+              "text": "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.",
+              "link": "http://www.example.com",
+              "link_text": "Läs mer »"
+            },
+            "footer": {
+              "copyright_text": "Copyright &copy; Your Website 2016",
+              "twitter_link": "youraccount",
+              "facebook_link": "youraccount",
+              "instagram_link": "youraccount",
+              "linkedin_link": "youraccount",
+              "quick_links": [
+                {
+                  "title": "Privacy Policy",
+                  "link": "#"
+                },
+                {
+                  "title": "Terms of Use",
+                  "link": "#"
+                }
+              ]
+            }
           }
         }
       }
