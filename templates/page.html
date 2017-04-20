@@ -1,145 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ page.data.description }}">
-    <meta name="author" content="">
-    <title>{{ page.data.title }}</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="https://blackrockdigital.github.io/startbootstrap-agency/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href="https://blackrockdigital.github.io/startbootstrap-agency/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <!-- Theme CSS -->
-    <link href="https://blackrockdigital.github.io/startbootstrap-agency/css/agency.min.css" rel="stylesheet">
-    <style id="editor-style">
-      .navbar-custom {
-        margin: 0;
-        position: static;
-      }
-      @media (min-width: 768px) {
-        body {
-          padding-top: 0;
-        }
-        .navbar-custom {
-          background-color: #222;
-          margin: 0;
-          padding: 10px 0;
-        }
-      }
-    </style>
-    <style>
-      /* General */
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.data.description }}">
+  <meta name="author" content="">
+  <title>{{ page.data.title }}</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="https://blackrockdigital.github.io/startbootstrap-agency/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <link href="https://blackrockdigital.github.io/startbootstrap-agency/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <!-- Theme CSS -->
+  <link href="https://blackrockdigital.github.io/startbootstrap-agency/css/agency.min.css" rel="stylesheet">
+  <style id="editor-style">
+    .navbar-custom {
+      margin: 0;
+      position: static;
+    }
+    @media (min-width: 768px) {
       body {
-        background-color: {{ theme.colors.body_bg_color }};
-        font-size: {{ theme.typography.type_base_size }}px;
+        padding-top: 0;
       }
-      h1, h2, h3, h4, h5, h6 {
-        color: {{ theme.colors.heading_text_color }};
-      }
-      p {
-        color: {{ theme.colors.text_color }};
-      }
-      a {
-        color: {{ theme.colors.link_color }};
-      }
-      a:hover,
-      a:focus,
-      a:active {
-        color: {{ theme.colors.link_hover_color }};
-      }
-      .text_muted {
-        color: {{ theme.colors.text_muted_color }};
-      }
-      /* Navbar */
       .navbar-custom {
-        background-color: {{ theme.navbar.bg_color }};
-        border-bottom: solid {{ theme.navbar.border_bottom_width }}px {{ theme.navbar.border_bottom_color }};
-        padding-top: {{ theme.navbar.padding_top }}px;
-        padding-bottom: {{ theme.navbar.padding_bottom }}px;
+        background-color: #222;
+        margin: 0;
+        padding: 10px 0;
       }
-      /* Logo */
-      .navbar-custom .navbar-brand {
-        color: {{ theme.logo.text_color }};
-      }
-      .navbar-custom .navbar-brand:hover {
-        color: {{ theme.logo.text_hover_color }};
-      }
-      .navbar-custom .navbar-brand:focus {
-        color: {{ theme.logo.text_focus_color }};
-      }
-      /* Navigation */
-      .navbar-custom .nav li a {
-        color: {{ theme.navigation.text_color }};
-      }
-      .navbar-custom .nav li a:hover {
-        color: {{ theme.navigation.text_hover_color }};
-      }
-      .navbar-custom .nav li a:focus {
-        color: {{ theme.navigation.text_focus_color }};
-      }
-      .navbar-custom .nav li a {
-        background-color: {{ theme.navigation.bg_text_color }};
-      }
-      .navbar-custom .nav li a:hover {
-        background-color: {{ theme.navigation.bg_text_hover_color }};
-      }
-      .navbar-custom .navbar-nav > .active > a,
-      .navbar-custom .navbar-nav > .active > a:hover {
-        background-color: {{ theme.navigation.bg_text_active_color }};
-      }
-      .navbar-custom .navbar-nav > .active > a:focus {
-        background-color: {{ theme.navigation.bg_text_focus_color }};
-      }
-      .navbar-custom .navbar-toggle {
-        background-color: {{ theme.navigation.mobile_menu_button_bg_color }};
-        border-color: {{ theme.navigation.mobile_menu_button_bg_color }};
-      }
-      .navbar-custom .navbar-toggle:hover {
-        background-color: {{ theme.navigation.mobile_menu_button_hover_bg_color }};
-        border-color: {{ theme.navigation.mobile_menu_button_hover_bg_color }};
-      }
-      .navbar-custom .navbar-toggle:focus {
-        background-color: {{ theme.navigation.mobile_menu_button_focus_bg_color }};
-        border-color: {{ theme.navigation.mobile_menu_button_focus_bg_color }};
-      }
-      /* Header */
-      header .intro-text .intro-lead-in {
-        color: {{ theme.header.lead_in_text_color }};
-      }
-      header .intro-text .intro-heading {
-        color: {{ theme.header.heading_text_color }};
-      }
-      header .btn-xl,
-      header .btn-xl:hover,
-      header .btn-xl:focus,
-      header .btn-xl:active {
-        background-color: {{ theme.header.button_bg_color }};
-        border-color: {{ theme.header.button_bg_color }};
-      }
-      /* Buttons */
-      .btn-primary {
-        background-color: {{ theme.colors.primary_bg_color }};
-      }
-      .text-primary {
-        color: {{ theme.colors.primary_text_color }};
-      }
-      ::selection {
-        color: {{ theme.colors.selection_text_color }} !important;
-        background: {{ theme.colors.selection_bg_color }} !important;
-      }
-    </style>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
-    <![endif]-->
+    }
+  </style>
+  <style>
+    /* General */
+    body {
+      background-color: {{ theme.colors.body_bg_color }};
+      font-size: {{ theme.typography.type_base_size }}px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: {{ theme.colors.heading_text_color }};
+    }
+    p {
+      color: {{ theme.colors.text_color }};
+    }
+    a {
+      color: {{ theme.colors.link_color }};
+    }
+    a:hover,
+    a:focus,
+    a:active {
+      color: {{ theme.colors.link_hover_color }};
+    }
+    .text_muted {
+      color: {{ theme.colors.text_muted_color }};
+    }
+    /* Navbar */
+    .navbar-custom {
+      background-color: {{ theme.navbar.bg_color }};
+      border-bottom: solid {{ theme.navbar.border_bottom_width }}px {{ theme.navbar.border_bottom_color }};
+      padding-top: {{ theme.navbar.padding_top }}px;
+      padding-bottom: {{ theme.navbar.padding_bottom }}px;
+    }
+    /* Logo */
+    .navbar-custom .navbar-brand {
+      color: {{ theme.logo.text_color }};
+    }
+    .navbar-custom .navbar-brand:hover {
+      color: {{ theme.logo.text_hover_color }};
+    }
+    .navbar-custom .navbar-brand:focus {
+      color: {{ theme.logo.text_focus_color }};
+    }
+    /* Navigation */
+    .navbar-custom .nav li a {
+      color: {{ theme.navigation.text_color }};
+    }
+    .navbar-custom .nav li a:hover {
+      color: {{ theme.navigation.text_hover_color }};
+    }
+    .navbar-custom .nav li a:focus {
+      color: {{ theme.navigation.text_focus_color }};
+    }
+    .navbar-custom .nav li a {
+      background-color: {{ theme.navigation.bg_text_color }};
+    }
+    .navbar-custom .nav li a:hover {
+      background-color: {{ theme.navigation.bg_text_hover_color }};
+    }
+    .navbar-custom .navbar-nav > .active > a,
+    .navbar-custom .navbar-nav > .active > a:hover {
+      background-color: {{ theme.navigation.bg_text_active_color }};
+    }
+    .navbar-custom .navbar-nav > .active > a:focus {
+      background-color: {{ theme.navigation.bg_text_focus_color }};
+    }
+    .navbar-custom .navbar-toggle {
+      background-color: {{ theme.navigation.mobile_menu_button_bg_color }};
+      border-color: {{ theme.navigation.mobile_menu_button_bg_color }};
+    }
+    .navbar-custom .navbar-toggle:hover {
+      background-color: {{ theme.navigation.mobile_menu_button_hover_bg_color }};
+      border-color: {{ theme.navigation.mobile_menu_button_hover_bg_color }};
+    }
+    .navbar-custom .navbar-toggle:focus {
+      background-color: {{ theme.navigation.mobile_menu_button_focus_bg_color }};
+      border-color: {{ theme.navigation.mobile_menu_button_focus_bg_color }};
+    }
+    /* Header */
+    header .intro-text .intro-lead-in {
+      color: {{ theme.header.lead_in_text_color }};
+    }
+    header .intro-text .intro-heading {
+      color: {{ theme.header.heading_text_color }};
+    }
+    header .btn-xl,
+    header .btn-xl:hover,
+    header .btn-xl:focus,
+    header .btn-xl:active {
+      background-color: {{ theme.header.button_bg_color }};
+      border-color: {{ theme.header.button_bg_color }};
+    }
+    /* Buttons */
+    .btn-primary {
+      background-color: {{ theme.colors.primary_bg_color }};
+    }
+    .text-primary {
+      color: {{ theme.colors.primary_text_color }};
+    }
+    ::selection {
+      color: {{ theme.colors.selection_text_color }} !important;
+      background: {{ theme.colors.selection_bg_color }} !important;
+    }
+  </style>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+  <![endif]-->
 </head>
 <body id="page-top" class="index">
   <!-- content -->
