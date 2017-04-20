@@ -524,10 +524,10 @@
       },
       "footer": {
         "copyright_text": "Copyright &copy; Your Website 2016",
-        "twitter_link": "youraccount",
-        "facebook_link": "youraccount",
-        "instagram_link": "youraccount",
-        "linkedin_link": "youraccount",
+        "twitter_link": "#youraccount",
+        "facebook_link": "#youraccount",
+        "instagram_link": "#youraccount",
+        "linkedin_link": "#youraccount",
         "quick_links": [
           {
             "title": "Privacy Policy",
