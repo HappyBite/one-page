@@ -297,11 +297,13 @@
               "properties": {
                 "title": {
                   "type": "string",
-                  "title": "Title" 
+                  "title": "Title",
+                  "default": "New link"
                 },
                 "link": {
                   "type": "string",
-                  "title": "Länk" 
+                  "title": "Länk",
+                  "default": "#"
                 }
               }
             }
