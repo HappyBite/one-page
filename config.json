@@ -293,7 +293,7 @@
           "show_logo": {
             "type": "string",
             "title": "Show logo image",
-            "format": "boolean",
+            "format": "boolean"
           },
           "logo_text": {
             "type": "string",
