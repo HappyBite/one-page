@@ -298,11 +298,17 @@
             "type": "string",
             "title": "Logotext" 
           },
-          "logo_margin_top": {
+          "logo_padding_top": {
             "type": "integer",
-            "title": "Margin top",
+            "title": "Logo padding top",
             "minimum": -10,
             "maximum": 30
+          },
+          "logo_width": {
+            "type": "integer",
+            "title": "Logo width in percent",
+            "minimum": 0,
+            "maximum": 100
           },
           "navigation": {
             "type": "array",
@@ -481,7 +487,8 @@
         "logo": "https://assets.brandfolder.com/8w7lv8ml/view.png",
         "logo_show": false,
         "logo_text": "The Page",
-        "logo_margin_top": 0,
+        "logo_padding_top": 0,
+        "logo_width": 100,
         "navigation": [
           {
        	  	"title": "Services",
