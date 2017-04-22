@@ -77,6 +77,11 @@
     /* Logo */
     .navbar-custom .navbar-brand {
       color: {{ theme.logo.text_color }};
+      {% if logo_show %}
+        padding-top: {{ theme.logo.padding_top }}px;
+        padding-left: 0;
+        width:{{ theme.logo.width }}px;
+      {% endif %}
     }
     .navbar-custom .navbar-brand:hover {
       color: {{ theme.logo.text_hover_color }};
