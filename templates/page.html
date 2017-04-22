@@ -78,9 +78,11 @@
     .navbar-custom .navbar-brand {
       color: {{ theme.logo.text_color }};
       {% if theme.logo.show %}
-        padding-top: {{ theme.logo.padding_top }}px;
-        padding-left: 0;
-        width:{{ theme.logo.width }}px;
+        @media (min-width: 768px) {
+          padding-top: {{ theme.logo.padding_top }}px;
+          padding-left: 0;
+          width:{{ theme.logo.width }}px;
+        }
       {% endif %}
     }
     .navbar-custom .navbar-brand:hover {
