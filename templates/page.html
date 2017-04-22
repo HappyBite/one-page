@@ -77,13 +77,16 @@
     /* Logo */
     .navbar-custom .navbar-brand {
       color: {{ theme.logo.text_color }};
-        @media (min-width: 768px) {
+    }
+    {% if theme.logo.show %}
+      @media (min-width: 768px) {
+        .navbar-custom .navbar-brand {
           padding-top: {{ theme.logo.padding_top }}px;
           padding-left: 0;
           width:{{ theme.logo.width }}px;
         }
-      
-    }
+      } 
+    {% endif %}
     .navbar-custom .navbar-brand:hover {
       color: {{ theme.logo.text_hover_color }};
     }
