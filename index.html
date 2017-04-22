@@ -17,6 +17,20 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   <!-- Theme CSS -->
   <link href="https://blackrockdigital.github.io/startbootstrap-agency/css/agency.min.css" rel="stylesheet">
+  <style>
+    @media (min-width: 768px) {
+      body {
+        padding-top: 70px;
+      }
+      header {
+        background-position: 0 0;
+      }
+      .navbar-custom {
+        margin: 0;
+        padding: 10px 0;
+      }
+    }
+  </style>
   
   <style>
     /* General */
@@ -144,12 +158,10 @@
       <a
         class="navbar-brand page-scroll"
         
-          style="padding-top:12px;padding-left: 0;width:100px;"
-        
         href="#page-top"
         data-field-string="logo_text"
         data-toolbar-buttons="['bold', 'italic', 'underline']"
-      ><img src="https://assets.brandfolder.com/8w7lv8ml/view.png" alt="Logo" /></a>
+      >The Page</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -416,8 +428,8 @@
       $('a.page-scroll').bind('click', function(event) {
           var $anchor = $(this);
           $('html, body').stop().animate({
-            // scrollTop: ($($anchor.attr('href')).offset().top - 50)
-            scrollTop: ($($anchor.attr('href')).offset().top)
+            scrollTop: ($($anchor.attr('href')).offset().top - 70)
+            // scrollTop: ($($anchor.attr('href')).offset().top)
           }, 1250, 'easeInOutExpo');
           event.preventDefault();
       });
@@ -425,7 +437,7 @@
       // Highlight the top nav as scrolling occurs
       $('body').scrollspy({
           target: '.navbar-fixed-top',
-          offset: 51
+          offset: 71
       });
       
       // Closes the Responsive Menu on Menu Item Click
@@ -436,7 +448,7 @@
       // Offset for Main Navigation
       $('#mainNav').affix({
           offset: {
-              top: 100
+            top: 100
           }
       })
     })(jQuery); // End of use strict
