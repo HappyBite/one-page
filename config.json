@@ -291,9 +291,8 @@
             "title": "Logo" 
           },
           "show_logo": {
-            "type": "string",
-            "title": "Show logo image",
-            "format": "boolean"
+            "type": "boolean",
+            "title": "Show logo image"
           },
           "logo_text": {
             "type": "string",
