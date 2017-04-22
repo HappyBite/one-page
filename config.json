@@ -301,7 +301,7 @@
           "logo_margin_top": {
             "type": "integer",
             "title": "margin top",
-            "minimum": 0,
+            "minimum": -10,
             "maximum": 30
           },
           "navigation": {
@@ -481,7 +481,7 @@
         "logo": "http://hemsidaonline.se/global/images/logotype/3.png",
         "logo_show": false,
         "logo_text": "The Page",
-        "logo_margin_top": "0",
+        "logo_margin_top": 0,
         "navigation": [
           {
        	  	"title": "Services",
