@@ -300,7 +300,7 @@
           },
           "logo_margin_top": {
             "type": "integer",
-            "title": "margin top",
+            "title": "Margin top",
             "minimum": -10,
             "maximum": 30
           },
