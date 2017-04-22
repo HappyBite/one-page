@@ -292,7 +292,7 @@
           },
           "logo_show": {
             "type": "boolean",
-            "title": "Show logo image"
+            "title": "Visa logobild?"
           },
           "logo_text": {
             "type": "string",
@@ -484,7 +484,7 @@
     },
     "blocks": {
       "navigation": {
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS37_nhikwCWGQ-6TaPeLJlUZwrBrmyZfRlUnNJlpQcGjxUsr46Ug",
+        "logo": "http://hemsidaonline.se/global/images/logotype/3.png",
         "logo_show": false,
         "logo_text": "The Page",
         "logo_padding_top": "0",
