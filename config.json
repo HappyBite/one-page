@@ -286,6 +286,27 @@
       "navigation": {
         "title": "Navigation",
         "properties": {
+          "navigation": {
+            "type": "array",
+            "title": "Navigation",
+            "items": {
+              "type": "object",
+              "title": "Länk",
+              "display_field": "title",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "title": "Title",
+                  "default": "New link"
+                },
+                "link": {
+                  "type": "string",
+                  "title": "Länk",
+                  "default": "#"
+                }
+              }
+            }
+          },
           "logo": {
             "type": "filepicker",
             "title": "Logo"
@@ -309,27 +330,6 @@
             "title": "Logo width in pixels",
             "minimum": 0,
             "maximum": 500
-          },
-          "navigation": {
-            "type": "array",
-            "title": "Navigation",
-            "items": {
-              "type": "object",
-              "title": "Länk",
-              "display_field": "title",
-              "properties": {
-                "title": {
-                  "type": "string",
-                  "title": "Title",
-                  "default": "New link"
-                },
-                "link": {
-                  "type": "string",
-                  "title": "Länk",
-                  "default": "#"
-                }
-              }
-            }
           }
         }
       },
