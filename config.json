@@ -287,8 +287,8 @@
         "title": "Navigation",
         "properties": {
           "logo": {
-            "type": "string",
-            "title": "Logo" 
+            "type": "filepicker",
+            "title": "Logo"
           },
           "logo_show": {
             "type": "boolean",
@@ -298,11 +298,17 @@
             "type": "string",
             "title": "Logotext" 
           },
-          "logo_margin_top": {
+          "logo_padding_top": {
             "type": "integer",
-            "title": "Margin top",
-            "minimum": -10,
+            "title": "Logo padding top",
+            "minimum": 0,
             "maximum": 30
+          },
+          "logo_width": {
+            "type": "integer",
+            "title": "Logo width in pixels",
+            "minimum": 0,
+            "maximum": 500
           },
           "navigation": {
             "type": "array",
@@ -478,10 +484,15 @@
     },
     "blocks": {
       "navigation": {
-        "logo": "http://hemsidaonline.se/global/images/logotype/11.png",
+        "logo": {
+          "name": "logo.png",
+          "url": "https://assets.brandfolder.com/8w7lv8ml/view.png",
+          "content_type": "image/png"
+        },
         "logo_show": false,
         "logo_text": "The Page",
-        "logo_margin_top": 0,
+        "logo_padding_top": 12,
+        "logo_width": 100,
         "navigation": [
           {
        	  	"title": "Services",

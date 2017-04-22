@@ -121,6 +121,9 @@
       color: #ffffff !important;
       background: #fed136 !important;
     }
+    .navbar-brand > img {
+      max-width: 100%;
+    }
   </style>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -141,10 +144,12 @@
       <a
         class="navbar-brand page-scroll"
         
+          style="padding-top:12px;padding-left: 0;width:100px;"
+        
         href="#page-top"
         data-field-string="logo_text"
         data-toolbar-buttons="['bold', 'italic', 'underline']"
-      >The Page</a>
+      ><img src="https://assets.brandfolder.com/8w7lv8ml/view.png" alt="Logo" /></a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -166,7 +171,7 @@
           <li>
             <a
               class="page-scroll"
-              href="#header"
+              href="#portfolio"
               data-field-string="navigation[1].title"
               data-field-uri="navigation[1].link"
               data-toolbar-buttons="['anchor']"

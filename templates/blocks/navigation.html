@@ -9,12 +9,12 @@
       <a
         class="navbar-brand page-scroll"
         {% if logo_show %}
-          style="margin-top:{{ logo_margin_top }}px;padding: 0;"
+          style="padding-top:{{ logo_padding_top }}px;padding-left: 0;width:{{ logo_width }}px;"
         {% endif %}
         href="#page-top"
         data-field-string="logo_text"
         data-toolbar-buttons="['bold', 'italic', 'underline']"
-      >{% if logo_show %}<img src="{{ logo }}" alt="Logo" />{% else %}{{ logo_text }}{% endif %}</a>
+      >{% if logo_show %}<img src="{{ logo.url }}" alt="Logo" />{% else %}{{ logo_text }}{% endif %}</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
