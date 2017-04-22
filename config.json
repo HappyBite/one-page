@@ -298,9 +298,9 @@
             "type": "string",
             "title": "Logotext" 
           },
-          "logo_margin_top": {
+          "logo_padding_top": {
             "type": "integer",
-            "title": "margin top",
+            "title": "Padding top",
             "minimum": 0,
             "maximum": 30
           },
@@ -481,7 +481,7 @@
         "logo": "http://hemsidaonline.se/global/images/logotype/3.png",
         "logo_show": false,
         "logo_text": "The Page",
-        "logo_margin_top": "0",
+        "logo_padding_top": "0",
         "navigation": [
           {
        	  	"title": "Services",
