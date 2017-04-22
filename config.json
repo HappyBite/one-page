@@ -101,6 +101,10 @@
             "title": "Logo width in pixels",
             "minimum": 0,
             "maximum": 500
+          },
+          "show": {
+            "type": "boolean",
+            "title": "Visa logobild?"
           }
         }
       },
@@ -295,10 +299,6 @@
             "type": "filepicker",
             "title": "Logo"
           },
-          "logo_show": {
-            "type": "boolean",
-            "title": "Visa logobild?"
-          },
           "logo_text": {
             "type": "string",
             "title": "Logotext" 
@@ -482,7 +482,6 @@
           "url": "https://assets.brandfolder.com/8w7lv8ml/view.png",
           "content_type": "image/png"
         },
-        "logo_show": false,
         "logo_text": "The Page",
         "navigation": [
           {
@@ -579,7 +578,8 @@
             "text_hover_color": "#fed136",
             "text_focus_color": "#fed136",
             "padding_top": 12,
-            "width": 100
+            "width": 100,
+            "show": false
           },
           "navigation": {
             "text_color": "#fff",
