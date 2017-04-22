@@ -186,6 +186,13 @@
             "ui:css_selector": "p",
             "ui:css_property": "color"
           },
+          "text_muted_color": {
+            "type": "string",
+            "title": "Textfärg muted",
+            "format": "color",
+            "ui:css_selector": ".text_muted",
+            "ui:css_property": "color"
+          },
           "link_color": {
             "type": "string",
             "title": "Länk textfärg",
@@ -195,13 +202,6 @@
             "type": "string",
             "title": "Länk textfärg hover",
             "format": "color"
-          },
-          "text_muted_color": {
-            "type": "string",
-            "title": "Textfärg muted",
-            "format": "color",
-            "ui:css_selector": ".text_muted",
-            "ui:css_property": "color"
           },
           "primary_bg_color": {
             "type": "string",
@@ -605,9 +605,9 @@
             "body_bg_color": "#fff",
             "heading_text_color": "#333",
             "text_color": "#333",
+            "text_muted_color": "#777",
             "link_color": "#fed136",
             "link_hover_color": "fec503",
-            "text_muted_color": "#777",
             "primary_bg_color": "#fed136",
             "primary_text_color": "#fed136",
             "selection_text_color": "#ffffff",
