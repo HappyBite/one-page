@@ -287,8 +287,8 @@
         "title": "Navigation",
         "properties": {
           "logo": {
-            "type": "string",
-            "title": "Logo" 
+            "type": "filepicker",
+            "title": "Logo"
           },
           "logo_show": {
             "type": "boolean",
@@ -484,7 +484,11 @@
     },
     "blocks": {
       "navigation": {
-        "logo": "https://assets.brandfolder.com/8w7lv8ml/view.png",
+        "logo": {
+          "name": "logo.png",
+          "url": "https://assets.brandfolder.com/8w7lv8ml/view.png",
+          "content_type": "image/png"
+        },
         "logo_show": false,
         "logo_text": "The Page",
         "logo_padding_top": 12,
