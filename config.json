@@ -90,6 +90,14 @@
             "title": "Textfärg focus",
             "format": "color"
           },
+          "image": {
+            "type": "filepicker",
+            "title": "Logo"
+          },
+          "text": {
+            "type": "string",
+            "title": "Logotext" 
+          },
           "padding_top": {
             "type": "integer",
             "title": "Logo padding top",
@@ -295,14 +303,6 @@
       "navigation": {
         "title": "Navigation",
         "properties": {
-          "logo": {
-            "type": "filepicker",
-            "title": "Logo"
-          },
-          "logo_text": {
-            "type": "string",
-            "title": "Logotext" 
-          },
           "navigation": {
             "type": "array",
             "title": "Navigation",
@@ -477,13 +477,6 @@
     },
     "blocks": {
       "navigation": {
-        "logo": {
-          "name": "logo.png",
-          "url": "https://assets.brandfolder.com/8w7lv8ml/view.png",
-          "content_type": "image/png"
-        },
-        "logo_show": false,
-        "logo_text": "The Page",
         "navigation": [
           {
        	  	"title": "Services",
@@ -578,6 +571,12 @@
             "text_color": "#fed136",
             "text_hover_color": "#fed136",
             "text_focus_color": "#fed136",
+            "image": {
+              "name": "logo.png",
+              "url": "https://assets.brandfolder.com/8w7lv8ml/view.png",
+              "content_type": "image/png"
+            },
+            "text": "The Page",
             "padding_top": 12,
             "width": 100,
             "show": false
