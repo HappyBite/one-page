@@ -186,6 +186,13 @@
             "ui:css_selector": "p",
             "ui:css_property": "color"
           },
+          "text_muted_color": {
+            "type": "string",
+            "title": "Textfärg muted",
+            "format": "color",
+            "ui:css_selector": ".text_muted",
+            "ui:css_property": "color"
+          },
           "link_color": {
             "type": "string",
             "title": "Länk textfärg",
