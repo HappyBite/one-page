@@ -110,6 +110,13 @@
             "ui:css_selector": ".navbar-custom .nav li a:hover",
             "ui:css_property": "color"
           },
+          "text_active_color": {
+            "type": "string",
+            "title": "Textfärg active",
+            "format": "color",
+            "ui:css_selector": ".navbar-custom .nav li a:active",
+            "ui:css_property": "color"
+          },
           "text_focus_color": {
             "type": "string",
             "title": "Textfärg focus",
@@ -561,6 +568,7 @@
           "navigation": {
             "text_color": "#fff",
             "text_hover_color": "#fed136",
+            "text_active_color": "#fed136",
             "text_focus_color": "#fed136",
             "bg_text_color": "transparent",
             "bg_text_hover_color": "transparent",
@@ -607,6 +615,7 @@
           "navigation": {
             "text_color": "#ffffff",
             "text_hover_color": "#ffffff",
+            "text_active_color": "#ffffff",
             "text_focus_color": "#ffffff",
             "bg_text_color": "transparent",
             "bg_text_hover_color": "transparent",
