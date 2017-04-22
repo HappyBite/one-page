@@ -94,10 +94,6 @@
             "type": "filepicker",
             "title": "Logo"
           },
-          "text": {
-            "type": "string",
-            "title": "Logotext" 
-          },
           "padding_top": {
             "type": "integer",
             "title": "Logo padding top",
@@ -303,6 +299,10 @@
       "navigation": {
         "title": "Navigation",
         "properties": {
+          "logo_text": {
+            "type": "string",
+            "title": "Logotext" 
+          },
           "navigation": {
             "type": "array",
             "title": "Navigation",
@@ -477,6 +477,7 @@
     },
     "blocks": {
       "navigation": {
+        "logo_text": "The Page",
         "navigation": [
           {
        	  	"title": "Services",
@@ -576,7 +577,6 @@
               "url": "https://assets.brandfolder.com/8w7lv8ml/view.png",
               "content_type": "image/png"
             },
-            "text": "The Page",
             "padding_top": 12,
             "width": 100,
             "show": false
