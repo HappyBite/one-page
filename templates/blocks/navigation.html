@@ -8,6 +8,9 @@
       </button>
       <a
         class="navbar-brand page-scroll"
+        {% if show_logo %}
+          style="padding-top:{{ logo_padding_top }}px;padding-top:{{ logo_padding_left }}px;"
+        {% endif %}
         href="#page-top"
         data-field-string="logo_text"
         data-toolbar-buttons="['bold', 'italic', 'underline']"

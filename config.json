@@ -290,13 +290,25 @@
             "type": "string",
             "title": "Logo" 
           },
-          "show_logo": {
+          "logo_show": {
             "type": "boolean",
             "title": "Show logo image"
           },
           "logo_text": {
             "type": "string",
             "title": "Logotext" 
+          },
+          "logo_padding_top": {
+            "type": "integer",
+            "title": "Padding top",
+            "minimum": 0,
+            "maximum": 30
+          },
+          "logo_padding_left": {
+            "type": "integer",
+            "title": "Padding left",
+            "minimum": 0,
+            "maximum": 30
           },
           "navigation": {
             "type": "array",
@@ -473,7 +485,10 @@
     "blocks": {
       "navigation": {
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS37_nhikwCWGQ-6TaPeLJlUZwrBrmyZfRlUnNJlpQcGjxUsr46Ug",
-        "logo_text": "Start Bootstrap",
+        "logo_show": false,
+        "logo_text": "The Page",
+        "logo_padding_top": "0",
+        "logo_padding_left": "0",
         "navigation": [
           {
        	  	"title": "Services",
