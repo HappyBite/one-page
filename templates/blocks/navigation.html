@@ -11,7 +11,7 @@
         href="#page-top"
         data-field-string="logo_text"
         data-toolbar-buttons="['bold', 'italic', 'underline']"
-      >{{ logo_text }}</a>
+      >{% if show_logo %}<img src="{{ logo }}" alt="Logo" />{% else %}{{ logo_text }}{% endif %}</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
