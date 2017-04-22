@@ -308,7 +308,7 @@
             "type": "integer",
             "title": "Logo width in percent",
             "minimum": 0,
-            "maximum": 20
+            "maximum": 100
           },
           "navigation": {
             "type": "array",
@@ -488,7 +488,7 @@
         "logo_show": false,
         "logo_text": "The Page",
         "logo_padding_top": 0,
-        "logo_width": 100,
+        "logo_width": 20,
         "navigation": [
           {
        	  	"title": "Services",
