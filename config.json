@@ -110,6 +110,13 @@
             "ui:css_selector": ".navbar-custom .nav li a:hover",
             "ui:css_property": "color"
           },
+          "text_active_color": {
+            "type": "string",
+            "title": "Textfärg active",
+            "format": "color",
+            "ui:css_selector": ".navbar-custom .nav li a:active",
+            "ui:css_property": "color"
+          },
           "text_focus_color": {
             "type": "string",
             "title": "Textfärg focus",
@@ -283,9 +290,19 @@
             "type": "string",
             "title": "Logo" 
           },
+          "logo_show": {
+            "type": "boolean",
+            "title": "Visa logobild?"
+          },
           "logo_text": {
             "type": "string",
             "title": "Logotext" 
+          },
+          "logo_margin_top": {
+            "type": "integer",
+            "title": "Margin top",
+            "minimum": -10,
+            "maximum": 30
           },
           "navigation": {
             "type": "array",
@@ -461,8 +478,10 @@
     },
     "blocks": {
       "navigation": {
-        "logo": "http://www.example.com/logo.png",
-        "logo_text": "Start Bootstrap",
+        "logo": "http://hemsidaonline.se/global/images/logotype/11.png",
+        "logo_show": false,
+        "logo_text": "The Page",
+        "logo_margin_top": 0,
         "navigation": [
           {
        	  	"title": "Services",
@@ -561,6 +580,7 @@
           "navigation": {
             "text_color": "#fff",
             "text_hover_color": "#fed136",
+            "text_active_color": "#fed136",
             "text_focus_color": "#fed136",
             "bg_text_color": "transparent",
             "bg_text_hover_color": "transparent",
@@ -607,6 +627,7 @@
           "navigation": {
             "text_color": "#ffffff",
             "text_hover_color": "#ffffff",
+            "text_active_color": "#ffffff",
             "text_focus_color": "#ffffff",
             "bg_text_color": "transparent",
             "bg_text_hover_color": "transparent",

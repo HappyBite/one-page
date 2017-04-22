@@ -17,71 +17,59 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   <!-- Theme CSS -->
   <link href="https://blackrockdigital.github.io/startbootstrap-agency/css/agency.min.css" rel="stylesheet">
-  <style id="editor-style">
-    .navbar-custom {
-      margin: 0;
-      position: static;
-    }
-    @media (min-width: 768px) {
-      body {
-        padding-top: 0;
-      }
-      .navbar-custom {
-        background-color: #222;
-        margin: 0;
-        padding: 10px 0;
-      }
-    }
-  </style>
+  
   <style>
     /* General */
     body {
-      background-color: #f1f1f1;
+      background-color: #fff;
       font-size: 14px;
     }
     h1, h2, h3, h4, h5, h6 {
-      color: #555555;
+      color: #333;
     }
     p {
-      color: #555555;
+      color: #333;
     }
     a {
-      color: #005da0;
+      color: #fed136;
     }
     a:hover,
     a:focus,
     a:active {
-      color: #005da0;
+      color: fec503;
     }
     .text_muted {
-      color: #555555;
+      color: #777;
     }
     /* Navbar */
     .navbar-custom {
-      background-color: #005da0;
-      border-bottom: solid 0px #f1f1f1;
+      background-color: #222;
+      border-bottom: solid 0px transparent;
       padding-top: 10px;
       padding-bottom: 10px;
     }
     /* Logo */
     .navbar-custom .navbar-brand {
-      color: #ffffff;
+      color: #fed136;
     }
     .navbar-custom .navbar-brand:hover {
-      color: #ffffff;
+      color: #fed136;
+    }
+    .navbar-custom .navbar-brand:active {
+      color: ;
     }
     .navbar-custom .navbar-brand:focus {
-      color: #ffffff;
+      color: #fed136;
     }
     /* Navigation */
     .navbar-custom .nav li a {
-      color: #ffffff;
+      color: #fff;
     }
     .navbar-custom .nav li a:hover {
-      color: #ffffff;
+      color: #fed136;
     }
     .navbar-custom .nav li a:focus {
-      color: #ffffff;
+      color: #fed136;
     }
     .navbar-custom .nav li a {
       background-color: transparent;
@@ -91,22 +79,22 @@
     }
     .navbar-custom .navbar-nav > .active > a,
     .navbar-custom .navbar-nav > .active > a:hover {
-      background-color: #555555;
+      background-color: #fed136;
     }
     .navbar-custom .navbar-nav > .active > a:focus {
-      background-color: #555555;
+      background-color: #fed136;
     }
     .navbar-custom .navbar-toggle {
-      background-color: #005da0;
-      border-color: #005da0;
+      background-color: #fed136;
+      border-color: #fed136;
     }
     .navbar-custom .navbar-toggle:hover {
-      background-color: #005da0;
-      border-color: #005da0;
+      background-color: #fed136;
+      border-color: #fed136;
     }
     .navbar-custom .navbar-toggle:focus {
-      background-color: #005da0;
-      border-color: #005da0;
+      background-color: #fed136;
+      border-color: #fed136;
     }
     /* Header */
     header .intro-text .intro-lead-in {
@@ -119,19 +107,19 @@
     header .btn-xl:hover,
     header .btn-xl:focus,
     header .btn-xl:active {
-      background-color: #005da0;
-      border-color: #005da0;
+      background-color: #fed136;
+      border-color: #fed136;
     }
     /* Buttons */
     .btn-primary {
-      background-color: #005da0;
+      background-color: #fed136;
     }
     .text-primary { 
-      color: #005da0;
+      color: #fed136;
     }
     ::selection {
-      color: #f1f1f1 !important;
-      background: #005da0 !important;
+      color: #ffffff !important;
+      background: #fed136 !important;
     }
   </style>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -152,6 +140,7 @@
       </button>
       <a
         class="navbar-brand page-scroll"
+        
         href="#page-top"
         data-field-string="logo_text"
         data-toolbar-buttons="['bold', 'italic', 'underline']"
@@ -172,6 +161,46 @@
               data-field-uri="navigation[0].link"
               data-toolbar-buttons="['anchor']"
             >Services</a>
+          </li>
+        
+          <li>
+            <a
+              class="page-scroll"
+              href="#header"
+              data-field-string="navigation[1].title"
+              data-field-uri="navigation[1].link"
+              data-toolbar-buttons="['anchor']"
+            >Portfolio</a>
+          </li>
+        
+          <li>
+            <a
+              class="page-scroll"
+              href="#about"
+              data-field-string="navigation[2].title"
+              data-field-uri="navigation[2].link"
+              data-toolbar-buttons="['anchor']"
+            >About</a>
+          </li>
+        
+          <li>
+            <a
+              class="page-scroll"
+              href="#team"
+              data-field-string="navigation[3].title"
+              data-field-uri="navigation[3].link"
+              data-toolbar-buttons="['anchor']"
+            >Team</a>
+          </li>
+        
+          <li>
+            <a
+              class="page-scroll"
+              href="#contact"
+              data-field-string="navigation[4].title"
+              data-field-uri="navigation[4].link"
+              data-toolbar-buttons="['anchor']"
+            >Contact</a>
           </li>
         
       </ul>
@@ -276,6 +305,39 @@
     </div>
   </div>
 </section>
+<div id="teasers"> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2 class="js-editable">Heading</h2>
+        <div class="js-editable">
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+        </div>
+        <p class="js-editable">
+            <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="js-editable">Heading</h2>
+        <div class="js-editable">
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+        </div>
+        <p class="js-editable">
+            <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="js-editable">Heading</h2>
+        <div class="js-editable">
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+        </div>
+        <p class="js-editable">
+            <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 <footer id="footer">
   <div class="container">
     <div class="row">
@@ -337,7 +399,42 @@
   <!-- Contact Form JavaScript -->
   <script src="https://blackrockdigital.github.io/startbootstrap-agency/js/jqBootstrapValidation.js"></script>
   <script src="https://blackrockdigital.github.io/startbootstrap-agency/js/contact_me.js"></script>
-  <!-- Theme JavaScript -->
+  <!-- Theme JavaScript
   <script src="https://blackrockdigital.github.io/startbootstrap-agency/js/agency.min.js"></script>
+   -->
+  <script>
+    // Agency Theme JavaScript
+    (function($) {
+      "use strict"; // Start of use strict
+      
+      // jQuery for page scrolling feature - requires jQuery Easing plugin
+      $('a.page-scroll').bind('click', function(event) {
+          var $anchor = $(this);
+          $('html, body').stop().animate({
+            // scrollTop: ($($anchor.attr('href')).offset().top - 50)
+            scrollTop: ($($anchor.attr('href')).offset().top)
+          }, 1250, 'easeInOutExpo');
+          event.preventDefault();
+      });
+      
+      // Highlight the top nav as scrolling occurs
+      $('body').scrollspy({
+          target: '.navbar-fixed-top',
+          offset: 51
+      });
+      
+      // Closes the Responsive Menu on Menu Item Click
+      $('.navbar-collapse ul li a').click(function(){ 
+              $('.navbar-toggle:visible').click();
+      });
+      
+      // Offset for Main Navigation
+      $('#mainNav').affix({
+          offset: {
+              top: 100
+          }
+      })
+    })(jQuery); // End of use strict
+  </script>
   </body>
 </html>
