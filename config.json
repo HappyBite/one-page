@@ -89,6 +89,22 @@
             "type": "string",
             "title": "Textfärg focus",
             "format": "color"
+          },
+          "padding_top": {
+            "type": "integer",
+            "title": "Logo padding top",
+            "minimum": 0,
+            "maximum": 30
+          },
+          "width": {
+            "type": "integer",
+            "title": "Logo width in pixels",
+            "minimum": 0,
+            "maximum": 500
+          },
+          "show": {
+            "type": "boolean",
+            "title": "Visa logobild?"
           }
         }
       },
@@ -196,13 +212,6 @@
             "title": "Länk textfärg hover",
             "format": "color"
           },
-          "text_muted_color": {
-            "type": "string",
-            "title": "Textfärg muted",
-            "format": "color",
-            "ui:css_selector": ".text_muted",
-            "ui:css_property": "color"
-          },
           "primary_bg_color": {
             "type": "string",
             "title": "Primary background color",
@@ -286,6 +295,14 @@
       "navigation": {
         "title": "Navigation",
         "properties": {
+          "logo": {
+            "type": "filepicker",
+            "title": "Logo"
+          },
+          "logo_text": {
+            "type": "string",
+            "title": "Logotext" 
+          },
           "navigation": {
             "type": "array",
             "title": "Navigation",
@@ -306,30 +323,6 @@
                 }
               }
             }
-          },
-          "logo": {
-            "type": "filepicker",
-            "title": "Logo"
-          },
-          "logo_show": {
-            "type": "boolean",
-            "title": "Visa logobild?"
-          },
-          "logo_text": {
-            "type": "string",
-            "title": "Logotext" 
-          },
-          "logo_padding_top": {
-            "type": "integer",
-            "title": "Logo padding top",
-            "minimum": 0,
-            "maximum": 30
-          },
-          "logo_width": {
-            "type": "integer",
-            "title": "Logo width in pixels",
-            "minimum": 0,
-            "maximum": 500
           }
         }
       },
@@ -491,8 +484,6 @@
         },
         "logo_show": false,
         "logo_text": "The Page",
-        "logo_padding_top": 12,
-        "logo_width": 100,
         "navigation": [
           {
        	  	"title": "Services",
@@ -586,7 +577,10 @@
           "logo": {
             "text_color": "#fed136",
             "text_hover_color": "#fed136",
-            "text_focus_color": "#fed136"
+            "text_focus_color": "#fed136",
+            "padding_top": 12,
+            "width": 100,
+            "show": false
           },
           "navigation": {
             "text_color": "#fff",
@@ -605,9 +599,9 @@
             "body_bg_color": "#fff",
             "heading_text_color": "#333",
             "text_color": "#333",
+            "text_muted_color": "#777",
             "link_color": "#fed136",
             "link_hover_color": "fec503",
-            "text_muted_color": "#777",
             "primary_bg_color": "#fed136",
             "primary_text_color": "#fed136",
             "selection_text_color": "#ffffff",
