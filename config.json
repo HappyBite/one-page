@@ -278,18 +278,6 @@
             "format": "color"
           }
         }
-      },
-      "test": {
-        "title": "Test",
-        "properties": {
-          "relationship": {
-            "type": "relationship",
-            "title": "Relationship",
-            "data": {
-              "type": "media"
-            }
-          }  
-        }
       }
     },
     "page": {
