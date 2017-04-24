@@ -348,6 +348,11 @@
           "image": {
             "type": "filepicker",
             "title": "Bild"
+          },
+          "image_1": {
+            "type": "string",
+            "title": "Bild",
+            "format": "file"
           }
         }
       },
