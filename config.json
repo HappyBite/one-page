@@ -581,17 +581,17 @@
         "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
         "team": [
           {
-            "image": "img/team/1.jpg",
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/1.jpg",
             "heading": "Kay Garland",
             "text": "Lead Designer"
           },
           {
-            "image": "img/team/2.jpg",
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/2.jpg",
             "heading": "Larry Parker",
             "text": "Lead Marketer"
           },
           {
-            "image": "img/team/3.jpg",
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/3.jpg",
             "heading": "Diana Pertersen",
             "text": "Lead Developer"
           }
