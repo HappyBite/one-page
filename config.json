@@ -42,7 +42,9 @@
           "bg_color": {
             "type": "string",
             "title": "Bakgrundsfärg",
-            "format": "color"
+            "format": "color",
+            "ui:css_selector": ".navbar-custom",
+            "ui:css_property": "color"
           },
           "padding_top": {
             "type": "integer",
@@ -65,7 +67,9 @@
           "border_bottom_color": {
             "type": "string",
             "title": "Border bottom color",
-            "format": "color"
+            "format": "color",
+            "ui:css_selector": ".navbar-custom",
+            "ui:css_property": "border-color"
           }
         }
       },
