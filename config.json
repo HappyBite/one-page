@@ -23,14 +23,14 @@
       "icon": "group"
     },
     {
-      "title": "Footer",
-      "id": "footer",
+      "title": "Contact",
+      "id": "contact",
       "icon": "address-card-o"
     },
     {
-      "title": "Test",
-      "id": "test",
-      "icon": "file"
+      "title": "Footer",
+      "id": "footer",
+      "icon": "address-card-o"
     }
   ],
   "settings_schema": {
@@ -434,31 +434,16 @@
           }
         }
       },
-      "hero": {
-        "title": "Hero",
+      "contact": {
+        "title": "Contact",
         "properties": {
           "heading": {
             "type": "string",
             "title": "Rubrik" 
           },
-          "text": {
-            "type": "text",
-            "title": "Text",
-            "field": {
-              "height": "155"
-            }
-          },
-          "image": {
-            "type": "filepicker",
-            "title": "Bild"
-          },
-          "link": {
+          "sub_heading": {
             "type": "string",
-            "title": "uri" 
-          },
-          "link_text": {
-            "type": "string",
-            "title": "Länktext" 
+            "title": "Underrubrik" 
           }
         }
       },
@@ -598,11 +583,9 @@
         ],
         "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
       },
-      "hero": {
-        "heading": "Rubrik",
-        "text": "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.",
-        "link": "http://www.example.com",
-        "link_text": "Läs mer »"
+      "contact": {
+        "heading": "Contact Us",
+        "sub_heading": "Lorem ipsum dolor sit amet consectetur."
       },
       "footer": {
         "copyright_text": "Copyright &copy; Your Website 2016",
