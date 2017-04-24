@@ -18,9 +18,9 @@
       "icon": "file-text-o"
     },
     {
-      "title": "Text",
-      "id": "teasers",
-      "icon": "file-text-o"
+      "title": "Team",
+      "id": "team",
+      "icon": "group"
     },
     {
       "title": "Footer",
