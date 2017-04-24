@@ -555,7 +555,7 @@
       }
     },
     "theme": {
-      "current": "klar",
+      "current": "default",
       "presets": {
         "default": {
           "navbar": {
