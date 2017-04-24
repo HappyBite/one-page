@@ -431,7 +431,7 @@
           "text": {
             "type": "string",
             "title": "Text" 
-          },
+          }
         }
       },
       "hero": {
