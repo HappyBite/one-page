@@ -152,7 +152,9 @@
           "bg_text_color": {
             "type": "string",
             "title": "Bakgrund på text",
-            "format": "color"
+            "format": "color",
+            "ui:css_selector": ".navbar-custom .nav li a",
+            "ui:css_property": "background-color"
           },
           "bg_text_hover_color": {
             "type": "string",
