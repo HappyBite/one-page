@@ -95,8 +95,9 @@
             "format": "color"
           },
           "image": {
-            "type": "filepicker",
-            "title": "Logo"
+            "type": "string",
+            "title": "Logo",
+            "format": "file"
           },
           "padding_top": {
             "type": "integer",
