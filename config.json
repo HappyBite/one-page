@@ -329,11 +329,6 @@
       "header": {
         "title": "Header",
         "properties": {
-          "image_1": {
-            "type": "string",
-            "title": "Bild",
-            "format": "file"
-          },
           "lead_in": {
             "type": "string",
             "title": "Lead in"
@@ -351,8 +346,9 @@
             "title": "Länktext" 
           },
           "image": {
-            "type": "filepicker",
-            "title": "Bild"
+            "type": "string",
+            "title": "Bild",
+            "format": "file"
           }
         }
       },
