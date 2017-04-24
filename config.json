@@ -18,9 +18,9 @@
       "icon": "file-text-o"
     },
     {
-      "title": "Text",
-      "id": "teasers",
-      "icon": "file-text-o"
+      "title": "Team",
+      "id": "team",
+      "icon": "group"
     },
     {
       "title": "Footer",
@@ -42,7 +42,9 @@
           "bg_color": {
             "type": "string",
             "title": "Bakgrundsfärg",
-            "format": "color"
+            "format": "color",
+            "ui:css_selector": ".navbar-custom",
+            "ui:css_property": "background-color"
           },
           "padding_top": {
             "type": "integer",
@@ -65,7 +67,9 @@
           "border_bottom_color": {
             "type": "string",
             "title": "Border bottom color",
-            "format": "color"
+            "format": "color",
+            "ui:css_selector": ".navbar-custom",
+            "ui:css_property": "border-color"
           }
         }
       },
@@ -91,8 +95,9 @@
             "format": "color"
           },
           "image": {
-            "type": "filepicker",
-            "title": "Logo"
+            "type": "string",
+            "title": "Logo",
+            "format": "file"
           },
           "padding_top": {
             "type": "integer",
@@ -388,6 +393,47 @@
           }
         }
       },
+      "team": {
+        "title": "Team",
+        "properties": {
+          "heading": {
+            "type": "string",
+            "title": "Rubrik" 
+          },
+          "sub_heading": {
+            "type": "string",
+            "title": "Underrubrik" 
+          },
+          "team": {
+            "type": "array",
+            "title": "Services",
+            "items": {
+              "type": "object",
+              "title": "Team member",
+              "display_field": "heading",
+              "properties": {
+                "image": {
+                  "type": "string",
+                  "title": "Bild",
+                  "format": "file"
+                },
+                "heading": {
+                  "type": "string",
+                  "title": "Rubrik" 
+                },
+                "text": {
+                  "type": "text",
+                  "title": "Text" 
+                }
+              }
+            }
+          },
+          "text": {
+            "type": "string",
+            "title": "Text" 
+          }
+        }
+      },
       "hero": {
         "title": "Hero",
         "properties": {
@@ -529,6 +575,28 @@
             "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
           }
         ]
+      },
+      "team": {
+        "heading": "Our Amazing Team",
+        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+        "team": [
+          {
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/1.jpg",
+            "heading": "Kay Garland",
+            "text": "Lead Designer"
+          },
+          {
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/2.jpg",
+            "heading": "Larry Parker",
+            "text": "Lead Marketer"
+          },
+          {
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/3.jpg",
+            "heading": "Diana Pertersen",
+            "text": "Lead Developer"
+          }
+        ],
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
       },
       "hero": {
         "heading": "Rubrik",
