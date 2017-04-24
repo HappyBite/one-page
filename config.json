@@ -346,8 +346,9 @@
             "title": "Länktext" 
           },
           "image": {
-            "type": "filepicker",
-            "title": "Bild"
+            "type": "string",
+            "title": "Bild",
+            "format": "file"
           }
         }
       },
@@ -506,11 +507,7 @@
         "heading": "IT'S NICE TO MEET YOU",
         "link": "#services",
         "link_text": "Tell me more",
-        "image": {
-          "name": "header-bg.jpg",
-          "url": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
-          "content_type": "image/jpg"
-        }
+        "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg"
       },
       "services": {
         "heading": "Services",
@@ -558,7 +555,7 @@
       }
     },
     "theme": {
-      "current": "klar",
+      "current": "default",
       "presets": {
         "default": {
           "navbar": {
