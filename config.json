@@ -44,7 +44,7 @@
             "title": "Bakgrundsfärg",
             "format": "color",
             "ui:css_selector": ".navbar-custom",
-            "ui:css_property": "color"
+            "ui:css_property": "background-color"
           },
           "padding_top": {
             "type": "integer",
