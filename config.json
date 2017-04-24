@@ -579,7 +579,7 @@
       "team": {
         "heading": "Our Amazing Team",
         "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
-        "items": [
+        "team": [
           {
             "image": "img/team/1.jpg",
             "heading": "Kay Garland",
