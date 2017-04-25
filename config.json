@@ -540,7 +540,7 @@
         "heading": "IT'S NICE TO MEET YOU",
         "link": "#services",
         "link_text": "Tell me more",
-        "image": "http://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg"
+        "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg"
       },
       "services": {
         "heading": "Services",
@@ -568,17 +568,17 @@
         "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
         "team": [
           {
-            "image": "http://blackrockdigital.github.io/startbootstrap-agency/img/team/1.jpg",
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/1.jpg",
             "heading": "Kay Garland",
             "text": "Lead Designer"
           },
           {
-            "image": "http://blackrockdigital.github.io/startbootstrap-agency/img/team/2.jpg",
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/2.jpg",
             "heading": "Larry Parker",
             "text": "Lead Marketer"
           },
           {
-            "image": "http://blackrockdigital.github.io/startbootstrap-agency/img/team/3.jpg",
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/3.jpg",
             "heading": "Diana Pertersen",
             "text": "Lead Developer"
           }
@@ -624,7 +624,7 @@
             "text_focus_color": "#fed136",
             "image": {
               "name": "logo.png",
-              "url": "http://assets.brandfolder.com/8w7lv8ml/view.png",
+              "url": "https://assets.brandfolder.com/8w7lv8ml/view.png",
               "content_type": "image/png"
             },
             "padding_top": 12,
