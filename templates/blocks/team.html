@@ -19,7 +19,11 @@
       {% for item in team %}
       <div class="col-sm-4">
         <div class="team-member">
-          <img src="{{ item.image }}" class="img-responsive img-circle" alt="{{ item.heading }}">
+          <img
+            src="{{ item.image }}"
+            class="img-responsive img-circle"
+            data-field-string-file="image"
+            alt="{{ item.heading }}" />
           <h4
             data-field-string="team[{{loop.index0}}].heading"
             data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
