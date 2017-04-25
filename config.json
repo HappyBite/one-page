@@ -380,15 +380,18 @@
               "properties": {
                 "icon": {
                   "type": "string",
-                  "title": "Icon" 
+                  "title": "Icon",
+                  "default": "image"
                 },
                 "heading": {
                   "type": "string",
-                  "title": "Rubrik" 
+                  "title": "Rubrik",
+                  "default": "Rubrik"
                 },
                 "text": {
                   "type": "text",
-                  "title": "Text" 
+                  "title": "Text",
+                  "default": "En kortare text"
                 }
               }
             }
@@ -417,15 +420,18 @@
                 "image": {
                   "type": "string",
                   "title": "Bild",
-                  "format": "file"
+                  "format": "file",
+                  "default": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/3.jpg"
                 },
                 "heading": {
                   "type": "string",
-                  "title": "Rubrik" 
+                  "title": "Rubrik",
+                  "default": "Rubrik"
                 },
                 "text": {
                   "type": "text",
-                  "title": "Text" 
+                  "title": "Text",
+                  "default": "En kortare text"
                 }
               }
             }
