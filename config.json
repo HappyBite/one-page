@@ -466,26 +466,6 @@
             "type": "string",
             "title": "Copyright text" 
           },
-          "twitter_link": {
-            "type": "string",
-            "title": "Twitter",
-            "format": "uri"
-          },
-          "facebook_link": {
-            "type": "string",
-            "title": "Facebook",
-            "format": "uri"
-          },
-          "instagram_link": {
-            "type": "string",
-            "title": "Instagram",
-            "format": "uri"
-          },
-          "linkedin_link": {
-            "type": "string",
-            "title": "Linked In",
-            "format": "uri"
-          },
           "social_links": {
             "type": "array",
             "title": "Social links",
