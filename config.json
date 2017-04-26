@@ -476,11 +476,13 @@
               "properties": {
                 "title": {
                   "type": "string",
-                  "title": "Titel" 
+                  "title": "Titel",
+                  "default": "Titel"
                 },
                 "icon": {
                   "type": "string",
                   "title": "Ikon",
+                  "default": "twitter",
                   "enum": [
                     "-1",
                     "twitter",
@@ -499,7 +501,8 @@
                 "link": {
                   "type": "string",
                   "title": "Länk",
-                  "format": "uri"
+                  "format": "uri",
+                  "default": "#youraccount"
                 }
               }
             }
@@ -514,12 +517,14 @@
               "properties": {
                 "title": {
                   "type": "string",
-                  "title": "Titel" 
+                  "title": "Titel",
+                  "default": "New link"
                 },
                 "link": {
                   "type": "string",
                   "title": "Länk",
-                  "format": "uri"
+                  "format": "uri",
+                  "default": "#"
                 }
               }
             }
