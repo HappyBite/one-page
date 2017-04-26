@@ -494,6 +494,10 @@
               "title": "Länk",
               "display_field": "title",
               "properties": {
+                "title": {
+                  "type": "string",
+                  "title": "Titel" 
+                },
                 "icon": {
                   "type": "string",
                   "title": "Ikon",
@@ -640,18 +644,22 @@
         "linkedin_link": "#youraccount",
         "social_links": [
           {
+            "title": "Twitter",
             "icon": "twitter",
             "link": "#youraccount"
           },
           {
+            "title": "Facebook",
             "icon": "facebook",
             "link": "#youraccount"
           },
           {
+            "title": "Instagram",
             "icon": "instagram",
             "link": "#youraccount"
           },
           {
+            "title": "LinkedIn",
             "icon": "linkedin",
             "link": "#youraccount"
           }
