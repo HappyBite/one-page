@@ -482,12 +482,14 @@
                   "type": "string",
                   "title": "Ikon",
                   "enum": [
+                    "-1",
                     "twitter",
                     "facebook",
                     "instagram",
                     "linkedin"
                   ],
                   "enumNames": [
+                    "Välj ikon",
                     "Twitter",
                     "Facebook",
                     "Instagram",
