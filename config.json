@@ -381,6 +381,7 @@
                 "icon": {
                   "type": "string",
                   "title": "Icon",
+                  "ui:widget": "icon",
                   "default": "image"
                 },
                 "heading": {
