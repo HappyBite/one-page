@@ -9,38 +9,16 @@
       </div>
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
-          <li>
-            <a
-              href="{{twitter_link}}"
-              data-field-string="$empty"
-              data-field-uri="twitter_link"
-              data-toolbar-buttons="['anchor']"
-            ><i class="fa fa-twitter"><span style="position:absolute;opacity: 0">h</span></i></a>
-          </li>
-          <li>
-            <a
-              href="{{facebook_link}}"
-              data-field-string="$empty"
-              data-field-uri="facebook_link"
-              data-toolbar-buttons="['anchor']"
-            ><i class="fa fa-facebook"><span style="position:absolute;opacity: 0">h</span></i></a>
-          </li>
-          <li>
-            <a
-              href="{{instagram_link}}"
-              data-field-string="$empty"
-              data-field-uri="instagram_link"
-              data-toolbar-buttons="['anchor']"
-            ><i class="fa fa-instagram"><span style="position:absolute;opacity: 0">h</span></i></a>
-          </li>
-          <li>
-            <a
-              href="{{linkedin_link}}"
-              data-field-string="$empty"
-              data-field-uri="linkedin_link"
-              data-toolbar-buttons="['anchor']"
-            ><i class="fa fa-linkedin"><span style="position:absolute;opacity: 0">h</span></i></a>
-          </li>
+          {% for item in social_links %}
+            <li>
+              <a
+                href="{{ item.link }}"
+                data-field-string="social_links[{{loop.index0}}].$empty"
+                data-field-uri="social_links[{{loop.index0}}].link"
+                data-toolbar-buttons="['anchor']"
+              ><i class="fa fa-{{ item.icon }}"><span style="position:absolute;opacity: 0">h</span></i></a>
+            </li>
+          {% endfor %}
         </ul>
       </div>
       <div class="col-md-4">

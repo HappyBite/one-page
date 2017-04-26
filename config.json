@@ -486,6 +486,38 @@
             "title": "Linked In",
             "format": "uri"
           },
+          "social_links": {
+            "type": "array",
+            "title": "Social links",
+            "items": {
+              "type": "object",
+              "title": "Länk",
+              "display_field": "title",
+              "properties": {
+                "icon": {
+                  "type": "string",
+                  "title": "Ikon",
+                  "enum": [
+                    "twitter",
+                    "facebook",
+                    "instagram",
+                    "linkedin"
+                  ],
+                  "enumNames": [
+                    "Twitter",
+                    "Facebook",
+                    "Instagram",
+                    "LinkedIn"
+                  ]
+                },
+                "link": {
+                  "type": "string",
+                  "title": "Länk",
+                  "format": "uri"
+                }
+              }
+            }
+          },
           "quick_links": {
             "type": "array",
             "title": "Snabblänkar",
@@ -606,10 +638,28 @@
         "facebook_link": "#youraccount",
         "instagram_link": "#youraccount",
         "linkedin_link": "#youraccount",
+        "social_links": [
+          {
+            "icon": "twitter",
+            "link": "#youraccount"
+          },
+          {
+            "icon": "facebook",
+            "link": "#youraccount"
+          },
+          {
+            "icon": "instagram",
+            "link": "#youraccount"
+          },
+          {
+            "icon": "linkedin",
+            "link": "#youraccount"
+          }
+        ]
         "quick_links": [
           {
             "title": "Privacy Policy",
-            "link": "#"
+            "link": ""
           },
           {
             "title": "Terms of Use",
