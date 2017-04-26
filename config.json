@@ -452,6 +452,10 @@
           "sub_heading": {
             "type": "string",
             "title": "Underrubrik" 
+          },
+          "submit_button_text": {
+            "type": "string",
+            "title": "Knapptext" 
           }
         }
       },
@@ -593,7 +597,8 @@
       },
       "contact": {
         "heading": "Contact Us",
-        "sub_heading": "Lorem ipsum dolor sit amet consectetur."
+        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+        "submit_button_text": "Send message"
       },
       "footer": {
         "copyright_text": "Copyright &copy; Your Website 2016",
