@@ -674,11 +674,7 @@
             "text_color": "#fed136",
             "text_hover_color": "#fed136",
             "text_focus_color": "#fed136",
-            "image": {
-              "name": "logo.png",
-              "url": "https://assets.brandfolder.com/8w7lv8ml/view.png",
-              "content_type": "image/png"
-            },
+            "image": "https://assets.brandfolder.com/8w7lv8ml/view.png",
             "padding_top": 12,
             "width": 100,
             "show": false
