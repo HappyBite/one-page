@@ -25,8 +25,8 @@
               class="page-scroll"
               href="{{ item.link }}"
               data-field-string="navigation[{{loop.index0}}].title"
-              data-field-uri="navigation[{{loop.index0}}].link"
-              data-toolbar-buttons="['anchor']"
+              no-data-field-uri="navigation[{{loop.index0}}].link"
+              data-toolbar-buttons="false"
             >{{ item.title }}</a>
           </li>
         {% endfor %}
