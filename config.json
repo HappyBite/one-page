@@ -484,14 +484,15 @@
                   "type": "string",
                   "title": "Ikon",
                   "default": "twitter",
-                  "enum": [
+                  "ui:widget": "icon",
+                  "num": [
                     "-1",
                     "twitter",
                     "facebook",
                     "instagram",
                     "linkedin"
                   ],
-                  "enumNames": [
+                  "numNames": [
                     "Välj ikon",
                     "Twitter",
                     "Facebook",
