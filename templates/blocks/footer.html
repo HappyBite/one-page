@@ -16,6 +16,8 @@
                 data-field-string="social_links[{{loop.index0}}].$empty"
                 data-field-uri="social_links[{{loop.index0}}].link"
                 data-toolbar-buttons="['anchor']"
+                data-field-string-ui-widget-icon="social_links[{{loop.index0}}].icon"
+                data-placement="top"
               ><i class="fa fa-{{ item.icon }}"><span style="position:absolute;opacity: 0">h</span></i></a>
             </li>
           {% endfor %}
