@@ -326,6 +326,7 @@
                 "link": {
                   "type": "string",
                   "title": "Länk",
+                  "format": "uri",
                   "default": "#"
                 }
               }
