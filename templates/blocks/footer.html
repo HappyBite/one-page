@@ -16,11 +16,7 @@
                 data-field-string-ui-widget-icon="social_links[{{loop.index0}}].icon"
                 data-field-string-format-uri="social_links[{{loop.index0}}].link"
                 data-placement="bottom"
-                no-data-field-string="social_links[{{loop.index0}}].$empty"
-                no-data-link="social_links[{{loop.index0}}].link"
-                no-data-field-uri="social_links[{{loop.index0}}].link"
-                no-data-toolbar-buttons="['anchor']"
-              ><i class="fa fa-{{ item.icon }}"><span style="position:absolute;opacity: 0">h</span></i></a>
+              ><i class="fa fa-{{ item.icon }}"></i></a>
             </li>
           {% endfor %}
         </ul>
