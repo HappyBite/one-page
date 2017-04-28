@@ -10,12 +10,11 @@
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
           {% for item in social_links %}
-            <li
-              data-field-string-ui-widget-icon="social_links[{{loop.index0}}].icon"
-              data-placement="bottom"
-            >
+            <li>
               <a
                 href="{{ item.link }}"
+                data-field-string-ui-widget-icon="social_links[{{loop.index0}}].icon"
+                data-placement="bottom"
                 no-data-field-string="social_links[{{loop.index0}}].$empty"
                 no-data-link="social_links[{{loop.index0}}].link"
                 no-data-field-uri="social_links[{{loop.index0}}].link"
