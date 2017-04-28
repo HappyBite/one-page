@@ -413,7 +413,7 @@
           },
           "team": {
             "type": "array",
-            "title": "Services",
+            "title": "Team",
             "items": {
               "type": "object",
               "title": "Team member",
