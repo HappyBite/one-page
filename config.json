@@ -328,6 +328,10 @@
                   "title": "Länk",
                   "format": "uri",
                   "default": "#"
+                },
+                "open_in_new_page": {
+                  "type": "boolean",
+                  "title": "Open in new page"
                 }
               }
             }
