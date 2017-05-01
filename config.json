@@ -31,6 +31,11 @@
       "title": "Footer",
       "id": "footer",
       "icon": "address-card-o"
+    },
+    {
+      "title": "Decoration",
+      "id": "decoration",
+      "icon": "image"
     }
   ],
   "settings_schema": {
@@ -540,6 +545,16 @@
             }
           }
         }
+      },
+      "decoration": {
+        "title": "Dekoration",
+        "properties": {
+          "image": {
+            "type": "string",
+            "title": "Image",
+            "format": "file"
+          }
+        }
       }
     },
     "sidebars": {
@@ -667,6 +682,9 @@
             "link": "#"
           }
         ]
+      },
+      "decoration": {
+        "image": "https://svti.svt.se/wp-content/themes/svti/assets/img/kollage3.jpg"
       }
     },
     "theme": {
