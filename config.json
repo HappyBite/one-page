@@ -547,7 +547,7 @@
         }
       },
       "decoration": {
-        "title": "Dekoration",
+        "title": "Decoration",
         "properties": {
           "image": {
             "type": "string",
