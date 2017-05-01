@@ -30,8 +30,26 @@
         padding: 10px 0;
       }
     }
+    .decoration {
+      background-position: right center;
+      background-repeat: no-repeat;
+      height: 300px;
+    }
+    @media (min-width: 768px) {
+      .decoration {
+        background-attachment: fixed;
+      }
+    }
+    /*
+    .team-member img {
+      width: 180px;
+    }
+    */
   </style>
   <style id="editor-style">
+    .btn {
+      ursor: text;
+    }
     .navbar-custom {
       margin: 0;
       position: static;
@@ -82,7 +100,6 @@
       @media (min-width: 768px) {
         .navbar-custom .navbar-brand {
           padding-top: {{ theme.logo.padding_top }}px;
-          padding-left: 0;
           width:{{ theme.logo.width }}px;
         }
       } 
@@ -189,6 +206,8 @@
       // jQuery for page scrolling feature - requires jQuery Easing plugin
       $('a.page-scroll').bind('click', function(event) {
           var $anchor = $(this);
+          if (!$anchor.attr('href')) return;
+          if (!$anchor.attr('href').startsWith('#')) return;
           if (!$($anchor.attr('href')).length) return;
           $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 70)

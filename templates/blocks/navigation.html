@@ -11,7 +11,7 @@
         href="#page-top"
         data-field-string="logo_text"
         data-toolbar-buttons="['bold', 'italic', 'underline']"
-      >{% if theme.logo.show %}<img src="{{ theme.logo.image.url }}" alt="Logo" />{% else %}{{ logo_text }}{% endif %}</a>
+      >{% if theme.logo.show %}<img src="{{ theme.logo.image }}" alt="Logo" />{% else %}{{ logo_text }}{% endif %}</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -24,9 +24,12 @@
             <a
               class="page-scroll"
               href="{{ item.link }}"
+              {% if item.open_in_new_page %}
+                target="_blank"
+              {% endif %}
               data-field-string="navigation[{{loop.index0}}].title"
-              data-field-uri="navigation[{{loop.index0}}].link"
-              data-toolbar-buttons="['anchor']"
+              data-field-string-format-uri="navigation[{{loop.index0}}].link"
+              data-placement="bottom"
             >{{ item.title }}</a>
           </li>
         {% endfor %}

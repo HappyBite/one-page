@@ -31,6 +31,11 @@
       "title": "Footer",
       "id": "footer",
       "icon": "address-card-o"
+    },
+    {
+      "title": "Decoration",
+      "id": "decoration",
+      "icon": "image"
     }
   ],
   "settings_schema": {
@@ -326,7 +331,12 @@
                 "link": {
                   "type": "string",
                   "title": "Länk",
+                  "format": "uri",
                   "default": "#"
+                },
+                "open_in_new_page": {
+                  "type": "boolean",
+                  "title": "Open in new page"
                 }
               }
             }
@@ -344,13 +354,13 @@
             "type": "string",
             "title": "Rubrik" 
           },
-          "link": {
-            "type": "string",
-            "title": "Länk" 
-          },
           "link_text": {
             "type": "string",
             "title": "Länktext" 
+          },
+          "link": {
+            "type": "string",
+            "title": "Länk" 
           },
           "image": {
             "type": "string",
@@ -381,6 +391,7 @@
                 "icon": {
                   "type": "string",
                   "title": "Icon",
+                  "ui:widget": "icon",
                   "default": "image"
                 },
                 "heading": {
@@ -411,7 +422,7 @@
           },
           "team": {
             "type": "array",
-            "title": "Services",
+            "title": "Team",
             "items": {
               "type": "object",
               "title": "Team member",
@@ -437,8 +448,11 @@
             }
           },
           "text": {
-            "type": "string",
-            "title": "Text" 
+            "type": "text",
+            "title": "Text",
+            "field": {
+              "height": "120px"
+            }
           }
         }
       },
@@ -452,6 +466,10 @@
           "sub_heading": {
             "type": "string",
             "title": "Underrubrik" 
+          },
+          "submit_button_text": {
+            "type": "string",
+            "title": "Knapptext" 
           }
         }
       },
@@ -462,25 +480,47 @@
             "type": "string",
             "title": "Copyright text" 
           },
-          "twitter_link": {
-            "type": "string",
-            "title": "Twitter",
-            "format": "uri"
-          },
-          "facebook_link": {
-            "type": "string",
-            "title": "Facebook",
-            "format": "uri"
-          },
-          "instagram_link": {
-            "type": "string",
-            "title": "Instagram",
-            "format": "uri"
-          },
-          "linkedin_link": {
-            "type": "string",
-            "title": "Linked In",
-            "format": "uri"
+          "social_links": {
+            "type": "array",
+            "title": "Social links",
+            "items": {
+              "type": "object",
+              "title": "Länk",
+              "display_field": "title",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "title": "Titel",
+                  "default": "Titel"
+                },
+                "icon": {
+                  "type": "string",
+                  "title": "Ikon",
+                  "default": "twitter",
+                  "ui:widget": "icon",
+                  "num": [
+                    "-1",
+                    "twitter",
+                    "facebook",
+                    "instagram",
+                    "linkedin"
+                  ],
+                  "numNames": [
+                    "Välj ikon",
+                    "Twitter",
+                    "Facebook",
+                    "Instagram",
+                    "LinkedIn"
+                  ]
+                },
+                "link": {
+                  "type": "string",
+                  "title": "Länk",
+                  "format": "uri",
+                  "default": "#youraccount"
+                }
+              }
+            }
           },
           "quick_links": {
             "type": "array",
@@ -492,15 +532,27 @@
               "properties": {
                 "title": {
                   "type": "string",
-                  "title": "Titel" 
+                  "title": "Titel",
+                  "default": "New link"
                 },
                 "link": {
                   "type": "string",
                   "title": "Länk",
-                  "format": "uri"
+                  "format": "uri",
+                  "default": "#"
                 }
               }
             }
+          }
+        }
+      },
+      "decoration": {
+        "title": "Dekoration",
+        "properties": {
+          "image": {
+            "type": "string",
+            "title": "Image",
+            "format": "file"
           }
         }
       }
@@ -593,24 +645,46 @@
       },
       "contact": {
         "heading": "Contact Us",
-        "sub_heading": "Lorem ipsum dolor sit amet consectetur."
+        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+        "submit_button_text": "Send message"
       },
       "footer": {
         "copyright_text": "Copyright &copy; Your Website 2016",
-        "twitter_link": "#youraccount",
-        "facebook_link": "#youraccount",
-        "instagram_link": "#youraccount",
-        "linkedin_link": "#youraccount",
+        "social_links": [
+          {
+            "title": "Twitter",
+            "icon": "twitter",
+            "link": "#youraccount"
+          },
+          {
+            "title": "Facebook",
+            "icon": "facebook",
+            "link": "#youraccount"
+          },
+          {
+            "title": "Instagram",
+            "icon": "instagram",
+            "link": "#youraccount"
+          },
+          {
+            "title": "LinkedIn",
+            "icon": "linkedin",
+            "link": "#youraccount"
+          }
+        ],
         "quick_links": [
           {
             "title": "Privacy Policy",
-            "link": "#"
+            "link": ""
           },
           {
             "title": "Terms of Use",
             "link": "#"
           }
         ]
+      },
+      "decoration": {
+        "image": "https://svti.svt.se/wp-content/themes/svti/assets/img/kollage3.jpg"
       }
     },
     "theme": {
@@ -628,13 +702,9 @@
             "text_color": "#fed136",
             "text_hover_color": "#fed136",
             "text_focus_color": "#fed136",
-            "image": {
-              "name": "logo.png",
-              "url": "https://assets.brandfolder.com/8w7lv8ml/view.png",
-              "content_type": "image/png"
-            },
+            "image": "https://assets.brandfolder.com/8w7lv8ml/view.png",
             "padding_top": 12,
-            "width": 100,
+            "width": 125,
             "show": false
           },
           "navigation": {

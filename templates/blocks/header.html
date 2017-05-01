@@ -1,23 +1,26 @@
 <!-- Header -->
-<header id="{{template_id}}" data-field-string-file="image" style="background-image: url({{image}})">
+<header id="{{template_id}}"
+  data-field-string-file="image"
+  data-placement="top"
+  data-wrapper="true"
+  data-inset="true"
+  style="background-image: url({{image}})">
   <div class="container">
     <div class="intro-text">
       <div
         class="intro-lead-in"
         data-field-string="lead_in"
-        data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
       >{{lead_in}}</div>
       <div
         class="intro-heading"
         data-field-string="heading"
-        data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
       >{{heading}}</div>
       <a
         href="{{link}}"
         class="page-scroll btn btn-xl"
         data-field-string="link_text"
-        data-field-uri="link"
-        data-toolbar-buttons="['anchor']"
+        data-field-string-format-uri="link"
+        data-placement="bottom"
       >{{link_text}}</a>
     </div>
   </div>

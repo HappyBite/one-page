@@ -6,26 +6,27 @@
         <h2
           class="section-heading"
           data-field-string="heading"
-          data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
         >{{heading}}</h2>
         <h3
           class="section-subheading"
           data-field-string="sub_heading"
-          data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
         >{{sub_heading}}</h3>
       </div>
     </div>
-    <div class="row text-center">
+    <div class="row text-center" data-field-array="items" data-placement="top">
       {% for item in items %}
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+          <span
+            class="fa-stack fa-4x"
+            data-field-string-ui-widget-icon="items[{{loop.index0}}].icon"
+            data-placement="top"
+          >
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-{{ item.icon }} fa-stack-1x fa-inverse"></i>
           </span>
           <h4
             class="service-heading"
             data-field-string="items[{{loop.index0}}].heading"
-            data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
           >{{ item.heading }}</h4>
           <p
             data-field-string="items[{{loop.index0}}].text"
