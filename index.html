@@ -30,6 +30,19 @@
         padding: 10px 0;
       }
     }
+    .decoration {
+      background-position: right center;
+      background-repeat: no-repeat;
+      height: 300px;
+    }
+    @media (min-width: 768px) {
+      .decoration {
+        background-attachment: fixed;
+      }
+    }
+    .team-member img {
+      width: 180px;
+    }
   </style>
   
   <style>
@@ -158,7 +171,7 @@
         href="#page-top"
         data-field-string="logo_text"
         data-toolbar-buttons="['bold', 'italic', 'underline']"
-      >Klar.io</a>
+      >The Page</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -171,9 +184,10 @@
             <a
               class="page-scroll"
               href="#services"
+              
               data-field-string="navigation[0].title"
-              data-field-uri="navigation[0].link"
-              data-toolbar-buttons="['anchor']"
+              data-field-string-format-uri="navigation[0].link"
+              data-placement="bottom"
             >Services</a>
           </li>
         
@@ -181,9 +195,10 @@
             <a
               class="page-scroll"
               href="#portfolio"
+              
               data-field-string="navigation[1].title"
-              data-field-uri="navigation[1].link"
-              data-toolbar-buttons="['anchor']"
+              data-field-string-format-uri="navigation[1].link"
+              data-placement="bottom"
             >Portfolio</a>
           </li>
         
@@ -191,9 +206,10 @@
             <a
               class="page-scroll"
               href="#about"
+              
               data-field-string="navigation[2].title"
-              data-field-uri="navigation[2].link"
-              data-toolbar-buttons="['anchor']"
+              data-field-string-format-uri="navigation[2].link"
+              data-placement="bottom"
             >About</a>
           </li>
         
@@ -201,9 +217,10 @@
             <a
               class="page-scroll"
               href="#team"
+              
               data-field-string="navigation[3].title"
-              data-field-uri="navigation[3].link"
-              data-toolbar-buttons="['anchor']"
+              data-field-string-format-uri="navigation[3].link"
+              data-placement="bottom"
             >Team</a>
           </li>
         
@@ -211,9 +228,10 @@
             <a
               class="page-scroll"
               href="#contact"
+              
               data-field-string="navigation[4].title"
-              data-field-uri="navigation[4].link"
-              data-toolbar-buttons="['anchor']"
+              data-field-string-format-uri="navigation[4].link"
+              data-placement="bottom"
             >Contact</a>
           </li>
         
@@ -224,25 +242,28 @@
   <!-- /.container-fluid -->
 </nav>
 <!-- Header -->
-<header id="header" data-field-string-file="image" style="background-image: url(https://www.filepicker.io/api/file/gMKMVaTsT1aak77pAfix)">
+<header id="header"
+  data-field-string-file="image"
+  data-placement="top"
+  data-wrapper="true"
+  data-inset="true"
+  style="background-image: url(https://s3.amazonaws.com/klar/happybite-one-page/d9851170-2ac5-11e7-b45d-4f016780770e-gMKMVaTsT1aak77pAfix)">
   <div class="container">
     <div class="intro-text">
       <div
         class="intro-lead-in"
         data-field-string="lead_in"
-        data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
       >Welcome To Our Studio!</div>
       <div
         class="intro-heading"
         data-field-string="heading"
-        data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
       >IT'S NICE TO MEET YOU</div>
       <a
         href="#services"
         class="page-scroll btn btn-xl"
         data-field-string="link_text"
-        data-field-uri="link"
-        data-toolbar-buttons="['anchor']"
+        data-field-string-format-uri="link"
+        data-placement="bottom"
       >Tell me more</a>
     </div>
   </div>
@@ -254,26 +275,27 @@
         <h2
           class="section-heading"
           data-field-string="heading"
-          data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
         >Services</h2>
         <h3
           class="section-subheading"
           data-field-string="sub_heading"
-          data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
         >Lorem ipsum dolor sit amet consectetur.</h3>
       </div>
     </div>
-    <div class="row text-center">
+    <div class="row text-center" data-field-array="items" data-placement="top">
       
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+          <span
+            class="fa-stack fa-4x"
+            data-field-string-ui-widget-icon="items[0].icon"
+            data-placement="top"
+          >
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
           <h4
             class="service-heading"
             data-field-string="items[0].heading"
-            data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
           >E-Commerce</h4>
           <p
             data-field-string="items[0].text"
@@ -282,14 +304,17 @@
         </div>
       
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+          <span
+            class="fa-stack fa-4x"
+            data-field-string-ui-widget-icon="items[1].icon"
+            data-placement="top"
+          >
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
           <h4
             class="service-heading"
             data-field-string="items[1].heading"
-            data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
           >Responsive Design</h4>
           <p
             data-field-string="items[1].text"
@@ -298,14 +323,17 @@
         </div>
       
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+          <span
+            class="fa-stack fa-4x"
+            data-field-string-ui-widget-icon="items[2].icon"
+            data-placement="top"
+          >
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
           </span>
           <h4
             class="service-heading"
             data-field-string="items[2].heading"
-            data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
           >Web Security</h4>
           <p
             data-field-string="items[2].text"
@@ -316,7 +344,10 @@
     </div>
   </div>
 </section>
-<!-- Team Section -->
+<div
+	class="decoration"
+	style="background-image: url(https://svti.svt.se/wp-content/themes/svti/assets/img/kollage3.jpg)"
+></div><!-- Team Section -->
 <section id="team" class="bg-light-gray">
   <div class="container">
     <div class="row">
@@ -324,23 +355,26 @@
         <h2
           class="section-heading"
           data-field-string="heading"
-          data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
         >Our Amazing Team</h2>
         <h3
           class="section-subheading text-muted"
           data-field-string="sub_heading"
-          data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
         >Lorem ipsum dolor sit amet consectetur.</h3>
       </div>
     </div>
-    <div class="row">
+    <div class="row clearfix" data-field-array="team" data-placement="top">
       
       <div class="col-sm-4">
         <div class="team-member">
-          <img src="https://blackrockdigital.github.io/startbootstrap-agency/img/team/1.jpg" class="img-responsive img-circle" alt="Kay Garland">
+          <img
+            src="https://blackrockdigital.github.io/startbootstrap-agency/img/team/1.jpg"
+            class="img-responsive img-circle"
+            data-field-string-file="team[0].image"
+            no-data-placement="top"
+            no-data-inset="true"
+            alt="Kay Garland" />
           <h4
             data-field-string="team[0].heading"
-            data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
           >Kay Garland</h4>
           <p
             class="text-muted"
@@ -352,10 +386,15 @@
       
       <div class="col-sm-4">
         <div class="team-member">
-          <img src="https://blackrockdigital.github.io/startbootstrap-agency/img/team/2.jpg" class="img-responsive img-circle" alt="Larry Parker">
+          <img
+            src="https://blackrockdigital.github.io/startbootstrap-agency/img/team/2.jpg"
+            class="img-responsive img-circle"
+            data-field-string-file="team[1].image"
+            no-data-placement="top"
+            no-data-inset="true"
+            alt="Larry Parker" />
           <h4
             data-field-string="team[1].heading"
-            data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
           >Larry Parker</h4>
           <p
             class="text-muted"
@@ -367,10 +406,15 @@
       
       <div class="col-sm-4">
         <div class="team-member">
-          <img src="https://blackrockdigital.github.io/startbootstrap-agency/img/team/3.jpg" class="img-responsive img-circle" alt="Diana Pertersen">
+          <img
+            src="https://blackrockdigital.github.io/startbootstrap-agency/img/team/3.jpg"
+            class="img-responsive img-circle"
+            data-field-string-file="team[2].image"
+            no-data-placement="top"
+            no-data-inset="true"
+            alt="Diana Pertersen" />
           <h4
             data-field-string="team[2].heading"
-            data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
           >Diana Pertersen</h4>
           <p
             class="text-muted"
@@ -435,7 +479,12 @@
 	          <div class="clearfix"></div>
 	          <div class="col-lg-12 text-center">
               <div id="success"></div>
-              <button type="submit" class="btn btn-xl">Send Message</button>
+              <button
+              	type="button"
+              	class="btn btn-xl"
+              	data-field-string="submit_button_text"
+              	data-toolbar-buttons="['underline']"
+          		>Send message</button>
 	          </div>
 	        </div>
 	      </form>
@@ -451,40 +500,45 @@
           data-field-string="copyright_text"
         >Copyright &copy; Your Website 2016</span>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4" style="position: static">
         <ul class="list-inline social-buttons">
-          <li>
-            <a
-              href="#youraccount"
-              data-field-string="$empty"
-              data-field-uri="twitter_link"
-              data-toolbar-buttons="['anchor']"
-            ><i class="fa fa-twitter"><span style="position:absolute;opacity: 0">h</span></i></a>
-          </li>
-          <li>
-            <a
-              href="#youraccount"
-              data-field-string="$empty"
-              data-field-uri="facebook_link"
-              data-toolbar-buttons="['anchor']"
-            ><i class="fa fa-facebook"><span style="position:absolute;opacity: 0">h</span></i></a>
-          </li>
-          <li>
-            <a
-              href="#youraccount"
-              data-field-string="$empty"
-              data-field-uri="instagram_link"
-              data-toolbar-buttons="['anchor']"
-            ><i class="fa fa-instagram"><span style="position:absolute;opacity: 0">h</span></i></a>
-          </li>
-          <li>
-            <a
-              href="#youraccount"
-              data-field-string="$empty"
-              data-field-uri="linkedin_link"
-              data-toolbar-buttons="['anchor']"
-            ><i class="fa fa-linkedin"><span style="position:absolute;opacity: 0">h</span></i></a>
-          </li>
+          
+            <li>
+              <a
+                href="#youraccount"
+                data-field-string-ui-widget-icon="social_links[0].icon"
+                data-field-string-format-uri="social_links[0].link"
+                data-placement="bottom"
+              ><i class="fa fa-twitter"></i></a>
+            </li>
+          
+            <li>
+              <a
+                href="#youraccount"
+                data-field-string-ui-widget-icon="social_links[1].icon"
+                data-field-string-format-uri="social_links[1].link"
+                data-placement="bottom"
+              ><i class="fa fa-facebook"></i></a>
+            </li>
+          
+            <li>
+              <a
+                href="#youraccount"
+                data-field-string-ui-widget-icon="social_links[2].icon"
+                data-field-string-format-uri="social_links[2].link"
+                data-placement="bottom"
+              ><i class="fa fa-instagram"></i></a>
+            </li>
+          
+            <li>
+              <a
+                href="#youraccount"
+                data-field-string-ui-widget-icon="social_links[3].icon"
+                data-field-string-format-uri="social_links[3].link"
+                data-placement="bottom"
+              ><i class="fa fa-linkedin"></i></a>
+            </li>
+          
         </ul>
       </div>
       <div class="col-md-4">
@@ -492,10 +546,10 @@
           
             <li>
               <a
-                href="#"
+                href=""
                 data-field-string="quick_links[0].title"
-                data-field-uri="quick_links[0].link"
-                data-toolbar-buttons="['anchor']"
+                data-field-string-format-uri="quick_links[0].link"
+                data-placement="bottom"
               >Privacy Policy</a>
             </li>
           
@@ -503,8 +557,8 @@
               <a
                 href="#"
                 data-field-string="quick_links[1].title"
-                data-field-uri="quick_links[1].link"
-                data-toolbar-buttons="['anchor']"
+                data-field-string-format-uri="quick_links[1].link"
+                data-placement="bottom"
               >Terms of Use</a>
             </li>
           
@@ -534,6 +588,8 @@
       // jQuery for page scrolling feature - requires jQuery Easing plugin
       $('a.page-scroll').bind('click', function(event) {
           var $anchor = $(this);
+          if (!$anchor.attr('href')) return;
+          if (!$anchor.attr('href').startsWith('#')) return;
           if (!$($anchor.attr('href')).length) return;
           $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 70)
