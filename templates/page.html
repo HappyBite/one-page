@@ -191,7 +191,7 @@
       // jQuery for page scrolling feature - requires jQuery Easing plugin
       $('a.page-scroll').bind('click', function(event) {
           var $anchor = $(this);
-          if ($anchor.attr('href')) return;
+          if (!$anchor.attr('href')) return;
           if (!$anchor.attr('href').startsWith('#')) return;
           if (!$($anchor.attr('href')).length) return;
           $('html, body').stop().animate({
