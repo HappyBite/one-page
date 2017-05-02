@@ -16,7 +16,7 @@
     <div class="row">
       {% for item in items %}
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+          <a href="#portfolioModal{{loop.index}}" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                     <i class="fa fa-plus fa-3x"></i>
@@ -36,8 +36,8 @@
 <!-- Portfolio Modals -->
 <!-- Use the modals below to showcase details about your portfolio projects! -->
 {% for item in items %}
-<!-- Portfolio Modal 1 -->
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- Portfolio Modal {{loop.index}} -->
+<div class="portfolio-modal modal fade" id="portfolioModal{{loop.index}}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
