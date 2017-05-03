@@ -28,8 +28,13 @@
               alt="" />
           </a>
           <div class="portfolio-caption">
-            <h4>{{ item.client }}</h4>
-            <p class="text-muted">{{ item.category }}</p>
+            <h4
+              data-field-string="heading"
+            >{{ item.client }}</h4>
+            <p
+              data-field-string="category"
+              data-toolbar-buttons="['bold']"
+              class="text-muted">{{ item.category }}</p>
           </div>
         </div>
       {% endfor %}
