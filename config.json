@@ -365,7 +365,8 @@
           },
           "link": {
             "type": "string",
-            "title": "Länk" 
+            "title": "Länk",
+            "format": "uri"
           },
           "image": {
             "type": "string",
