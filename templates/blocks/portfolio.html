@@ -24,8 +24,6 @@
             </div>
             <img
               src="{{ item.image }}"
-              data-field-string-file="items[{{loop.index0}}].image"
-              no-data-placement="top"
               class="img-responsive"
               alt="" />
           </a>
@@ -63,7 +61,11 @@
                 class="item-intro text-muted"
                 data-field-string="items[{{loop.index0}}].summary"
               >{{ item.summary }}</p>
-              <img class="img-responsive img-centered" src="{{ item.image }}" alt="">
+              <img
+                class="img-responsive img-centered"
+                data-field-string-file="items[{{loop.index0}}].image"
+                src="{{ item.image }}"
+                alt="" />
               <div
                 data-field-text="items[{{loop.index0}}].body"
               >{{ item.body }}</div>
