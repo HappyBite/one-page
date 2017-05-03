@@ -67,20 +67,26 @@
                 class="item-intro text-muted"
                 data-field-string="items[{{loop.index0}}].summary"
               >{{ item.summary }}</p>
-              <img
-                class="img-responsive img-centered"
-                style="height: 200px;"
-                data-field-string-file="items[{{loop.index0}}].image"
-                src="{{ item.image }}"
-                alt="" />
-              <div
-                data-field-text="items[{{loop.index0}}].body"
-              >{{ item.body }}</div>
-              <ul class="list-inline">
-                <li>Date: {{ item.date }}</li>
-                <li>Client: {{ item.client }}</li>
-                <li>Category: {{ item.category }}</li>
-              </ul>
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    class="img-responsive img-centered"
+                    style="height: 200px;"
+                    data-field-string-file="items[{{loop.index0}}].image"
+                    src="{{ item.image }}"
+                    alt="" />
+                </div>
+                <div class="col-md-8">
+                  <div
+                    data-field-text="items[{{loop.index0}}].body"
+                  >{{ item.body }}</div>
+                  <ul class="list-inline">
+                    <li>Date: {{ item.date }}</li>
+                    <li>Client: {{ item.client }}</li>
+                    <li>Category: {{ item.category }}</li>
+                  </ul>
+                </div>
+              </div>  
               <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
             </div>
           </div>
