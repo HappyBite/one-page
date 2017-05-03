@@ -22,7 +22,12 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img src="{{ item.image }}" class="img-responsive" alt="">
+            <img
+              src="{{ item.image }}"
+              data-field-string-file="team[{{loop.index0}}].image"
+              no-data-placement="top"
+              class="img-responsive"
+              alt="" />
           </a>
           <div class="portfolio-caption">
             <h4>{{ item.client }}</h4>
