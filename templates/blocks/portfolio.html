@@ -55,40 +55,35 @@
             </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="ol-lg-8 ol-lg-offset-2">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2
-                data-field-string="items[{{loop.index0}}].title"
-              >{{ item.title }}</h2>
-              <p
-                class="item-intro text-muted"
-                data-field-string="items[{{loop.index0}}].summary"
-              >{{ item.summary }}</p>
-              <div class="row">
-                <div class="col-md-8 col-lg-6">
-                  <div
-                    data-field-text="items[{{loop.index0}}].body"
-                  >{{ item.body }}</div>
-                  <ul class="list-inline">
-                    <li>Date: {{ item.date }}</li>
-                    <li>Client: {{ item.client }}</li>
-                    <li>Category: {{ item.category }}</li>
-                  </ul>  
-                </div>
-                <div class="col-md-4 col-lg-6">
-                  <img
-                    class="img-responsive mg-centered"
-                    data-field-string-file="items[{{loop.index0}}].image"
-                    src="{{ item.image }}"
-                    alt="" />
-                </div>
-              </div>  
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+        <div class="modal-body">
+          <!-- Project Details Go Here -->
+          <h2
+            data-field-string="items[{{loop.index0}}].title"
+          >{{ item.title }}</h2>
+          <p
+            class="item-intro text-muted"
+            data-field-string="items[{{loop.index0}}].summary"
+          >{{ item.summary }}</p>
+          <div class="row">
+            <div class="col-md-8 col-lg-6">
+              <div
+                data-field-text="items[{{loop.index0}}].body"
+              >{{ item.body }}</div>
+              <ul class="list-inline">
+                <li>Date: {{ item.date }}</li>
+                <li>Client: {{ item.client }}</li>
+                <li>Category: {{ item.category }}</li>
+              </ul>  
             </div>
-          </div>
+            <div class="col-md-4 col-lg-6">
+              <img
+                class="img-responsive mg-centered"
+                data-field-string-file="items[{{loop.index0}}].image"
+                src="{{ item.image }}"
+                alt="" />
+            </div>
+          </div>  
+          <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
         </div>
       </div>
     </div>
