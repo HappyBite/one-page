@@ -188,20 +188,20 @@
     /* Services */
     #services {
       background-color: {{ theme.services.bg_color }};
-      {% if theme.services.padding_top > -1 %}
+      {% if theme.services.padding_top > 0 %}
       padding-top: {{ theme.services.padding_top }}px;
       {% endif %}
-      {% if theme.services.padding_bottom > -1 %}
+      {% if theme.services.padding_bottom > 0 %}
       padding-bottom: {{ theme.services.padding_bottom }}px;
       {% endif %}
     }
     /* Portfolio */
     #portfolio {
       background-color: {{ theme.portfolio.bg_color }};
-      {% if theme.portfolio.padding_top > -1 %}
+      {% if theme.portfolio.padding_top > 0 %}
       padding-top: {{ theme.portfolio.padding_top }}px;
       {% endif %}
-      {% if theme.portfolio.padding_bottom > -1 %}
+      {% if theme.portfolio.padding_bottom > 0 %}
       padding-bottom: {{ theme.portfolio.padding_bottom }}px;
       {% endif %}
     }
@@ -221,10 +221,10 @@
     /* Team */
     #team {
       background-color: {{ theme.team.bg_color }};
-      {% if theme.team.padding_top > -1 %}
+      {% if theme.team.padding_top > 0 %}
       padding-top: {{ theme.team.padding_top }}px;
       {% endif %}
-      {% if theme.team.padding_bottom > -1 %}
+      {% if theme.team.padding_bottom > 0 %}
       padding-bottom: {{ theme.team.padding_bottom }}px;
       {% endif %}
     }
