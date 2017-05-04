@@ -314,12 +314,12 @@
             "ui:css_selector": "#portfolio",
             "ui:css_property": "background-color"
           },
-          "hover_content_color": {
+          "hover_content_bg_color": {
             "type": "string",
             "title": "Hover content - bakgrundsfärg",
             "format": "color",
             "ui:css_selector": "#portfolio .portfolio-item .portfolio-link .portfolio-hover",
-            "ui:css_property": "color"
+            "ui:css_property": "background-color"
           },
           "caption_bg_color": {
             "type": "string",
@@ -908,7 +908,7 @@
           },
           "portfolio": {
             "bg_color": "#eee",
-            "hover_content_color": "#fed136",
+            "hover_content_bg_color": "#fed136",
             "caption_bg_color": "#fff",
             "padding_top": 150,
             "padding_bottom": 150
