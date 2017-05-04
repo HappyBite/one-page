@@ -321,6 +321,31 @@
           }
         }
       },
+      "services": {
+        "title": "Services",
+        "ui:css_selector": "#services",
+        "properties": {
+          "bg_color": {
+            "type": "string",
+            "title": "Bakgrundsfärg",
+            "format": "color",
+            "ui:css_selector": "#services",
+            "ui:css_property": "background-color"
+          },
+          "padding_top": {
+            "type": "integer",
+            "title": "Padding top",
+            "minimum": 0,
+            "maximum": 150
+          },
+          "padding_bottom": {
+            "type": "integer",
+            "title": "Padding bottom",
+            "minimum": 0,
+            "maximum": 150
+          }
+        }
+      },
       "portfolio": {
         "title": "Portfolio",
         "ui:css_selector": "#portfolio",
@@ -373,7 +398,7 @@
             "maximum": 150
           }
         }
-      }
+      },
     },
     "page": {
       "data": {
@@ -941,6 +966,11 @@
             "lead_in_text_color": "#ffffff",
             "heading_text_color": "#ffffff",
             "button_bg_color": "#fed136"
+          },
+          "services": {
+            "bg_color": "transparent",
+            "padding_top": 150,
+            "padding_bottom": 150
           },
           "portfolio": {
             "bg_color": "#eee",
