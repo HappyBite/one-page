@@ -295,6 +295,19 @@
             "format": "color"
           }
         }
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "ui:css_selector": "#portfolio",
+        "properties": {
+          "bg_color": {
+            "type": "string",
+            "title": "Bakgrundsfärg",
+            "format": "color",
+            "ui:css_selector": "#portfolio",
+            "ui:css_property": "background-color"
+          }
+        }
       }
     },
     "page": {
@@ -859,6 +872,9 @@
             "lead_in_text_color": "#ffffff",
             "heading_text_color": "#ffffff",
             "button_bg_color": "#fed136"
+          },
+          "portfolio": {
+            "bg_color": "#eee"
           }
         },
         "klar": {
