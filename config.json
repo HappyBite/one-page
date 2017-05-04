@@ -461,7 +461,8 @@
                 },
                 "date": {
                   "type": "string",
-                  "title": "Datum"
+                  "title": "Datum",
+                  "format": "date-time"
                 }
               }
             }
