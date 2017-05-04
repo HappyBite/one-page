@@ -307,6 +307,13 @@
             "ui:css_selector": "#portfolio",
             "ui:css_property": "background-color"
           },
+          "caption_bg_color": {
+            "type": "string",
+            "title": "Caption - bakgrundsfärg",
+            "format": "color",
+            "ui:css_selector": "#portfolio .portfolio-item .portfolio-caption",
+            "ui:css_property": "background-color"
+          },
           "padding_top": {
             "type": "integer",
             "title": "Padding top",
@@ -887,6 +894,7 @@
           },
           "portfolio": {
             "bg_color": "#eee",
+            "caption_bg_color": "#fff",
             "padding_top": 150,
             "padding_bottom": 150
           }
