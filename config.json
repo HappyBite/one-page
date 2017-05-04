@@ -346,6 +346,13 @@
             "ui:css_selector": "#portfolio .portfolio-item .portfolio-caption",
             "ui:css_property": "background-color"
           },
+          "item_bg_color": {
+            "type": "string",
+            "title": "Item - bakgrundsfärg",
+            "format": "color",
+            "ui:css_selector": ".portfolio-modal .modal-content",
+            "ui:css_property": "background-color"
+          },
           "padding_top": {
             "type": "integer",
             "title": "Padding top",
@@ -932,6 +939,7 @@
             "bg_color": "#eee",
             "hover_content_bg_color": "rgba(254,209,54,.9)",
             "caption_bg_color": "#fff",
+            "item_bg_color": "#fff",
             "padding_top": 150,
             "padding_bottom": 150
           }
