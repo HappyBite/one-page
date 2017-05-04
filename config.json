@@ -335,13 +335,13 @@
           "padding_top": {
             "type": "integer",
             "title": "Padding top",
-            "minimum": 0,
+            "minimum": -1,
             "maximum": 150
           },
           "padding_bottom": {
             "type": "integer",
             "title": "Padding bottom",
-            "minimum": 0,
+            "minimum": -1,
             "maximum": 150
           }
         }
@@ -388,13 +388,13 @@
           "padding_top": {
             "type": "integer",
             "title": "Padding top",
-            "minimum": 0,
+            "minimum": -1,
             "maximum": 150
           },
           "padding_bottom": {
             "type": "integer",
             "title": "Padding bottom",
-            "minimum": 0,
+            "minimum": -1,
             "maximum": 150
           }
         }
@@ -413,13 +413,13 @@
           "padding_top": {
             "type": "integer",
             "title": "Padding top",
-            "minimum": 0,
+            "minimum": -1,
             "maximum": 150
           },
           "padding_bottom": {
             "type": "integer",
             "title": "Padding bottom",
-            "minimum": 0,
+            "minimum": -1,
             "maximum": 150
           }
         }
@@ -994,8 +994,8 @@
           },
           "services": {
             "bg_color": "transparent",
-            "padding_top": 0,
-            "padding_bottom": 0
+            "padding_top": -1,
+            "padding_bottom": -1
           },
           "portfolio": {
             "bg_color": "transparent",
@@ -1003,13 +1003,13 @@
             "caption_bg_color": "#fff",
             "item_bg_color": "#fff",
             "item_close_btn_color": "#222",
-            "padding_top": 0,
-            "padding_bottom": 0
+            "padding_top": -1,
+            "padding_bottom": -1
           },
           "team": {
             "bg_color": "transparent",
-            "padding_top": 0,
-            "padding_bottom": 0
+            "padding_top": -1,
+            "padding_bottom": -1
           }
         },
         "klar": {
