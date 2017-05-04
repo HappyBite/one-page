@@ -201,11 +201,14 @@
       background-color: {{ theme.portfolio.item_bg_color }};
     }
     /* Buttons */
-    .btn-primary {
+    .btn-primary,
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active {
       background-color: {{ theme.colors.primary_bg_color }};
       border-color: {{ theme.colors.primary_bg_color }};
     }
-    .text-primary { 
+    .text-primary {
       color: {{ theme.colors.primary_text_color }};
     }
     ::selection {
