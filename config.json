@@ -353,6 +353,13 @@
             "ui:css_selector": ".portfolio-modal .modal-content",
             "ui:css_property": "background-color"
           },
+          "item_close_btn_color": {
+            "type": "string",
+            "title": "Item stängknapp - färg",
+            "format": "color",
+            "ui:css_selector": ".portfolio-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl",
+            "ui:css_property": "background-color"
+          },
           "padding_top": {
             "type": "integer",
             "title": "Padding top",
@@ -940,6 +947,7 @@
             "hover_content_bg_color": "rgba(254,209,54,.9)",
             "caption_bg_color": "#fff",
             "item_bg_color": "#fff",
+            "item_close_btn_color": "#222",
             "padding_top": 150,
             "padding_bottom": 150
           }
