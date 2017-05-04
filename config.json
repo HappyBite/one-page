@@ -233,6 +233,13 @@
             "title": "Länk textfärg hover",
             "format": "color"
           },
+          "muted_text_color": {
+            "type": "string",
+            "title": "Textfärg - muted",
+            "format": "color",
+            "ui:css_selector": ".text-muted",
+            "ui:css_property": "color"
+          },
           "primary_bg_color": {
             "type": "string",
             "title": "Primary background color",
@@ -876,9 +883,9 @@
             "body_bg_color": "#fff",
             "heading_text_color": "#333",
             "text_color": "#333",
-            "text_muted_color": "#777",
             "link_color": "#fed136",
             "link_hover_color": "fec503",
+            "muted_text_color": "#777",
             "primary_bg_color": "#fed136",
             "primary_text_color": "#fed136",
             "selection_text_color": "#ffffff",
