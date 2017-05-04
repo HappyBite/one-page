@@ -126,7 +126,7 @@
         }
       },
       "global": {
-        "title": "Globala inställningar",
+        "title": "Globalt",
         "ui:css_selector": "body",
         "properties": {
           "section_padding_top": {
