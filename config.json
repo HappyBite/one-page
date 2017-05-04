@@ -398,6 +398,31 @@
             "maximum": 150
           }
         }
+      },
+      "team": {
+        "title": "Team",
+        "ui:css_selector": "#team",
+        "properties": {
+          "bg_color": {
+            "type": "string",
+            "title": "Bakgrundsfärg",
+            "format": "color",
+            "ui:css_selector": "#team",
+            "ui:css_property": "background-color"
+          },
+          "padding_top": {
+            "type": "integer",
+            "title": "Padding top",
+            "minimum": 0,
+            "maximum": 150
+          },
+          "padding_bottom": {
+            "type": "integer",
+            "title": "Padding bottom",
+            "minimum": 0,
+            "maximum": 150
+          }
+        }
       }
     },
     "page": {
@@ -973,11 +998,16 @@
             "padding_bottom": 150
           },
           "portfolio": {
-            "bg_color": "#eee",
+            "bg_color": "transparent",
             "hover_content_bg_color": "rgba(254,209,54,.9)",
             "caption_bg_color": "#fff",
             "item_bg_color": "#fff",
             "item_close_btn_color": "#222",
+            "padding_top": 150,
+            "padding_bottom": 150
+          },
+          "team": {
+            "bg_color": "transparent",
             "padding_top": 150,
             "padding_bottom": 150
           }
