@@ -994,8 +994,8 @@
           },
           "services": {
             "bg_color": "transparent",
-            "padding_top": 150,
-            "padding_bottom": 150
+            "padding_top": -1,
+            "padding_bottom": -1
           },
           "portfolio": {
             "bg_color": "transparent",
@@ -1003,13 +1003,13 @@
             "caption_bg_color": "#fff",
             "item_bg_color": "#fff",
             "item_close_btn_color": "#222",
-            "padding_top": 150,
-            "padding_bottom": 150
+            "padding_top": -1,
+            "padding_bottom": -1
           },
           "team": {
             "bg_color": "transparent",
-            "padding_top": 150,
-            "padding_bottom": 150
+            "padding_top": -1,
+            "padding_bottom": -1
           }
         },
         "klar": {
