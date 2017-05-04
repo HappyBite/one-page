@@ -317,7 +317,7 @@
           "hover_content_bg_color": {
             "type": "string",
             "title": "Hover content - bakgrundsfärg",
-            "format": "color",
+            "ormat": "color",
             "ui:css_selector": "#portfolio .portfolio-item .portfolio-link .portfolio-hover",
             "ui:css_property": "background-color"
           },
@@ -908,7 +908,7 @@
           },
           "portfolio": {
             "bg_color": "#eee",
-            "hover_content_bg_color": "#fed136",
+            "hover_content_bg_color": "rgba(254,209,54,.9)",
             "caption_bg_color": "#fff",
             "padding_top": 150,
             "padding_bottom": 150
