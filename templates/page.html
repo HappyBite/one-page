@@ -213,8 +213,8 @@
     /* Team */
     #team {
       background-color: {{ theme.team.bg_color }};
-      padding-top: {% if theme.team.padding_top > -1  %} {{ theme.team.padding_top }}px {% else %} {{ theme.global.section_padding_top }}px {% endif %};
-      padding-bottom: {% if theme.team.padding_bottom > -1  %} {{ theme.team.padding_bottom }}px {% else %} {{ theme.global.section_padding_bottom }}px {% endif %};
+      padding-top: {{ theme.team.padding_top }}px;
+      padding-bottom: {{ theme.team.padding_bottom }}px;
     }
     /* Buttons */
     .btn-primary,
