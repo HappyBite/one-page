@@ -125,6 +125,24 @@
           }
         }
       },
+      "global": {
+        "title": "Globala inställningar",
+        "ui:css_selector": "body",
+        "properties": {
+          "section_padding_top": {
+            "type": "integer",
+            "title": "Section padding top",
+            "minimum": 0,
+            "maximum": 150
+          },
+          "section_padding_bottom": {
+            "type": "integer",
+            "title": "Section padding bottom",
+            "minimum": 0,
+            "maximum": 150
+          }
+        }
+      },
       "navbar": {
         "title": "Topparea",
         "ui:css_selector": ".navbar-custom",
@@ -871,6 +889,10 @@
           },
           "typography": {
             "type_base_size": 14
+          },
+          "global": {
+            "section_padding_top": 150,
+            "section_padding_bottom": 150
           },
           "navbar": {
             "bg_color": "#222",

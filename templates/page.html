@@ -78,7 +78,7 @@
     }
   </style>
   <style>
-    /* General */
+    /* Base */
     body {
       background-color: {{ theme.colors.body_bg_color }};
       font-size: {{ theme.typography.type_base_size }}px;
@@ -99,6 +99,13 @@
     a:focus,
     a:active {
       color: {{ theme.colors.link_hover_color }};
+    }
+    /* Global */
+    @media (min-width: 768px) {
+      section {
+        padding-top: {{ theme.global.section_padding_top }}px;
+        padding-bottom: {{ theme.global.section_padding_bottom }}px;
+      }
     }
     /* Navbar */
     .navbar-custom {
