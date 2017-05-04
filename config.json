@@ -335,13 +335,13 @@
           "padding_top": {
             "type": "integer",
             "title": "Padding top",
-            "minimum": 0,
+            "minimum": -1,
             "maximum": 150
           },
           "padding_bottom": {
             "type": "integer",
             "title": "Padding bottom",
-            "minimum": 0,
+            "minimum": -1,
             "maximum": 150
           }
         }
@@ -388,13 +388,13 @@
           "padding_top": {
             "type": "integer",
             "title": "Padding top",
-            "minimum": 0,
+            "minimum": -1,
             "maximum": 150
           },
           "padding_bottom": {
             "type": "integer",
             "title": "Padding bottom",
-            "minimum": 0,
+            "minimum": -1,
             "maximum": 150
           }
         }
@@ -413,13 +413,13 @@
           "padding_top": {
             "type": "integer",
             "title": "Padding top",
-            "minimum": 0,
+            "minimum": -1,
             "maximum": 150
           },
           "padding_bottom": {
             "type": "integer",
             "title": "Padding bottom",
-            "minimum": 0,
+            "minimum": -1,
             "maximum": 150
           }
         }

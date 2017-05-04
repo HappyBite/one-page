@@ -188,14 +188,22 @@
     /* Services */
     #services {
       background-color: {{ theme.services.bg_color }};
+      {% if theme.services.padding_top > -1 %}
       padding-top: {{ theme.services.padding_top }}px;
+      {% endif %}
+      {% if theme.services.padding_bottom > -1 %}
       padding-bottom: {{ theme.services.padding_bottom }}px;
+      {% endif %}
     }
     /* Portfolio */
     #portfolio {
       background-color: {{ theme.portfolio.bg_color }};
+      {% if theme.portfolio.padding_top > -1 %}
       padding-top: {{ theme.portfolio.padding_top }}px;
+      {% endif %}
+      {% if theme.portfolio.padding_bottom > -1 %}
       padding-bottom: {{ theme.portfolio.padding_bottom }}px;
+      {% endif %}
     }
     #portfolio .portfolio-item .portfolio-link .portfolio-hover {
       background-color: {{ theme.portfolio.hover_content_bg_color }};
@@ -213,8 +221,12 @@
     /* Team */
     #team {
       background-color: {{ theme.team.bg_color }};
+      {% if theme.team.padding_top > -1 %}
       padding-top: {{ theme.team.padding_top }}px;
+      {% endif %}
+      {% if theme.team.padding_bottom > -1 %}
       padding-bottom: {{ theme.team.padding_bottom }}px;
+      {% endif %}
     }
     /* Buttons */
     .btn-primary,
