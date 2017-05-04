@@ -862,7 +862,7 @@
             "heading_text_color": "#333",
             "text_color": "#333",
             "link_color": "#fed136",
-            "link_hover_color": "fec503",
+            "link_hover_color": "#fec503",
             "muted_text_color": "#777",
             "primary_bg_color": "#fed136",
             "primary_text_color": "#fed136",
