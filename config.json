@@ -45,6 +45,86 @@
   ],
   "settings_schema": {
     "theme": {
+      "colors": {
+        "title": "Färger",
+        "ui:css_selector": "body",
+        "properties": {
+          "body_bg_color": {
+            "type": "string",
+            "title": "Sidbakgrund",
+            "format": "color",
+            "ui:css_selector": "body",
+            "ui:css_property": "background-color"
+          },
+          "heading_text_color": {
+            "type": "string",
+            "title": "Rubrikfärg",
+            "format": "color",
+            "ui:css_selector": "h1, h2, h3, h4, h5, h6",
+            "ui:css_property": "color"
+          },
+          "text_color": {
+            "type": "string",
+            "title": "Textfärg",
+            "format": "color",
+            "ui:css_selector": "p",
+            "ui:css_property": "color"
+          },
+          "link_color": {
+            "type": "string",
+            "title": "Länk textfärg",
+            "format": "color"
+          },
+          "link_hover_color": {
+            "type": "string",
+            "title": "Länk textfärg hover",
+            "format": "color"
+          },
+          "muted_text_color": {
+            "type": "string",
+            "title": "Textfärg - muted",
+            "format": "color",
+            "ui:css_selector": ".text-muted",
+            "ui:css_property": "color"
+          },
+          "primary_bg_color": {
+            "type": "string",
+            "title": "Primary background color",
+            "format": "color",
+            "ui:css_selector": ".btn-primary",
+            "ui:css_property": "background-color"
+          },
+          "primary_text_color": {
+            "type": "string",
+            "title": "Primary text color",
+            "format": "color",
+            "ui:css_selector": ".text-primary",
+            "ui:css_property": "color"
+          },
+          "selection_text_color": {
+            "type": "string",
+            "title": "Text selection color",
+            "format": "color"
+          },
+          "selection_bg_color": {
+            "type": "string",
+            "title": "Text selection bg color",
+            "format": "color"
+          }
+        }
+      },
+      "typography": {
+        "title": "Typography",
+        "ui:css_selector": "body",
+        "properties": {
+          "type_base_size": {
+            "type": "integer",
+            "minimum": 10,
+            "maximum": 18,
+            "title": "Basstorlek"
+          }
+        }
+      },
       "navbar": {
         "title": "Topparea",
         "ui:css_selector": ".navbar-custom",
@@ -195,86 +275,6 @@
             "type": "string",
             "title": "Hamburgermeny-knapp focus - bakgrund",
             "format": "color"
-          }
-        }
-      },
-      "colors": {
-        "title": "Färger",
-        "ui:css_selector": "body",
-        "properties": {
-          "body_bg_color": {
-            "type": "string",
-            "title": "Sidbakgrund",
-            "format": "color",
-            "ui:css_selector": "body",
-            "ui:css_property": "background-color"
-          },
-          "heading_text_color": {
-            "type": "string",
-            "title": "Rubrikfärg",
-            "format": "color",
-            "ui:css_selector": "h1, h2, h3, h4, h5, h6",
-            "ui:css_property": "color"
-          },
-          "text_color": {
-            "type": "string",
-            "title": "Textfärg",
-            "format": "color",
-            "ui:css_selector": "p",
-            "ui:css_property": "color"
-          },
-          "link_color": {
-            "type": "string",
-            "title": "Länk textfärg",
-            "format": "color"
-          },
-          "link_hover_color": {
-            "type": "string",
-            "title": "Länk textfärg hover",
-            "format": "color"
-          },
-          "muted_text_color": {
-            "type": "string",
-            "title": "Textfärg - muted",
-            "format": "color",
-            "ui:css_selector": ".text-muted",
-            "ui:css_property": "color"
-          },
-          "primary_bg_color": {
-            "type": "string",
-            "title": "Primary background color",
-            "format": "color",
-            "ui:css_selector": ".btn-primary",
-            "ui:css_property": "background-color"
-          },
-          "primary_text_color": {
-            "type": "string",
-            "title": "Primary text color",
-            "format": "color",
-            "ui:css_selector": ".text-primary",
-            "ui:css_property": "color"
-          },
-          "selection_text_color": {
-            "type": "string",
-            "title": "Text selection color",
-            "format": "color"
-          },
-          "selection_bg_color": {
-            "type": "string",
-            "title": "Text selection bg color",
-            "format": "color"
-          }
-        }
-      },
-      "typography": {
-        "title": "Typography",
-        "ui:css_selector": "body",
-        "properties": {
-          "type_base_size": {
-            "type": "integer",
-            "minimum": 10,
-            "maximum": 18,
-            "title": "Basstorlek"
           }
         }
       },
@@ -857,6 +857,21 @@
       "current": "default",
       "presets": {
         "default": {
+          "colors": {
+            "body_bg_color": "#fff",
+            "heading_text_color": "#333",
+            "text_color": "#333",
+            "link_color": "#fed136",
+            "link_hover_color": "fec503",
+            "muted_text_color": "#777",
+            "primary_bg_color": "#fed136",
+            "primary_text_color": "#fed136",
+            "selection_text_color": "#ffffff",
+            "selection_bg_color": "#fed136"
+          },
+          "typography": {
+            "type_base_size": 14
+          },
           "navbar": {
             "bg_color": "#222",
             "padding_top": 10,
@@ -885,21 +900,6 @@
             "mobile_menu_button_bg_color": "#fed136",
             "mobile_menu_button_hover_bg_color": "#fed136",
             "mobile_menu_button_focus_bg_color": "#fed136"
-          },
-          "colors": {
-            "body_bg_color": "#fff",
-            "heading_text_color": "#333",
-            "text_color": "#333",
-            "link_color": "#fed136",
-            "link_hover_color": "fec503",
-            "muted_text_color": "#777",
-            "primary_bg_color": "#fed136",
-            "primary_text_color": "#fed136",
-            "selection_text_color": "#ffffff",
-            "selection_bg_color": "#fed136"
-          },
-          "typography": {
-            "type_base_size": 14
           },
           "header": {
             "lead_in_text_color": "#ffffff",
