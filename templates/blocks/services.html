@@ -8,7 +8,7 @@
           data-field-string="heading"
         >{{heading}}</h2>
         <h3
-          class="section-subheading"
+          class="section-subheading text-muted"
           data-field-string="sub_heading"
         >{{sub_heading}}</h3>
       </div>
@@ -29,6 +29,7 @@
             data-field-string="items[{{loop.index0}}].heading"
           >{{ item.heading }}</h4>
           <p
+            class="text-muted"
             data-field-string="items[{{loop.index0}}].text"
             data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
           >{{ item.text }}</p>
