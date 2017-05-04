@@ -306,6 +306,18 @@
             "format": "color",
             "ui:css_selector": "#portfolio",
             "ui:css_property": "background-color"
+          },
+          "padding_top": {
+            "type": "integer",
+            "title": "Padding top",
+            "minimum": 0,
+            "maximum": 150
+          },
+          "padding_bottom": {
+            "type": "integer",
+            "title": "Padding bottom",
+            "minimum": 0,
+            "maximum": 150
           }
         }
       }
@@ -874,7 +886,9 @@
             "button_bg_color": "#fed136"
           },
           "portfolio": {
-            "bg_color": "#eee"
+            "bg_color": "#eee",
+            "padding_top": 150,
+            "padding_bottom": 150
           }
         },
         "klar": {
