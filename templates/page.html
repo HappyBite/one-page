@@ -195,6 +195,12 @@
       padding-bottom: {{ theme.services.padding_bottom }}px;
       {% endif %}
     }
+    {% if theme.services.icon_bg_color %}
+    #services .text-primary { color: {{ theme.services.icon_bg_color }}; }
+    {% endif %}
+    {% if theme.services.icon_color %}
+    #services .fa-inverse { color: {{ theme.services.icon_color }}; }
+    {% endif %}
     /* Portfolio */
     #portfolio {
       background-color: {{ theme.portfolio.bg_color }};
