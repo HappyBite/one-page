@@ -167,7 +167,11 @@
               "Source Sans Pro",
               "Montserrat",
               "Droid Serif",
-              "Roboto Slab"
+              "Roboto Slab",
+              "Helvetica Neue",
+              "Helvetica",
+              "Arial",
+              "sans-serif"
             ]
           },
           "type_base_size": {
