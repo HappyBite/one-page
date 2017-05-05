@@ -7,10 +7,12 @@
   style="background-image: url({{image}})">
   <div class="container">
     <div class="intro-text">
+      {% if show_title %}
       <div
         class="intro-lead-in"
         data-field-string="lead_in"
       >{{lead_in}}</div>
+      {% endif %}
       <div
         class="intro-heading"
         data-field-string="heading"

@@ -528,6 +528,11 @@
             "type": "string",
             "title": "Bild",
             "format": "file"
+          },
+          "show_title": {
+            "type": "boolean",
+            "title": "Show title",
+            "ui:widget": "switch"
           }
         }
       },
@@ -814,7 +819,8 @@
         "heading": "IT'S NICE TO MEET YOU",
         "link": "#services",
         "link_text": "Tell me more",
-        "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg"
+        "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
+        "show_title": true
       },
       "services": {
         "heading": "Services",
