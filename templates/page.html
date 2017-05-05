@@ -185,6 +185,12 @@
       background-color: {{ theme.header.button_bg_color }};
       border-color: {{ theme.header.button_bg_color }};
     }
+    {% if theme.header.padding_top > -1 %}
+    padding-top: {{ theme.header.padding_top }}px;
+    {% endif %}
+    {% if theme.header.padding_bottom > -1 %}
+    padding-bottom: {{ theme.header.padding_bottom }}px;
+    {% endif %}
     /* Services */
     #services {
       background-color: {{ theme.services.bg_color }};

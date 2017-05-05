@@ -318,6 +318,18 @@
             "type": "string",
             "title": "Button bg color",
             "format": "color"
+          },
+          "padding_top": {
+            "type": "integer",
+            "title": "Padding top",
+            "minimum": 0,
+            "maximum": 150
+          },
+          "padding_bottom": {
+            "type": "integer",
+            "title": "Padding bottom",
+            "minimum": 0,
+            "maximum": 150
           }
         }
       },
@@ -1006,7 +1018,9 @@
           "header": {
             "lead_in_text_color": "#ffffff",
             "heading_text_color": "#ffffff",
-            "button_bg_color": "#fed136"
+            "button_bg_color": "#fed136",
+            "padding_top": -1,
+            "padding_bottom": -1
           },
           "services": {
             "bg_color": "transparent",
