@@ -83,15 +83,15 @@
     body {
       background-color: {{ theme.colors.body_bg_color }};
       color: {{ theme.colors.text_color }};
-      font-family: {{ theme.typography.text_font_family }},"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-family: "{{ theme.typography.text_font_family }}","Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: {{ theme.typography.type_base_size }}px;
     }
     h1, h2, h3, h4, h5, h6 {
       color: {{ theme.colors.heading_text_color }};
-      font-family: {{ theme.typography.title_font_family }},"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-family: "{{ theme.typography.title_font_family }}","Helvetica Neue",Helvetica,Arial,sans-serif;
     }
     body h3.section-subheading {
-      font-family: {{ theme.typography.sub_title_font_family }},"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-family: "{{ theme.typography.sub_title_font_family }}","Helvetica Neue",Helvetica,Arial,sans-serif;
       font-style: italic;
     }
     p {
@@ -125,7 +125,7 @@
     /* Logo */
     .navbar-custom .navbar-brand {
       color: {{ theme.logo.text_color }};
-      font-family: {{ theme.typography.logo_text_font_family }},"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-family: "{{ theme.typography.logo_text_font_family }}","Helvetica Neue",Helvetica,Arial,sans-serif;
     }
     {% if theme.logo.show %}
       @media (min-width: 768px) {
