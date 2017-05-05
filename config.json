@@ -529,9 +529,19 @@
             "title": "Bild",
             "format": "file"
           },
+          "show_lead_in": {
+            "type": "boolean",
+            "title": "Show lead in",
+            "ui:widget": "switch"
+          },
           "show_title": {
             "type": "boolean",
             "title": "Show title",
+            "ui:widget": "switch"
+          },
+          "show_button": {
+            "type": "boolean",
+            "title": "Show button",
             "ui:widget": "switch"
           }
         }
@@ -820,7 +830,9 @@
         "link": "#services",
         "link_text": "Tell me more",
         "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
-        "show_title": true
+        "show_lead_in": true,
+        "show_title": true,
+        "show_button": true
       },
       "services": {
         "heading": "Services",
