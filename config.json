@@ -121,42 +121,39 @@
             "type": "string",
             "title": "Title - Font",
             "enum": [
-              "Open Sans",
-              "Roboto",
-              "Lato",
-              "Oswald",
-              "Roboto Condensed",
               "Montserrat",
               "Droid Serif",
-              "Roboto Slab"
+              "Roboto Slab",
+              "Helvetica Neue",
+              "Helvetica",
+              "Arial",
+              "sans-serif"
             ]
           },
           "sub_title_font_family": {
             "type": "string",
             "title": "Sub Title - Font",
             "enum": [
-              "Open Sans",
-              "Roboto",
-              "Lato",
-              "Oswald",
-              "Roboto Condensed",
               "Montserrat",
               "Droid Serif",
-              "Roboto Slab"
+              "Roboto Slab",
+              "Helvetica Neue",
+              "Helvetica",
+              "Arial",
+              "sans-serif"
             ]
           },
           "text_font_family": {
             "type": "string",
             "title": "Text - Font",
             "enum": [
-              "Open Sans",
-              "Roboto",
-              "Lato",
-              "Oswald",
-              "Roboto Condensed",
               "Montserrat",
               "Droid Serif",
-              "Roboto Slab"
+              "Roboto Slab",
+              "Helvetica Neue",
+              "Helvetica",
+              "Arial",
+              "sans-serif"
             ]
           },
           "type_base_size": {
