@@ -119,7 +119,7 @@
         "properties": {
           "title_font_family": {
             "type": "string",
-            "title": "Title - Font",
+            "title": "Title",
             "enum": [
               "Open Sans",
               "Raleway",
@@ -130,6 +130,7 @@
               "Montserrat",
               "Droid Serif",
               "Roboto Slab",
+              "Kaushan Script",
               "Helvetica Neue",
               "Helvetica",
               "Arial",
@@ -138,7 +139,7 @@
           },
           "sub_title_font_family": {
             "type": "string",
-            "title": "Sub Title - Font",
+            "title": "Sub Title",
             "enum": [
               "Open Sans",
               "Raleway",
@@ -149,6 +150,7 @@
               "Montserrat",
               "Droid Serif",
               "Roboto Slab",
+              "Kaushan Script",
               "Helvetica Neue",
               "Helvetica",
               "Arial",
@@ -157,7 +159,7 @@
           },
           "text_font_family": {
             "type": "string",
-            "title": "Text - Font",
+            "title": "Text",
             "enum": [
               "Open Sans",
               "Raleway",
@@ -168,6 +170,27 @@
               "Montserrat",
               "Droid Serif",
               "Roboto Slab",
+              "Kaushan Script",
+              "Helvetica Neue",
+              "Helvetica",
+              "Arial",
+              "sans-serif"
+            ]
+          },
+          "logo_text_font_family": {
+            "type": "string",
+            "title": "Logo Text",
+            "enum": [
+              "Open Sans",
+              "Raleway",
+              "Roboto",
+              "Lato",
+              "Oswald",
+              "Source Sans Pro",
+              "Montserrat",
+              "Droid Serif",
+              "Roboto Slab",
+              "Kaushan Script",
               "Helvetica Neue",
               "Helvetica",
               "Arial",
@@ -1058,6 +1081,7 @@
             "title_font_family": "Montserrat",
             "sub_title_font_family": "Droid Serif",
             "text_font_family": "Roboto Slab",
+            "logo_text_font_family": "Kaushan Script",
             "type_base_size": 14
           },
           "global": {
