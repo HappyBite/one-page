@@ -117,6 +117,48 @@
         "title": "Typography",
         "ui:css_selector": "body",
         "properties": {
+          "title_font_family": {
+            "type": "string",
+            "title": "Title - Font",
+            "enum": [
+              "Open Sans",
+              "Roboto",
+              "Lato",
+              "Oswald",
+              "Roboto Condensed",
+              "Montserrat",
+              "Droid Serif",
+              "Roboto Slab
+            ]
+          },
+          "sub_title_font_family": {
+            "type": "string",
+            "title": "Sub Title - Font",
+            "enum": [
+              "Open Sans",
+              "Roboto",
+              "Lato",
+              "Oswald",
+              "Roboto Condensed",
+              "Montserrat",
+              "Droid Serif",
+              "Roboto Slab
+            ]
+          },
+          "text_font_family": {
+            "type": "string",
+            "title": "Text - Font",
+            "enum": [
+              "Open Sans",
+              "Roboto",
+              "Lato",
+              "Oswald",
+              "Roboto Condensed",
+              "Montserrat",
+              "Droid Serif",
+              "Roboto Slab
+            ]
+          },
           "type_base_size": {
             "type": "integer",
             "minimum": 10,
@@ -998,6 +1040,9 @@
             "selection_bg_color": "#fed136"
           },
           "typography": {
+            "title_font_family": "Montserrat",
+            "sub_title_font_family": "Droid Serif",
+            "text_font_family": "Roboto Slab",
             "type_base_size": 14
           },
           "global": {
