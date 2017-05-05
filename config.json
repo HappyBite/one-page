@@ -623,6 +623,20 @@
             "type": "boolean",
             "title": "Show button",
             "ui:widget": "switch"
+          },
+          "text_align": {
+            "type": "string",
+            "title": "Text Align",
+            "enum": [
+              "left",
+              "center",
+              "right"
+            ],
+            "enumNames": [
+              "Left",
+              "Center",
+              "Right"
+            ]
           }
         }
       },
@@ -912,7 +926,8 @@
         "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
         "show_lead_in": true,
         "show_title": true,
-        "show_button": true
+        "show_button": true,
+        "text_align": "center"
       },
       "services": {
         "heading": "Services",
