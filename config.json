@@ -121,14 +121,14 @@
             "type": "string",
             "title": "Title - Font",
             "enum": [
-              "Open Sans",
-              "Roboto",
-              "Lato",
-              "Oswald",
-              "Roboto Condensed",
-              "Montserrat",
-              "Droid Serif",
-              "Roboto Slab
+            "Open Sans",
+            "Roboto",
+            "Lato",
+            "Oswald",
+            "Roboto Condensed",
+            "Montserrat",
+            "Droid Serif",
+            "Roboto Slab"
             ]
           },
           "sub_title_font_family": {
@@ -142,7 +142,7 @@
               "Roboto Condensed",
               "Montserrat",
               "Droid Serif",
-              "Roboto Slab
+              "Roboto Slab"
             ]
           },
           "text_font_family": {
@@ -156,7 +156,7 @@
               "Roboto Condensed",
               "Montserrat",
               "Droid Serif",
-              "Roboto Slab
+              "Roboto Slab"
             ]
           },
           "type_base_size": {
