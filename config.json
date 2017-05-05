@@ -323,13 +323,13 @@
             "type": "integer",
             "title": "Padding top",
             "minimum": 0,
-            "maximum": 150
+            "maximum": 300
           },
           "padding_bottom": {
             "type": "integer",
             "title": "Padding bottom",
             "minimum": 0,
-            "maximum": 150
+            "maximum": 300
           }
         }
       },
