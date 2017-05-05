@@ -172,14 +172,12 @@
       border-color: {{ theme.navigation.mobile_menu_button_focus_bg_color }};
     }
     /* Header */
-    #header .intro-text {
-      {% if theme.header.padding_top > -1 %}
-      padding-top: {{ theme.header.padding_top }}px;
-      {% endif %}
-      {% if theme.header.padding_bottom > -1 %}
-      padding-bottom: {{ theme.header.padding_bottom }}px;
-      {% endif %}
-    }
+    @media (min-width: 768px) {
+      #header .intro-text {
+        padding-top: {{ theme.header.padding_top }}px;
+        padding-bottom: {{ theme.header.padding_bottom }}px;
+      }  
+    } 
     #header .intro-text .intro-lead-in {
       color: {{ theme.header.lead_in_text_color }};
     }

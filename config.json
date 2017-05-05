@@ -1019,8 +1019,8 @@
             "lead_in_text_color": "#ffffff",
             "heading_text_color": "#ffffff",
             "button_bg_color": "#fed136",
-            "padding_top": -1,
-            "padding_bottom": -1
+            "padding_top": 300,
+            "padding_bottom": 200
           },
           "services": {
             "bg_color": "transparent",
