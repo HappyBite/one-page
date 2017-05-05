@@ -121,6 +121,12 @@
             "type": "string",
             "title": "Title - Font",
             "enum": [
+              "Open Sans",
+              "Raleway,"
+              "Roboto",
+              "Lato",
+              "Oswald",
+              "Source Sans Pro",
               "Montserrat",
               "Droid Serif",
               "Roboto Slab",
@@ -134,6 +140,12 @@
             "type": "string",
             "title": "Sub Title - Font",
             "enum": [
+              "Open Sans",
+              "Raleway,"
+              "Roboto",
+              "Lato",
+              "Oswald",
+              "Source Sans Pro",
               "Montserrat",
               "Droid Serif",
               "Roboto Slab",
@@ -147,13 +159,15 @@
             "type": "string",
             "title": "Text - Font",
             "enum": [
+              "Open Sans",
+              "Raleway,"
+              "Roboto",
+              "Lato",
+              "Oswald",
+              "Source Sans Pro",
               "Montserrat",
               "Droid Serif",
-              "Roboto Slab",
-              "Helvetica Neue",
-              "Helvetica",
-              "Arial",
-              "sans-serif"
+              "Roboto Slab"
             ]
           },
           "type_base_size": {
