@@ -122,7 +122,7 @@
             "title": "Title - Font",
             "enum": [
               "Open Sans",
-              "Raleway,"
+              "Raleway",
               "Roboto",
               "Lato",
               "Oswald",
@@ -141,7 +141,7 @@
             "title": "Sub Title - Font",
             "enum": [
               "Open Sans",
-              "Raleway,"
+              "Raleway",
               "Roboto",
               "Lato",
               "Oswald",
@@ -160,7 +160,7 @@
             "title": "Text - Font",
             "enum": [
               "Open Sans",
-              "Raleway,"
+              "Raleway",
               "Roboto",
               "Lato",
               "Oswald",
