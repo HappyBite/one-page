@@ -722,7 +722,7 @@
                 "format": "color",
                 "ui:css_selector": ".portfolio-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl",
                 "ui:css_property": "background-color"
-              }
+              },
               "padding_top": {
                 "type": "integer",
                 "title": "Padding top",
