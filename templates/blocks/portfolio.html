@@ -1,43 +1,43 @@
 <style>
-  .{{block_id}} {
-    background-color: {{ style.bg_color }} !important;
+  #{{template_id}}.{{block_id}} {
+    background-color: {{ style.bg_color }};
     color: {{ style.text_color }} !important;
     {% if style.padding_top >= 0 %}
-    padding-top: {{ style.padding_top }}px !important;
+    padding-top: {{ style.padding_top }}px;
     {% endif %}
     {% if style.padding_bottom >= 0 %}
-    padding-bottom: {{ style.padding_bottom }}px !important;
+    padding-bottom: {{ style.padding_bottom }}px;
     {% endif %}
   }
-  .{{block_id}} h1, .{{block_id}} h2, .{{block_id}} h3, .{{block_id}} h4, .{{block_id}} h5, .{{block_id}} h6 {
-    color: {{ style.heading_text_color }} !important;
+  #{{template_id}}.{{block_id}} h1, #{{template_id}}.{{block_id}} h2, #{{template_id}}.{{block_id}} h3, #{{template_id}}.{{block_id}} h4, #{{template_id}}.{{block_id}} h5, #{{template_id}}.{{block_id}} h6 {
+    color: {{ style.heading_text_color }};
   }
-  .{{block_id}} p {
-    color: {{ style.text_color }} !important;
+  #{{template_id}}.{{block_id}} p {
+    color: {{ style.text_color }};
   }
-  .{{block_id}} .text-muted {
-    color: {{ style.muted_text_color }} !important;
+  #{{template_id}}.{{block_id}} .text-muted {
+    color: {{ style.muted_text_color }};
   }
-  .{{block_id}} a {
-    color: {{ style.link_color }} !important;
+  #{{template_id}}.{{block_id}} a {
+    color: {{ style.link_color }};
   }
-  .{{block_id}} a:hover,
-  .{{block_id}} a:focus,
-  .{{block_id}} a:active {
-    color: {{ style.link_hover_color }} !important;
+  #{{template_id}}.{{block_id}} a:hover,
+  #{{template_id}}.{{block_id}} a:focus,
+  #{{template_id}}.{{block_id}} a:active {
+    color: {{ style.link_hover_color }};
   }
-  .{{block_id}} .portfolio-item .portfolio-link .portfolio-hover {
-    background-color: {{ style.hover_content_bg_color }} !important;
+  #{{template_id}}.{{block_id}} .portfolio-item .portfolio-link .portfolio-hover {
+    background-color: {{ style.hover_content_bg_color }};
   }
   .{{block_id}}-modal .portfolio-item .portfolio-caption {
-    background-color: {{ style.caption_bg_color }} !important;
+    background-color: {{ style.caption_bg_color }};
   }
   .{{block_id}}-modal .modal-content {
-    background-color: {{ style.item_bg_color }} !important;
+    background-color: {{ style.item_bg_color }};
   }
   .{{block_id}}-modal .close-modal .lr,
   .{{block_id}}-modal .close-modal .lr .rl {
-    background-color: {{ style.item_close_btn_color }} !important;
+    background-color: {{ style.item_close_btn_color }};
   }
 </style>
 <!-- Portfolio Grid Section -->
