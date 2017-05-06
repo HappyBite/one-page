@@ -717,12 +717,33 @@
                 "ui:css_selector": "#portfolio .portfolio-item .portfolio-link .portfolio-hover",
                 "ui:css_property": "background-color"
               },
+              "hover_content_icon_color": {
+                "type": "string",
+                "title": "Hover content icon color",
+                "format": "color",
+                "ui:css_selector": "#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i",
+                "ui:css_property": "color"
+              },
               "caption_bg_color": {
                 "type": "string",
                 "title": "Caption - bakgrundsfärg",
                 "format": "color",
                 "ui:css_selector": "#portfolio .portfolio-item .portfolio-caption",
                 "ui:css_property": "background-color"
+              },
+              "caption_title_color": {
+                "type": "string",
+                "title": "Caption title color",
+                "format": "color",
+                "ui:css_selector": "#portfolio .portfolio-item .portfolio-caption h4",
+                "ui:css_property": "color"
+              },
+              "caption_text_color": {
+                "type": "string",
+                "title": "Caption text color",
+                "format": "color",
+                "ui:css_selector": "#portfolio .portfolio-item .portfolio-caption p",
+                "ui:css_property": "color"
               },
               "item_bg_color": {
                 "type": "string",
@@ -1181,7 +1202,10 @@
         "style": {
           "bg_color": "transparent",
           "hover_content_bg_color": "rgba(254,209,54,.9)",
+          "hover_content_icon_color": "#fff",
           "caption_bg_color": "#fff",
+          "caption_title_color": "#333",
+          "caption_text_color": "#777",
           "item_bg_color": "#fff",
           "item_close_btn_color": "#222"
         }

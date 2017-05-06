@@ -43,8 +43,17 @@
   #{{template_id}}.{{block_id}} .portfolio-item .portfolio-link .portfolio-hover {
     background-color: {{ style.hover_content_bg_color }};
   }
+  #{{template_id}}.{{block_id}} .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    color: {{ style.hover_content_icon_color }};
+  }
   #{{template_id}}.{{block_id}} .portfolio-item .portfolio-caption {
     background-color: {{ style.caption_bg_color }};
+  }
+  #{{template_id}}.{{block_id}} .portfolio-item .portfolio-caption h4 {
+    color: {{ style.caption_title_color }};
+  }
+  #{{template_id}}.{{block_id}} .portfolio-item .portfolio-caption p {
+    color: {{ style.caption_text_color }};
   }
   .{{block_id}}-modal .modal-content {
     background-color: {{ style.item_bg_color }};
