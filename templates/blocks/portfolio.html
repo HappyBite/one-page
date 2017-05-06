@@ -1,11 +1,25 @@
 <style>
   #portfolio {
+    background-color: {{ style.bg_color }};
     {% if style.padding_top >= 0 %}
     padding-top: {{ style.padding_top }}px;
     {% endif %}
     {% if style.padding_bottom >= 0 %}
     padding-bottom: {{ style.padding_bottom }}px;
     {% endif %}
+  }
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background-color: {{ style.hover_content_bg_color }};
+  }
+  #portfolio .portfolio-item .portfolio-caption {
+    background-color: {{ style.caption_bg_color }};
+  }
+  .portfolio-modal .modal-content {
+    background-color: {{ style.item_bg_color }};
+  }
+  .portfolio-modal .close-modal .lr,
+  .portfolio-modal .close-modal .lr .rl {
+    background-color: {{ style.item_close_btn_color }};
   }
 </style>
 <!-- Portfolio Grid Section -->
