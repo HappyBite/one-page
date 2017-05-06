@@ -743,6 +743,30 @@
               },
               "heading_text_color": {
                 "$ref": "#/definitions/heading_text_color"
+              },
+              "text_color": {
+                "$ref": "#/definitions/text_color"
+              },
+              "link_color": {
+                "$ref": "#/definitions/link_color"
+              },
+              "link_hover_color": {
+                "$ref": "#/definitions/link_hover_color"
+              },
+              "muted_text_color": {
+                "$ref": "#/definitions/muted_text_color"
+              },
+              "primary_bg_color": {
+                "$ref": "#/definitions/primary_bg_color"
+              },
+              "primary_text_color": {
+                "$ref": "#/definitions/primary_text_color"
+              },
+              "selection_text_color": {
+                "$ref": "#/definitions/selection_text_color"
+              },
+              "selection_bg_color": {
+                "$ref": "#/definitions/selection_bg_color"
               }
             }
           }
@@ -1227,6 +1251,54 @@
       "format": "color",
       "ui:css_selector": "h1, h2, h3, h4, h5, h6",
       "ui:css_property": "color"
+    },
+    "text_color": {
+      "type": "string",
+      "title": "Textfärg",
+      "format": "color",
+      "ui:css_selector": "p",
+      "ui:css_property": "color"
+    },
+    "link_color": {
+      "type": "string",
+      "title": "Länk textfärg",
+      "format": "color"
+    },
+    "link_hover_color": {
+      "type": "string",
+      "title": "Länk textfärg hover",
+      "format": "color"
+    },
+    "muted_text_color": {
+      "type": "string",
+      "title": "Textfärg - muted",
+      "format": "color",
+      "ui:css_selector": ".text-muted",
+      "ui:css_property": "color"
+    },
+    "primary_bg_color": {
+      "type": "string",
+      "title": "Primary background color",
+      "format": "color",
+      "ui:css_selector": ".btn-primary",
+      "ui:css_property": "background-color"
+    },
+    "primary_text_color": {
+      "type": "string",
+      "title": "Primary text color",
+      "format": "color",
+      "ui:css_selector": ".text-primary",
+      "ui:css_property": "color"
+    },
+    "selection_text_color": {
+      "type": "string",
+      "title": "Text selection color",
+      "format": "color"
+    },
+    "selection_bg_color": {
+      "type": "string",
+      "title": "Text selection bg color",
+      "format": "color"
     }
   }
 }
