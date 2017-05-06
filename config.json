@@ -4,7 +4,16 @@
   "settings_default": {
     "block": {
       "padding_top": 150,
-      "padding_bottom": 150
+      "padding_bottom": 150,
+      "heading_text_color": "#333",
+      "text_color": "#333",
+      "link_color": "#fed136",
+      "link_hover_color": "#fec503",
+      "muted_text_color": "#777",
+      "primary_bg_color": "#fed136",
+      "primary_text_color": "#fed136",
+      "selection_text_color": "#ffffff",
+      "selection_bg_color": "#fed136"
     }
   },
   "block_templates": [
@@ -742,7 +751,6 @@
                 "maximum": 300
               },
               "heading_text_color": {
-                "title": "gagabagi",
                 "$ref": "#/definitions/heading_text_color"
               },
               "text_color": {
