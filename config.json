@@ -731,13 +731,13 @@
                 }
               }
             }
-          }
-        },
-        "style": {
-          "properties": {
-            "heading": {
-              "type": "string",
-              "title": "Rubrik" 
+          },
+          "style": {
+            "properties": {
+              "heading": {
+                "type": "string",
+                "title": "Rubrik" 
+              }
             }
           }
         }
