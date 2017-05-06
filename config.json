@@ -887,10 +887,132 @@
         }
       }
     },
-    "sidebars": {
-    }
+    "sidebars": {}
   },
   "settings": {
+    "theme": {
+      "current": "default",
+      "presets": {
+        "default": {
+          "colors": {
+            "body_bg_color": "#fff",
+            "heading_text_color": "#333",
+            "text_color": "#333",
+            "link_color": "#fed136",
+            "link_hover_color": "#fec503",
+            "muted_text_color": "#777",
+            "primary_bg_color": "#fed136",
+            "primary_text_color": "#fed136",
+            "selection_text_color": "#ffffff",
+            "selection_bg_color": "#fed136"
+          },
+          "typography": {
+            "title_font_family": "Montserrat",
+            "sub_title_font_family": "Droid Serif",
+            "text_font_family": "Roboto Slab",
+            "logo_text_font_family": "Kaushan Script",
+            "type_base_size": 14
+          },
+          "global": {
+            "section_padding_top": 150,
+            "section_padding_bottom": 150
+          },
+          "navbar": {
+            "bg_color": "#222",
+            "padding_top": 10,
+            "padding_bottom": 10,
+            "border_bottom_width": 0,
+            "border_bottom_color": "transparent"
+          },
+          "logo": {
+            "text_color": "#fed136",
+            "text_hover_color": "#fed136",
+            "text_focus_color": "#fed136",
+            "image": "https://assets.brandfolder.com/8w7lv8ml/view.png",
+            "padding_top": 12,
+            "width": 125,
+            "show": false
+          },
+          "navigation": {
+            "text_color": "#fff",
+            "text_hover_color": "#fed136",
+            "text_active_color": "#fed136",
+            "text_focus_color": "#fed136",
+            "bg_text_color": "transparent",
+            "bg_text_hover_color": "transparent",
+            "bg_text_active_color": "#fed136",
+            "bg_text_focus_color": "#fed136",
+            "mobile_menu_button_bg_color": "#fed136",
+            "mobile_menu_button_hover_bg_color": "#fed136",
+            "mobile_menu_button_focus_bg_color": "#fed136"
+          },
+          "header": {
+            "lead_in_text_color": "#ffffff",
+            "heading_text_color": "#ffffff",
+            "button_bg_color": "#fed136",
+            "padding_top": 300,
+            "padding_bottom": 200
+          },
+          "services": {
+            "bg_color": "transparent",
+            "padding_top": -1,
+            "padding_bottom": -1
+          },
+          "team": {
+            "bg_color": "transparent",
+            "padding_top": -1,
+            "padding_bottom": -1
+          }
+        },
+        "klar": {
+          "navbar": {
+            "bg_color": "#005da0",
+            "padding_top": 10,
+            "padding_bottom": 10,
+            "border_bottom_width": 0,
+            "border_bottom_color": "#f1f1f1"
+          },
+          "logo": {
+            "text_color": "#ffffff",
+            "text_hover_color": "#ffffff",
+            "text_focus_color": "#ffffff"
+          },
+          "navigation": {
+            "text_color": "#ffffff",
+            "text_hover_color": "#ffffff",
+            "text_active_color": "#ffffff",
+            "text_focus_color": "#ffffff",
+            "bg_text_color": "transparent",
+            "bg_text_hover_color": "transparent",
+            "bg_text_active_color": "#555555",
+            "bg_text_focus_color": "#555555",
+            "mobile_menu_button_bg_color": "#005da0",
+            "mobile_menu_button_hover_bg_color": "#005da0",
+            "mobile_menu_button_focus_bg_color": "#005da0"
+          },
+          "colors": {
+            "body_bg_color": "#f1f1f1",
+            "heading_text_color": "#555555",
+            "text_color": "#555555",
+            "text_muted_color": "#555555",
+            "primary_bg_color": "#005da0",
+            "primary_text_color": "#005da0",
+            "selection_text_color": "#f1f1f1",
+            "selection_bg_color": "#005da0",
+            "link_color": "#005da0",
+            "link_hover_color": "#005da0"
+          },
+          "typography": {
+            "type_base_size": 14
+          },
+          "header": {
+            "lead_in_text_color": "#ffffff",
+            "heading_text_color": "#ffffff",
+            "button_bg_color": "#005da0"
+          }
+        }
+      }
+    },
     "page": {
       "data": {
         "title": "Agency - Start Bootstrap Theme",
@@ -1015,7 +1137,11 @@
           }
         ],
         "style": {
-          
+          "bg_color": "transparent",
+          "hover_content_bg_color": "rgba(254,209,54,.9)",
+          "caption_bg_color": "#fff",
+          "item_bg_color": "#fff",
+          "item_close_btn_color": "#222"
         }
       },
       "team": {
@@ -1082,138 +1208,6 @@
       },
       "decoration": {
         "image": "https://svti.svt.se/wp-content/themes/svti/assets/img/kollage3.jpg"
-      }
-    },
-    "theme": {
-      "current": "default",
-      "presets": {
-        "default": {
-          "colors": {
-            "body_bg_color": "#fff",
-            "heading_text_color": "#333",
-            "text_color": "#333",
-            "link_color": "#fed136",
-            "link_hover_color": "#fec503",
-            "muted_text_color": "#777",
-            "primary_bg_color": "#fed136",
-            "primary_text_color": "#fed136",
-            "selection_text_color": "#ffffff",
-            "selection_bg_color": "#fed136"
-          },
-          "typography": {
-            "title_font_family": "Montserrat",
-            "sub_title_font_family": "Droid Serif",
-            "text_font_family": "Roboto Slab",
-            "logo_text_font_family": "Kaushan Script",
-            "type_base_size": 14
-          },
-          "global": {
-            "section_padding_top": 150,
-            "section_padding_bottom": 150
-          },
-          "navbar": {
-            "bg_color": "#222",
-            "padding_top": 10,
-            "padding_bottom": 10,
-            "border_bottom_width": 0,
-            "border_bottom_color": "transparent"
-          },
-          "logo": {
-            "text_color": "#fed136",
-            "text_hover_color": "#fed136",
-            "text_focus_color": "#fed136",
-            "image": "https://assets.brandfolder.com/8w7lv8ml/view.png",
-            "padding_top": 12,
-            "width": 125,
-            "show": false
-          },
-          "navigation": {
-            "text_color": "#fff",
-            "text_hover_color": "#fed136",
-            "text_active_color": "#fed136",
-            "text_focus_color": "#fed136",
-            "bg_text_color": "transparent",
-            "bg_text_hover_color": "transparent",
-            "bg_text_active_color": "#fed136",
-            "bg_text_focus_color": "#fed136",
-            "mobile_menu_button_bg_color": "#fed136",
-            "mobile_menu_button_hover_bg_color": "#fed136",
-            "mobile_menu_button_focus_bg_color": "#fed136"
-          },
-          "header": {
-            "lead_in_text_color": "#ffffff",
-            "heading_text_color": "#ffffff",
-            "button_bg_color": "#fed136",
-            "padding_top": 300,
-            "padding_bottom": 200
-          },
-          "services": {
-            "bg_color": "transparent",
-            "padding_top": -1,
-            "padding_bottom": -1
-          },
-          "portfolio": {
-            "bg_color": "transparent",
-            "hover_content_bg_color": "rgba(254,209,54,.9)",
-            "caption_bg_color": "#fff",
-            "item_bg_color": "#fff",
-            "item_close_btn_color": "#222",
-            "padding_top": -1,
-            "padding_bottom": -1
-          },
-          "team": {
-            "bg_color": "transparent",
-            "padding_top": -1,
-            "padding_bottom": -1
-          }
-        },
-        "klar": {
-          "navbar": {
-            "bg_color": "#005da0",
-            "padding_top": 10,
-            "padding_bottom": 10,
-            "border_bottom_width": 0,
-            "border_bottom_color": "#f1f1f1"
-          },
-          "logo": {
-            "text_color": "#ffffff",
-            "text_hover_color": "#ffffff",
-            "text_focus_color": "#ffffff"
-          },
-          "navigation": {
-            "text_color": "#ffffff",
-            "text_hover_color": "#ffffff",
-            "text_active_color": "#ffffff",
-            "text_focus_color": "#ffffff",
-            "bg_text_color": "transparent",
-            "bg_text_hover_color": "transparent",
-            "bg_text_active_color": "#555555",
-            "bg_text_focus_color": "#555555",
-            "mobile_menu_button_bg_color": "#005da0",
-            "mobile_menu_button_hover_bg_color": "#005da0",
-            "mobile_menu_button_focus_bg_color": "#005da0"
-          },
-          "colors": {
-            "body_bg_color": "#f1f1f1",
-            "heading_text_color": "#555555",
-            "text_color": "#555555",
-            "text_muted_color": "#555555",
-            "primary_bg_color": "#005da0",
-            "primary_text_color": "#005da0",
-            "selection_text_color": "#f1f1f1",
-            "selection_bg_color": "#005da0",
-            "link_color": "#005da0",
-            "link_hover_color": "#005da0"
-          },
-          "typography": {
-            "type_base_size": 14
-          },
-          "header": {
-            "lead_in_text_color": "#ffffff",
-            "heading_text_color": "#ffffff",
-            "button_bg_color": "#005da0"
-          }
-        }
       }
     }
   },
