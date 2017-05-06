@@ -1,43 +1,43 @@
 <style>
-  .{{block_id}}section {
-    background-color: {{ style.bg_color }};
-    color: {{ style.text_color }};
+  .{{block_id}} {
+    background-color: {{ style.bg_color }} !important;
+    color: {{ style.text_color }} !important;
     {% if style.padding_top >= 0 %}
-    padding-top: {{ style.padding_top }}px;
+    padding-top: {{ style.padding_top }}px !important;
     {% endif %}
     {% if style.padding_bottom >= 0 %}
-    padding-bottom: {{ style.padding_bottom }}px;
+    padding-bottom: {{ style.padding_bottom }}px !important;
     {% endif %}
   }
-  .{{block_id}}section h1, h2, h3, h4, h5, h6 {
-    color: {{ style.heading_text_color }};
+  .{{block_id}} h1, h2, h3, h4, h5, h6 {
+    color: {{ style.heading_text_color }} !important;
   }
-  #{{template_id}}.{{block_id}} p {
-    color: {{ style.text_color }};
+  .{{block_id}} p {
+    color: {{ style.text_color }} !important;
   }
-  #{{template_id}}.{{block_id}} .text-muted {
-    color: {{ style.muted_text_color }};
+  .{{block_id}} .text-muted {
+    color: {{ style.muted_text_color }} !important;
   }
-  #{{template_id}}.{{block_id}} a {
-    color: {{ style.link_color }};
+  .{{block_id}} a {
+    color: {{ style.link_color }} !important;
   }
-  #{{template_id}}.{{block_id}} a:hover,
-  #{{template_id}}.{{block_id}} a:focus,
-  #{{template_id}}.{{block_id}} a:active {
-    color: {{ style.link_hover_color }};
+  .{{block_id}} a:hover,
+  .{{block_id}} a:focus,
+  .{{block_id}} a:active {
+    color: {{ style.link_hover_color }} !important;
   }
-  #{{template_id}}.{{block_id}} .portfolio-item .portfolio-link .portfolio-hover {
-    background-color: {{ style.hover_content_bg_color }};
+  .{{block_id}} .portfolio-item .portfolio-link .portfolio-hover {
+    background-color: {{ style.hover_content_bg_color }} !important;
   }
   .{{block_id}}-modal .portfolio-item .portfolio-caption {
-    background-color: {{ style.caption_bg_color }};
+    background-color: {{ style.caption_bg_color }} !important;
   }
   .{{block_id}}-modal .modal-content {
-    background-color: {{ style.item_bg_color }};
+    background-color: {{ style.item_bg_color }} !important;
   }
   .{{block_id}}-modal .close-modal .lr,
   .{{block_id}}-modal .close-modal .lr .rl {
-    background-color: {{ style.item_close_btn_color }};
+    background-color: {{ style.item_close_btn_color }} !important;
   }
 </style>
 <!-- Portfolio Grid Section -->
