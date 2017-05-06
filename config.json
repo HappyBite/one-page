@@ -741,9 +741,17 @@
           },
           "style": {
             "properties": {
-              "heading": {
-                "type": "string",
-                "title": "Rubrik" 
+              "padding_top": {
+                "type": "integer",
+                "title": "Padding top",
+                "minimum": 0,
+                "maximum": 300
+              },
+              "padding_bottom": {
+                "type": "integer",
+                "title": "Padding bottom",
+                "minimum": 0,
+                "maximum": 300
               }
             }
           }
