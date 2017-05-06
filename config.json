@@ -742,6 +742,7 @@
                 "maximum": 300
               },
               "heading_text_color": {
+                "title": "gagabagi",
                 "$ref": "#/definitions/heading_text_color"
               },
               "text_color": {
