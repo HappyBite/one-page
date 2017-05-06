@@ -9,7 +9,7 @@
     padding-bottom: {{ style.padding_bottom }}px !important;
     {% endif %}
   }
-  .{{block_id}} h1, h2, h3, h4, h5, h6 {
+  .{{block_id}} h1, .{{block_id}} h2, .{{block_id}} h3, .{{block_id}} h4, .{{block_id}} h5, .{{block_id}} h6 {
     color: {{ style.heading_text_color }} !important;
   }
   .{{block_id}} p {
@@ -60,25 +60,25 @@
         <div class="col-md-4 col-sm-6 portfolio-item">
           <div data-field-array-item>
             <a href="#portfolioModal{{loop.index}}" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
               </div>
-            </div>
-            <img
-              src="{{ item.image }}"
-              class="img-responsive"
-              alt="" />
-          </a>
+              <img
+                src="{{ item.image }}"
+                class="img-responsive"
+                alt="" />
+            </a>
             <div class="portfolio-caption">
-            <h4
-              data-field-string="heading"
-            >{{ item.client }}</h4>
-            <p
-              data-field-string="category"
-              data-toolbar-buttons="['bold']"
-              class="text-muted">{{ item.category }}</p>
-          </div>
+              <h4
+                data-field-string="heading"
+              >{{ item.client }}</h4>
+              <p
+                data-field-string="category"
+                data-toolbar-buttons="['bold']"
+                class="text-muted">{{ item.category }}</p>
+            </div>
           </div>
         </div>
       {% endfor %}
