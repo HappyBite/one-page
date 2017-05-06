@@ -740,6 +740,9 @@
                 "title": "Padding bottom",
                 "minimum": 0,
                 "maximum": 300
+              },
+              "heading_text_color": {
+                "$ref": "#/definitions/heading_text_color"
               }
             }
           }
@@ -1215,6 +1218,15 @@
       "decoration": {
         "image": "https://svti.svt.se/wp-content/themes/svti/assets/img/kollage3.jpg"
       }
+    }
+  },
+  "definitions": {
+    "heading_text_color": {
+      "type": "string",
+      "title": "Rubrikfärg",
+      "format": "color",
+      "ui:css_selector": "h1, h2, h3, h4, h5, h6",
+      "ui:css_property": "color"
     }
   }
 }
