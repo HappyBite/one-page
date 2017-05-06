@@ -1031,7 +1031,11 @@
             "client": "Dreams",
             "date": "2014-07-14"
           }
-        ]
+        ],
+        "style": {
+          "padding_top": -1,
+          "padding_bottom": -1
+        }
       },
       "team": {
         "heading": "Our Amazing Team",
