@@ -1,6 +1,12 @@
 {
   "name": "agency",
   "version": "0.0.0",
+  "settings_default": {
+    "block": {
+      "padding_top": 150,
+      "padding_bottom": 150
+    }
+  },
   "block_templates": [
     {
       "title": "Navigation",
@@ -1211,10 +1217,4 @@
       }
     }
   },
-  "settings_default": {
-    "block": {
-      "padding_top": 150,
-      "padding_bottom": 150
-    }
-  }
 }
