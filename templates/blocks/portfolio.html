@@ -1,9 +1,9 @@
 <style>
   #portfolio {
-    {% if style.padding_top %}
+    {% if style.padding_top => 0 %}
     padding-top: {{ style.padding_top }}px;
     {% endif %}
-    {% if style.padding_bottom %}
+    {% if style.padding_bottom => 0 %}
     padding-bottom: {{ style.padding_bottom }}px;
     {% endif %}
   }
