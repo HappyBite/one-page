@@ -492,18 +492,6 @@
             "format": "color",
             "ui:css_selector": ".portfolio-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl",
             "ui:css_property": "background-color"
-          },
-          "padding_top": {
-            "type": "integer",
-            "title": "Padding top",
-            "minimum": 0,
-            "maximum": 150
-          },
-          "padding_bottom": {
-            "type": "integer",
-            "title": "Padding bottom",
-            "minimum": 0,
-            "maximum": 150
           }
         }
       },

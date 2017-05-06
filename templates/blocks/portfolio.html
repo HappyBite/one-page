@@ -1,3 +1,13 @@
+<style>
+  #portfolio {
+    {% if theme.portfolio.padding_top > -1 %}
+    padding-top: {{ theme.portfolio.padding_top }}px;
+    {% endif %}
+    {% if theme.portfolio.padding_bottom > -1 %}
+    padding-bottom: {{ theme.portfolio.padding_bottom }}px;
+    {% endif %}
+  }
+</style>
 <!-- Portfolio Grid Section -->
 <section id="{{template_id}}" class="bg-light-gray">
   <div class="container">
