@@ -1222,5 +1222,11 @@
         }
       }
     }
-  }
+  },
+  "settings_default": {
+    "block": {
+      "padding_top": 150,
+      "padding_bottom": 150
+    }
+  } 
 }
