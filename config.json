@@ -454,47 +454,6 @@
           }
         }
       },
-      "portfolio": {
-        "title": "Portfolio",
-        "ui:css_selector": "#portfolio",
-        "properties": {
-          "bg_color": {
-            "type": "string",
-            "title": "Bakgrundsfärg",
-            "format": "color",
-            "ui:css_selector": "#portfolio",
-            "ui:css_property": "background-color"
-          },
-          "hover_content_bg_color": {
-            "type": "string",
-            "title": "Hover content - bakgrundsfärg",
-            "ormat": "color",
-            "ui:css_selector": "#portfolio .portfolio-item .portfolio-link .portfolio-hover",
-            "ui:css_property": "background-color"
-          },
-          "caption_bg_color": {
-            "type": "string",
-            "title": "Caption - bakgrundsfärg",
-            "format": "color",
-            "ui:css_selector": "#portfolio .portfolio-item .portfolio-caption",
-            "ui:css_property": "background-color"
-          },
-          "item_bg_color": {
-            "type": "string",
-            "title": "Item - bakgrundsfärg",
-            "format": "color",
-            "ui:css_selector": ".portfolio-modal .modal-content",
-            "ui:css_property": "background-color"
-          },
-          "item_close_btn_color": {
-            "type": "string",
-            "title": "Item stängknapp - färg",
-            "format": "color",
-            "ui:css_selector": ".portfolio-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl",
-            "ui:css_property": "background-color"
-          }
-        }
-      },
       "team": {
         "title": "Team",
         "ui:css_selector": "#team",
@@ -729,6 +688,41 @@
           },
           "style": {
             "properties": {
+              "bg_color": {
+                "type": "string",
+                "title": "Bakgrundsfärg",
+                "format": "color",
+                "ui:css_selector": "#portfolio",
+                "ui:css_property": "background-color"
+              },
+              "hover_content_bg_color": {
+                "type": "string",
+                "title": "Hover content - bakgrundsfärg",
+                "ormat": "color",
+                "ui:css_selector": "#portfolio .portfolio-item .portfolio-link .portfolio-hover",
+                "ui:css_property": "background-color"
+              },
+              "caption_bg_color": {
+                "type": "string",
+                "title": "Caption - bakgrundsfärg",
+                "format": "color",
+                "ui:css_selector": "#portfolio .portfolio-item .portfolio-caption",
+                "ui:css_property": "background-color"
+              },
+              "item_bg_color": {
+                "type": "string",
+                "title": "Item - bakgrundsfärg",
+                "format": "color",
+                "ui:css_selector": ".portfolio-modal .modal-content",
+                "ui:css_property": "background-color"
+              },
+              "item_close_btn_color": {
+                "type": "string",
+                "title": "Item stängknapp - färg",
+                "format": "color",
+                "ui:css_selector": ".portfolio-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl",
+                "ui:css_property": "background-color"
+              }
               "padding_top": {
                 "type": "integer",
                 "title": "Padding top",
