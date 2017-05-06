@@ -1,5 +1,5 @@
 <style>
-  #{{block_id}} {
+  body .{{block_id}} {
     background-color: {{ style.bg_color }};
     color: {{ style.text_color }};
     {% if style.padding_top >= 0 %}
@@ -9,39 +9,39 @@
     padding-bottom: {{ style.padding_bottom }}px;
     {% endif %}
   }
-  #{{block_id}} h1, h2, h3, h4, h5, h6 {
+  body .{{block_id}} h1, h2, h3, h4, h5, h6 {
     color: {{ style.heading_text_color }};
   }
-  #{{block_id}} p {
+  body .{{block_id}} p {
     color: {{ style.text_color }};
   }
-  #{{block_id}} .text-muted {
+  body .{{block_id}} .text-muted {
     color: {{ style.muted_text_color }};
   }
-  #{{block_id}} a {
+  body .{{block_id}} a {
     color: {{ style.link_color }};
   }
-  #{{block_id}} a:hover,
-  #{{block_id}} a:focus,
-  #{{block_id}} a:active {
+  body .{{block_id}} a:hover,
+  body .{{block_id}} a:focus,
+  body .{{block_id}} a:active {
     color: {{ style.link_hover_color }};
   }
-  #{{block_id}} .portfolio-item .portfolio-link .portfolio-hover {
+  body .{{block_id}} .portfolio-item .portfolio-link .portfolio-hover {
     background-color: {{ style.hover_content_bg_color }};
   }
-  .{{block_id}}-modal .portfolio-item .portfolio-caption {
+  body .{{block_id}}-modal .portfolio-item .portfolio-caption {
     background-color: {{ style.caption_bg_color }};
   }
-  .{{block_id}}-modal .modal-content {
+  body .{{block_id}}-modal .modal-content {
     background-color: {{ style.item_bg_color }};
   }
-  .{{block_id}}-modal .close-modal .lr,
-  .{{block_id}}-modal .close-modal .lr .rl {
+  body .{{block_id}}-modal .close-modal .lr,
+  body .{{block_id}}-modal .close-modal .lr .rl {
     background-color: {{ style.item_close_btn_color }};
   }
 </style>
 <!-- Portfolio Grid Section -->
-<section id="{{block_id}}" class="{{template_id}}">
+<section id="{{template_id}}" class="{{block_id}}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
