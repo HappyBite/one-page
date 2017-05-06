@@ -732,6 +732,14 @@
               }
             }
           }
+        },
+        "style": {
+          "properties": {
+            "heading": {
+              "type": "string",
+              "title": "Rubrik" 
+            }
+          }
         }
       },
       "team": {
