@@ -653,11 +653,8 @@
           "style": {
             "properties": {
               "bg_color": {
-                "type": "string",
-                "title": "Bakgrundsfärg",
-                "format": "color",
-                "ui:css_selector": "#services",
-                "ui:css_property": "background-color"
+                "ui:css_selector": "${block_id_css_class}",
+                "$ref": "#/definitions/bg_color"
               },
               "icon_bg_color": {
                 "type": "string",
