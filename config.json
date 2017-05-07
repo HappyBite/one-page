@@ -3,75 +3,79 @@
   "version": "0.0.0",
   "settings_default": {
     "block": {
-      "padding_top": 150,
-      "padding_bottom": 150,
-      "heading_text_color": "#333",
-      "text_color": "#333",
-      "link_color": "#fed136",
-      "link_hover_color": "#fec503",
-      "muted_text_color": "#777",
-      "primary_bg_color": "#fed136",
-      "primary_text_color": "#fed136",
-      "selection_text_color": "#ffffff",
-      "selection_bg_color": "#fed136"
+      "style": {
+        "padding_top": 150,
+        "padding_bottom": 150,
+        "heading_text_color": "#333",
+        "text_color": "#333",
+        "link_color": "#fed136",
+        "link_hover_color": "#fec503",
+        "muted_text_color": "#777",
+        "primary_bg_color": "#fed136",
+        "primary_text_color": "#fed136",
+        "selection_text_color": "#ffffff",
+        "selection_bg_color": "#fed136"
+      }
     }
   },
   "settings_schema_default": {
     "block": {
-      "heading_text_color": {
-        "type": "string",
-        "title": "Rubrikfärg",
-        "format": "color",
-        "ui:css_selector": "h1, h2, h3, h4, h5, h6",
-        "ui:css_property": "color"
-      },
-      "text_color": {
-        "type": "string",
-        "title": "Textfärg",
-        "format": "color",
-        "ui:css_selector": "p",
-        "ui:css_property": "color"
-      },
-      "link_color": {
-        "type": "string",
-        "title": "Länk textfärg",
-        "format": "color"
-      },
-      "link_hover_color": {
-        "type": "string",
-        "title": "Länk textfärg hover",
-        "format": "color"
-      },
-      "muted_text_color": {
-        "type": "string",
-        "title": "Textfärg - muted",
-        "format": "color",
-        "ui:css_selector": ".text-muted",
-        "ui:css_property": "color"
-      },
-      "primary_bg_color": {
-        "type": "string",
-        "title": "Primary background color",
-        "format": "color",
-        "ui:css_selector": ".btn-primary",
-        "ui:css_property": "background-color"
-      },
-      "primary_text_color": {
-        "type": "string",
-        "title": "Primary text color",
-        "format": "color",
-        "ui:css_selector": ".text-primary",
-        "ui:css_property": "color"
-      },
-      "selection_text_color": {
-        "type": "string",
-        "title": "Text selection color",
-        "format": "color"
-      },
-      "selection_bg_color": {
-        "type": "string",
-        "title": "Text selection bg color",
-        "format": "color"
+      "style": {
+        "heading_text_color": {
+          "type": "string",
+          "title": "Rubrikfärg",
+          "format": "color",
+          "ui:css_selector": "h1, h2, h3, h4, h5, h6",
+          "ui:css_property": "color"
+        },
+        "text_color": {
+          "type": "string",
+          "title": "Textfärg",
+          "format": "color",
+          "ui:css_selector": "p",
+          "ui:css_property": "color"
+        },
+        "link_color": {
+          "type": "string",
+          "title": "Länk textfärg",
+          "format": "color"
+        },
+        "link_hover_color": {
+          "type": "string",
+          "title": "Länk textfärg hover",
+          "format": "color"
+        },
+        "muted_text_color": {
+          "type": "string",
+          "title": "Textfärg - muted",
+          "format": "color",
+          "ui:css_selector": ".text-muted",
+          "ui:css_property": "color"
+        },
+        "primary_bg_color": {
+          "type": "string",
+          "title": "Primary background color",
+          "format": "color",
+          "ui:css_selector": ".btn-primary",
+          "ui:css_property": "background-color"
+        },
+        "primary_text_color": {
+          "type": "string",
+          "title": "Primary text color",
+          "format": "color",
+          "ui:css_selector": ".text-primary",
+          "ui:css_property": "color"
+        },
+        "selection_text_color": {
+          "type": "string",
+          "title": "Text selection color",
+          "format": "color"
+        },
+        "selection_bg_color": {
+          "type": "string",
+          "title": "Text selection bg color",
+          "format": "color"
+        }
       }
     }
   },
