@@ -14,7 +14,7 @@
       "type": "string",
       "title": "Rubrikfärg",
       "format": "color",
-      "ui:css_selector": "${block_id_css_class} h1, ${block_id_css_class} h2, ${block_id_css_class} h3, ${block_id_css_class} h4, ${block_id_css_class} h5, ${block_id_css_class} h6",
+      "ui:css_selector": "${block_id_css_id} h1, ${block_id_css_id} h2, ${block_id_css_id} h3, ${block_id_css_id} h4, ${block_id_css_id} h5, ${block_id_css_id} h6",
       "ui:css_property": "color",
       "default": "#333333"
     },
@@ -22,7 +22,7 @@
       "type": "string",
       "title": "Textfärg",
       "format": "color",
-      "ui:css_selector": "${block_id_css_class} p",
+      "ui:css_selector": "${block_id_css_id} p",
       "ui:css_property": "color",
       "default": "#333333"
     },
@@ -30,7 +30,7 @@
       "type": "string",
       "title": "Textfärg - muted",
       "format": "color",
-      "ui:css_selector": "${block_id_css_class} .text-muted",
+      "ui:css_selector": "${block_id_css_id} .text-muted",
       "ui:css_property": "color",
       "default": "#777777"
     },
@@ -50,7 +50,7 @@
       "type": "string",
       "title": "Primary background color",
       "format": "color",
-      "ui:css_selector": "${block_id_css_class} .btn-primary",
+      "ui:css_selector": "${block_id_css_id} .btn-primary",
       "ui:css_property": "background-color",
       "default": "#fed136"
     },
@@ -58,7 +58,7 @@
       "type": "string",
       "title": "Primary text color",
       "format": "color",
-      "ui:css_selector": "${block_id_css_class} .text-primary",
+      "ui:css_selector": "${block_id_css_id} .text-primary",
       "ui:css_property": "color",
       "default": "#fed136"
     },
