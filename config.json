@@ -462,7 +462,7 @@
                   },
                   "font_family": {
                     "type": "string",
-                    "title": "Logo Text",
+                    "title": "Font",
                     "enum": [
                       "Open Sans",
                       "Raleway",
