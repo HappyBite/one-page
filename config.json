@@ -636,10 +636,8 @@
                     "$ref": "#/definitions/bg_color"
                   },
                   "icon_bg_color": {
-                    "type": "string",
                     "title": "Ikon - bakgrundsfärg",
-                    "format": "color",
-                    "default": "transparent",
+                    "$ref": "#/definitions/primary_color"
                     "ui:css_selector": "${block_id_css_id} .text-primary",
                     "ui:css_property": "color"
                   },
