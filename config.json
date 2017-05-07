@@ -207,9 +207,6 @@
             "text_color": {
               "$ref": "#/definitions/text_color"
             },
-            "muted_text_color": {
-              "$ref": "#/definitions/muted_text_color"
-            },
             "link_text_color": {
               "$ref": "#/definitions/link_text_color"
             },
@@ -672,9 +669,6 @@
                   "text_color": {
                     "$ref": "#/definitions/text_color"
                   },
-                  "muted_text_color": {
-                    "$ref": "#/definitions/muted_text_color"
-                  },
                   "link_text_color": {
                     "$ref": "#/definitions/link_text_color"
                   },
@@ -827,10 +821,6 @@
                   "text_color": {
                     "ui:css_selector": "#portfolio${block_id_css_class} p",
                     "$ref": "#/definitions/text_color"
-                  },
-                  "muted_text_color": {
-                    "ui:css_selector": "#portfolio${block_id_css_class} .text-muted",
-                    "$ref": "#/definitions/muted_text_color"
                   },
                   "link_text_color": {
                     "$ref": "#/definitions/link_text_color"
@@ -1036,7 +1026,6 @@
             "text_color": "#333",
             "link_color": "#fed136",
             "link_hover_color": "#fec503",
-            "muted_text_color": "#777",
             "primary_color": "#fed136",
             "selection_text_color": "#ffffff",
             "selection_bg_color": "#fed136"
@@ -1081,7 +1070,6 @@
             "body_bg_color": "#f1f1f1",
             "title_text_color": "#555555",
             "text_color": "#555555",
-            "text_muted_color": "#555555",
             "primary_color": "#005da0",
             "selection_text_color": "#f1f1f1",
             "selection_bg_color": "#005da0",
