@@ -48,9 +48,9 @@
     },
     "primary_color": {
       "type": "string",
-      "title": "Primary background color",
+      "title": "Primary color",
       "format": "color",
-      "ui:css_selector": "${block_id_css_id} .btn-primary",
+      "ui:css_selector": "${block_id_css_id} .btn-primary, ${block_id_css_id} .text-primary",
       "ui:css_property": "color",
       "default": "#fed136"
     },
