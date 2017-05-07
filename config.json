@@ -706,6 +706,12 @@
                     "default": "transparent",
                     "ui:css_selector": "#services .fa-inverse",
                     "ui:css_property": "color"
+                  },
+                  "padding_top": {
+                    "$ref": "#/definitions/padding_top"
+                  },
+                  "padding_bottom": {
+                    "$ref": "#/definitions/padding_bottom"
                   }
                 }
               },
@@ -739,12 +745,6 @@
                   },
                   "selection_bg_color": {
                     "$ref": "#/definitions/selection_bg_color"
-                  },
-                  "padding_top": {
-                    "$ref": "#/definitions/padding_top"
-                  },
-                  "padding_bottom": {
-                    "$ref": "#/definitions/padding_bottom"
                   }
                 }
               }
