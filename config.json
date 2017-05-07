@@ -2,60 +2,77 @@
   "name": "agency",
   "version": "0.0.0",
   "definitions": {
+    "bg_color": {
+      "type": "string",
+      "title": "Sidbakgrund",
+      "format": "color",
+      "ui:css_selector": "body",
+      "ui:css_property": "background-color",
+      "default": "#ffffff"
+    },
     "heading_text_color": {
       "type": "string",
       "title": "Rubrikfärg",
       "format": "color",
       "ui:css_selector": "h1, h2, h3, h4, h5, h6",
-      "ui:css_property": "color"
+      "ui:css_property": "color",
+      "default": "#333333"
     },
     "text_color": {
       "type": "string",
       "title": "Textfärg",
       "format": "color",
       "ui:css_selector": "p",
-      "ui:css_property": "color"
+      "ui:css_property": "color",
+      "default": "#333333"
     },
     "muted_text_color": {
       "type": "string",
       "title": "Textfärg - muted",
       "format": "color",
       "ui:css_selector": ".text-muted",
-      "ui:css_property": "color"
+      "ui:css_property": "color",
+      "default": "#777777"
     },
     "link_text_color": {
       "type": "string",
       "title": "Länk textfärg",
-      "format": "color"
+      "format": "color",
+      "default": "#fed136"
     },
     "link_hover_text_color": {
       "type": "string",
       "title": "Länk textfärg hover",
-      "format": "color"
+      "format": "color",
+      "default": "#fed136"
     },
     "primary_bg_color": {
       "type": "string",
       "title": "Primary background color",
       "format": "color",
       "ui:css_selector": ".btn-primary",
-      "ui:css_property": "background-color"
+      "ui:css_property": "background-color",
+      "default": "#fed136"
     },
     "primary_text_color": {
       "type": "string",
       "title": "Primary text color",
       "format": "color",
       "ui:css_selector": ".text-primary",
-      "ui:css_property": "color"
+      "ui:css_property": "color",
+      "default": "#fed136"
     },
     "selection_text_color": {
       "type": "string",
       "title": "Text selection color",
-      "format": "color"
+      "format": "color",
+      "default": "#ffffff"
     },
     "selection_bg_color": {
       "type": "string",
       "title": "Text selection bg color",
-      "format": "color"
+      "format": "color",
+      "default": "#fed136"
     },
     "block_padding_top": {
       "type": "integer",
@@ -123,67 +140,35 @@
           "type": "object",
           "ui:css_selector": "body",
           "properties": {
-            "body_bg_color": {
-              "type": "string",
-              "title": "Sidbakgrund",
-              "format": "color",
-              "ui:css_selector": "body",
-              "ui:css_property": "background-color"
+            "bg_color": {
+              "$ref": "#/definitions/bg_color"
             },
             "heading_text_color": {
-              "type": "string",
-              "title": "Rubrikfärg",
-              "format": "color",
-              "ui:css_selector": "h1, h2, h3, h4, h5, h6",
-              "ui:css_property": "color"
+              "$ref": "#/definitions/heading_text_color"
             },
             "text_color": {
-              "type": "string",
-              "title": "Textfärg",
-              "format": "color",
-              "ui:css_selector": "p",
-              "ui:css_property": "color"
-            },
-            "link_color": {
-              "type": "string",
-              "title": "Länk textfärg",
-              "format": "color"
-            },
-            "link_hover_color": {
-              "type": "string",
-              "title": "Länk textfärg hover",
-              "format": "color"
+              "$ref": "#/definitions/text_color"
             },
             "muted_text_color": {
-              "type": "string",
-              "title": "Textfärg - muted",
-              "format": "color",
-              "ui:css_selector": ".text-muted",
-              "ui:css_property": "color"
+              "$ref": "#/definitions/muted_text_color"
+            },
+            "link_text_color": {
+              "$ref": "#/definitions/link_text_color"
+            },
+            "link_hover_text_color": {
+              "$ref": "#/definitions/link_hover_text_color"
             },
             "primary_bg_color": {
-              "type": "string",
-              "title": "Primary background color",
-              "format": "color",
-              "ui:css_selector": ".btn-primary",
-              "ui:css_property": "background-color"
+              "$ref": "#/definitions/primary_bg_color"
             },
             "primary_text_color": {
-              "type": "string",
-              "title": "Primary text color",
-              "format": "color",
-              "ui:css_selector": ".text-primary",
-              "ui:css_property": "color"
+              "$ref": "#/definitions/primary_text_color"
             },
             "selection_text_color": {
-              "type": "string",
-              "title": "Text selection color",
-              "format": "color"
+              "$ref": "#/definitions/selection_text_color"
             },
             "selection_bg_color": {
-              "type": "string",
-              "title": "Text selection bg color",
-              "format": "color"
+              "$ref": "#/definitions/selection_bg_color"
             }
           }
         },
