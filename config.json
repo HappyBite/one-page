@@ -116,9 +116,9 @@
         "sans-serif"
       ]
     },
-    "sub_title_font_family": {
+    "subtitle_font_family": {
       "type": "string",
-      "title": "Sub Title",
+      "title": "Subtitle",
       "enum": [
         "Open Sans",
         "Raleway",
@@ -274,8 +274,8 @@
             "title_font_family": {
               "$ref": "#/definitions/title_font_family"
             },
-            "sub_title_font_family": {
-              "$ref": "#/definitions/sub_title_font_family"
+            "subtitle_font_family": {
+              "$ref": "#/definitions/subtitle_font_family"
             },
             "text_font_family": {
               "$ref": "#/definitions/text_font_family"
@@ -1079,7 +1079,7 @@
           },
           "typography": {
             "title_font_family": "Montserrat",
-            "sub_title_font_family": "Droid Serif",
+            "subtitle_font_family": "Droid Serif",
             "text_font_family": "Roboto Slab",
             "logo_text_font_family": "Kaushan Script",
             "type_base_size": 14
