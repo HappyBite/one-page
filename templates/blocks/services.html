@@ -50,7 +50,10 @@
     {% endif %}
   }
   #{{block_id}} h1, #{{block_id}} h2, #{{block_id}} h3, #{{block_id}} h4, #{{block_id}} h5, #{{block_id}} h6 {
-    color: {{ style.base.heading_text_color }};
+    color: {{ style.base.title_text_color }};
+  }
+  #{{block_id}} h3.section-subheading {
+    color: {{ style.base.subtitle_text_color }};
   }
   #{{block_id}} p {
     color: {{ style.base.text_color }};
