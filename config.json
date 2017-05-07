@@ -1126,11 +1126,6 @@
             "padding_top": 300,
             "padding_bottom": 200
           },
-          "services": {
-            "bg_color": "transparent",
-            "padding_top": -1,
-            "padding_bottom": -1
-          },
           "team": {
             "bg_color": "transparent",
             "padding_top": -1,
@@ -1248,7 +1243,10 @@
             "heading": "Web Security",
             "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
           }
-        ]
+        ],
+        "style": {
+          "bg_color": "transparent"
+        }
       },
       "portfolio": {
         "heading": "Portfolio",
