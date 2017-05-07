@@ -4,7 +4,7 @@
   "definitions": {
     "bg_color": {
       "type": "string",
-      "title": "Sidbakgrund",
+      "title": "Bakgrundsfärg",
       "format": "color",
       "ui:css_selector": "body",
       "ui:css_property": "background-color",
