@@ -653,7 +653,7 @@
           "style": {
             "properties": {
               "bg_color": {
-                "ui:css_selector": "${block_id_css_class}",
+                "ui:css_selector": "${block_id_css_id}",
                 "$ref": "#/definitions/bg_color"
               },
               "icon_bg_color": {
@@ -661,7 +661,7 @@
                 "title": "Ikon - bakgrundsfärg",
                 "format": "color",
                 "default": "transparent",
-                "ui:css_selector": "${block_id_css_class} .text-primary",
+                "ui:css_selector": "${block_id_css_id} .text-primary",
                 "ui:css_property": "color"
               },
               "icon_color": {
@@ -669,7 +669,7 @@
                 "title": "Ikon - färg",
                 "format": "color",
                 "default": "transparent",
-                "ui:css_selector": "${block_id_css_class} .fa-inverse",
+                "ui:css_selector": "${block_id_css_id} .fa-inverse",
                 "ui:css_property": "color"
               },
               "padding_top": {
