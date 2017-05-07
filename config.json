@@ -156,26 +156,6 @@
         "sans-serif"
       ]
     },
-    "logo_text_font_family": {
-      "type": "string",
-      "title": "Logo Text",
-      "enum": [
-        "Open Sans",
-        "Raleway",
-        "Roboto",
-        "Lato",
-        "Oswald",
-        "Source Sans Pro",
-        "Montserrat",
-        "Droid Serif",
-        "Roboto Slab",
-        "Kaushan Script",
-        "Helvetica Neue",
-        "Helvetica",
-        "Arial",
-        "sans-serif"
-      ]
-    },
     "type_base_size": {
       "type": "integer",
       "minimum": 10,
@@ -279,9 +259,6 @@
             },
             "text_font_family": {
               "$ref": "#/definitions/text_font_family"
-            },
-            "logo_text_font_family": {
-              "$ref": "#/definitions/logo_text_font_family"
             },
             "type_base_size": {
               "$ref": "#/definitions/type_base_size"
@@ -482,6 +459,26 @@
                     "type": "string",
                     "title": "Textfärg focus",
                     "format": "color"
+                  },
+                  "font_family": {
+                    "type": "string",
+                    "title": "Logo Text",
+                    "enum": [
+                      "Open Sans",
+                      "Raleway",
+                      "Roboto",
+                      "Lato",
+                      "Oswald",
+                      "Source Sans Pro",
+                      "Montserrat",
+                      "Droid Serif",
+                      "Roboto Slab",
+                      "Kaushan Script",
+                      "Helvetica Neue",
+                      "Helvetica",
+                      "Arial",
+                      "sans-serif"
+                    ]
                   },
                   "image": {
                     "type": "string",
@@ -1081,7 +1078,6 @@
             "title_font_family": "Montserrat",
             "subtitle_font_family": "Droid Serif",
             "text_font_family": "Roboto Slab",
-            "logo_text_font_family": "Kaushan Script",
             "type_base_size": 14
           },
           "global": {
@@ -1192,6 +1188,7 @@
             "text_color": "#fed136",
             "text_hover_color": "#fed136",
             "text_focus_color": "#fed136",
+            "font_family": "Kaushan Script",
             "image": "https://assets.brandfolder.com/8w7lv8ml/view.png",
             "padding_top": 12,
             "width": 125,
