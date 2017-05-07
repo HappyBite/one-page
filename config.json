@@ -1204,8 +1204,8 @@
           "hover_content_bg_color": "rgba(254,209,54,.9)",
           "hover_content_icon_color": "#fff",
           "caption_bg_color": "#fff",
-          "caption_title_color": "#333",
-          "caption_text_color": "#777",
+          "no-caption_title_color": "#333",
+          "no-caption_text_color": "#777",
           "item_bg_color": "#fff",
           "item_close_btn_color": "#222"
         }
