@@ -119,7 +119,7 @@
   ],
   "settings_schema": {
     "theme": {
-      "title": "Gaga",
+      "title": "Tema",
       "properties": {
         "colors": {
           "title": "Färger",
@@ -567,16 +567,20 @@
       }
     },
     "page": {
-      "data": {
-        "title": "Titel och beskrivning",
-        "properties": {
-          "title": {
-            "type": "string",
-            "title": "Sidtitel"
-          },
-          "description": {
-            "type": "text",
-            "title": "Beskrivning"
+      "title": "Sidinställningar",
+      "properties": {
+        "data": {
+          "title": "Titel och beskrivning",
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "title": "Sidtitel"
+            },
+            "description": {
+              "type": "text",
+              "title": "Beskrivning"
+            }
           }
         }
       }
