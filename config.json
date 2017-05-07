@@ -123,6 +123,7 @@
       "properties": {
         "colors": {
           "title": "Färger",
+          "type": "object",
           "ui:css_selector": "body",
           "properties": {
             "body_bg_color": {
@@ -191,6 +192,7 @@
         },
         "typography": {
           "title": "Typography",
+          "type": "object",
           "ui:css_selector": "body",
           "properties": {
             "title_font_family": {
@@ -283,6 +285,7 @@
         },
         "global": {
           "title": "Globalt",
+          "type": "object",
           "ui:css_selector": "body",
           "properties": {
             "section_padding_top": {
@@ -301,6 +304,7 @@
         },
         "navbar": {
           "title": "Topparea",
+          "type": "object",
           "ui:css_selector": ".navbar-custom",
           "properties": {
             "bg_color": {
@@ -339,6 +343,7 @@
         },
         "logo": {
           "title": "Logotyp",
+          "type": "object",
           "ui:css_selector": ".navbar-brand",
           "properties": {
             "text_color": {
@@ -383,6 +388,7 @@
         },
         "navigation": {
           "title": "Navigation",
+          "type": "object",
           "ui:css_selector": ".navbar-nav, .navbar-custom .navbar-toggle",
           "properties": {
             "text_color": {
@@ -454,6 +460,7 @@
         },
         "header": {
           "title": "Header",
+          "type": "object",
           "ui:css_selector": "header",
           "properties": {
             "lead_in_text_color": {
@@ -491,6 +498,7 @@
         },
         "services": {
           "title": "Services",
+          "type": "object",
           "ui:css_selector": "#services",
           "properties": {
             "bg_color": {
@@ -532,6 +540,7 @@
         },
         "team": {
           "title": "Team",
+          "type": "object",
           "ui:css_selector": "#team",
           "properties": {
             "bg_color": {
