@@ -51,12 +51,12 @@
 <style>
 /* Team */
 #{{block_id}} {
-  background-color: {{ style.bg_color }};
-  {% if style.padding_top >= 0 %}
-  padding-top: {{ style.padding_top }}px;
+  background-color: {{ style.block.bg_color }};
+  {% if style.block.padding_top >= 0 %}
+  padding-top: {{ style.block.padding_top }}px;
   {% endif %}
-  {% if style.padding_bottom >= 0 %}
-  padding-bottom: {{ style.padding_bottom }}px;
+  {% if style.block.padding_bottom >= 0 %}
+  padding-bottom: {{ style.block.padding_bottom }}px;
   {% endif %}
 }
 </style>
