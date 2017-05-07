@@ -14,7 +14,7 @@
       "type": "string",
       "title": "Rubrikfärg",
       "format": "color",
-      "ui:css_selector": "$(block) h1, $(block) h2, $(block) h3, $(block) h4, $(block) h5, $(block) h6",
+      "ui:css_selector": "h1, h2, h3, h4, h5, h6",
       "ui:css_property": "color",
       "default": "#333333"
     },
