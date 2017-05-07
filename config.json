@@ -22,7 +22,7 @@
       "type": "string",
       "title": "Underrubrikfärg",
       "format": "color",
-      "ui:css_selector": "${block_id_css_id} h1, ${block_id_css_id} h2, ${block_id_css_id} h3, ${block_id_css_id} h4, ${block_id_css_id} h5, ${block_id_css_id} h6",
+      "ui:css_selector": "${block_id_css_id} h3.section_subheading",
       "ui:css_property": "color",
       "default": "#777777"
     },
