@@ -84,18 +84,18 @@
   
   /* Block */
   #{{block_id}} {
-    background-color: {{ style.bg_color }};
-    {% if style.padding_top >= 0 %}
-    padding-top: {{ style.padding_top }}px;
+    background-color: {{ style.block.bg_color }};
+    {% if style.block.padding_top >= 0 %}
+    padding-top: {{ style.block.padding_top }}px;
     {% endif %}
-    {% if style.padding_bottom >= 0 %}
-    padding-bottom: {{ style.padding_bottom }}px;
+    {% if style.block.padding_bottom >= 0 %}
+    padding-bottom: {{ style.block.padding_bottom }}px;
     {% endif %}
   }
-  {% if style.icon_bg_color %}
-  #{{block_id}} .text-primary { color: {{ style.icon_bg_color }}; }
+  {% if style.block.icon_bg_color %}
+  #{{block_id}} .text-primary { color: {{ style.block.icon_bg_color }}; }
   {% endif %}
-  {% if style.icon_color %}
-  #{{block_id}} .fa-inverse { color: {{ style.icon_color }}; }
+  {% if style.block.icon_color %}
+  #{{block_id}} .fa-inverse { color: {{ style.block.icon_color }}; }
   {% endif %}
 </style>
