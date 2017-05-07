@@ -10,9 +10,17 @@
       "ui:css_property": "background-color",
       "default": "#ffffff"
     },
-    "heading_text_color": {
+    "title_text_color": {
       "type": "string",
       "title": "Rubrikfärg",
+      "format": "color",
+      "ui:css_selector": "${block_id_css_id} h1, ${block_id_css_id} h2, ${block_id_css_id} h3, ${block_id_css_id} h4, ${block_id_css_id} h5, ${block_id_css_id} h6",
+      "ui:css_property": "color",
+      "default": "#333333"
+    },
+    "subtitle_text_color": {
+      "type": "string",
+      "title": "Underrubrikfärg",
       "format": "color",
       "ui:css_selector": "${block_id_css_id} h1, ${block_id_css_id} h2, ${block_id_css_id} h3, ${block_id_css_id} h4, ${block_id_css_id} h5, ${block_id_css_id} h6",
       "ui:css_property": "color",
@@ -229,8 +237,8 @@
             "bg_color": {
               "$ref": "#/definitions/bg_color"
             },
-            "heading_text_color": {
-              "$ref": "#/definitions/heading_text_color"
+            "title_text_color": {
+              "$ref": "#/definitions/title_text_color"
             },
             "text_color": {
               "$ref": "#/definitions/text_color"
@@ -461,7 +469,7 @@
               "ui:css_selector": "header .intro-text .intro-lead-in",
               "ui:css_property": "color"
             },
-            "heading_text_color": {
+            "title_text_color": {
               "type": "string",
               "title": "Heading text color",
               "format": "color",
@@ -703,8 +711,8 @@
                 "title": "Base",
                 "type": "object",
                 "properties": {
-                  "heading_text_color": {
-                    "$ref": "#/definitions/heading_text_color"
+                  "title_text_color": {
+                    "$ref": "#/definitions/title_text_color"
                   },
                   "text_color": {
                     "$ref": "#/definitions/text_color"
@@ -860,9 +868,9 @@
                 "title": "Base",
                 "type": "object",
                 "properties": {
-                  "heading_text_color": {
+                  "title_text_color": {
                     "ui:css_selector": "#portfolio${block_id_css_class} h1, #portfolio${block_id_css_class} h2, #portfolio${block_id_css_class} h3, #portfolio${block_id_css_class} h4, #portfolio${block_id_css_class} h5, #portfolio${block_id_css_class} h6",
-                    "$ref": "#/definitions/heading_text_color"
+                    "$ref": "#/definitions/title_text_color"
                   },
                   "text_color": {
                     "ui:css_selector": "#portfolio${block_id_css_class} p",
@@ -1055,7 +1063,7 @@
         "default": {
           "colors": {
             "body_bg_color": "#fff",
-            "heading_text_color": "#333",
+            "title_text_color": "#333",
             "text_color": "#333",
             "link_color": "#fed136",
             "link_hover_color": "#fec503",
@@ -1106,7 +1114,7 @@
           },
           "header": {
             "lead_in_text_color": "#ffffff",
-            "heading_text_color": "#ffffff",
+            "title_text_color": "#ffffff",
             "button_bg_color": "#fed136",
             "padding_top": 300,
             "padding_bottom": 200
@@ -1145,7 +1153,7 @@
           },
           "colors": {
             "body_bg_color": "#f1f1f1",
-            "heading_text_color": "#555555",
+            "title_text_color": "#555555",
             "text_color": "#555555",
             "text_muted_color": "#555555",
             "primary_bg_color": "#005da0",
@@ -1160,7 +1168,7 @@
           },
           "header": {
             "lead_in_text_color": "#ffffff",
-            "heading_text_color": "#ffffff",
+            "title_text_color": "#ffffff",
             "button_bg_color": "#005da0"
           }
         }
