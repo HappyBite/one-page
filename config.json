@@ -61,13 +61,15 @@
       "type": "integer",
       "title": "Padding top",
       "minimum": 0,
-      "maximum": 150
+      "maximum": 150,
+      "default": 150
     },
     "block_padding_bottom": {
       "type": "integer",
       "title": "Padding bottom",
       "minimum": 0,
-      "maximum": 150
+      "maximum": 150,
+      "default": 150
     }
   },
   "settings_default": {
@@ -361,17 +363,11 @@
           "type": "object",
           "ui:css_selector": "body",
           "properties": {
-            "section_padding_top": {
-              "type": "integer",
-              "title": "Section padding top",
-              "minimum": 0,
-              "maximum": 150
+            "block_padding_top": {
+              "$ref": "#/definitions/block_padding_top"
             },
-            "section_padding_bottom": {
-              "type": "integer",
-              "title": "Section padding bottom",
-              "minimum": 0,
-              "maximum": 150
+            "block_padding_bottom": {
+              "$ref": "#/definitions/block_padding_bottom"
             }
           }
         },
@@ -1150,8 +1146,7 @@
             "type_base_size": 14
           },
           "global": {
-            "section_padding_top": 150,
-            "section_padding_bottom": 150
+            
           },
           "navbar": {
             "bg_color": "#222",
