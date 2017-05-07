@@ -1,4 +1,5 @@
 <style>
+  /* Base */
   #{{template_id}}.{{block_id}} {
     background-color: {{ style.base.bg_color }};
     color: {{ style.base.text_color }};
@@ -41,7 +42,7 @@
     background: {{ style.base.selection_bg_color }};
   }
   
-  
+  /* Block */
   #{{template_id}}.{{block_id}} {
     background-color: {{ style.bg_color }};
     {% if style.padding_top >= 0 %}
