@@ -277,32 +277,6 @@
               "$ref": "#/definitions/block_padding_bottom"
             }
           }
-        },
-        "team": {
-          "title": "Team",
-          "type": "object",
-          "ui:css_selector": "#team",
-          "properties": {
-            "bg_color": {
-              "type": "string",
-              "title": "Bakgrundsfärg",
-              "format": "color",
-              "ui:css_selector": "#team",
-              "ui:css_property": "background-color"
-            },
-            "padding_top": {
-              "type": "integer",
-              "title": "Padding top",
-              "minimum": 0,
-              "maximum": 150
-            },
-            "padding_bottom": {
-              "type": "integer",
-              "title": "Padding bottom",
-              "minimum": 0,
-              "maximum": 150
-            }
-          }
         }
       }
     },
@@ -950,6 +924,27 @@
             "field": {
               "height": "120px"
             }
+          },
+          "style": {
+            "properties": {
+              "block": {
+                "title": "Block",
+                "type": "object",
+                "ui:css_selector": "#team",
+                "properties": {
+                  "bg_color": {
+                    "ui:css_selector": "${block_id_css_id}",
+                    "$ref": "#/definitions/bg_color"
+                  },
+                  "padding_top": {
+                    "$ref": "#/definitions/block_padding_top"
+                  },
+                  "padding_bottom": {
+                    "$ref": "#/definitions/block_padding_top"
+                  }
+                }
+              }
+            }
           }
         }
       },
@@ -1081,11 +1076,6 @@
           },
           "global": {
             
-          },
-          "team": {
-            "bg_color": "transparent",
-            "padding_top": -1,
-            "padding_bottom": -1
           }
         },
         "klar": {
@@ -1240,7 +1230,7 @@
           }
         ],
         "style": {
-          "bg_color": "transparent"
+          
         }
       },
       "portfolio": {
@@ -1333,7 +1323,10 @@
             "text": "Lead Developer"
           }
         ],
-        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.",
+        "style": {
+          
+        }
       },
       "contact": {
         "heading": "Contact Us",
