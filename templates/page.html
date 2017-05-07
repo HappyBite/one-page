@@ -192,22 +192,6 @@
       background-color: {{ theme.header.button_bg_color }};
       border-color: {{ theme.header.button_bg_color }};
     }
-    /* Services */
-    #services {
-      background-color: {{ theme.services.bg_color }};
-      {% if theme.services.padding_top > -1 %}
-      padding-top: {{ theme.services.padding_top }}px;
-      {% endif %}
-      {% if theme.services.padding_bottom > -1 %}
-      padding-bottom: {{ theme.services.padding_bottom }}px;
-      {% endif %}
-    }
-    {% if theme.services.icon_bg_color %}
-    #services .text-primary { color: {{ theme.services.icon_bg_color }}; }
-    {% endif %}
-    {% if theme.services.icon_color %}
-    #services .fa-inverse { color: {{ theme.services.icon_color }}; }
-    {% endif %}
     /* Team */
     #team {
       background-color: {{ theme.team.bg_color }};

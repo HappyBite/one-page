@@ -1,5 +1,23 @@
+<style>
+  #{{template_id}}.{{block_id}} {
+    background-color: {{ style.block.services.bg_color }};
+    {% if style.block.padding_top >= 0 %}
+    padding-top: {{ style.block.padding_top }}px;
+    {% endif %}
+    {% if style.block.padding_bottom >= 0 %}
+    padding-bottom: {{ style.block.padding_bottom }}px;
+    {% endif %}
+  }
+  {% ifstyle.block.icon_bg_color %}
+  #{{template_id}}.{{block_id}} .text-primary { color: {{ style.block.icon_bg_color }}; }
+  {% endif %}
+  {% if style.block.icon_color %}
+  #{{template_id}}.{{block_id}} .fa-inverse { color: {{ style.block.icon_color }}; }
+  {% endif %}
+</style>
+
 <!-- Services Section -->
-<section id="{{template_id}}">
+<section id="{{template_id}}" class="{{block_id}}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
