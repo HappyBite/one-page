@@ -87,6 +87,92 @@
       "minimum": 0,
       "maximum": 150,
       "default": 150
+    },
+    "title_font_family": {
+      "type": "string",
+      "title": "Title",
+      "enum": [
+        "Open Sans",
+        "Raleway",
+        "Roboto",
+        "Lato",
+        "Oswald",
+        "Source Sans Pro",
+        "Montserrat",
+        "Droid Serif",
+        "Roboto Slab",
+        "Kaushan Script",
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ]
+    },
+    "sub_title_font_family": {
+      "type": "string",
+      "title": "Sub Title",
+      "enum": [
+        "Open Sans",
+        "Raleway",
+        "Roboto",
+        "Lato",
+        "Oswald",
+        "Source Sans Pro",
+        "Montserrat",
+        "Droid Serif",
+        "Roboto Slab",
+        "Kaushan Script",
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ]
+    },
+    "text_font_family": {
+      "type": "string",
+      "title": "Text",
+      "enum": [
+        "Open Sans",
+        "Raleway",
+        "Roboto",
+        "Lato",
+        "Oswald",
+        "Source Sans Pro",
+        "Montserrat",
+        "Droid Serif",
+        "Roboto Slab",
+        "Kaushan Script",
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ]
+    },
+    "logo_text_font_family": {
+      "type": "string",
+      "title": "Logo Text",
+      "enum": [
+        "Open Sans",
+        "Raleway",
+        "Roboto",
+        "Lato",
+        "Oswald",
+        "Source Sans Pro",
+        "Montserrat",
+        "Droid Serif",
+        "Roboto Slab",
+        "Kaushan Script",
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ]
+    },
+    "type_base_size": {
+      "type": "integer",
+      "minimum": 10,
+      "maximum": 18,
+      "title": "Basstorlek"
     }
   },
   "block_templates": [
@@ -178,90 +264,19 @@
           "ui:css_selector": "body",
           "properties": {
             "title_font_family": {
-              "type": "string",
-              "title": "Title",
-              "enum": [
-                "Open Sans",
-                "Raleway",
-                "Roboto",
-                "Lato",
-                "Oswald",
-                "Source Sans Pro",
-                "Montserrat",
-                "Droid Serif",
-                "Roboto Slab",
-                "Kaushan Script",
-                "Helvetica Neue",
-                "Helvetica",
-                "Arial",
-                "sans-serif"
-              ]
+              "$ref": "#/definitions/title_font_family"
             },
             "sub_title_font_family": {
-              "type": "string",
-              "title": "Sub Title",
-              "enum": [
-                "Open Sans",
-                "Raleway",
-                "Roboto",
-                "Lato",
-                "Oswald",
-                "Source Sans Pro",
-                "Montserrat",
-                "Droid Serif",
-                "Roboto Slab",
-                "Kaushan Script",
-                "Helvetica Neue",
-                "Helvetica",
-                "Arial",
-                "sans-serif"
-              ]
+              "$ref": "#/definitions/sub_title_font_family"
             },
             "text_font_family": {
-              "type": "string",
-              "title": "Text",
-              "enum": [
-                "Open Sans",
-                "Raleway",
-                "Roboto",
-                "Lato",
-                "Oswald",
-                "Source Sans Pro",
-                "Montserrat",
-                "Droid Serif",
-                "Roboto Slab",
-                "Kaushan Script",
-                "Helvetica Neue",
-                "Helvetica",
-                "Arial",
-                "sans-serif"
-              ]
+              "$ref": "#/definitions/text_font_family"
             },
             "logo_text_font_family": {
-              "type": "string",
-              "title": "Logo Text",
-              "enum": [
-                "Open Sans",
-                "Raleway",
-                "Roboto",
-                "Lato",
-                "Oswald",
-                "Source Sans Pro",
-                "Montserrat",
-                "Droid Serif",
-                "Roboto Slab",
-                "Kaushan Script",
-                "Helvetica Neue",
-                "Helvetica",
-                "Arial",
-                "sans-serif"
-              ]
+              "$ref": "#/definitions/logo_text_font_family"
             },
             "type_base_size": {
-              "type": "integer",
-              "minimum": 10,
-              "maximum": 18,
-              "title": "Basstorlek"
+              "$ref": "#/definitions/type_base_size"
             }
           }
         },
