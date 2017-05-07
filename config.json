@@ -1,6 +1,75 @@
 {
   "name": "agency",
   "version": "0.0.0",
+  "definitions": {
+    "heading_text_color": {
+      "type": "string",
+      "title": "Rubrikfärg",
+      "format": "color",
+      "ui:css_selector": "h1, h2, h3, h4, h5, h6",
+      "ui:css_property": "color"
+    },
+    "text_color": {
+      "type": "string",
+      "title": "Textfärg",
+      "format": "color",
+      "ui:css_selector": "p",
+      "ui:css_property": "color"
+    },
+    "muted_text_color": {
+      "type": "string",
+      "title": "Textfärg - muted",
+      "format": "color",
+      "ui:css_selector": ".text-muted",
+      "ui:css_property": "color"
+    },
+    "link_text_color": {
+      "type": "string",
+      "title": "Länk textfärg",
+      "format": "color"
+    },
+    "link_hover_text_color": {
+      "type": "string",
+      "title": "Länk textfärg hover",
+      "format": "color"
+    },
+    "primary_bg_color": {
+      "type": "string",
+      "title": "Primary background color",
+      "format": "color",
+      "ui:css_selector": ".btn-primary",
+      "ui:css_property": "background-color"
+    },
+    "primary_text_color": {
+      "type": "string",
+      "title": "Primary text color",
+      "format": "color",
+      "ui:css_selector": ".text-primary",
+      "ui:css_property": "color"
+    },
+    "selection_text_color": {
+      "type": "string",
+      "title": "Text selection color",
+      "format": "color"
+    },
+    "selection_bg_color": {
+      "type": "string",
+      "title": "Text selection bg color",
+      "format": "color"
+    },
+    "block_padding_top": {
+      "type": "integer",
+      "title": "Padding top",
+      "minimum": 0,
+      "maximum": 150
+    },
+    "block_padding_bottom": {
+      "type": "integer",
+      "title": "Padding bottom",
+      "minimum": 0,
+      "maximum": 150
+    }
+  }
   "settings_default": {
     "block": {
       "style": {
@@ -680,40 +749,34 @@
           },
           "style": {
             "properties": {
-              "block": {
-                "title": "Block",
-                "type": "object",
-                "properties": {
-                  "bg_color": {
-                    "type": "string",
-                    "title": "Bakgrundsfärg",
-                    "format": "color",
-                    "ui:css_selector": "#services",
-                    "ui:css_property": "background-color"
-                  },
-                  "icon_bg_color": {
-                    "type": "string",
-                    "title": "Ikon - bakgrundsfärg",
-                    "format": "color",
-                    "default": "transparent",
-                    "ui:css_selector": "#services .text-primary",
-                    "ui:css_property": "color"
-                  },
-                  "icon_color": {
-                    "type": "string",
-                    "title": "Ikon - färg",
-                    "format": "color",
-                    "default": "transparent",
-                    "ui:css_selector": "#services .fa-inverse",
-                    "ui:css_property": "color"
-                  },
-                  "padding_top": {
-                    "$ref": "#/definitions/padding_top"
-                  },
-                  "padding_bottom": {
-                    "$ref": "#/definitions/padding_bottom"
-                  }
-                }
+              "bg_color": {
+                "type": "string",
+                "title": "Bakgrundsfärg",
+                "format": "color",
+                "ui:css_selector": "#services",
+                "ui:css_property": "background-color"
+              },
+              "icon_bg_color": {
+                "type": "string",
+                "title": "Ikon - bakgrundsfärg",
+                "format": "color",
+                "default": "transparent",
+                "ui:css_selector": "#services .text-primary",
+                "ui:css_property": "color"
+              },
+              "icon_color": {
+                "type": "string",
+                "title": "Ikon - färg",
+                "format": "color",
+                "default": "transparent",
+                "ui:css_selector": "#services .fa-inverse",
+                "ui:css_property": "color"
+              },
+              "padding_top": {
+                "$ref": "#/definitions/block_padding_top"
+              },
+              "padding_bottom": {
+                "$ref": "#/definitions/block_padding_top"
               },
               "base": {
                 "title": "Base",
@@ -1383,75 +1446,6 @@
       "decoration": {
         "image": "https://svti.svt.se/wp-content/themes/svti/assets/img/kollage3.jpg"
       }
-    }
-  },
-  "definitions": {
-    "heading_text_color": {
-      "type": "string",
-      "title": "Rubrikfärg",
-      "format": "color",
-      "ui:css_selector": "h1, h2, h3, h4, h5, h6",
-      "ui:css_property": "color"
-    },
-    "text_color": {
-      "type": "string",
-      "title": "Textfärg",
-      "format": "color",
-      "ui:css_selector": "p",
-      "ui:css_property": "color"
-    },
-    "link_color": {
-      "type": "string",
-      "title": "Länk textfärg",
-      "format": "color"
-    },
-    "link_hover_color": {
-      "type": "string",
-      "title": "Länk textfärg hover",
-      "format": "color"
-    },
-    "muted_text_color": {
-      "type": "string",
-      "title": "Textfärg - muted",
-      "format": "color",
-      "ui:css_selector": ".text-muted",
-      "ui:css_property": "color"
-    },
-    "primary_bg_color": {
-      "type": "string",
-      "title": "Primary background color",
-      "format": "color",
-      "ui:css_selector": ".btn-primary",
-      "ui:css_property": "background-color"
-    },
-    "primary_text_color": {
-      "type": "string",
-      "title": "Primary text color",
-      "format": "color",
-      "ui:css_selector": ".text-primary",
-      "ui:css_property": "color"
-    },
-    "selection_text_color": {
-      "type": "string",
-      "title": "Text selection color",
-      "format": "color"
-    },
-    "selection_bg_color": {
-      "type": "string",
-      "title": "Text selection bg color",
-      "format": "color"
-    },
-    "padding_top": {
-      "type": "integer",
-      "title": "Padding top",
-      "minimum": 0,
-      "maximum": 150
-    },
-    "padding_bottom": {
-      "type": "integer",
-      "title": "Padding bottom",
-      "minimum": 0,
-      "maximum": 150
     }
   }
 }
