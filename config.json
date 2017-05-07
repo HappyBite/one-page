@@ -680,6 +680,39 @@
           },
           "style": {
             "properties": {
+              "base": {
+                "title": "Base",
+                "type": "object",
+                "properties": {
+                  "heading_text_color": {
+                    "$ref": "#/definitions/heading_text_color"
+                  },
+                  "text_color": {
+                    "$ref": "#/definitions/text_color"
+                  },
+                  "link_color": {
+                    "$ref": "#/definitions/link_color"
+                  },
+                  "link_hover_color": {
+                    "$ref": "#/definitions/link_hover_color"
+                  },
+                  "muted_text_color": {
+                    "$ref": "#/definitions/muted_text_color"
+                  },
+                  "primary_bg_color": {
+                    "$ref": "#/definitions/primary_bg_color"
+                  },
+                  "primary_text_color": {
+                    "$ref": "#/definitions/primary_text_color"
+                  },
+                  "selection_text_color": {
+                    "$ref": "#/definitions/selection_text_color"
+                  },
+                  "selection_bg_color": {
+                    "$ref": "#/definitions/selection_bg_color"
+                  }
+                }
+              },
               "block": {
                 "title": "Block",
                 "type": "object",
