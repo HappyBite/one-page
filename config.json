@@ -637,7 +637,7 @@
                   },
                   "icon_bg_color": {
                     "title": "Ikon - bakgrundsfärg",
-                    "$ref": "#/definitions/primary_color"
+                    "$ref": "#/definitions/primary_color",
                     "ui:css_selector": "${block_id_css_id} .text-primary",
                     "ui:css_property": "color"
                   },
