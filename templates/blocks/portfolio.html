@@ -98,7 +98,6 @@
 <style>
   /* Base */
   #{{template_id}}.{{block_id}} {
-    background-color: {{ style.base.bg_color }};
     color: {{ style.base.text_color }};
     {% if style.base.padding_top >= 0 %}
     padding-top: {{ style.base.padding_top }}px;
@@ -140,6 +139,9 @@
   }
   
   /* Block */
+  #{{template_id}}.{{block_id}} {
+    background-color: {{ style.bg_color }};
+  }
   #{{template_id}}.{{block_id}} .portfolio-item .portfolio-link .portfolio-hover {
     background-color: {{ style.hover_content_bg_color }};
   }

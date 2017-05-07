@@ -780,11 +780,8 @@
           "style": {
             "properties": {
               "bg_color": {
-                "type": "string",
-                "title": "Bakgrundsfärg",
-                "format": "color",
                 "ui:css_selector": "#portfolio${block_id_css_class}",
-                "ui:css_property": "background-color"
+                "$ref": "#/definitions/bg_color"
               },
               "hover_content_bg_color": {
                 "type": "string",
