@@ -661,7 +661,7 @@
                 "title": "Ikon - bakgrundsfärg",
                 "format": "color",
                 "default": "transparent",
-                "ui:css_selector": "#services .text-primary",
+                "ui:css_selector": "${block_id_css_class} .text-primary",
                 "ui:css_property": "color"
               },
               "icon_color": {
@@ -669,7 +669,7 @@
                 "title": "Ikon - färg",
                 "format": "color",
                 "default": "transparent",
-                "ui:css_selector": "#services .fa-inverse",
+                "ui:css_selector": "${block_id_css_class} .fa-inverse",
                 "ui:css_property": "color"
               },
               "padding_top": {
