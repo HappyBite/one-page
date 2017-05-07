@@ -34,14 +34,6 @@
       "ui:css_property": "color",
       "default": "#333333"
     },
-    "muted_text_color": {
-      "type": "string",
-      "title": "Textfärg - muted",
-      "format": "color",
-      "ui:css_selector": "${block_id_css_id} .text-muted",
-      "ui:css_property": "color",
-      "default": "#777777"
-    },
     "link_text_color": {
       "type": "string",
       "title": "Länk textfärg",

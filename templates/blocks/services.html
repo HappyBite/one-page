@@ -8,7 +8,7 @@
           data-field-string="heading"
         >{{heading}}</h2>
         <h3
-          class="section-subheading text-muted"
+          class="section-subheading"
           data-field-string="sub_heading"
         >{{sub_heading}}</h3>
       </div>
@@ -29,7 +29,6 @@
             data-field-string="items[{{loop.index0}}].heading"
           >{{ item.heading }}</h4>
           <p
-            class="text-muted"
             data-field-string="items[{{loop.index0}}].text"
             data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
           >{{ item.text }}</p>
@@ -55,9 +54,6 @@
   }
   #{{block_id}} p {
     color: {{ style.base.text_color }};
-  }
-  #{{block_id}} .text-muted {
-    color: {{ style.base.muted_text_color }};
   }
   #{{block_id}} a {
     color: {{ style.base.link_text_color }};
