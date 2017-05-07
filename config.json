@@ -204,6 +204,9 @@
             "title_text_color": {
               "$ref": "#/definitions/title_text_color"
             },
+            "subtitle_text_color": {
+              "$ref": "#/definitions/subtitle_text_color"
+            },
             "text_color": {
               "$ref": "#/definitions/text_color"
             },
