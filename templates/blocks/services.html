@@ -41,7 +41,7 @@
 
 <style>
   /* Base */
-  #{{template_id}}.{{block_id}} {
+  .{{block_id}} {
     background-color: {{ style.base.bg_color }};
     color: {{ style.base.text_color }};
     {% if style.base.padding_top >= 0 %}
@@ -51,40 +51,40 @@
     padding-bottom: {{ style.base.padding_bottom }}px;
     {% endif %}
   }
-  #{{template_id}}.{{block_id}} h1, #{{template_id}}.{{block_id}} h2, #{{template_id}}.{{block_id}} h3, #{{template_id}}.{{block_id}} h4, #{{template_id}}.{{block_id}} h5, #{{template_id}}.{{block_id}} h6 {
+  .{{block_id}} h1, .{{block_id}} h2, .{{block_id}} h3, .{{block_id}} h4, .{{block_id}} h5, .{{block_id}} h6 {
     color: {{ style.base.heading_text_color }};
   }
-  #{{template_id}}.{{block_id}} p {
+  .{{block_id}} p {
     color: {{ style.base.text_color }};
   }
-  #{{template_id}}.{{block_id}} .text-muted {
+  .{{block_id}} .text-muted {
     color: {{ style.base.muted_text_color }};
   }
-  #{{template_id}}.{{block_id}} a {
+  .{{block_id}} a {
     color: {{ style.base.link_text_color }};
   }
-  #{{template_id}}.{{block_id}} a:hover,
-  #{{template_id}}.{{block_id}} a:focus,
-  #{{template_id}}.{{block_id}} a:active {
+  .{{block_id}} a:hover,
+  .{{block_id}} a:focus,
+  .{{block_id}} a:active {
     color: {{ style.base.link_hover_text_color }};
   }
-  #{{template_id}}.{{block_id}} .btn-primary,
-  #{{template_id}}.{{block_id}} .btn-primary:hover,
-  #{{template_id}}.{{block_id}} .btn-primary:focus,
-  #{{template_id}}.{{block_id}} .btn-primary:active {
+  .{{block_id}} .btn-primary,
+  .{{block_id}} .btn-primary:hover,
+  .{{block_id}} .btn-primary:focus,
+  .{{block_id}} .btn-primary:active {
     background-color: {{ style.base.primary_bg_color }};
     border-color: {{ style.base.primary_bg_color }};
   }
-  #{{template_id}}.{{block_id}} .text-primary {
+  .{{block_id}} .text-primary {
     color: {{ style.base.primary_text_color }};
   }
-  #{{template_id}}.{{block_id}} ::selection {
+  .{{block_id}} ::selection {
     color: {{ style.base.selection_text_color }};
     background: {{ style.base.selection_bg_color }};
   }
   
   /* Block */
-  #{{template_id}}.{{block_id}} {
+  .{{block_id}} {
     background-color: {{ style.bg_color }};
     {% if style.padding_top >= 0 %}
     padding-top: {{ style.padding_top }}px;
@@ -94,9 +94,9 @@
     {% endif %}
   }
   {% if style.icon_bg_color %}
-  #{{template_id}}.{{block_id}} .text-primary { color: {{ style.icon_bg_color }}; }
+  .{{block_id}} .text-primary { color: {{ style.icon_bg_color }}; }
   {% endif %}
   {% if style.icon_color %}
-  #{{template_id}}.{{block_id}} .fa-inverse { color: {{ style.icon_color }}; }
+  .{{block_id}} .fa-inverse { color: {{ style.icon_color }}; }
   {% endif %}
 </style>
