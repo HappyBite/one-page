@@ -301,162 +301,6 @@
             }
           }
         },
-        "navbar": {
-          "title": "Topparea",
-          "type": "object",
-          "ui:css_selector": ".navbar-custom",
-          "properties": {
-            "bg_color": {
-              "type": "string",
-              "title": "Bakgrundsfärg",
-              "format": "color",
-              "ui:css_selector": ".navbar-custom",
-              "ui:css_property": "background-color"
-            },
-            "padding_top": {
-              "type": "integer",
-              "title": "Padding top",
-              "minimum": 0,
-              "maximum": 30
-            },
-            "padding_bottom": {
-              "type": "integer",
-              "title": "Padding bottom",
-              "minimum": 0,
-              "maximum": 30
-            },
-            "border_bottom_width": {
-              "type": "integer",
-              "title": "border bottom width",
-              "minimum": 0,
-              "maximum": 10
-            },
-            "border_bottom_color": {
-              "type": "string",
-              "title": "Border bottom color",
-              "format": "color",
-              "ui:css_selector": ".navbar-custom",
-              "ui:css_property": "border-color"
-            }
-          }
-        },
-        "logo": {
-          "title": "Logotyp",
-          "type": "object",
-          "ui:css_selector": ".navbar-brand",
-          "properties": {
-            "text_color": {
-              "type": "string",
-              "title": "Textfärg",
-              "format": "color",
-              "ui:css_selector": ".navbar-brand",
-              "ui:css_property": "color"
-            },
-            "text_hover_color": {
-              "type": "string",
-              "title": "Textfärg Hover",
-              "format": "color"
-            },
-            "text_focus_color": {
-              "type": "string",
-              "title": "Textfärg focus",
-              "format": "color"
-            },
-            "image": {
-              "type": "string",
-              "title": "Logo",
-              "format": "file"
-            },
-            "padding_top": {
-              "type": "integer",
-              "title": "Logo padding top",
-              "minimum": 0,
-              "maximum": 30
-            },
-            "width": {
-              "type": "integer",
-              "title": "Logo width in pixels",
-              "minimum": 0,
-              "maximum": 500
-            },
-            "show": {
-              "type": "boolean",
-              "title": "Visa logobild?"
-            }
-          }
-        },
-        "navigation": {
-          "title": "Navigation",
-          "type": "object",
-          "ui:css_selector": ".navbar-nav, .navbar-custom .navbar-toggle",
-          "properties": {
-            "text_color": {
-              "type": "string",
-              "title": "Textfärg",
-              "format": "color",
-              "ui:css_selector": ".navbar-custom .nav li a",
-              "ui:css_property": "color"
-            },
-            "text_hover_color": {
-              "type": "string",
-              "title": "Textfärg hover",
-              "format": "color",
-              "ui:css_selector": ".navbar-custom .nav li a:hover",
-              "ui:css_property": "color"
-            },
-            "text_active_color": {
-              "type": "string",
-              "title": "Textfärg active",
-              "format": "color",
-              "ui:css_selector": ".navbar-custom .nav li a:active",
-              "ui:css_property": "color"
-            },
-            "text_focus_color": {
-              "type": "string",
-              "title": "Textfärg focus",
-              "format": "color",
-              "ui:css_selector": ".navbar-custom .nav li a:focus",
-              "ui:css_property": "color"
-            },
-            "bg_text_color": {
-              "type": "string",
-              "title": "Bakgrund på text",
-              "format": "color",
-              "ui:css_selector": ".navbar-custom .nav li a",
-              "ui:css_property": "background-color"
-            },
-            "bg_text_hover_color": {
-              "type": "string",
-              "title": "Bakgrund på text - hover",
-              "format": "color"
-            },
-            "bg_text_active_color": {
-              "type": "string",
-              "title": "Bakgrund på text - active",
-              "format": "color"
-            },
-            "bg_text_focus_color": {
-              "type": "string",
-              "title": "Bakgrund på text - focus",
-              "format": "color"
-            },
-            "mobile_menu_button_bg_color": {
-              "type": "string",
-              "title": "Hamburgermeny-knapp - bakgrund",
-              "format": "color"
-            },
-            "mobile_menu_button_hover_bg_color": {
-              "type": "string",
-              "title": "Hamburgermeny-knapp hover - bakgrund",
-              "format": "color"
-            },
-            "mobile_menu_button_focus_bg_color": {
-              "type": "string",
-              "title": "Hamburgermeny-knapp focus - bakgrund",
-              "format": "color"
-            }
-          }
-        },
         "header": {
           "title": "Header",
           "type": "object",
@@ -572,6 +416,166 @@
                 "open_in_new_page": {
                   "type": "boolean",
                   "title": "Open in new page"
+                }
+              }
+            }
+          },
+          "style": {
+            "properties": {
+              "navbar": {
+                "title": "Topparea",
+                "type": "object",
+                "ui:css_selector": ".navbar-custom",
+                "properties": {
+                  "bg_color": {
+                    "type": "string",
+                    "title": "Bakgrundsfärg",
+                    "format": "color",
+                    "ui:css_selector": ".navbar-custom",
+                    "ui:css_property": "background-color"
+                  },
+                  "padding_top": {
+                    "type": "integer",
+                    "title": "Padding top",
+                    "minimum": 0,
+                    "maximum": 30
+                  },
+                  "padding_bottom": {
+                    "type": "integer",
+                    "title": "Padding bottom",
+                    "minimum": 0,
+                    "maximum": 30
+                  },
+                  "border_bottom_width": {
+                    "type": "integer",
+                    "title": "border bottom width",
+                    "minimum": 0,
+                    "maximum": 10
+                  },
+                  "border_bottom_color": {
+                    "type": "string",
+                    "title": "Border bottom color",
+                    "format": "color",
+                    "ui:css_selector": ".navbar-custom",
+                    "ui:css_property": "border-color"
+                  }
+                }
+              },
+              "logo": {
+                "title": "Logotyp",
+                "type": "object",
+                "ui:css_selector": ".navbar-brand",
+                "properties": {
+                  "text_color": {
+                    "type": "string",
+                    "title": "Textfärg",
+                    "format": "color",
+                    "ui:css_selector": ".navbar-brand",
+                    "ui:css_property": "color"
+                  },
+                  "text_hover_color": {
+                    "type": "string",
+                    "title": "Textfärg Hover",
+                    "format": "color"
+                  },
+                  "text_focus_color": {
+                    "type": "string",
+                    "title": "Textfärg focus",
+                    "format": "color"
+                  },
+                  "image": {
+                    "type": "string",
+                    "title": "Logo",
+                    "format": "file"
+                  },
+                  "padding_top": {
+                    "type": "integer",
+                    "title": "Logo padding top",
+                    "minimum": 0,
+                    "maximum": 30
+                  },
+                  "width": {
+                    "type": "integer",
+                    "title": "Logo width in pixels",
+                    "minimum": 0,
+                    "maximum": 500
+                  },
+                  "show": {
+                    "type": "boolean",
+                    "title": "Visa logobild?"
+                  }
+                }
+              },
+              "navigation": {
+                "title": "Navigation",
+                "type": "object",
+                "ui:css_selector": ".navbar-nav, .navbar-custom .navbar-toggle",
+                "properties": {
+                  "text_color": {
+                    "type": "string",
+                    "title": "Textfärg",
+                    "format": "color",
+                    "ui:css_selector": ".navbar-custom .nav li a",
+                    "ui:css_property": "color"
+                  },
+                  "text_hover_color": {
+                    "type": "string",
+                    "title": "Textfärg hover",
+                    "format": "color",
+                    "ui:css_selector": ".navbar-custom .nav li a:hover",
+                    "ui:css_property": "color"
+                  },
+                  "text_active_color": {
+                    "type": "string",
+                    "title": "Textfärg active",
+                    "format": "color",
+                    "ui:css_selector": ".navbar-custom .nav li a:active",
+                    "ui:css_property": "color"
+                  },
+                  "text_focus_color": {
+                    "type": "string",
+                    "title": "Textfärg focus",
+                    "format": "color",
+                    "ui:css_selector": ".navbar-custom .nav li a:focus",
+                    "ui:css_property": "color"
+                  },
+                  "bg_text_color": {
+                    "type": "string",
+                    "title": "Bakgrund på text",
+                    "format": "color",
+                    "ui:css_selector": ".navbar-custom .nav li a",
+                    "ui:css_property": "background-color"
+                  },
+                  "bg_text_hover_color": {
+                    "type": "string",
+                    "title": "Bakgrund på text - hover",
+                    "format": "color"
+                  },
+                  "bg_text_active_color": {
+                    "type": "string",
+                    "title": "Bakgrund på text - active",
+                    "format": "color"
+                  },
+                  "bg_text_focus_color": {
+                    "type": "string",
+                    "title": "Bakgrund på text - focus",
+                    "format": "color"
+                  },
+                  "mobile_menu_button_bg_color": {
+                    "type": "string",
+                    "title": "Hamburgermeny-knapp - bakgrund",
+                    "format": "color"
+                  },
+                  "mobile_menu_button_hover_bg_color": {
+                    "type": "string",
+                    "title": "Hamburgermeny-knapp hover - bakgrund",
+                    "format": "color"
+                  },
+                  "mobile_menu_button_focus_bg_color": {
+                    "type": "string",
+                    "title": "Hamburgermeny-knapp focus - bakgrund",
+                    "format": "color"
+                  }
                 }
               }
             }
