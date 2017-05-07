@@ -8,7 +8,7 @@
     padding-bottom: {{ style.block.padding_bottom }}px;
     {% endif %}
   }
-  {% ifstyle.block.icon_bg_color %}
+  {% if style.block.icon_bg_color %}
   #{{template_id}}.{{block_id}} .text-primary { color: {{ style.block.icon_bg_color }}; }
   {% endif %}
   {% if style.block.icon_color %}
