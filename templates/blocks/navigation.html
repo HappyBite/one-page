@@ -11,7 +11,7 @@
         href="#page-top"
         data-field-string="logo_text"
         data-toolbar-buttons="['bold', 'italic', 'underline']"
-      >{% if theme.logo.show %}<img src="{{ theme.logo.image }}" alt="Logo" />{% else %}{{ logo_text }}{% endif %}</a>
+      >{% if style.logo.show %}<img src="{{ style.logo.image }}" alt="Logo" />{% else %}{{ logo_text }}{% endif %}</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -43,66 +43,66 @@
 <style>
   /* Block */
   #{{block_id}} {
-    background-color: {{ theme.navbar.bg_color }};
-    border-bottom: solid {{ theme.navbar.border_bottom_width }}px {{ theme.navbar.border_bottom_color }};
-    padding-top: {{ theme.navbar.padding_top }}px;
-    padding-bottom: {{ theme.navbar.padding_bottom }}px;
+    background-color: {{ style.navbar.bg_color }};
+    border-bottom: solid {{ style.navbar.border_bottom_width }}px {{ style.navbar.border_bottom_color }};
+    padding-top: {{ style.navbar.padding_top }}px;
+    padding-bottom: {{ style.navbar.padding_bottom }}px;
   }
   /* Logo */
   #{{block_id}} .navbar-brand {
-    color: {{ theme.logo.text_color }};
-    font-family: "{{ theme.typography.logo_text_font_family }}","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: {{ style.logo.text_color }};
+    font-family: "{{ style.typography.logo_text_font_family }}","Helvetica Neue",Helvetica,Arial,sans-serif;
   }
-  {% if theme.logo.show %}
+  {% if style.logo.show %}
     @media (min-width: 768px) {
       #{{block_id}} .navbar-brand {
-        padding-top: {{ theme.logo.padding_top }}px;
-        width:{{ theme.logo.width }}px;
+        padding-top: {{ style.logo.padding_top }}px;
+        width:{{ style.logo.width }}px;
       }
     } 
   {% endif %}
   #{{block_id}} .navbar-brand:hover {
-    color: {{ theme.logo.text_hover_color }};
+    color: {{ style.logo.text_hover_color }};
   }
   #{{block_id}} .navbar-brand:active {
-    color: {{ theme.logo.text_active_color }};
+    color: {{ style.logo.text_active_color }};
   }
   #{{block_id}} .navbar-brand:focus {
-    color: {{ theme.logo.text_focus_color }};
+    color: {{ style.logo.text_focus_color }};
   }
   /* Navigation */
   #{{block_id}} .nav li a {
-    color: {{ theme.navigation.text_color }};
+    color: {{ style.navigation.text_color }};
   }
   #{{block_id}} .nav li a:hover {
-    color: {{ theme.navigation.text_hover_color }};
+    color: {{ style.navigation.text_hover_color }};
   }
   #{{block_id}} .nav li a:focus {
-    color: {{ theme.navigation.text_focus_color }};
+    color: {{ style.navigation.text_focus_color }};
   }
   #{{block_id}} .nav li a {
-    background-color: {{ theme.navigation.bg_text_color }};
+    background-color: {{ style.navigation.bg_text_color }};
   }
   #{{block_id}} .nav li a:hover {
-    background-color: {{ theme.navigation.bg_text_hover_color }};
+    background-color: {{ style.navigation.bg_text_hover_color }};
   }
   #{{block_id}} .navbar-nav > .active > a,
   #{{block_id}} .navbar-nav > .active > a:hover {
-    background-color: {{ theme.navigation.bg_text_active_color }};
+    background-color: {{ style.navigation.bg_text_active_color }};
   }
   #{{block_id}} .navbar-nav > .active > a:focus {
-    background-color: {{ theme.navigation.bg_text_focus_color }};
+    background-color: {{ style.navigation.bg_text_focus_color }};
   }
   #{{block_id}} .navbar-toggle {
-    background-color: {{ theme.navigation.mobile_menu_button_bg_color }};
-    border-color: {{ theme.navigation.mobile_menu_button_bg_color }};
+    background-color: {{ style.navigation.mobile_menu_button_bg_color }};
+    border-color: {{ style.navigation.mobile_menu_button_bg_color }};
   }
   #{{block_id}} .navbar-toggle:hover {
-    background-color: {{ theme.navigation.mobile_menu_button_hover_bg_color }};
-    border-color: {{ theme.navigation.mobile_menu_button_hover_bg_color }};
+    background-color: {{ style.navigation.mobile_menu_button_hover_bg_color }};
+    border-color: {{ style.navigation.mobile_menu_button_hover_bg_color }};
   }
   #{{block_id}} .navbar-toggle:focus {
-    background-color: {{ theme.navigation.mobile_menu_button_focus_bg_color }};
-    border-color: {{ theme.navigation.mobile_menu_button_focus_bg_color }};
+    background-color: {{ style.navigation.mobile_menu_button_focus_bg_color }};
+    border-color: {{ style.navigation.mobile_menu_button_focus_bg_color }};
   }
 </style>
