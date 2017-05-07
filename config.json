@@ -615,8 +615,8 @@
                 "type": "string",
                 "title": "Button bg color",
                 "format": "color",
-                "ui:css_selector": "${block_id_css_id} .btn-xl",
-                "ui:css_property": "background-color"
+                "no-ui:css_selector": "${block_id_css_id} .btn-xl",
+                "no-ui:css_property": "background-color"
               },
               "padding_top": {
                 "type": "integer",
