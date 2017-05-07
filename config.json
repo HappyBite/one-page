@@ -846,12 +846,15 @@
                 "type": "object",
                 "properties": {
                   "heading_text_color": {
+                    "ui:css_selector": "#portfolio${block_id_css_class} h1, #portfolio${block_id_css_class} h2, #portfolio${block_id_css_class} h3, #portfolio${block_id_css_class} h4, #portfolio${block_id_css_class} h5, #portfolio${block_id_css_class} h6",
                     "$ref": "#/definitions/heading_text_color"
                   },
                   "text_color": {
+                    "ui:css_selector": "#portfolio${block_id_css_class} p",
                     "$ref": "#/definitions/text_color"
                   },
                   "muted_text_color": {
+                    "ui:css_selector": "#portfolio${block_id_css_class} .text-muted",
                     "$ref": "#/definitions/muted_text_color"
                   },
                   "link_text_color": {
@@ -861,9 +864,11 @@
                     "$ref": "#/definitions/link_hover_text_color"
                   },
                   "primary_bg_color": {
+                    "ui:css_selector": "#portfolio${block_id_css_class} .btn-primary",
                     "$ref": "#/definitions/primary_bg_color"
                   },
                   "primary_text_color": {
+                    "ui:css_selector": "#portfolio${block_id_css_class} .text-primary",
                     "$ref": "#/definitions/primary_text_color"
                   },
                   "selection_text_color": {
