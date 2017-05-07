@@ -8,7 +8,7 @@
       "format": "color",
       "ui:css_selector": "body",
       "ui:css_property": "background-color",
-      "default": "#999999"
+      "default": "#ffffff"
     },
     "heading_text_color": {
       "type": "string",
