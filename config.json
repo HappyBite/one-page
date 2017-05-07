@@ -278,44 +278,6 @@
             }
           }
         },
-        "header": {
-          "title": "Header",
-          "type": "object",
-          "ui:css_selector": "header",
-          "properties": {
-            "lead_in_text_color": {
-              "type": "string",
-              "title": "Lead in text color",
-              "format": "color",
-              "ui:css_selector": "header .intro-text .intro-lead-in",
-              "ui:css_property": "color"
-            },
-            "title_text_color": {
-              "type": "string",
-              "title": "Heading text color",
-              "format": "color",
-              "ui:css_selector": "header .intro-text .intro-heading",
-              "ui:css_property": "color"
-            },
-            "button_bg_color": {
-              "type": "string",
-              "title": "Button bg color",
-              "format": "color"
-            },
-            "padding_top": {
-              "type": "integer",
-              "title": "Padding top",
-              "minimum": 0,
-              "maximum": 300
-            },
-            "padding_bottom": {
-              "type": "integer",
-              "title": "Padding bottom",
-              "minimum": 0,
-              "maximum": 300
-            }
-          }
-        },
         "team": {
           "title": "Team",
           "type": "object",
@@ -632,6 +594,46 @@
               "Center",
               "Right"
             ]
+          },
+          "style": {
+            "header": {
+              "title": "Header",
+              "type": "object",
+              "ui:css_selector": "header",
+              "properties": {
+                "lead_in_text_color": {
+                  "type": "string",
+                  "title": "Lead in text color",
+                  "format": "color",
+                  "ui:css_selector": "header .intro-text .intro-lead-in",
+                  "ui:css_property": "color"
+                },
+                "title_text_color": {
+                  "type": "string",
+                  "title": "Heading text color",
+                  "format": "color",
+                  "ui:css_selector": "header .intro-text .intro-heading",
+                  "ui:css_property": "color"
+                },
+                "button_bg_color": {
+                  "type": "string",
+                  "title": "Button bg color",
+                  "format": "color"
+                },
+                "padding_top": {
+                  "type": "integer",
+                  "title": "Padding top",
+                  "minimum": 0,
+                  "maximum": 300
+                },
+                "padding_bottom": {
+                  "type": "integer",
+                  "title": "Padding bottom",
+                  "minimum": 0,
+                  "maximum": 300
+                }
+              }
+            }
           }
         }
       },
@@ -1083,13 +1085,6 @@
           "global": {
             
           },
-          "header": {
-            "lead_in_text_color": "#ffffff",
-            "title_text_color": "#ffffff",
-            "button_bg_color": "#fed136",
-            "padding_top": 300,
-            "padding_bottom": 200
-          },
           "team": {
             "bg_color": "transparent",
             "padding_top": -1,
@@ -1218,7 +1213,14 @@
         "show_lead_in": true,
         "show_title": true,
         "show_button": true,
-        "text_align": "center"
+        "text_align": "center",
+        "style": {
+          "lead_in_text_color": "#ffffff",
+          "title_text_color": "#ffffff",
+          "button_bg_color": "#fed136",
+          "padding_top": 300,
+          "padding_bottom": 200
+        }
       },
       "services": {
         "heading": "Services",

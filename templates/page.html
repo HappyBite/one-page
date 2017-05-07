@@ -53,9 +53,6 @@
     }
   </style>
   <style id="editor-style">
-    .btn {
-      ursor: text;
-    }
     .navbar-custom {
       margin: 0;
       position: static;
@@ -107,26 +104,6 @@
         padding-top: {{ theme.global.block_padding_top }}px;
         padding-bottom: {{ theme.global.block_padding_bottom }}px;
       }
-    }
-    /* Header */
-    @media (min-width: 768px) {
-      #header .intro-text {
-        padding-top: {{ theme.header.padding_top }}px;
-        padding-bottom: {{ theme.header.padding_bottom }}px;
-      }  
-    } 
-    #header .intro-text .intro-lead-in {
-      color: {{ theme.header.lead_in_text_color }};
-    }
-    #header .intro-text .intro-heading {
-      color: {{ theme.header.title_text_color }};
-    }
-    #header .btn-xl,
-    #header .btn-xl:hover,
-    #header .btn-xl:focus,
-    #header .btn-xl:active {
-      background-color: {{ theme.header.button_bg_color }};
-      border-color: {{ theme.header.button_bg_color }};
     }
     /* Team */
     #team {
