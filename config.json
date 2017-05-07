@@ -836,43 +836,43 @@
                 "ui:css_property": "background-color"
               },
               "padding_top": {
-                "type": "integer",
-                "title": "Padding top",
-                "minimum": 0,
-                "maximum": 300
+                "$ref": "#/definitions/block_padding_top"
               },
               "padding_bottom": {
-                "type": "integer",
-                "title": "Padding bottom",
-                "minimum": 0,
-                "maximum": 300
+                "$ref": "#/definitions/block_padding_top"
               },
-              "heading_text_color": {
-                "$ref": "#/definitions/heading_text_color"
-              },
-              "text_color": {
-                "$ref": "#/definitions/text_color"
-              },
-              "link_color": {
-                "$ref": "#/definitions/link_color"
-              },
-              "link_hover_color": {
-                "$ref": "#/definitions/link_hover_color"
-              },
-              "muted_text_color": {
-                "$ref": "#/definitions/muted_text_color"
-              },
-              "primary_bg_color": {
-                "$ref": "#/definitions/primary_bg_color"
-              },
-              "primary_text_color": {
-                "$ref": "#/definitions/primary_text_color"
-              },
-              "selection_text_color": {
-                "$ref": "#/definitions/selection_text_color"
-              },
-              "selection_bg_color": {
-                "$ref": "#/definitions/selection_bg_color"
+              "base": {
+                "title": "Base",
+                "type": "object",
+                "properties": {
+                  "heading_text_color": {
+                    "$ref": "#/definitions/heading_text_color"
+                  },
+                  "text_color": {
+                    "$ref": "#/definitions/text_color"
+                  },
+                  "muted_text_color": {
+                    "$ref": "#/definitions/muted_text_color"
+                  },
+                  "link_text_color": {
+                    "$ref": "#/definitions/link_text_color"
+                  },
+                  "link_hover_text_color": {
+                    "$ref": "#/definitions/link_hover_text_color"
+                  },
+                  "primary_bg_color": {
+                    "$ref": "#/definitions/primary_bg_color"
+                  },
+                  "primary_text_color": {
+                    "$ref": "#/definitions/primary_text_color"
+                  },
+                  "selection_text_color": {
+                    "$ref": "#/definitions/selection_text_color"
+                  },
+                  "selection_bg_color": {
+                    "$ref": "#/definitions/selection_bg_color"
+                  }
+                }
               }
             }
           }
