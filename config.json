@@ -710,6 +710,12 @@
                   },
                   "selection_bg_color": {
                     "$ref": "#/definitions/selection_bg_color"
+                  },
+                  "padding_top": {
+                    "$ref": "#/definitions/padding_top"
+                  },
+                  "padding_bottom": {
+                    "$ref": "#/definitions/padding_bottom"
                   }
                 }
               },
@@ -739,18 +745,6 @@
                     "default": "transparent",
                     "ui:css_selector": "#services .fa-inverse",
                     "ui:css_property": "color"
-                  },
-                  "padding_top": {
-                    "type": "integer",
-                    "title": "Padding top",
-                    "minimum": 0,
-                    "maximum": 150
-                  },
-                  "padding_bottom": {
-                    "type": "integer",
-                    "title": "Padding bottom",
-                    "minimum": 0,
-                    "maximum": 150
                   }
                 }
               }
@@ -1448,6 +1442,18 @@
       "type": "string",
       "title": "Text selection bg color",
       "format": "color"
+    },
+    "padding_top": {
+      "type": "integer",
+      "title": "Padding top",
+      "minimum": 0,
+      "maximum": 150
+    },
+    "padding_bottom": {
+      "type": "integer",
+      "title": "Padding bottom",
+      "minimum": 0,
+      "maximum": 150
     }
   }
 }
