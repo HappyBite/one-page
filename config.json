@@ -680,6 +680,35 @@
           },
           "style": {
             "properties": {
+              "block": {
+                "title": "Block",
+                "type": "object",
+                "properties": {
+                  "bg_color": {
+                    "type": "string",
+                    "title": "Bakgrundsfärg",
+                    "format": "color",
+                    "ui:css_selector": "#services",
+                    "ui:css_property": "background-color"
+                  },
+                  "icon_bg_color": {
+                    "type": "string",
+                    "title": "Ikon - bakgrundsfärg",
+                    "format": "color",
+                    "default": "transparent",
+                    "ui:css_selector": "#services .text-primary",
+                    "ui:css_property": "color"
+                  },
+                  "icon_color": {
+                    "type": "string",
+                    "title": "Ikon - färg",
+                    "format": "color",
+                    "default": "transparent",
+                    "ui:css_selector": "#services .fa-inverse",
+                    "ui:css_property": "color"
+                  }
+                }
+              },
               "base": {
                 "title": "Base",
                 "type": "object",
@@ -716,35 +745,6 @@
                   },
                   "padding_bottom": {
                     "$ref": "#/definitions/padding_bottom"
-                  }
-                }
-              },
-              "block": {
-                "title": "Block",
-                "type": "object",
-                "properties": {
-                  "bg_color": {
-                    "type": "string",
-                    "title": "Bakgrundsfärg",
-                    "format": "color",
-                    "ui:css_selector": "#services",
-                    "ui:css_property": "background-color"
-                  },
-                  "icon_bg_color": {
-                    "type": "string",
-                    "title": "Ikon - bakgrundsfärg",
-                    "format": "color",
-                    "default": "transparent",
-                    "ui:css_selector": "#services .text-primary",
-                    "ui:css_property": "color"
-                  },
-                  "icon_color": {
-                    "type": "string",
-                    "title": "Ikon - färg",
-                    "format": "color",
-                    "default": "transparent",
-                    "ui:css_selector": "#services .fa-inverse",
-                    "ui:css_property": "color"
                   }
                 }
               }
