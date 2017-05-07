@@ -783,56 +783,56 @@
                 "type": "string",
                 "title": "Bakgrundsfärg",
                 "format": "color",
-                "ui:css_selector": "#portfolio",
+                "ui:css_selector": "#portfolio${block_id_css_class}",
                 "ui:css_property": "background-color"
               },
               "hover_content_bg_color": {
                 "type": "string",
                 "title": "Hover content - bakgrundsfärg",
                 "ormat": "color",
-                "ui:css_selector": "#portfolio .portfolio-item .portfolio-link .portfolio-hover",
+                "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-link .portfolio-hover",
                 "ui:css_property": "background-color"
               },
               "hover_content_icon_color": {
                 "type": "string",
                 "title": "Hover content icon color",
                 "format": "color",
-                "ui:css_selector": "#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i",
+                "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i",
                 "ui:css_property": "color"
               },
               "caption_bg_color": {
                 "type": "string",
                 "title": "Caption - bakgrundsfärg",
                 "format": "color",
-                "ui:css_selector": "#portfolio .portfolio-item .portfolio-caption",
+                "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-caption",
                 "ui:css_property": "background-color"
               },
               "caption_title_color": {
                 "type": "string",
                 "title": "Caption title color",
                 "format": "color",
-                "ui:css_selector": "#portfolio .portfolio-item .portfolio-caption h4",
+                "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-caption h4",
                 "ui:css_property": "color"
               },
               "caption_text_color": {
                 "type": "string",
                 "title": "Caption text color",
                 "format": "color",
-                "ui:css_selector": "#portfolio .portfolio-item .portfolio-caption p",
+                "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-caption p",
                 "ui:css_property": "color"
               },
               "item_bg_color": {
                 "type": "string",
                 "title": "Item - bakgrundsfärg",
                 "format": "color",
-                "ui:css_selector": ".portfolio-modal .modal-content",
+                "ui:css_selector": "${block_id_css_class}-modal .modal-content",
                 "ui:css_property": "background-color"
               },
               "item_close_btn_color": {
                 "type": "string",
                 "title": "Item stängknapp - färg",
                 "format": "color",
-                "ui:css_selector": ".portfolio-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl",
+                "ui:css_selector": "${block_id_css_class}-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl",
                 "ui:css_property": "background-color"
               },
               "padding_top": {
