@@ -596,41 +596,43 @@
             ]
           },
           "style": {
-            "header": {
-              "title": "Header",
-              "type": "object",
-              "ui:css_selector": "header",
-              "properties": {
-                "lead_in_text_color": {
-                  "type": "string",
-                  "title": "Lead in text color",
-                  "format": "color",
-                  "ui:css_selector": "header .intro-text .intro-lead-in",
-                  "ui:css_property": "color"
-                },
-                "title_text_color": {
-                  "type": "string",
-                  "title": "Heading text color",
-                  "format": "color",
-                  "ui:css_selector": "header .intro-text .intro-heading",
-                  "ui:css_property": "color"
-                },
-                "button_bg_color": {
-                  "type": "string",
-                  "title": "Button bg color",
-                  "format": "color"
-                },
-                "padding_top": {
-                  "type": "integer",
-                  "title": "Padding top",
-                  "minimum": 0,
-                  "maximum": 300
-                },
-                "padding_bottom": {
-                  "type": "integer",
-                  "title": "Padding bottom",
-                  "minimum": 0,
-                  "maximum": 300
+            "properties": {
+              "header": {
+                "title": "Header",
+                "type": "object",
+                "ui:css_selector": "header",
+                "properties": {
+                  "lead_in_text_color": {
+                    "type": "string",
+                    "title": "Lead in text color",
+                    "format": "color",
+                    "ui:css_selector": "header .intro-text .intro-lead-in",
+                    "ui:css_property": "color"
+                  },
+                  "title_text_color": {
+                    "type": "string",
+                    "title": "Heading text color",
+                    "format": "color",
+                    "ui:css_selector": "header .intro-text .intro-heading",
+                    "ui:css_property": "color"
+                  },
+                  "button_bg_color": {
+                    "type": "string",
+                    "title": "Button bg color",
+                    "format": "color"
+                  },
+                  "padding_top": {
+                    "type": "integer",
+                    "title": "Padding top",
+                    "minimum": 0,
+                    "maximum": 300
+                  },
+                  "padding_bottom": {
+                    "type": "integer",
+                    "title": "Padding bottom",
+                    "minimum": 0,
+                    "maximum": 300
+                  }
                 }
               }
             }
