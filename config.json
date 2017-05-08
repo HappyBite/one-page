@@ -8,6 +8,7 @@
       "format": "color",
       "ui:css_selector": "body",
       "ui:css_property": "background-color",
+      "default": "#ffffff"
       "$ref_setting": "#/settings/theme/colors/bg_color"
     },
     "title_text_color": {
