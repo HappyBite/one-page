@@ -811,13 +811,13 @@
                     "format": "color",
                     "ui:css_selector": "${block_id_css_class}-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl",
                     "ui:css_property": "background-color"
-              },
+                  },
                   "padding_top": {
                     "$ref": "#/definitions/block_padding_top"
-              },
+                  },
                   "padding_bottom": {
-                    "$ref": "#/definitions/block_padding_top"
-              }
+                    "$ref": "#/definitions/block_padding_bottom"
+                  }
                 }
               },
               "base": {
