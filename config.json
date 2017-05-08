@@ -1273,7 +1273,6 @@
             "caption_bg_color": "#fff",
             "no-caption_title_color": "#333",
             "no-caption_text_color": "#777",
-            "item_bg_color": "#fff",
             "item_close_btn_color": "#222"
           }
         }
