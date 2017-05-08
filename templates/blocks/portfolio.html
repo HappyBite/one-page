@@ -97,15 +97,6 @@
 
 <style>
   /* Base */
-  #{{template_id}}.{{block_id}} {
-    color: {{ style.base.text_color }};
-    {% if style.base.padding_top >= 0 %}
-    padding-top: {{ style.base.padding_top }}px;
-    {% endif %}
-    {% if style.base.padding_bottom >= 0 %}
-    padding-bottom: {{ style.base.padding_bottom }}px;
-    {% endif %}
-  }
   #{{template_id}}.{{block_id}} h1, #{{template_id}}.{{block_id}} h2, #{{template_id}}.{{block_id}} h3, #{{template_id}}.{{block_id}} h4, #{{template_id}}.{{block_id}} h5, #{{template_id}}.{{block_id}} h6 {
     color: {{ style.base.heading_text_color }};
   }
@@ -139,6 +130,15 @@
   }
   
   /* Block */
+  #{{template_id}}.{{block_id}} {
+    color: {{ style.block.text_color }};
+    {% if style.block.padding_top >= 0 %}
+    padding-top: {{ style.block.padding_top }}px;
+    {% endif %}
+    {% if style.block.padding_bottom >= 0 %}
+    padding-bottom: {{ style.block.padding_bottom }}px;
+    {% endif %}
+  }
   #{{template_id}}.{{block_id}} {
     background-color: {{ style.block.bg_color }};
   }
