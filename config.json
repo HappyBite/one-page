@@ -1034,7 +1034,7 @@
       "presets": {
         "default": {
           "colors": {
-            "body_bg_color": "#ffffff",
+            "bg_color": "#ffffff",
             "title_text_color": "#333333",
             "subtitle_text_color": "#777777",
             "text_color": "#777777",
