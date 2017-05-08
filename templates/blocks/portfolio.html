@@ -165,6 +165,6 @@
   }
   .{{block_id}}-modal .close-modal .lr,
   .{{block_id}}-modal .close-modal .lr .rl {
-    background-color: {{ style.block.item_close_btn_color }};
+    background-color: {% if style.block.item_close_btn_color %} {{ style.block.item_close_btn_color }} {% else %} {{ theme.colors.title_text_color }} {% endif %};
   }
 </style>
