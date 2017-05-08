@@ -828,6 +828,9 @@
                     "ui:css_selector": "#portfolio${block_id_css_class} h1, #portfolio${block_id_css_class} h2, #portfolio${block_id_css_class} h3, #portfolio${block_id_css_class} h4, #portfolio${block_id_css_class} h5, #portfolio${block_id_css_class} h6",
                     "$ref": "#/definitions/title_text_color"
                   },
+                  "subtitle_text_color": {
+                    "$ref": "#/definitions/subtitle_text_color"
+                  },
                   "text_color": {
                     "ui:css_selector": "#portfolio${block_id_css_class} p",
                     "$ref": "#/definitions/text_color"
