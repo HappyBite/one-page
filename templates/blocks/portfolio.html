@@ -161,7 +161,7 @@
     color: {{ style.block.caption_text_color }};
   }
   .{{block_id}}-modal .modal-content {
-    background-color: {{ style.block.item_bg_color }};
+    background-color: {% if style.block.item_bg_color >= 0 %} {{ style.block.item_bg_color }} {% else %} {{ thtme.bg_color }} {% endif %};
   }
   .{{block_id}}-modal .close-modal .lr,
   .{{block_id}}-modal .close-modal .lr .rl {
