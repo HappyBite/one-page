@@ -799,12 +799,11 @@
                     "ui:css_property": "color"
               },
                   "item_bg_color": {
-                    "type": "string",
                     "title": "Item - bakgrundsfärg",
-                    "format": "color",
                     "ui:css_selector": "${block_id_css_class}-modal .modal-content",
-                    "ui:css_property": "background-color"
-              },
+                    "ui:css_property": "background-color",
+                    "$ref": "#/definitions/bg_color"
+                  },
                   "item_close_btn_color": {
                     "type": "string",
                     "title": "Item stängknapp - färg",
