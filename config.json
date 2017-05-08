@@ -9,7 +9,7 @@
       "ui:css_selector": "body",
       "ui:css_property": "background-color",
       "default": "#ffffff",
-      "$ref_settings": "#/settings/theme/colors/bg_color",
+      "$ref_settings": "#/settings/theme/colors/bg_color"
     },
     "title_text_color": {
       "type": "string",
@@ -1034,7 +1034,7 @@
       "presets": {
         "default": {
           "colors": {
-            "bg_color": "#ffffff",
+            "body_bg_color": "#ffffff",
             "title_text_color": "#333333",
             "subtitle_text_color": "#777777",
             "text_color": "#777777",
