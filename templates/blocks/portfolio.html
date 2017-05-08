@@ -98,7 +98,10 @@
 <style>
   /* Base */
   #{{template_id}}.{{block_id}} h1, #{{template_id}}.{{block_id}} h2, #{{template_id}}.{{block_id}} h3, #{{template_id}}.{{block_id}} h4, #{{template_id}}.{{block_id}} h5, #{{template_id}}.{{block_id}} h6 {
-    color: {{ style.base.heading_text_color }};
+    color: {{ style.base.title_text_color }};
+  }
+  #{{template_id}}.{{block_id}} h3.section-subheading {
+    color: {{ style.base.subtitle_text_color }};
   }
   #{{template_id}}.{{block_id}} p {
     color: {{ style.base.text_color }};
