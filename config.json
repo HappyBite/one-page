@@ -764,7 +764,6 @@
                     "$ref": "#/definitions/bg_color"
                   },
                   "hover_content_bg_color": {
-                    "type": "string",
                     "title": "Hover content - bakgrundsfärg",
                     "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-link .portfolio-hover",
                     "ui:css_property": "background-color",
