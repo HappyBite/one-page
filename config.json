@@ -24,7 +24,7 @@
       "format": "color",
       "ui:css_selector": "body ${block_id_css_id} h3.section-subheading",
       "ui:css_property": "color",
-      "default": "#777777"
+      "default": "#/settings/theme/colors/subtitle_text_color"
     },
     "text_color": {
       "type": "string",
