@@ -766,9 +766,10 @@
                   "hover_content_bg_color": {
                     "type": "string",
                     "title": "Hover content - bakgrundsfärg",
-                    "ormat": "color",
+                    "format": "none",
                     "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-link .portfolio-hover",
-                    "ui:css_property": "background-color"
+                    "ui:css_property": "background-color",
+                    "$ref": "#/definitions/primary_color"
                   },
                   "hover_content_icon_color": {
                     "type": "string",
