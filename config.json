@@ -68,14 +68,14 @@
     },
     "block_padding_top": {
       "type": "integer",
-      "title": "Block Padding top",
+      "title": "Padding top",
       "minimum": 0,
       "maximum": 150,
       "default": 150
     },
     "block_padding_bottom": {
       "type": "integer",
-      "title": "Block Padding bottom",
+      "title": "Padding bottom",
       "minimum": 0,
       "maximum": 150,
       "default": 150
