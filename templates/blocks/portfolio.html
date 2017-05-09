@@ -155,10 +155,10 @@
     background-color: {{ style.block.caption_bg_color }};
   }
   #{{template_id}}.{{block_id}} .portfolio-item .portfolio-caption h4 {
-    color: {{ style.block.caption_title_color }};
+    color: {% if style.block.caption_title_color %} {{ style.block.caption_title_color }} {% else %} {{ theme.colors.title_text_color }} {% endif %};
   }
   #{{template_id}}.{{block_id}} .portfolio-item .portfolio-caption p {
-    color: {{ style.block.caption_text_color }};
+    color: {% if style.block.caption_text_color %} {{ style.block.caption_text_color }} {% else %} {{ theme.colors.text_color }} {% endif %};
   }
   .{{block_id}}-modal .modal-content {
     background-color: {% if style.block.item_bg_color %} {{ style.block.item_bg_color }} {% else %} {{ theme.colors.bg_color }} {% endif %};

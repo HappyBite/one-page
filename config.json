@@ -32,7 +32,7 @@
       "format": "color",
       "ui:css_selector": "${block_id_css_id} p",
       "ui:css_property": "color",
-      "default": "#777777"
+      "default": "#/settings/theme/colors/text_color"
     },
     "link_text_color": {
       "type": "string",
@@ -791,14 +791,16 @@
                     "title": "Caption title color",
                     "format": "color",
                     "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-caption h4",
-                    "ui:css_property": "color"
+                    "ui:css_property": "color",
+                    "$ref": "#/definitions/title_text_color"
                   },
                   "caption_text_color": {
                     "type": "string",
                     "title": "Caption text color",
                     "format": "color",
                     "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-caption p",
-                    "ui:css_property": "color"
+                    "ui:css_property": "color",
+                    "$ref": "#/definitions/text_color"
                   },
                   "item_bg_color": {
                     "title": "Item - bakgrundsfärg",
