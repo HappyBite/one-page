@@ -764,12 +764,11 @@
                     "$ref": "#/definitions/bg_color"
                   },
                   "hover_content_bg_color": {
+                    "type": "string",
                     "title": "Hover content - bakgrundsfärg",
                     "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-link .portfolio-hover",
                     "ui:css_property": "background-color",
                     "format": "rgba",
-                    "efault": "rgba(254,209,54,.9)",
-                    "$ref": "#/definitions/primary_color"
                   },
                   "hover_content_icon_color": {
                     "type": "string",
@@ -1267,7 +1266,7 @@
         ],
         "style": {
           "block": {
-            "over_content_bg_color": "rgba(254,209,54,.9)",
+            "hover_content_bg_color": "rgba(0,0,0,.75)",
             "hover_content_icon_color": "#fff",
             "caption_bg_color": "#fff",
             "no-caption_title_color": "#333",
