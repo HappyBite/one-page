@@ -769,7 +769,7 @@
                     "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-link .portfolio-hover",
                     "ui:css_property": "background-color",
                     "format": "rgba",
-                    "default": "rgba(254,209,54,.9)",
+                    "efault": "rgba(254,209,54,.9)",
                     "$ref": "#/definitions/primary_color"
                   },
                   "hover_content_icon_color": {
