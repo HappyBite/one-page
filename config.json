@@ -52,7 +52,7 @@
       "format": "color",
       "ui:css_selector": "${block_id_css_id} .btn-primary, ${block_id_css_id} .text-primary",
       "ui:css_property": "color",
-      "default": "#fed136"
+      "default": "#/settings/theme/colors/primary_color"
     },
     "selection_text_color": {
       "type": "string",
