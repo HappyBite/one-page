@@ -246,15 +246,15 @@
             }
           }
         },
-        "global": {
-          "title": "Globalt",
+        "block": {
+          "title": "Block",
           "type": "object",
-          "ui:css_selector": "body",
+          "ui:css_selector": "body > section",
           "properties": {
-            "block_padding_top": {
+            "padding_top": {
               "$ref": "#/definitions/block_padding_top"
             },
-            "block_padding_bottom": {
+            "padding_bottom": {
               "$ref": "#/definitions/block_padding_bottom"
             }
           }
@@ -1048,7 +1048,7 @@
             "text_font_family": "Roboto Slab",
             "type_base_size": 14
           },
-          "global": {
+          "block": {
             
           }
         },
