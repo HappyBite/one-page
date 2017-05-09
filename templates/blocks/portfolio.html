@@ -146,7 +146,7 @@
     background-color: {{ style.block.bg_color }};
   }
   #{{template_id}}.{{block_id}} .portfolio-item .portfolio-link .portfolio-hover {
-    background-color: {{ style.block.hover_content_bg_color }};
+    background-color: {% if style.block.hover_content_bg_color %} {{ style.block.hover_content_bg_color }} {% else %} {{ theme.colors.bg_color }} {% endif %};
   }
   #{{template_id}}.{{block_id}} .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     color: {{ style.block.hover_content_icon_color }};
