@@ -9,7 +9,6 @@
       "ui:css_selector": "body",
       "ui:css_property": "background-color",
       "default": "#/settings/theme/colors/bg_color",
-      "$ref_setting": ""
     },
     "title_text_color": {
       "type": "string",
