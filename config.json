@@ -768,7 +768,8 @@
                     "title": "Hover content - bakgrundsfärg",
                     "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-link .portfolio-hover",
                     "ui:css_property": "background-color",
-                    "format": "rgba"
+                    "format": "rgba",
+                    "$ref": "#/definitions/primary_color"
                   },
                   "hover_content_icon_color": {
                     "type": "string",
@@ -1266,7 +1267,7 @@
         ],
         "style": {
           "block": {
-            "hover_content_bg_color": "rgba(0,0,0,0.5)",
+            "over_content_bg_color": "rgba(0,0,0,0.5)",
             "hover_content_icon_color": "#fff",
             "caption_bg_color": "#fff",
             "no-caption_title_color": "#333",
