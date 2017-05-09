@@ -8,8 +8,8 @@
       "format": "color",
       "ui:css_selector": "body",
       "ui:css_property": "background-color",
-      "default": "#ffffff",
-      "$ref_setting": "#/settings/theme/colors/bg_color"
+      "default": "#/settings/theme/colors/bg_color",
+      "$ref_setting": ""
     },
     "title_text_color": {
       "type": "string",
@@ -17,7 +17,7 @@
       "format": "color",
       "ui:css_selector": "${block_id_css_id} .section-heading, ${block_id_css_id} h1, ${block_id_css_id} h2, ${block_id_css_id} 3, ${block_id_css_id} h4, ${block_id_css_id} h5, ${block_id_css_id} h6",
       "ui:css_property": "color",
-      "$ref_setting": "#/settings/theme/colors/title_text_color"
+      "default": "#/settings/theme/colors/title_text_color"
     },
     "subtitle_text_color": {
       "type": "string",
