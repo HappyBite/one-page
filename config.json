@@ -8,7 +8,7 @@
       "format": "color",
       "ui:css_selector": "body",
       "ui:css_property": "background-color",
-      "default": "#/settings/theme/colors/bg_color"
+      "efault": "#/settings/theme/colors/bg_color"
     },
     "title_text_color": {
       "type": "string",
@@ -1270,6 +1270,7 @@
         ],
         "style": {
           "block": {
+            "item_bg_color": "${theme.colors.bg_color}",
             "over_content_bg_color": "rgba(0,0,0,0.5)",
             "hover_content_icon_color": "#fff",
             "caption_bg_color": "transparent"
