@@ -146,7 +146,7 @@
     background-color: {{ style.block.bg_color }};
   }
   #{{template_id}}.{{block_id}} .portfolio-item .portfolio-link .portfolio-hover {
-    background-color: {% if style.block.hover_content_bg_color %} {{ style.block.hover_content_bg_color }} {% else %} {{ theme.colors.primary_color }} {% endif %};
+    background-color: {{ style.block.hover_content_bg_color }};
   }
   #{{template_id}}.{{block_id}} .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     color: {{ style.block.hover_content_icon_color }};
@@ -155,16 +155,16 @@
     background-color: {{ style.block.caption_bg_color }};
   }
   #{{template_id}}.{{block_id}} .portfolio-item .portfolio-caption h4 {
-    color: {% if style.block.caption_title_color %} {{ style.block.caption_title_color }} {% else %} {{ theme.colors.title_text_color }} {% endif %};
+    color: {{ style.block.caption_title_text_color }};
   }
   #{{template_id}}.{{block_id}} .portfolio-item .portfolio-caption p {
-    color: {% if style.block.caption_text_color %} {{ style.block.caption_text_color }} {% else %} {{ theme.colors.text_color }} {% endif %};
+    color: {{ style.block.caption_text_text_color }};
   }
   .{{block_id}}-modal .modal-content {
     background-color: {{ style.block.item_bg_color }};
   }
   .{{block_id}}-modal .close-modal .lr,
   .{{block_id}}-modal .close-modal .lr .rl {
-    background-color: {% if style.block.item_close_btn_color %} {{ style.block.item_close_btn_color }} {% else %} {{ theme.colors.title_text_color }} {% endif %};
+    background-color: {{ style.block.item_close_btn_color }};
   }
 </style>

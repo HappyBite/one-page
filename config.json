@@ -786,18 +786,14 @@
                     "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-caption",
                     "ui:css_property": "background-color"
                   },
-                  "caption_title_color": {
-                    "type": "string",
+                  "caption_title_text_color": {
                     "title": "Caption title color",
-                    "format": "color",
                     "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-caption h4",
                     "ui:css_property": "color",
                     "$ref": "#/definitions/title_text_color"
                   },
-                  "caption_text_color": {
-                    "type": "string",
+                  "caption_text_text_color": {
                     "title": "Caption text color",
-                    "format": "color",
                     "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-caption p",
                     "ui:css_property": "color",
                     "$ref": "#/definitions/text_color"
@@ -1270,8 +1266,11 @@
         ],
         "style": {
           "block": {
-            "item_bg_color": "${theme.colors.bg_color}",
-            "over_content_bg_color": "rgba(0,0,0,0.5)",
+            "item_bg_color": "{{theme.colors.bg_color}}",
+            "item_close_btn_color": "{{theme.colors.title_text_color}}",
+            "caption_title_text_color": "{{theme.colors.title_text_color}}",
+            "caption_text_text_color": "{{theme.colors.text_color}}",
+            "hover_content_bg_color": "{{theme.colors.primary_color}}",
             "hover_content_icon_color": "#fff",
             "caption_bg_color": "transparent"
           }
