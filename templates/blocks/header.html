@@ -6,8 +6,8 @@
   data-placement="top"
   data-wrapper="true"
   data-inset="true"
-  style="{% if style.full_screen %} background-image: url({{ image }});{% endif %}text-align:{{ style.text_align }};">
-  <div class="container" style="{% if style.full_screen === false %} background-image: url({{ image }});{% endif %}">
+  style="background-image: url({{ image }});text-align:{{ style.text_align }};">
+  <div class="container">
     <div class="intro-text">
       {% if show_subtitle %}
       <div
@@ -51,11 +51,11 @@
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
   position: relative;
 }
 #{{block_id}} .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
   position: relative;
   z-index: 1;
 }
@@ -86,10 +86,11 @@
 @media (min-width: 768px) {
   #{{block_id}} {
     background-position: 0 0;
+    padding-top: 300px;
+    padding-bottom: 200px;
   }
   #{{block_id}} .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px; 
+    
   }
   #{{block_id}} .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -135,7 +136,7 @@
   opacity: {{ style.overlay_opacity/100 }};
 }
 @media (min-width: 768px) {
-  #{{block_id}} .intro-text {
+  #{{block_id}} {
     padding-top: {{ style.padding_top }}px;
     padding-bottom: {{ style.padding_bottom }}px;
   }  
