@@ -41,6 +41,32 @@
 </nav>
 
 <style>
+  /* Default style */
+  @media (min-width: 768px) {
+    ody {
+      padding-top: 70px;
+      padding-top: 0px;
+    }
+    navbar-custom {
+      margin: 0;
+      padding: 10px 0;
+    }
+  }
+  navbar-custom {
+    margin: 0;
+    position: static;
+  }
+  @media (min-width: 768px) {
+    body {
+      padding-top: 0;
+    }
+    navbar-custom {
+      background-color: #222;
+      margin: 0;
+      padding: 10px 0;
+    }
+  }
+
   /* Block */
   #{{block_id}} {
     background-color: {{ style.navbar.bg_color }};

@@ -4,7 +4,15 @@
 ></div>
 
 <style>
+/* Default style */
 #{{block_id}} {
-  background-attachment: fixed;
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+@media (min-width: 768px) {
+	#{{block_id}} {
+	  background-attachment: fixed;
+	}
 }
 </style>
