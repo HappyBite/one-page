@@ -505,7 +505,7 @@
           },
           "subtitle": {
             "type": "string",
-            "title": "Underrubrik"
+            "title": "Lead in"
           },
           "link_text": {
             "type": "string",
