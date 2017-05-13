@@ -328,7 +328,7 @@
                   },
                   "sticky": {
                     "type": "boolean",
-                    "title": "Transparent",
+                    "title": "Sticky",
                     "ui:widget": "switch"
                   },
                   "bg_color": {
@@ -1173,7 +1173,7 @@
         "style": {
           "navbar": {
             "transparent": true,
-            "transparent": false,
+            "sticky": false,
             "bg_color": "#222",
             "padding_top": 10,
             "padding_bottom": 10,
