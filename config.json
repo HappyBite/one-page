@@ -499,13 +499,13 @@
       "header": {
         "title": "Header",
         "properties": {
-          "title": {
-            "type": "string",
-            "title": "Rubrik" 
-          },
           "subtitle": {
             "type": "string",
             "title": "Lead in"
+          },
+          "title": {
+            "type": "string",
+            "title": "Rubrik" 
           },
           "link_text": {
             "type": "string",
