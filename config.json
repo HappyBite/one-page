@@ -1196,7 +1196,10 @@
             "padding_top": 10,
             "padding_bottom": 10,
             "border_bottom_width": 0,
-            "border_bottom_color": "transparent"
+            "border_bottom_color": "transparent",
+            "show_overlay": false,
+            "overlay_bg_color": "#000000",
+            "overlay_opacity": 20
           },
           "logo": {
             "text_color": "#fed136",
