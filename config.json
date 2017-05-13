@@ -503,7 +503,7 @@
             "type": "string",
             "title": "Lead in"
           },
-          "heading": {
+          "title": {
             "type": "string",
             "title": "Rubrik" 
           },
@@ -1165,7 +1165,7 @@
       },
       "header": {
         "lead_in": "Welcome To Our Studio!",
-        "heading": "IT'S NICE TO MEET YOU",
+        "title": "IT'S NICE TO MEET YOU",
         "link": "#services",
         "link_text": "Tell me more",
         "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
