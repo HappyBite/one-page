@@ -521,11 +521,6 @@
             "title": "Bild",
             "format": "file"
           },
-          "full_screen": {
-            "type": "boolean",
-            "title": "Full Screen",
-            "ui:widget": "switch"
-          },
           "show_subtitle": {
             "type": "boolean",
             "title": "Show lead in",
@@ -540,21 +535,7 @@
             "type": "boolean",
             "title": "Show button",
             "ui:widget": "switch"
-          },
-          "text_align": {
-            "type": "string",
-            "title": "Text Align",
-            "enum": [
-              "left",
-              "center",
-              "right"
-            ],
-            "enumNames": [
-              "Left",
-              "Center",
-              "Right"
-            ]
-          },
+          }
           "style": {
             "properties": {
               "subtitle_text_color": {
@@ -585,6 +566,11 @@
                 "no-ui:css_selector": "${block_id_css_id} .btn-xl",
                 "no-ui:css_property": "color"
               },
+              "full_screen": {
+                "type": "boolean",
+                "title": "Full Screen",
+                "ui:widget": "switch"
+              },
               "padding_top": {
                 "type": "integer",
                 "title": "Padding top",
@@ -596,6 +582,20 @@
                 "title": "Padding bottom",
                 "minimum": 0,
                 "maximum": 300
+              },
+              "text_align": {
+                "type": "string",
+                "title": "Text Align",
+                "enum": [
+                  "left",
+                  "center",
+                  "right"
+                ],
+                "enumNames": [
+                  "Left",
+                  "Center",
+                  "Right"
+                ]
               }
             }
           }
@@ -1181,18 +1181,18 @@
         "link": "#services",
         "link_text": "Tell me more",
         "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
-        "full_screen": false,
         "show_title": true,
         "show_subtitle": true,
-        "show_button": true,
-        "text_align": "center",
+        "show_button": true
         "style": {
           "title_text_color": "#ffffff",
           "subtitle_text_color": "#ffffff",
           "button_bg_color": "#fed136",
           "button_text_color": "#ffffff",
+          "full_screen": false,
           "padding_top": 300,
-          "padding_bottom": 200
+          "padding_bottom": 200,
+          "text_align": "center"
         }
       },
       "services": {
