@@ -41,7 +41,7 @@
 </nav>
 
 <style>
-  /* Default style */
+  /* Default style
   @media (min-width: 768px) {
     ody {
       padding-top: 70px;
@@ -66,10 +66,11 @@
       padding: 10px 0;
     }
   }
-
+  */
+  
   /* Block */
   #{{block_id}} {
-    background-color: {{ style.navbar.bg_color }};
+    background-color: {% if style.transparent %} transparent {% else %} {{ style.navbar.bg_color }} {% endif %};
     border-bottom: solid {{ style.navbar.border_bottom_width }}px {{ style.navbar.border_bottom_color }};
     padding-top: {{ style.navbar.padding_top }}px;
     padding-bottom: {{ style.navbar.padding_bottom }}px;
