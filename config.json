@@ -528,7 +528,7 @@
           },
           "show_subtitle": {
             "type": "boolean",
-            "title": "Show subtitle",
+            "title": "Show lead in",
             "ui:widget": "switch"
           },
           "show_button": {
