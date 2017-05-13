@@ -521,9 +521,9 @@
             "title": "Bild",
             "format": "file"
           },
-          "show_lead_in": {
+          "show_subtitle": {
             "type": "boolean",
-            "title": "Show lead in",
+            "title": "Show subtitle",
             "ui:widget": "switch"
           },
           "show_title": {
