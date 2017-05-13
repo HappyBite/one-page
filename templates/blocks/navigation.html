@@ -38,6 +38,9 @@
     <!-- /.navbar-collapse -->
   </div>
   <!-- /.container-fluid -->
+  {% if style.navbar.show_overlay %}
+  <div class="overlay"></div>
+  {% endif %}
 </nav>
 
 <!-- Theme CSS -->
@@ -138,6 +141,10 @@
   }
   .navbar-custom.affix {
     background-color: {{ style.navbar.bg_color }};
+  }
+  #{{block_id}} .overlay {
+    background-color: {{ style.navbar.overlay_bg_color }};
+    opacity: {{ style.navbar.overlay_opacity/100 }};
   }
   /* Logo */
   .navbar-custom .navbar-brand {

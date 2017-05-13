@@ -362,6 +362,24 @@
                     "format": "color",
                     "ui:css_selector": ".navbar-custom",
                     "ui:css_property": "border-color"
+                  },
+                  "show_overlay": {
+                    "type": "boolean",
+                    "title": "Show Overlay",
+                    "ui:widget": "switch"
+                  },
+                  "overlay_bg_color": {
+                    "type": "string",
+                    "title": "Overlay bg color",
+                    "format": "color",
+                    "ui:css_selector": "${block_id_css_id} .overlay",
+                    "ui:css_property": "background-color"
+                  },
+                  "overlay_opacity": {
+                    "type": "integer",
+                    "title": "Overlay Opacity",
+                    "minimum": 0,
+                    "maximum": 100
                   }
                 }
               },
