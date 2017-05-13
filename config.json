@@ -566,7 +566,7 @@
               },
               "title_text_color": {
                 "type": "string",
-                "title": "Heading text color",
+                "title": "Title text color",
                 "format": "color",
                 "ui:css_selector": "header .intro-text .intro-heading",
                 "ui:css_property": "color"
