@@ -255,7 +255,7 @@
               "$ref": "#/definitions/block_padding_top"
             }
           }
-        }
+        },
         "block": {
           "title": "Block",
           "type": "object",
