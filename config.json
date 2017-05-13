@@ -326,6 +326,11 @@
                     "title": "Transparent",
                     "ui:widget": "switch"
                   },
+                  "sticky": {
+                    "type": "boolean",
+                    "title": "Transparent",
+                    "ui:widget": "switch"
+                  },
                   "bg_color": {
                     "type": "string",
                     "title": "Bakgrundsfärg",
