@@ -86,7 +86,7 @@
   background-color: {{ style.overlay_bg_color }};
   {% if style.overlay_opacity < 10 %}
     opacity: 0.0{{ style.overlay_opacity }};
-  {% else if style.overlay_opacity < 100 %}
+  {% elseif style.overlay_opacity < 100 %}
     opacity: 0.{{ style.overlay_opacity }};
   {% else %}
     opacity: 1;
