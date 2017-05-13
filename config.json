@@ -521,14 +521,14 @@
             "title": "Bild",
             "format": "file"
           },
-          "show_title": {
-            "type": "boolean",
-            "title": "Show title",
-            "ui:widget": "switch"
-          },
           "show_subtitle": {
             "type": "boolean",
             "title": "Show lead in",
+            "ui:widget": "switch"
+          },
+          "show_title": {
+            "type": "boolean",
+            "title": "Show title",
             "ui:widget": "switch"
           },
           "show_button": {
