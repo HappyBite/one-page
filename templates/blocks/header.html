@@ -43,7 +43,9 @@
 #{{block_id}} {
   padding-top: 100px;
   padding-bottom: 50px;
+  {% if full_screen %}
   height: 100vh;
+  {% endif %}
 }
 @media (min-width: 768px) {
   #{{block_id}} {
