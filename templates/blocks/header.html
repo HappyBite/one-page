@@ -41,6 +41,10 @@
 
 <!-- Theme CSS -->
 <style>
+#{{block_id}} {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
 #{{block_id}} .inner {
   color: white;
   background-image: url('../img/header-bg.jpg');
@@ -53,8 +57,6 @@
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 50px;
   position: relative;
 }
 #{{block_id}} .intro-text {
@@ -79,10 +81,11 @@
 @media (min-width: 768px) {
   #{{block_id}} .inner {
     background-position: 0 0;
-  }
-  #{{block_id}} .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
+  }
+  #{{block_id}} .intro-text {
+    
   }
   #{{block_id}} .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
