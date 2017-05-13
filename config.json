@@ -552,7 +552,7 @@
           },
           "style": {
             "properties": {
-              "lead_in_text_color": {
+              "subtitle_text_color": {
                 "type": "string",
                 "title": "Lead in text color",
                 "format": "color",
