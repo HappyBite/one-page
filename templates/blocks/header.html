@@ -122,12 +122,6 @@
   height: 100vh;
   {% endif %}
 }
-@media (min-width: 768px) {
-  #{{block_id}} {
-    padding-top: {{ style.padding_top }}px;
-    padding-bottom: {{ style.padding_bottom }}px;
-  }  
-}
 #{{block_id}} .intro-text .intro-lead-in {
   color: {{ style.subtitle_text_color }};
 }
@@ -145,5 +139,11 @@
 #{{block_id}} .overlay {
   background-color: {{ style.overlay_bg_color }};
   opacity: {{ style.overlay_opacity/100 }};
+}
+@media (min-width: 768px) {
+  #{{block_id}} .inner {
+    padding-top: {{ style.padding_top }}px;
+    padding-bottom: {{ style.padding_bottom }}px;
+  }  
 }
 </style>
