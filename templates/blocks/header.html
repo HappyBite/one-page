@@ -1,45 +1,48 @@
 <!-- Header -->
 <header
   id="{{block_id}}"
-  class="{{template_id}}"
-  data-field-string-file="image"
-  data-placement="top"
-  data-wrapper="true"
-  data-inset="true"
-  style="background-image: url({{ image }});text-align:{{ style.text_align }};">
-  <div class="container">
-    <div class="intro-text">
-      {% if show_subtitle %}
-      <div
-        class="intro-lead-in"
-        data-field-string="subtitle"
-      >{{subtitle}}</div>
-      {% endif %}
-      {% if show_title %}
-      <div
-        class="intro-heading"
-        data-field-string="heading"
-      >{{ title }}</div>
-      {% endif %}
-      {% if show_button %}
-      <a
-        href="{{ link }}"
-        class="page-scroll btn btn-xl"
-        data-field-string="link_text"
-        data-field-string-format-uri="link"
-        data-placement="bottom"
-      >{{link_text}}</a>
-      {% endif %}
+  class="{{template_id}}">
+  <div class="inner"
+    data-field-string-file="image"
+    data-placement="top"
+    data-wrapper="true"
+    data-inset="true"
+    style="background-image: url({{ image }});text-align:{{ style.text_align }};">
+    <div class="container">
+      <div class="intro-text">
+        {% if show_subtitle %}
+        <div
+          class="intro-lead-in"
+          data-field-string="subtitle"
+        >{{subtitle}}</div>
+        {% endif %}
+        {% if show_title %}
+        <div
+          class="intro-heading"
+          data-field-string="heading"
+        >{{ title }}</div>
+        {% endif %}
+        {% if show_button %}
+        <a
+          href="{{ link }}"
+          class="page-scroll btn btn-xl"
+          data-field-string="link_text"
+          data-field-string-format-uri="link"
+          data-placement="bottom"
+        >{{link_text}}</a>
+        {% endif %}
+      </div>
     </div>
+    {% if style.show_overlay %}
+    <div class="overlay"></div>
+    {% endif %}
   </div>
-  {% if style.show_overlay %}
-  <div class="overlay"></div>
-  {% endif %}
 </header>
 
+<!-- Theme CSS -->
 <style>
 /* Theme */
-header {
+#{{block_id}} .inner {
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -50,19 +53,22 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
-}
-header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
+  background-position: 0 0;
 }
-header .intro-text .intro-lead-in {
+#{{block_id}} .intro-text {
+  position: relative;
+  z-index: 1;
+}
+#{{block_id}} .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
-header .intro-text .intro-heading {
+#{{block_id}} .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -71,18 +77,21 @@ header .intro-text .intro-heading {
   margin-bottom: 25px;
 }
 @media (min-width: 768px) {
-  header .intro-text {
+  #{{block_id}} .inner {
+    background-position: 0 0;
+  }
+  #{{block_id}} .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
   }
-  header .intro-text .intro-lead-in {
+  #{{block_id}} .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
   }
-  header .intro-text .intro-heading {
+  #{{block_id}} .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -90,22 +99,6 @@ header .intro-text .intro-heading {
     line-height: 75px;
     margin-bottom: 50px;
   }
-}
-#{{block_id}} {
-  padding-top: 100px;
-  padding-bottom: 50px;
-  position: relative;
-}
-@media (min-width: 768px) {
-  #{{block_id}} {
-    background-position: 0 0;
-  }  
-}
-#{{block_id}} .intro-text {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  position: relative;
-  z-index: 1;
 }
 #{{block_id}} .overlay {
   background-color: #000000;
@@ -116,8 +109,10 @@ header .intro-text .intro-heading {
   top: 0;
   width: 100%;
 }
+</style>
 
-/* Custom style */
+<!-- Style CSS -->
+<style>
 #{{block_id}} {
   {% if style.full_screen %}
   height: 100vh;
