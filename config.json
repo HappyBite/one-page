@@ -606,18 +606,6 @@
                 "minimum": 0,
                 "maximum": 300
               },
-              "margin_top": {
-                "type": "integer",
-                "title": "Margin top",
-                "minimum": 0,
-                "maximum": 100
-              },
-              "margin_bottom": {
-                "type": "integer",
-                "title": "Margin bottom",
-                "minimum": -100,
-                "maximum": 100
-              },
               "full_screen": {
                 "type": "boolean",
                 "title": "Full Screen",
@@ -1254,8 +1242,6 @@
           "button_text_color": "#ffffff",
           "padding_top": 300,
           "padding_bottom": 200,
-          "margin_top": 0,
-          "margin_bottom": 0,
           "full_screen": false,
           "text_align": "center",
           "show_overlay": false,
