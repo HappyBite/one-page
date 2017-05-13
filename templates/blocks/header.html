@@ -35,6 +35,21 @@
 </header>
 
 <style>
+/* Default style */
+#{{block_id}} .intro-text {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#{{block_id}} {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+@media (min-width: 768px) {
+  #{{block_id}} {
+    padding-top: {{ style.padding_top }}px;
+    padding-bottom: {{ style.padding_bottom }}px;
+  }  
+}
 @media (min-width: 768px) {
   #{{block_id}} .intro-text {
     padding-top: {{ style.padding_top }}px;
