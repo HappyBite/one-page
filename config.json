@@ -317,7 +317,7 @@
           "style": {
             "properties": {
               "navbar": {
-                "title": "Topparea",
+                "title": "Container",
                 "type": "object",
                 "ui:css_selector": ".navbar-custom",
                 "properties": {
