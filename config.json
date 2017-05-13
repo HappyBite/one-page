@@ -535,7 +535,7 @@
             "type": "boolean",
             "title": "Show button",
             "ui:widget": "switch"
-          }
+          },
           "style": {
             "properties": {
               "subtitle_text_color": {
@@ -1183,7 +1183,7 @@
         "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
         "show_title": true,
         "show_subtitle": true,
-        "show_button": true
+        "show_button": true,
         "style": {
           "title_text_color": "#ffffff",
           "subtitle_text_color": "#ffffff",
