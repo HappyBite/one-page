@@ -321,6 +321,11 @@
                 "type": "object",
                 "ui:css_selector": ".navbar-custom",
                 "properties": {
+                  "transparent": {
+                    "type": "boolean",
+                    "title": "Transparent",
+                    "ui:widget": "switch"
+                  },
                   "bg_color": {
                     "type": "string",
                     "title": "Bakgrundsfärg",
@@ -352,11 +357,6 @@
                     "format": "color",
                     "ui:css_selector": ".navbar-custom",
                     "ui:css_property": "border-color"
-                  },
-                  "transparent": {
-                    "type": "boolean",
-                    "title": "Transparent",
-                    "ui:widget": "switch"
                   }
                 }
               },
@@ -1167,12 +1167,12 @@
         ],
         "style": {
           "navbar": {
+            "transparent": true,
             "bg_color": "#222",
             "padding_top": 10,
             "padding_bottom": 10,
             "border_bottom_width": 0,
-            "border_bottom_color": "transparent",
-            "transparent": true
+            "border_bottom_color": "transparent"
           },
           "logo": {
             "text_color": "#fed136",
