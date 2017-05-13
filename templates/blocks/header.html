@@ -32,6 +32,9 @@
       {% endif %}
     </div>
   </div>
+  {% if show_overlay %}
+  <div class="overlay"></div>
+  {% endif %}
 </header>
 
 <style>
@@ -43,6 +46,7 @@
 #{{block_id}} {
   padding-top: 100px;
   padding-bottom: 50px;
+  position: relative,
   {% if style.full_screen %}
   height: 100vh;
   {% endif %}
@@ -53,12 +57,17 @@
     padding-bottom: {{ style.padding_bottom }}px;
   }  
 }
-@media (min-width: 768px) {
-  #{{block_id}} .intro-text {
-    padding-top: {{ style.padding_top }}px;
-    padding-bottom: {{ style.padding_bottom }}px;
-  }  
+#{{block_id}} .overlay {
+  background-color: #000000;
+  height: 100%
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
+
+/* Custom style */
 #{{block_id}} .intro-text .intro-lead-in {
   color: {{ style.subtitle_text_color }};
 }
@@ -72,5 +81,9 @@
   background-color: {{ style.button_bg_color }};
   border-color: {{ style.button_bg_color }};
   color: {{ style.button_text_color }};
+}
+#{{block_id}} .overlay {
+  background-color: {{ style.overlay_bg_color }};
+  opacity: {{ style.overlay_opacity }};
 }
 </style>
