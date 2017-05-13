@@ -503,7 +503,7 @@
             "type": "string",
             "title": "Rubrik" 
           },
-          "sub_title": {
+          "subtitle": {
             "type": "string",
             "title": "Underrubrik"
           },
