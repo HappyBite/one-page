@@ -42,8 +42,7 @@
 <!-- Theme CSS -->
 <style>
 #{{block_id}} {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  
 }
 #{{block_id}} .inner {
   color: white;
@@ -57,6 +56,8 @@
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
   position: relative;
 }
 #{{block_id}} .intro-text {
@@ -77,6 +78,15 @@
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
+}
+#{{block_id}} .overlay {
+  background-color: #000000;
+  height: 100%;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 @media (min-width: 768px) {
   #{{block_id}} .inner {
@@ -102,15 +112,6 @@
     line-height: 75px;
     margin-bottom: 50px;
   }
-}
-#{{block_id}} .overlay {
-  background-color: #000000;
-  height: 100%;
-  left: 0;
-  opacity: 1;
-  position: absolute;
-  top: 0;
-  width: 100%;
 }
 </style>
 
