@@ -357,7 +357,7 @@
                     "type": "boolean",
                     "title": "Transparent",
                     "ui:widget": "switch"
-                  },
+                  }
                 }
               },
               "logo": {
