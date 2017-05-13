@@ -9,16 +9,16 @@
   style="background-image: url({{ image }});text-align:{{ text_align }};">
   <div class="container">
     <div class="intro-text">
-      {% if show_lead_in %}
+      {% if show_subtitle %}
       <div
         class="intro-lead-in"
-        data-field-string="lead_in"
-      >{{lead_in}}</div>
+        data-field-string="subtitle"
+      >{{subtitle}}</div>
       {% endif %}
       {% if show_title %}
       <div
         class="intro-heading"
-        data-field-string="heading"
+        data-field-string="title"
       >{{ title }}</div>
       {% endif %}
       {% if show_button %}
@@ -42,7 +42,7 @@
   }  
 } 
 #{{block_id}} .intro-text .intro-lead-in {
-  color: {{ style.lead_in_text_color }};
+  color: {{ style.subtitle_text_color }};
 }
 #{{block_id}} .intro-text .intro-heading {
   color: {{ style.title_text_color }};

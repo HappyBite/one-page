@@ -499,13 +499,13 @@
       "header": {
         "title": "Header",
         "properties": {
-          "lead_in": {
-            "type": "string",
-            "title": "Lead in"
-          },
           "title": {
             "type": "string",
             "title": "Rubrik" 
+          },
+          "sub_title": {
+            "type": "string",
+            "title": "Underrubrik"
           },
           "link_text": {
             "type": "string",
@@ -1164,18 +1164,18 @@
         }
       },
       "header": {
-        "lead_in": "Welcome To Our Studio!",
         "title": "IT'S NICE TO MEET YOU",
+        "subtitle": "Welcome To Our Studio!",
         "link": "#services",
         "link_text": "Tell me more",
         "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg",
-        "show_lead_in": true,
         "show_title": true,
+        "show_subtitle": true,
         "show_button": true,
         "text_align": "center",
         "style": {
-          "lead_in_text_color": "#ffffff",
           "title_text_color": "#ffffff",
+          "subtitle_text_color": "#ffffff",
           "button_bg_color": "#fed136",
           "padding_top": 300,
           "padding_bottom": 200
