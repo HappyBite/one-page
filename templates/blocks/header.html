@@ -86,12 +86,6 @@
 }
 #{{block_id}} .overlay {
   background-color: {{ style.overlay_bg_color }};
-  {% if style.overlay_opacity < 10 %}
-    opacity: 0.0{{ style.overlay_opacity }};
-  {% elseif style.overlay_opacity < 100 %}
-    opacity: 0.{{ style.overlay_opacity }};
-  {% else %}
-    opacity: 1;
-  {% endif %}
+  opacity: {{ style.overlay_opacity/100 }};
 }
 </style>
