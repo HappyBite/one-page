@@ -9,17 +9,17 @@
   style="background-image: url({{ image }});text-align:{{ text_align }};">
   <div class="container">
     <div class="intro-text">
-      {% if show_title %}
-      <div
-        class="intro-lead-in"
-        data-field-string="title"
-      >{{title}}</div>
-      {% endif %}
       {% if show_subtitle %}
       <div
-        class="intro-heading"
+        class="intro-lead-in"
         data-field-string="subtitle"
-      >{{ subtitle }}</div>
+      >{{subtitle}}</div>
+      {% endif %}
+      {% if show_title %}
+      <div
+        class="intro-heading"
+        data-field-string="heading"
+      >{{ title }}</div>
       {% endif %}
       {% if show_button %}
       <a
