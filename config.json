@@ -610,10 +610,10 @@
                 "ui:css_property": "background-color"
               },
               "overlay_opacity": {
-                "type": "number",
+                "type": "integer",
                 "title": "Overlay Opacity",
                 "minimum": 0,
-                "maximum": 1
+                "maximum": 100
               }
             }
           }
@@ -1213,7 +1213,7 @@
           "text_align": "center",
           "show_overlay": true,
           "overlay_bg_color": "#000000",
-          "overlay_opacity": "0.75"
+          "overlay_opacity": 75
         }
       },
       "services": {
