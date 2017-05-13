@@ -566,11 +566,6 @@
                 "no-ui:css_selector": "${block_id_css_id} .btn-xl",
                 "no-ui:css_property": "color"
               },
-              "full_screen": {
-                "type": "boolean",
-                "title": "Full Screen",
-                "ui:widget": "switch"
-              },
               "padding_top": {
                 "type": "integer",
                 "title": "Padding top",
@@ -582,6 +577,11 @@
                 "title": "Padding bottom",
                 "minimum": 0,
                 "maximum": 300
+              },
+              "full_screen": {
+                "type": "boolean",
+                "title": "Full Screen",
+                "ui:widget": "switch"
               },
               "text_align": {
                 "type": "string",
@@ -1189,9 +1189,9 @@
           "subtitle_text_color": "#ffffff",
           "button_bg_color": "#fed136",
           "button_text_color": "#ffffff",
-          "full_screen": false,
           "padding_top": 300,
           "padding_bottom": 200,
+          "full_screen": false,
           "text_align": "center"
         }
       },
