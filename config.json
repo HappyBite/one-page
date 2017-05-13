@@ -614,7 +614,7 @@
               },
               "margin_bottom": {
                 "type": "integer",
-                "title": "Margin top",
+                "title": "Margin bottom",
                 "minimum": -100,
                 "maximum": 100
               },
