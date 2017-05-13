@@ -578,6 +578,13 @@
                 "no-ui:css_selector": "${block_id_css_id} .btn-xl",
                 "no-ui:css_property": "background-color"
               },
+              "button_text_color": {
+                "type": "string",
+                "title": "Button text color",
+                "format": "color",
+                "no-ui:css_selector": "${block_id_css_id} .btn-xl",
+                "no-ui:css_property": "color"
+              },
               "padding_top": {
                 "type": "integer",
                 "title": "Padding top",
@@ -1183,6 +1190,7 @@
           "title_text_color": "#ffffff",
           "subtitle_text_color": "#ffffff",
           "button_bg_color": "#fed136",
+          "button_text_color": "#ffffff",
           "padding_top": 300,
           "padding_bottom": 200
         }
