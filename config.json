@@ -1173,6 +1173,7 @@
         "style": {
           "navbar": {
             "transparent": true,
+            "transparent": false,
             "bg_color": "#222",
             "padding_top": 10,
             "padding_bottom": 10,
