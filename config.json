@@ -1211,7 +1211,7 @@
           "padding_bottom": 200,
           "full_screen": false,
           "text_align": "center",
-          "show_overlay": true,
+          "show_overlay": false,
           "overlay_bg_color": "#000000",
           "overlay_opacity": 20
         }
