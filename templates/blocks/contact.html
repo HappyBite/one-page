@@ -1,5 +1,5 @@
 <!-- Contact Section -->
-<section id="contact">
+<section id="{{template_id}}">
 	<div class="container">
 	  <div class="row">
 	    <div class="col-lg-12 text-center">
@@ -123,7 +123,11 @@
 
 <!-- Style CSS -->
 <style>
-
+#{{block_id}} {
+  background-color: {{ style.block.bg_color }};
+  padding-top: {{ style.block.padding_top }}px;
+  padding-bottom: {{ style.block.padding_bottom }}px;
+}
 </style>
 
 <!-- Contact Form JavaScript -->
