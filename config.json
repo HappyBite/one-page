@@ -31,7 +31,8 @@
       "title": "Textfärg",
       "format": "color",
       "ui:css_selector": "${block_id_css_id} p",
-      "ui:css_property": "color"
+      "ui:css_property": "color",
+      "default": "#/settings/theme/colors/text_color"
     },
     "link_text_color": {
       "type": "string",
