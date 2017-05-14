@@ -830,13 +830,13 @@
                 "type": "object",
                 "properties": {
                   "bg_color": {
-                    "ui:css_selector": "#portfolio${block_id_css_class}",
+                    "ui:css_selector": "{block_id_css_id}",
                     "$ref": "#/definitions/bg_color"
                   },
                   "hover_content_bg_color": {
                     "type": "string",
                     "title": "Hover content - bakgrundsfärg",
-                    "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-link .portfolio-hover",
+                    "ui:css_selector": "{block_id_css_id} .portfolio-item .portfolio-link .portfolio-hover",
                     "ui:css_property": "background-color",
                     "format": "rgba",
                     "efault": "rgba(254,209,54,0.9)",
@@ -846,25 +846,25 @@
                     "type": "string",
                     "title": "Hover content icon color",
                     "format": "color",
-                    "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i",
+                    "ui:css_selector": "{block_id_css_id} .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i",
                     "ui:css_property": "color"
                   },
                   "caption_bg_color": {
                     "type": "string",
                     "title": "Caption - bakgrundsfärg",
                     "format": "color",
-                    "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-caption",
+                    "ui:css_selector": "{block_id_css_id} .portfolio-item .portfolio-caption",
                     "ui:css_property": "background-color"
                   },
                   "caption_title_text_color": {
                     "title": "Caption title color",
-                    "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-caption h4",
+                    "ui:css_selector": "{block_id_css_id} .portfolio-item .portfolio-caption h4",
                     "ui:css_property": "color",
                     "$ref": "#/definitions/title_text_color"
                   },
                   "caption_text_text_color": {
                     "title": "Caption text color",
-                    "ui:css_selector": "#portfolio${block_id_css_class} .portfolio-item .portfolio-caption p",
+                    "ui:css_selector": "{block_id_css_id} .portfolio-item .portfolio-caption p",
                     "ui:css_property": "color",
                     "$ref": "#/definitions/text_color"
                   },
