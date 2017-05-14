@@ -84,18 +84,14 @@ ul.social-buttons li a:active {
 
 <!-- Style CSS -->
 <style>
-#{{block_id}} {
+#{{template_id}} {
   background-color: {{ style.block.bg_color }};
-  {% if style.block.padding_top >= 0 %}
   padding-top: {{ style.block.padding_top }}px;
-  {% endif %}
-  {% if style.block.padding_bottom >= 0 %}
   padding-bottom: {{ style.block.padding_bottom }}px;
-  {% endif %}
 }
-#{{block_id}} ul.social-buttons li a:hover,
-#{{block_id}} ul.social-buttons li a:focus,
-#{{block_id}} ul.social-buttons li a:active {
+#{{template_id}} ul.social-buttons li a:hover,
+#{{template_id}}ul.social-buttons li a:focus,
+#{{template_id}} ul.social-buttons li a:active {
   background-color: {{ style.block.social_links_hover_bg_color }};
 }
 </style>
