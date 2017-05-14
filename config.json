@@ -661,7 +661,7 @@
               },
               "bg_image_position_top": {
                 "type": "integer",
-                "title": "Margin top",
+                "title": "Image position top",
                 "minimum": 0,
                 "maximum": 150
               }
