@@ -1160,7 +1160,7 @@
                   },
                   "image": {
                     "type": "string",
-                    "title": "Logo",
+                    "title": "Background image",
                     "format": "file"
                   },
                   "bg_color": {
