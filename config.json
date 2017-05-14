@@ -1632,11 +1632,13 @@
         "notification_email": "test@example.com",
         "success_message": "Your message was successfully sent!",
         "style": {
-          "show_image": true,
-          "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/map-image.png",
-          "bg_color": "{{theme.colors.bg_color}}",
-          "padding_top": "{{theme.block.padding_top}}",
-          "padding_bottom": "{{theme.block.padding_bottom}}"
+          "block": {
+            "show_image": true,
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/map-image.png",
+            "bg_color": "{{theme.colors.bg_color}}",
+            "padding_top": "{{theme.block.padding_top}}",
+            "padding_bottom": "{{theme.block.padding_bottom}}"
+          }
         }
       },
       "footer": {
