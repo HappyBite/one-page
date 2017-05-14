@@ -169,6 +169,11 @@
       "icon": "book"
     },
     {
+      "title": "About",
+      "id": "about",
+      "icon": "group"
+    },
+    {
       "title": "Team",
       "id": "team",
       "icon": "group"
@@ -925,6 +930,111 @@
           }
         }
       },
+      "about": {
+        "title": "About",
+        "ui:css_selector": "#about",
+        "properties": {
+          "heading": {
+            "type": "string",
+            "title": "Rubrik" 
+          },
+          "sub_heading": {
+            "type": "string",
+            "title": "Underrubrik" 
+          },
+          "items": {
+            "type": "array",
+            "title": "Timeline",
+            "items": {
+              "type": "object",
+              "title": "Timeline item",
+              "display_field": "heading",
+              "properties": {
+                "icon": {
+                  "type": "string",
+                  "title": "Icon",
+                  "ui:widget": "icon",
+                  "default": "image"
+                },
+                "heading": {
+                  "type": "string",
+                  "title": "Rubrik",
+                  "default": "Rubrik"
+                },
+                "text": {
+                  "type": "text",
+                  "title": "Text",
+                  "default": "En kortare text"
+                }
+              }
+            }
+          },
+          "style": {
+            "properties": {
+              "block": {
+                "title": "Block",
+                "type": "object",
+                "properties": {
+                  "bg_color": {
+                    "ui:css_selector": "${block_id_css_id}",
+                    "$ref": "#/definitions/bg_color"
+                  },
+                  "icon_bg_color": {
+                    "title": "Ikon - bakgrundsfärg",
+                    "$ref": "#/definitions/primary_color",
+                    "ui:css_selector": "${block_id_css_id} .text-primary",
+                    "ui:css_property": "color"
+                  },
+                  "icon_color": {
+                    "type": "string",
+                    "title": "Ikon - färg",
+                    "format": "color",
+                    "default": "transparent",
+                    "ui:css_selector": "${block_id_css_id} .fa-inverse",
+                    "ui:css_property": "color"
+                  },
+                  "padding_top": {
+                    "$ref": "#/definitions/block_padding_top"
+                  },
+                  "padding_bottom": {
+                    "$ref": "#/definitions/block_padding_bottom"
+                  }
+                }
+              },
+              "base": {
+                "title": "Base",
+                "type": "object",
+                "properties": {
+                  "title_text_color": {
+                    "$ref": "#/definitions/title_text_color"
+                  },
+                  "subtitle_text_color": {
+                    "$ref": "#/definitions/subtitle_text_color"
+                  },
+                  "text_color": {
+                    "$ref": "#/definitions/text_color"
+                  },
+                  "link_text_color": {
+                    "$ref": "#/definitions/link_text_color"
+                  },
+                  "link_hover_text_color": {
+                    "$ref": "#/definitions/link_hover_text_color"
+                  },
+                  "primary_color": {
+                    "$ref": "#/definitions/primary_color"
+                  },
+                  "selection_text_color": {
+                    "$ref": "#/definitions/selection_text_color"
+                  },
+                  "selection_bg_color": {
+                    "$ref": "#/definitions/selection_bg_color"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
       "team": {
         "title": "Team",
         "properties": {
@@ -1356,6 +1466,30 @@
             "hover_content_icon_color": "#fff",
             "caption_bg_color": "transparent"
           }
+        }
+      },
+      "about": {
+        "heading": "About",
+        "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
+        "items": [
+          {
+            "icon": "shopping-cart",
+            "heading": "E-Commerce",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+          },
+          {
+            "icon": "laptop",
+            "heading": "Responsive Design",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+          },
+          {
+            "icon": "lock",
+            "heading": "Web Security",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+          }
+        ],
+        "style": {
+          
         }
       },
       "team": {
