@@ -123,6 +123,7 @@
 
 <!-- Style CSS -->
 <style>
+/* Block */
 #contact {
   background-color: {{ style.block.bg_color }};
   padding-top: {{ style.block.padding_top }}px;
@@ -130,6 +131,42 @@
   {% if style.block.show_image %}
   background-image: url('{{ style.block.image }}');
   {% endif %}
+}
+
+/* Base */
+#contact h1, #contact h2, #contact h3, #contact h4, #contact h5, #contact h6 {
+  color: {{ style.base.title_text_color }};
+}
+#contact h3.section-subheading {
+  color: {{ style.base.subtitle_text_color }};
+}
+#contact p {
+  color: {{ style.base.text_color }};
+}
+#contact .text-muted {
+  color: {{ style.base.muted_text_color }};
+}
+#contact a {
+  color: {{ style.base.link_text_color }};
+}
+#contact a:hover,
+#contact a:focus,
+#contact a:active {
+  color: {{ style.base.link_hover_text_color }};
+}
+#contact .btn-primary,
+#contact .btn-primary:hover,
+#contact .btn-primary:focus,
+#contact .btn-primary:active {
+  background-color: {{ style.base.primary_bg_color }};
+  border-color: {{ style.base.primary_bg_color }};
+}
+#contact .text-primary {
+  color: {{ style.base.primary_text_color }};
+}
+#contact ::selection {
+  color: {{ style.base.selection_text_color }};
+  background: {{ style.base.selection_bg_color }};
 }
 </style>
 
