@@ -1494,7 +1494,9 @@
           }
         ],
         "style": {
-          "image_border_color": "#f1f1f1"
+          "block": {
+            "image_border_color": "#f1f1f1"
+          }
         }
       },
       "team": {
