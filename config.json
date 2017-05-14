@@ -1137,6 +1137,15 @@
             "type": "boolean",
             "title": "Show phone field",
             "ui:widget": "switch"
+          },
+          "notification_email": {
+            "type": "string",
+            "format": "enail",
+            "title": "Notification email"
+          },
+          "success_message": {
+            "type": "string",
+            "title": "Success Message"
           }
         }
       },
@@ -1559,7 +1568,9 @@
         "submit_button_text": "Send message",
         "show_name_field": true,
         "show_email_field": true,
-        "show_phone_field": true
+        "show_phone_field": true,
+        "notification_email": "test@example.com",
+        "success_message": "Your message was successfully sent!"
       },
       "footer": {
         "copyright_text": "Copyright &copy; Your Website 2016",
