@@ -1140,7 +1140,7 @@
           },
           "notification_email": {
             "type": "string",
-            "format": "enail",
+            "format": "email",
             "title": "Notification email"
           },
           "success_message": {
