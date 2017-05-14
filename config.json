@@ -1559,7 +1559,7 @@
         "submit_button_text": "Send message",
         "show_name_field": true,
         "show_email_field": true,
-        "show_phone_field": true,
+        "show_phone_field": true
       },
       "footer": {
         "copyright_text": "Copyright &copy; Your Website 2016",
