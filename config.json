@@ -618,7 +618,7 @@
               },
               "margin_top": {
                 "type": "integer",
-                "title": "Padding bottom",
+                "title": "Margin top",
                 "minimum": 0,
                 "maximum": 150
               },
