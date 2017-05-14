@@ -658,6 +658,12 @@
                 "title": "Overlay Opacity",
                 "minimum": 0,
                 "maximum": 100
+              },
+              "bg_image_position_top": {
+                "type": "integer",
+                "title": "Margin top",
+                "minimum": 0,
+                "maximum": 150
               }
             }
           }
@@ -1266,7 +1272,8 @@
           "text_align": "center",
           "show_overlay": false,
           "overlay_bg_color": "#000000",
-          "overlay_opacity": 20
+          "overlay_opacity": 20,
+          "bg_image_position_top": 0
         }
       },
       "services": {
