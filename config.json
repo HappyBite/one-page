@@ -1581,8 +1581,8 @@
           "block": {
             "bg_color": "{{theme.colors.bg_color}}",
             "social_links_hover_bg_color": "{{theme.colors.primary_color}}",
-            "padding_top": "{{theme.block.padding_top}}",
-            "padding_bottom": "{{theme.block.padding_bottom}}"
+            "padding_top": 0,
+            "padding_bottom": 0
           }
         }
       },
