@@ -1154,7 +1154,7 @@
                 "type": "object",
                 "properties": {
                   "bg_color": {
-                    "ui:css_selector": ".contact",
+                    "ui:css_selector": "#contact",
                     "$ref": "#/definitions/bg_color"
                   },
                   "padding_top": {
@@ -1620,7 +1620,10 @@
         "show_email_field": true,
         "show_phone_field": true,
         "notification_email": "test@example.com",
-        "success_message": "Your message was successfully sent!"
+        "success_message": "Your message was successfully sent!",
+        "style": {
+          
+        }
       },
       "footer": {
         "copyright_text": "Copyright &copy; Your Website 2016",
