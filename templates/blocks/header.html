@@ -1,13 +1,13 @@
 <!-- Header -->
 <header
   id="{{block_id}}"
-  class="{{template_id}} is-relative">
+  class="{{template_id}} is-relative"
+  style="background-image: url({{ image }});text-align:{{ style.text_align }};">
   <div class="inner"
     data-field-string-file="image"
     data-placement="top"
     data-wrapper="true"
-    data-inset="true"
-    style="background-image: url({{ image }});text-align:{{ style.text_align }};">
+    data-inset="true">
     <div class="container">
       <div class="intro-text">
         {% if show_subtitle %}
