@@ -936,7 +936,7 @@
         "properties": {
           "heading": {
             "type": "string",
-            "title": "Rubrik" 
+            "title": "Rubrik"
           },
           "sub_heading": {
             "type": "string",
@@ -954,15 +954,17 @@
                   "type": "string",
                   "title": "Bild",
                   "format": "file",
-                  "default": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/3.jpg"
+                  "default": "https://blackrockdigital.github.io/startbootstrap-agency/img/about/1.jpg"
                 },
                 "title": {
                   "type": "string",
-                  "title": "Rubrik"
+                  "title": "Rubrik",
+                  "default": "Rubrik"
                 },
                 "subtitle": {
                   "type": "string",
-                  "title": "Underrubrik"
+                  "title": "Underrubrik",
+                  "default": "Underrubrik"
                 },
                 "text": {
                   "type": "text",
