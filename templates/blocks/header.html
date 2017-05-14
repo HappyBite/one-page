@@ -2,49 +2,44 @@
 <header
   id="{{block_id}}"
   class="{{template_id}} is-relative"
+  data-field-string-file="image"
+  data-placement="top"
+  data-wrapper="true"
+  data-inset="true"
   style="background-image: url({{ image }});text-align:{{ style.text_align }};">
-  <div class="inner"
-    data-field-string-file="image"
-    data-placement="top"
-    data-wrapper="true"
-    data-inset="true">
-    <div class="container">
-      <div class="intro-text">
-        {% if show_subtitle %}
-        <div
-          class="intro-lead-in"
-          data-field-string="subtitle"
-        >{{subtitle}}</div>
-        {% endif %}
-        {% if show_title %}
-        <div
-          class="intro-heading"
-          data-field-string="heading"
-        >{{ title }}</div>
-        {% endif %}
-        {% if show_button %}
-        <a
-          href="{{ link }}"
-          class="page-scroll btn btn-xl"
-          data-field-string="link_text"
-          data-field-string-format-uri="link"
-          data-placement="bottom"
-        >{{link_text}}</a>
-        {% endif %}
-      </div>
+  <div class="container">
+    <div class="intro-text">
+      {% if show_subtitle %}
+      <div
+        class="intro-lead-in"
+        data-field-string="subtitle"
+      >{{subtitle}}</div>
+      {% endif %}
+      {% if show_title %}
+      <div
+        class="intro-heading"
+        data-field-string="heading"
+      >{{ title }}</div>
+      {% endif %}
+      {% if show_button %}
+      <a
+        href="{{ link }}"
+        class="page-scroll btn btn-xl"
+        data-field-string="link_text"
+        data-field-string-format-uri="link"
+        data-placement="bottom"
+      >{{link_text}}</a>
+      {% endif %}
     </div>
-    {% if style.show_overlay %}
-    <div class="overlay"></div>
-    {% endif %}
   </div>
+  {% if style.show_overlay %}
+  <div class="overlay"></div>
+  {% endif %}
 </header>
 
 <!-- Theme CSS -->
 <style>
 #{{block_id}} {
-  
-}
-#{{block_id}} .inner {
   color: white;
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
@@ -89,7 +84,8 @@
   width: 100%;
 }
 @media (min-width: 768px) {
-  #{{block_id}} .inner {
+  #{{block_id}} {
+    background-position: 0 0;
     padding-top: 300px;
     padding-bottom: 200px;
   }
@@ -141,11 +137,8 @@
 }
 @media (min-width: 768px) {
   #{{block_id}} {
-    padding-top: {{ style.offset_top }}px;
-  }
-  #{{block_id}} .inner {
     padding-top: {{ style.padding_top }}px;
     padding-bottom: {{ style.padding_bottom }}px;
-  }
+  }  
 }
 </style>
