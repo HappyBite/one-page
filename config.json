@@ -1635,7 +1635,7 @@
           "block": {
             "show_image": true,
             "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/map-image.png",
-            "bg_color": "{{theme.colors.bg_color}}",
+            "bg_color": "#222222",
             "padding_top": "{{theme.block.padding_top}}",
             "padding_bottom": "{{theme.block.padding_bottom}}"
           }
