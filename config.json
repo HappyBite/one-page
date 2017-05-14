@@ -1495,6 +1495,7 @@
         ],
         "style": {
           "block": {
+            "bg_color": "{{theme.colors.bg_color}}",
             "image_border_color": "#f1f1f1"
           }
         }
