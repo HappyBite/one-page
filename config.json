@@ -1122,6 +1122,21 @@
           "submit_button_text": {
             "type": "string",
             "title": "Knapptext" 
+          },
+          "show_name_field": {
+            "type": "boolean",
+            "title": "Show name field",
+            "ui:widget": "switch"
+          },
+          "show_email_field": {
+            "type": "boolean",
+            "title": "Show email field",
+            "ui:widget": "switch"
+          },
+          "show_phone_field": {
+            "type": "boolean",
+            "title": "Show phone field",
+            "ui:widget": "switch"
           }
         }
       },
@@ -1541,7 +1556,10 @@
       "contact": {
         "heading": "Contact Us",
         "sub_heading": "Lorem ipsum dolor sit amet consectetur.",
-        "submit_button_text": "Send message"
+        "submit_button_text": "Send message",
+        "show_name_field": true,
+        "show_email_field": true,
+        "show_phone_field": true,
       },
       "footer": {
         "copyright_text": "Copyright &copy; Your Website 2016",
