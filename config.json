@@ -1225,7 +1225,8 @@
             "type_base_size": 14
           },
           "block": {
-            
+            "padding_top": "150",
+            "padding_bottom": "150"
           }
         },
         "klar": {
@@ -1496,7 +1497,9 @@
         "style": {
           "block": {
             "bg_color": "{{theme.colors.bg_color}}",
-            "image_border_color": "#f1f1f1"
+            "image_border_color": "#f1f1f1",
+            "padding_top": "{{theme.block.padding_top}}",
+            "padding_bottom": "{{theme.block.padding_bottom}}"
           }
         }
       },
