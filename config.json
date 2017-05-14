@@ -246,16 +246,6 @@
             }
           }
         },
-        "page": {
-          "title": "Page",
-          "type": "object",
-          "ui:css_selector": "body",
-          "properties": {
-            "padding_top": {
-              "$ref": "#/definitions/block_padding_top"
-            }
-          }
-        },
         "block": {
           "title": "Block",
           "type": "object",
@@ -1127,9 +1117,6 @@
             "subtitle_font_family": "Droid Serif",
             "text_font_family": "Roboto Slab",
             "type_base_size": 14
-          },
-          "page": {
-            "padding_top": 0
           },
           "block": {
             
