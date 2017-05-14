@@ -1153,16 +1153,6 @@
                 "title": "Block",
                 "type": "object",
                 "properties": {
-                  "show_image": {
-                    "type": "boolean",
-                    "title": "Show bg image",
-                    "ui:widget": "switch"
-                  },
-                  "image": {
-                    "type": "string",
-                    "title": "Background image",
-                    "format": "file"
-                  },
                   "bg_color": {
                     "ui:css_selector": "#contact",
                     "$ref": "#/definitions/bg_color"
@@ -1172,6 +1162,16 @@
                   },
                   "padding_bottom": {
                     "$ref": "#/definitions/block_padding_bottom"
+                  },
+                  "show_image": {
+                    "type": "boolean",
+                    "title": "Show background image",
+                    "ui:widget": "switch"
+                  },
+                  "image": {
+                    "type": "string",
+                    "title": "Background image",
+                    "format": "file"
                   }
                 }
               },
@@ -1633,11 +1633,11 @@
         "success_message": "Your message was successfully sent!",
         "style": {
           "block": {
-            "show_image": true,
-            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/map-image.png",
             "bg_color": "#222222",
             "padding_top": "{{theme.block.padding_top}}",
-            "padding_bottom": "{{theme.block.padding_bottom}}"
+            "padding_bottom": "{{theme.block.padding_bottom}}",
+            "show_image": true,
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/map-image.png"
           }
         }
       },
