@@ -984,6 +984,13 @@
                     "ui:css_selector": "${block_id_css_id}",
                     "$ref": "#/definitions/bg_color"
                   },
+                  "image_bg_color": {
+                    "type": "string",
+                    "title": "Image - bg color",
+                    "format": "color",
+                    "ui:css_selector": "${block_id_css_id} .timeline > li .timeline-image",
+                    "ui:css_property": "color"
+                  },
                   "image_border_color": {
                     "type": "string",
                     "title": "Image - border color",
@@ -1499,6 +1506,7 @@
         "style": {
           "block": {
             "bg_color": "{{theme.colors.bg_color}}",
+            "image_bg_color": "{{theme.colors.primary_color}}",
             "image_border_color": "#f1f1f1",
             "padding_top": "{{theme.block.padding_top}}",
             "padding_bottom": "{{theme.block.padding_bottom}}"
