@@ -1638,6 +1638,9 @@
             "padding_bottom": "{{theme.block.padding_bottom}}",
             "show_image": true,
             "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/map-image.png"
+          },
+          "base": {
+            "subtitle_text_color": "#ffffff"
           }
         }
       },
