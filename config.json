@@ -616,6 +616,12 @@
                 "minimum": 0,
                 "maximum": 300
               },
+              "offset_top": {
+                "type": "integer",
+                "title": "Offset bottom",
+                "minimum": 0,
+                "maximum": 100
+              },
               "full_screen": {
                 "type": "boolean",
                 "title": "Full Screen",
@@ -1255,6 +1261,7 @@
           "button_text_color": "#ffffff",
           "padding_top": 300,
           "padding_bottom": 200,
+          "offset_top": 0,
           "full_screen": false,
           "text_align": "center",
           "show_overlay": false,
