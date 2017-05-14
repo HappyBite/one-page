@@ -982,18 +982,11 @@
                     "ui:css_selector": "${block_id_css_id}",
                     "$ref": "#/definitions/bg_color"
                   },
-                  "icon_bg_color": {
-                    "title": "Ikon - bakgrundsfärg",
-                    "$ref": "#/definitions/primary_color",
-                    "ui:css_selector": "${block_id_css_id} .text-primary",
-                    "ui:css_property": "color"
-                  },
-                  "icon_color": {
+                  "image_border_color": {
                     "type": "string",
-                    "title": "Ikon - färg",
+                    "title": "Image - border color",
                     "format": "color",
-                    "default": "transparent",
-                    "ui:css_selector": "${block_id_css_id} .fa-inverse",
+                    "ui:css_selector": "${block_id_css_id} .timeline > li .timeline-image",
                     "ui:css_property": "color"
                   },
                   "padding_top": {
@@ -1501,7 +1494,7 @@
           }
         ],
         "style": {
-          
+          "image_border_color": "#f1f1f1"
         }
       },
       "team": {
