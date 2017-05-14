@@ -1153,6 +1153,16 @@
                 "title": "Block",
                 "type": "object",
                 "properties": {
+                  "show_image": {
+                    "type": "boolean",
+                    "title": "Show bg image",
+                    "ui:widget": "switch"
+                  },
+                  "image": {
+                    "type": "string",
+                    "title": "Logo",
+                    "format": "file"
+                  },
                   "bg_color": {
                     "ui:css_selector": "#contact",
                     "$ref": "#/definitions/bg_color"
@@ -1622,7 +1632,11 @@
         "notification_email": "test@example.com",
         "success_message": "Your message was successfully sent!",
         "style": {
-          
+          "show_image": true,
+          "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/map-image.png",
+          "bg_color": "{{theme.colors.bg_color}}",
+          "padding_top": "{{theme.block.padding_top}}",
+          "padding_bottom": "{{theme.block.padding_bottom}}"
         }
       },
       "footer": {

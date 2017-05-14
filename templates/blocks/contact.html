@@ -127,6 +127,9 @@
   background-color: {{ style.block.bg_color }};
   padding-top: {{ style.block.padding_top }}px;
   padding-bottom: {{ style.block.padding_bottom }}px;
+  {% if style.block.show_image %}
+  background-image: url('{{ style.block.image }}');
+  {% endif %}
 }
 </style>
 
