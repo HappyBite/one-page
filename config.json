@@ -1576,7 +1576,15 @@
             "title": "Terms of Use",
             "link": "#"
           }
-        ]
+        ],
+        "style": {
+          "block": {
+            "bg_color": "{{theme.colors.bg_color}}",
+            "social_links_hover_bg_color": "{{theme.colors.primary_color}}",
+            "padding_top": "{{theme.block.padding_top}}",
+            "padding_bottom": "{{theme.block.padding_bottom}}"
+          }
+        }
       },
       "decoration": {
         "image": "https://svti.svt.se/wp-content/themes/svti/assets/img/kollage3.jpg"
