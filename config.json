@@ -1640,7 +1640,7 @@
             "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/map-image.png"
           },
           "base": {
-            "title_text_color": "#ffffff"
+            "title_text_color": "#ffffff",
             "subtitle_text_color": "#ffffff"
           }
         }
