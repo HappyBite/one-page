@@ -249,13 +249,13 @@ function getScript(file, cb) {
 
 // console.log(document.readyState);
 // alternative to DOMContentLoaded event
-document.onreadystatechange = function () {
-  console.log(document.readyState);
+//document.onreadystatechange = function () {
+//  console.log(document.readyState);
   // if (document.readyState === 'interactive') {
   //   console.log()
   // }
-}
-document.addEventListener('load', function () {
+//}
+parent.frames[1].document.addEventListener('load', function () {
   getScript('https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.min.js', function() {
    console.log('Loaded 1');
    contact.init();
