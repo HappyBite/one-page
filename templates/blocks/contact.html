@@ -249,7 +249,9 @@ function getScript(file, cb) {
 
 getScript('https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.min.js', function() {
   console.log('Loaded script');
-  contact.init();
+  setTimeout(function () {
+    contact.init();  
+  }, 500)
 });
 
 // console.log(document.readyState);
