@@ -247,7 +247,7 @@ function getScript(file, cb) {
   document.getElementsByTagName('body')[0].appendChild(script);
 }
 
-console.log(document.readyState);
+// console.log(document.readyState);
 // alternative to DOMContentLoaded event
 document.onreadystatechange = function () {
   console.log(document.readyState);
