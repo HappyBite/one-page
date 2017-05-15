@@ -173,6 +173,7 @@
 <script>
 var contact = {};
 contact.init = function () {
+  alert('ddd')
   // Contact Form Scripts
   $('#contactForm input,#contactForm textarea').jqBootstrapValidation({
     preventSubmit: true,
@@ -259,7 +260,7 @@ if (typeof $ === 'undefined') {
   getScript('https://blackrockdigital.github.io/startbootstrap-agency/js/jqBootstrapValidation.js', function() {
   // getScript('https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.min.js', function() {
     console.log('Loaded');
-    contact.init();  
+    contact.init();
   });
 }
 </script>
