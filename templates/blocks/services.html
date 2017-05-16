@@ -112,12 +112,18 @@
 <script>
 var services = {};
 services.init = function () {
-  $('.navbar').css('border', 'solid 10px green')
+  $('.services').css('border', 'solid 10px green')
 }
-var servicesInterval = setInterval(function () {
-  if (document.readyState !== 'complete') return;
-  clearInterval(servicesInterval);
-  console.log('asdf')
+function getServicesScript(file, cb) {
+  var script = document.createElement('script');
+  script.src = file;
+  script.onload = function(e) {
+    cb();
+  };
+  document.getElementsByTagName('body')[0].appendChild(script);
+}
+
+getServicesScript('https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.min.js', function() {
   services.init();
-}, 100);
+});
 </script>
