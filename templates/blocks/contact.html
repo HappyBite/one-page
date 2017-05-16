@@ -245,9 +245,9 @@ function getContactScripts(file, cb) {
   };
   document.getElementsByTagName('body')[0].appendChild(script);
 }
-contact.interval = setInterval(function () {
+var contactInterval = setInterval(function () {
   if (document.readyState !== 'complete') return;
-  clearInterval(contact.interval);
+  clearInterval(contactInterval);
   console.log('d')
   getContactScripts('https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.min.js', function() {
     contact.init();
