@@ -241,6 +241,7 @@ function getScript(file, cb) {
   var script = document.createElement('script');
   script.src = file;
   script.onload = function(e) {
+    console.log('gaga')
     cb(e);
   };
   document.getElementsByTagName('body')[0].appendChild(script);
