@@ -237,7 +237,7 @@ contact.init = function () {
   });
 }
 
-function getScript(file, cb) {
+function getContactScripts(file, cb) {
   var script = document.createElement('script');
   script.src = file;
   script.onload = function(e) {
@@ -246,7 +246,7 @@ function getScript(file, cb) {
   document.getElementsByTagName('body')[0].appendChild(script);
 }
 
-getScript('https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.min.js', function() {
+getContactScripts('https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.min.js', function() {
   contact.init();
 });
 
