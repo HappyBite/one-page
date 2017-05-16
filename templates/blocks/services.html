@@ -114,11 +114,20 @@ var services = {};
 services.init = function () {
   $('body').css('border', 'solid 1px red')
 }
+if(window.attachEvent()){
 
-var bootstrap = function(evt){
-  console.log(document.readyState);
-} 
-document.addEventListener('readystatechange', bootstrap, false);
+    window.attachEvent("onload",load);
+
+ }else{
+
+    window.addEventListener("load",load,true);
+
+ }
+
+ function load(){
+    console.log('ggaa')
+    //Code to execute when the document is loaded.
+ }
 // console.log(document.readyState)
 // services.init();
 </script>
