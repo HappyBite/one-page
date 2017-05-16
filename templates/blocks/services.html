@@ -114,6 +114,9 @@ var services = {};
 services.init = function () {
   $('body').css('border', 'solid 1px red')
 }
+document.onreadystatechange = function () {
+  console.log(document.readyState);
+}
 console.log(document.readyState)
 services.init();
 </script>
