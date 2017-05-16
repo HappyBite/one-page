@@ -1641,7 +1641,8 @@
           },
           "base": {
             "title_text_color": "#ffffff",
-            "subtitle_text_color": "#ffffff"
+            "subtitle_text_color": "#ffffff",
+            "primary_color": "{{theme.colors.primary_color}}"
           }
         }
       },
