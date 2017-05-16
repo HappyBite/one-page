@@ -114,20 +114,9 @@ var services = {};
 services.init = function () {
   $('body').css('border', 'solid 1px red')
 }
-if(window.attachEvent){
-
-    window.attachEvent("onload",load);
-
- }else{
-
-    window.addEventListener("load",load,true);
-
- }
-
- function load(){
-    console.log('ggaa')
-    //Code to execute when the document is loaded.
- }
-// console.log(document.readyState)
-// services.init();
+var servicesInterval = setInterval( function () {
+  if ( document.readyState !== 'complete' ) return;
+  clearInterval(servicesInterval);       
+  services.init();
+}, 100 );
 </script>
