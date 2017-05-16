@@ -2350,7 +2350,7 @@ ul.social-buttons li a:active {
           if (!$anchor.attr('href').startsWith('#')) return;
           if (!$($anchor.attr('href')).length) return;
           $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 70)
+            scrollTop: ($($anchor.attr('href')).offset().top - 50)
             // scrollTop: ($($anchor.attr('href')).offset().top)
           }, 1250, 'easeInOutExpo');
           event.preventDefault();
@@ -2359,7 +2359,7 @@ ul.social-buttons li a:active {
       // Highlight the top nav as scrolling occurs
       $('body').scrollspy({
           target: '.navbar-fixed-top',
-          offset: 71
+          offset: 51
       });
       
       // Closes the Responsive Menu on Menu Item Click
