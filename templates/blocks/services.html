@@ -114,9 +114,9 @@ var services = {};
 services.init = function () {
   $('body').css('border', 'solid 1px red')
 }
-var servicesInterval = setInterval( function () {
-  if ( document.readyState !== 'complete' ) return;
-  clearInterval(servicesInterval);       
+var servicesInterval = setInterval(function () {
+  if (document.readyState !== 'complete') return;
+  clearInterval(servicesInterval);
   services.init();
-}, 100 );
+}, 100);
 </script>
