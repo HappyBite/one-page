@@ -1442,7 +1442,7 @@
     
   }
   #portfolio-1494972759132 {
-    background-color: ;
+    background-color: #eeeeee;
   }
   #portfolio-1494972759132 .portfolio-item .portfolio-link .portfolio-hover {
     background-color: #fed136;
@@ -1929,8 +1929,12 @@
 <style>
 /* Team */
 #team-1494972767236 {
-  background-color: ;
+  background-color: #eeeeee;
   
+  padding-top: 150px;
+  
+  
+  padding-bottom: 150px;
   
 }
 </style><!-- Contact Section -->
@@ -2129,7 +2133,7 @@ contact.init = function () {
           firstName = name.split(' ').slice(0, -1).join(' ');
       }
       $.ajax({
-        url: 'http://localhost:14000/mail/contact-me',
+        url: location.hostname === 'localhost' ? 'http://localhost:14000/mail/contact-me' : 'https://klar.io/mail/contact-me',
         type: 'POST',
         data: {
           name: name,
