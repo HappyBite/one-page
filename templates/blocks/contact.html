@@ -246,12 +246,7 @@ function getContactScripts(file, cb) {
   document.getElementsByTagName('body')[0].appendChild(script);
 }
 
-var contactInterval = setInterval(function () {
-  if (document.readyState !== 'complete') return;
-  clearInterval(contactInterval);
-  console.log('d')
-  // getContactScripts('https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.min.js', function() {
-  //  contact.init();
-  //});
-}, 100);
+getContactScripts('https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.min.js', function() {
+  contact.init();
+});
 </script>
