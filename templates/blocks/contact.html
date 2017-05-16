@@ -237,7 +237,6 @@ contact.init = function () {
   });
 }
 
-// Add this as a function in Klar. Name will be klar.getScript(file).
 function getScript(file, cb) {
   var script = document.createElement('script');
   script.src = file;
@@ -248,7 +247,6 @@ function getScript(file, cb) {
 }
 // setTimeout(function () {
 getScript('https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.min.js', function() {
-  console.log('Loaded script');
   contact.init();
 });
 // }, 5000)
