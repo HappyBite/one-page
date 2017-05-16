@@ -50,6 +50,7 @@
               <div id="success"></div>
               <button
               	type="submit"
+              	data-loading-text="Sending..."
               	class="btn btn-xl"
               	data-field-string="submit_button_text"
           		>{{ submit_button_text }}</button>
@@ -180,6 +181,7 @@ contact.init = function () {
       // additional error messages or events
     },
     submitSuccess: function($form, event) {
+      $('#contact button').button('loading');
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
       var name = $('input#name').val();
@@ -210,9 +212,9 @@ contact.init = function () {
           $('#success > .alert-success').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
+          $('#contact button').button('reset');
         },
         error: function(err) {
-          console.log(err)
           // Fail message
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>");
@@ -221,6 +223,7 @@ contact.init = function () {
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
+          $('#contact button').button('reset');
         }
       });
     },
