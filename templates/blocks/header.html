@@ -113,9 +113,6 @@
 <style>
 #{{block_id}} {
   background-position: 0 {{ style.bg_image_position_top }}px;
-  {% if style.full_screen %}
-  height: 100vh;
-  {% endif %}
 }
 #{{block_id}} .intro-text .intro-lead-in {
   color: {{ style.subtitle_text_color }};
@@ -138,6 +135,9 @@
 @media (min-width: 768px) {
   #{{block_id}} {
     margin-top: {{ style.margin_top }}px;
+    {% if style.full_screen %}
+    height: 100vh;
+    {% endif %}
   }
   #{{block_id}} .intro-text {
     margin-top: {{ style.margin_top }}px;
