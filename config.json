@@ -1134,7 +1134,7 @@
                   "type": "string",
                   "title": "Logo",
                   "format": "file",
-                  "default": "image"
+                  "default": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/envato.jpg"
                 },
                 "url": {
                   "type": "string",
