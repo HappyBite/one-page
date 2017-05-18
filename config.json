@@ -603,13 +603,13 @@
                 "type": "integer",
                 "title": "Padding top",
                 "minimum": 0,
-                "maximum": 300
+                "maximum": 500
               },
               "padding_bottom": {
                 "type": "integer",
                 "title": "Padding bottom",
                 "minimum": 0,
-                "maximum": 300
+                "maximum": 500
               },
               "full_screen": {
                 "type": "boolean",
