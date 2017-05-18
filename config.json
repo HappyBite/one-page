@@ -1715,22 +1715,22 @@
         "items": [
           {
             "title": "Envato",
-            "image": "img/logos/envato.jpg",
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/envato.jpg",
             "url": "#"
           },
           {
             "title": "Designmodo",
-            "image": "img/logos/designmodo.jpg",
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/designmodo.jpg",
             "url": "#"
           },
           {
             "title": "ThemeForest",
-            "image": "img/logos/themeforest.jpg",
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/themeforest.jpg",
             "url": "#"
           },
           {
             "title": "Creative Market",
-            "image": "img/logos/creative-market.jpg",
+            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/creative-market.jpg",
             "url": "#"
           }
         ],
