@@ -1715,22 +1715,22 @@
         "items": [
           {
             "title": "Envato",
-            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/envato.jpg",
+            "logo": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/envato.jpg",
             "url": "#"
           },
           {
             "title": "Designmodo",
-            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/designmodo.jpg",
+            "logo": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/designmodo.jpg",
             "url": "#"
           },
           {
             "title": "ThemeForest",
-            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/themeforest.jpg",
+            "logo": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/themeforest.jpg",
             "url": "#"
           },
           {
             "title": "Creative Market",
-            "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/creative-market.jpg",
+            "logo": "https://blackrockdigital.github.io/startbootstrap-agency/img/logos/creative-market.jpg",
             "url": "#"
           }
         ],
