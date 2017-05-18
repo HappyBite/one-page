@@ -4,9 +4,9 @@
   class="{{template_id}} is-relative"
   data-field-string-file="image"
   data-placement="top"
+  data-hide-arrow="true"
   data-wrapper="true"
-  data-inset="true"
-  style="background-image: url({{ image }});text-align:{{ style.text_align }};">
+  data-inset="true">
   <div class="container">
     <div class="intro-text">
       {% if show_subtitle %}
@@ -112,7 +112,9 @@
 <!-- Style CSS -->
 <style>
 #{{block_id}} {
+  background-image: url({{ image }});
   background-position: 0 {{ style.bg_image_position_top }}px;
+  text-align:{{ style.text_align }};
 }
 #{{block_id}} .intro-text .intro-lead-in {
   color: {{ style.subtitle_text_color }};
