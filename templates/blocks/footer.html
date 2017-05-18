@@ -58,10 +58,10 @@ footer ul.quicklinks {
   text-transform: uppercase;
   text-transform: none;
 }
-ul.social-buttons {
+footer ul.social-buttons {
   margin-bottom: 0;
 }
-ul.social-buttons li a {
+footer ul.social-buttons li a {
   display: block;
   background-color: #222222;
   height: 40px;
@@ -75,9 +75,9 @@ ul.social-buttons li a {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
+footer ul.social-buttons li a:hover,
+footer ul.social-buttons li a:focus,
+footer ul.social-buttons li a:active {
   background-color: #fed136;
 }
 </style>
@@ -90,7 +90,7 @@ ul.social-buttons li a:active {
   padding-bottom: {{ style.block.padding_bottom }}px;
 }
 #{{template_id}} ul.social-buttons li a:hover,
-#{{template_id}}ul.social-buttons li a:focus,
+#{{template_id}} ul.social-buttons li a:focus,
 #{{template_id}} ul.social-buttons li a:active {
   background-color: {{ style.block.social_links_hover_bg_color }};
 }

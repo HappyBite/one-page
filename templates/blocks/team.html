@@ -78,6 +78,28 @@
 .team-member p {
   margin-top: 0;
 }
+.team-member ul.social-buttons {
+  margin-bottom: 0;
+}
+.team-member ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.team-member ul.social-buttons li a:hover,
+.team-member ul.social-buttons li a:focus,
+.team-member ul.social-buttons li a:active {
+  background-color: #fed136;
+}
 </style>
 
 <!-- Style CSS -->
@@ -85,11 +107,12 @@
 /* Team */
 #{{block_id}} {
   background-color: {{ style.block.bg_color }};
-  {% if style.block.padding_top >= 0 %}
   padding-top: {{ style.block.padding_top }}px;
-  {% endif %}
-  {% if style.block.padding_bottom >= 0 %}
   padding-bottom: {{ style.block.padding_bottom }}px;
-  {% endif %}
+}
+#{{block_id}} ul.social-buttons li a:hover,
+#{{block_id}} ul.social-buttons li a:focus,
+#{{block_id}} ul.social-buttons li a:active {
+  background-color: {{ style.block.social_links_hover_bg_color }};
 }
 </style>
