@@ -145,7 +145,7 @@
 <style>
   /* Block */
   .navbar-custom {
-    background-color: {% if style.navbar.transparent %} transparent {% else %} {{ style.navbar.bg_color }} {% endif %};
+    background-color: {{ style.navbar.bg_color }};
     border-bottom: solid {{ style.navbar.border_bottom_width }}px {{ style.navbar.border_bottom_color }};
     {% if style.navbar.sticky === false %}
     position: absolute;
@@ -153,6 +153,7 @@
   }
   @media (min-width: 768px) {
     .navbar-custom {
+      background-color: {% if style.navbar.transparent %} transparent {% else %} {{ style.navbar.bg_color }} {% endif %};
       padding-top: {{ style.navbar.padding_top }}px;
       padding-bottom: {{ style.navbar.padding_bottom }}px;
     }
