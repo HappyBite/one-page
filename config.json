@@ -179,6 +179,11 @@
       "icon": "group"
     },
     {
+      "title": "Clients",
+      "id": "clients",
+      "icon": "group"
+    },
+    {
       "title": "Contact",
       "id": "contact",
       "icon": "address-card-o"
@@ -1108,6 +1113,90 @@
           }
         }
       },
+      "clients": {
+        "title": "Clients",
+        "ui:css_selector": ".clients",
+        "properties": {
+          "items": {
+            "type": "array",
+            "title": "Clients",
+            "items": {
+              "type": "object",
+              "title": "Client",
+              "display_field": "title",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "title": "Title",
+                  "default": "Title"
+                },
+                "logo": {
+                  "type": "string",
+                  "title": "Logo",
+                  "format": "file",
+                  "default": "image"
+                },
+                "url": {
+                  "type": "string",
+                  "title": "URL",
+                  "format": "uri",
+                  "default": "#"
+                }
+              }
+            }
+          },
+          "style": {
+            "properties": {
+              "block": {
+                "title": "Block",
+                "type": "object",
+                "properties": {
+                  "bg_color": {
+                    "ui:css_selector": "${block_id_css_id}",
+                    "$ref": "#/definitions/bg_color"
+                  },
+                  "padding_top": {
+                    "$ref": "#/definitions/block_padding_top"
+                  },
+                  "padding_bottom": {
+                    "$ref": "#/definitions/block_padding_bottom"
+                  }
+                }
+              },
+              "base": {
+                "title": "Base",
+                "type": "object",
+                "properties": {
+                  "title_text_color": {
+                    "$ref": "#/definitions/title_text_color"
+                  },
+                  "subtitle_text_color": {
+                    "$ref": "#/definitions/subtitle_text_color"
+                  },
+                  "text_color": {
+                    "$ref": "#/definitions/text_color"
+                  },
+                  "link_text_color": {
+                    "$ref": "#/definitions/link_text_color"
+                  },
+                  "link_hover_text_color": {
+                    "$ref": "#/definitions/link_hover_text_color"
+                  },
+                  "primary_color": {
+                    "$ref": "#/definitions/primary_color"
+                  },
+                  "selection_text_color": {
+                    "$ref": "#/definitions/selection_text_color"
+                  },
+                  "selection_bg_color": {
+                    "$ref": "#/definitions/selection_bg_color"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
       "contact": {
         "title": "Contact",
         "properties": {
@@ -1618,6 +1707,33 @@
           }
         ],
         "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.",
+        "style": {
+          
+        }
+      },
+      "clients": {
+        "items": [
+          {
+            "title": "Envato",
+            "image": "img/logos/envato.jpg",
+            "url": "#"
+          },
+          {
+            "title": "Designmodo",
+            "image": "img/logos/designmodo.jpg",
+            "url": "#"
+          },
+          {
+            "title": "ThemeForest",
+            "image": "img/logos/themeforest.jpg",
+            "url": "#"
+          },
+          {
+            "title": "Creative Market",
+            "image": "img/logos/creative-market.jpg",
+            "url": "#"
+          }
+        ],
         "style": {
           
         }
