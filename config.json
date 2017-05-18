@@ -1079,6 +1079,51 @@
                   "type": "text",
                   "title": "Text",
                   "default": "En kortare text"
+                },
+                "social_links": {
+                  "type": "array",
+                  "title": "Social links",
+                  "default": [
+                    {
+                      "title": "Twitter",
+                      "icon": "twitter",
+                      "link": "#youraccount"
+                    },
+                    {
+                      "title": "Facebook",
+                      "icon": "facebook",
+                      "link": "#youraccount"
+                    },
+                    {
+                      "title": "Instagram",
+                      "icon": "instagram",
+                      "link": "#youraccount"
+                    }
+                  ],
+                  "items": {
+                    "type": "object",
+                    "title": "Länk",
+                    "display_field": "title",
+                    "properties": {
+                      "title": {
+                        "type": "string",
+                        "title": "Titel",
+                        "default": "Titel"
+                      },
+                      "icon": {
+                        "type": "string",
+                        "title": "Ikon",
+                        "default": "twitter",
+                        "ui:widget": "icon"
+                      },
+                      "link": {
+                        "type": "string",
+                        "title": "Länk",
+                        "format": "uri",
+                        "default": "#youraccount"
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -1693,17 +1738,68 @@
           {
             "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/1.jpg",
             "heading": "Kay Garland",
-            "text": "Lead Designer"
+            "text": "Lead Designer",
+            "social_links": [
+              {
+                "title": "Twitter",
+                "icon": "twitter",
+                "link": "#youraccount"
+              },
+              {
+                "title": "Facebook",
+                "icon": "facebook",
+                "link": "#youraccount"
+              },
+              {
+                "title": "Instagram",
+                "icon": "instagram",
+                "link": "#youraccount"
+              }
+            ]
           },
           {
             "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/2.jpg",
             "heading": "Larry Parker",
-            "text": "Lead Marketer"
+            "text": "Lead Marketer",
+            "social_links": [
+              {
+                "title": "Twitter",
+                "icon": "twitter",
+                "link": "#youraccount"
+              },
+              {
+                "title": "Facebook",
+                "icon": "facebook",
+                "link": "#youraccount"
+              },
+              {
+                "title": "Instagram",
+                "icon": "instagram",
+                "link": "#youraccount"
+              }
+            ]
           },
           {
             "image": "https://blackrockdigital.github.io/startbootstrap-agency/img/team/3.jpg",
             "heading": "Diana Pertersen",
-            "text": "Lead Developer"
+            "text": "Lead Developer",
+            "social_links": [
+              {
+                "title": "Twitter",
+                "icon": "twitter",
+                "link": "#youraccount"
+              },
+              {
+                "title": "Facebook",
+                "icon": "facebook",
+                "link": "#youraccount"
+              },
+              {
+                "title": "Instagram",
+                "icon": "instagram",
+                "link": "#youraccount"
+              }
+            ]
           }
         ],
         "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.",

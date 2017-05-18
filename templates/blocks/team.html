@@ -32,6 +32,18 @@
             data-field-string="team[{{loop.index0}}].text"
             data-toolbar-buttons="['bold', 'italic', 'underline', 'anchor']"
           >{{ item.text }}</p>
+          <ul class="list-inline social-buttons">
+            {% for link_item in item.social_links %}
+              <li>
+                <a
+                  href="{{ link_item.link }}"
+                  data-field-string-ui-widget-icon="item.social_links[{{loop.index0}}].icon"
+                  data-field-string-format-uri="item.social_links[{{loop.index0}}].link"
+                  data-placement="bottom"
+                ><i class="fa fa-{{ link_item.icon }}"></i></a>
+              </li>
+            {% endfor %}
+          </ul>
         </div>
       </div>
       {% endfor %}
